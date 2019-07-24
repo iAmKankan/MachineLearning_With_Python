@@ -1,4 +1,13 @@
 # Linear Regression
+
+## Jupyter Demos
+
+▶️ [Demo | Univariate Linear Regression](https://nbviewer.jupyter.org/github/trekhleb/homemade-machine-learning/blob/master/notebooks/linear_regression/univariate_linear_regression_demo.ipynb) - predict `country happiness` score by `economy GDP`
+
+▶️ [Demo | Multivariate Linear Regression](https://nbviewer.jupyter.org/github/trekhleb/homemade-machine-learning/blob/master/notebooks/linear_regression/multivariate_linear_regression_demo.ipynb) - predict `country happiness` score by `economy GDP` and `freedom index`
+
+▶️ [Demo | Non-linear Regression](https://nbviewer.jupyter.org/github/trekhleb/homemade-machine-learning/blob/master/notebooks/linear_regression/non_linear_regression_demo.ipynb) - use linear regression with _polynomial_ and _sinusoid_ features to predict non-linear dependencies.
+
 ## Definition
 
 **Linear regression** is a linear model, e.g. a model that assumes a linear relationship between the input variables (_x_) and the single output variable (_y_). More specifically, that output variable (_y_) can be calculated from a linear combination of the input variables (_x_).
@@ -21,13 +30,13 @@ _R<sup>n+1</sup>_ - vector of _n+1_ real numbers
 
 Parameters of the hypothesis we want our algorithm to learn in order to be able to do predictions (i.e. predict the price of the apartment).
 
-![Parameters](../../images/linear_regression/parameters.svg)
+![Parameters](../images/linear_regression/parameters.svg)
 
 ## Hypothesis
 
 The equation that gets features and parameters as an input and predicts the value as an output (i.e. predict the price of the apartment based on its size and number of rooms).
 
-![Hypothesis](../../images/linear_regression/hypothesis.svg)
+![Hypothesis](../images/linear_regression/hypothesis.svg)
 
 For convenience of notation, define _X<sub>0</sub> = 1_
 
