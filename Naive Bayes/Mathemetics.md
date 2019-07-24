@@ -1,4 +1,6 @@
-### Few Good Readings on Bays Theorem
+# Naive Bayes
+## Definition
+A **naive Bayes classifier** is an algorithm that uses Bayes' theorem to classify objects. Naive Bayes classifiers assume strong, or naive, independence between attributes of data points. Popular uses of naive Bayes classifiers include spam filters, text analysis and medical diagnosis. These classifiers are widely used for machine learning because they are simple to implement.
 
 #### What is Bayes Theorem?
 * Bayes theorem named after Rev. Thomas Bayes. 
