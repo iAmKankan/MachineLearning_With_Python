@@ -4,7 +4,7 @@
 Decision tree is a type of supervised learning algorithm (having a pre-defined target variable) that is mostly used in classification problems. It works for both categorical and continuous input and output variables. In this technique, we split the population or sample into two or more homogeneous sets (or sub-populations) based on most significant splitter / differentiator in input variables.     
 
 
-![tree](https://www.analyticsvidhya.com/wp-content/uploads/2015/01/Decision_Tree_2.png)
+
 
 ---
 **Categorical variable**    
@@ -17,6 +17,8 @@ Discrete variables are numeric variables that have a countable number of values 
 Continuous variables are numeric variables that have an infinite number of values between any two values. A continuous variable can be numeric or date/time. For example, the length of a part or the date and time a payment is received.
 
 ---
+![tree](https://www.analyticsvidhya.com/wp-content/uploads/2015/01/Decision_Tree_2.png)
+
 
 * **Root Node:** It represents entire population or sample and this further gets divided into two or more homogeneous sets.
 * **Splitting:** It is a process of dividing a node into two or more sub-nodes.
