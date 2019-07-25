@@ -13,7 +13,7 @@ Categorical variables contain a finite number of categories or distinct groups. 
 **Discrete variable**    
 Discrete variables are numeric variables that have a countable number of values between any two values. A discrete variable is always numeric. For example, the number of customer complaints or the number of flaws or defects.
 
-**Continuous variable**
+**Continuous variable**      
 Continuous variables are numeric variables that have an infinite number of values between any two values. A continuous variable can be numeric or date/time. For example, the length of a part or the date and time a payment is received.
 
 ---
