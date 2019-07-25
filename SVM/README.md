@@ -1,6 +1,6 @@
 # Support Vector Machine
 
 
--[svm](http://www.statsoft.com/Textbook/Support-Vector-Machines#index)
+[SVM Link](http://www.statsoft.com/Textbook/Support-Vector-Machines#index)
 
 ## Definition
