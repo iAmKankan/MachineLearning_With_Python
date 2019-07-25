@@ -25,3 +25,17 @@ Continuous variables are numeric variables that have an infinite number of value
 * **Pruning:** When we remove sub-nodes of a decision node, this process is called pruning. You can say opposite process of splitting.
 * **Branch / Sub-Tree:** A sub section of entire tree is called branch or sub-tree.
 * **Parent and Child Node:** A node, which is divided into sub-nodes is called parent node of sub-nodes where as sub-nodes are the child of parent node.
+
+
+
+**Advantages**
+* Easy to Understand: Decision tree output is very easy to understand even for people from non-analytical background. It does not require any statistical knowledge to read and interpret them. Its graphical representation is very intuitive and users can easily relate their hypothesis.
+* Useful in Data exploration: Decision tree is one of the fastest way to identify most significant variables and relation between two or more variables. With the help of decision trees, we can create new variables / features that has better power to predict target variable. You can refer article (Trick to enhance power of regression model) for one such trick.  It can also be used in data exploration stage. For example, we are working on a problem where we have information available in hundreds of variables, there decision tree will help to identify most significant variable.
+* Less data cleaning required: It requires less data cleaning compared to some other modeling techniques. It is not influenced by outliers and missing values to a fair degree.
+* Data type is not a constraint: It can handle both numerical and categorical variables.
+* Non Parametric Method: Decision tree is considered to be a non-parametric method. This means that decision trees have no assumptions about the space distribution and the classifier structure.
+ 
+
+**Disadvantages**
+*Over fitting: Over fitting is one of the most practical difficulty for decision tree models. This problem gets solved by setting constraints on model parameters and pruning (discussed in detailed below).
+Not fit for continuous variables: While working with continuous numerical variables, decision tree looses information when it categorizes variables in different categories.
