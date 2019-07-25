@@ -37,5 +37,5 @@ Continuous variables are numeric variables that have an infinite number of value
  
 
 **Disadvantages**
-*Over fitting: Over fitting is one of the most practical difficulty for decision tree models. This problem gets solved by setting constraints on model parameters and pruning (discussed in detailed below).
-Not fit for continuous variables: While working with continuous numerical variables, decision tree looses information when it categorizes variables in different categories.
+* Over fitting: Over fitting is one of the most practical difficulty for decision tree models. This problem gets solved by setting constraints on model parameters and pruning (discussed in detailed below).
+* Not fit for continuous variables: While working with continuous numerical variables, decision tree looses information when it categorizes variables in different categories.
