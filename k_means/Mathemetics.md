@@ -8,6 +8,20 @@ The result of a cluster analysis shown below as the coloring of the squares into
 
 ![Clustering](https://upload.wikimedia.org/wikipedia/commons/c/c8/Cluster-2.svg)
 
+## How K-means forms cluster:
+
+* K-means picks k number of points for each cluster known as centroids.
+* Each data point forms a cluster with the closest centroids i.e. k clusters.
+* Finds the centroid of each cluster based on existing cluster members. Here we have new centroids.
+* As we have new centroids, repeat step 2 and 3. Find the closest distance for each data point from new centroids and get associated with new k-clusters. Repeat this process until convergence occurs i.e. centroids does not change.
+
+
+## How to determine value of K:
+
+In K-means, we have clusters and each cluster has its own centroid. Sum of square of difference between centroid and the data points within a cluster constitutes within sum of square value for that cluster. Also, when the sum of square values for all the clusters are added, it becomes total within sum of square value for the cluster solution.
+
+We know that as the number of cluster increases, this value keeps on decreasing but if you plot the result you may see that the sum of squared distance decreases sharply up to some value of k, and then much more slowly after that. Here, we can find the optimum number of cluster.
+
 ## Description
 
 Given a training set of observations:
