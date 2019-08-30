@@ -1,5 +1,8 @@
 # Naive Bayes
 ## Definition
+* Classification technique based on Bays theorem.
+* Assumes that presence of a perticular feature in a class is unrelated to the presence of any other feature.
+* Document classification
 A **naive Bayes classifier** is an algorithm that uses Bayes' theorem to classify objects. Naive Bayes classifiers assume strong, or naive, independence between attributes of data points. Popular uses of naive Bayes classifiers include spam filters, text analysis and medical diagnosis. These classifiers are widely used for machine learning because they are simple to implement.
 
 #### What is Bayes Theorem?
