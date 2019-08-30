@@ -9,7 +9,7 @@ Decision tree is a type of supervised learning algorithm (having a pre-defined t
 
 ![tree](decisiontree1.png)
 
-
+![tree](dt2.png)
 ---
 **Categorical variable**    
 Categorical variables contain a finite number of categories or distinct groups. Categorical data might not have a logical order. For example, categorical predictors include gender, material type, and payment method. 
