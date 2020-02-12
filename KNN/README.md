@@ -1,7 +1,42 @@
 # K-nearest-neighbor
 ## Definition
+* It can be used for both classification and regression.
 * Stores all the classes and classifies new classes based on a similarity measure.
 * The 'K' is KNN algorithm is the nearest neighbours we wish to take a vote from.
+* Also called an instance-based or memory-based learning
+* Lazy Algorithm
+    - K-NN is a lazy learner because Because it does not create a generalized model during the time of training, so the testing phase is very important where it does the actual job. 
+    - Hence Testing is very costly - in terms of time & money.
+    - For example, the logistic regression algorithm learns its model weights (parameters) during training time. In contrast, there is no training time in K-NN.
+    - This property doesn’t come without a cost: The “prediction” step in K-NN is relatively expensive!
+        
+         - Each time we want to make a prediction, K-NN is searching for the nearest neighbor(s) in the entire training set! 
+         - There are certain tricks such as **BallTrees** and **KDtrees** to speed this up a bit.)
+    - To summarize: An eager learner has a model fitting or training step. A lazy learner does not have a training phase.
+    
+* Only we have to find the stable value of K
+     - K to your chosen number of neighbors
+
+* Problemetic for large datasets
+    - KNN captures the idea of similarity (sometimes called distance, proximity, or closeness) with some mathematics.
+    
+* The result of current neughborhood every time.
+* odd numbers of K (not getting the tie 
+* K= the number of dots you need to consider.
+* **Not working in High dimentional data.**
+
+* Distance is measured by -
+    * For continuous variables.
+        * Eucladian Distance 
+        * Manhattan Distance
+        * Minkowski Distance
+    * For categorical variables.
+        * Hamming Distance
+
+
+
+
+
 
 <img src="knn.png?raw=true">
 
