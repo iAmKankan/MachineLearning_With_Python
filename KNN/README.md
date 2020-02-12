@@ -27,7 +27,7 @@
 * K= the number of dots you need to consider.
 * **Not working in High dimentional data.**
 
-* Distance is measured by -
+### Distance is measured by -
     * For continuous variables.
         * Eucladian Distance 
         * Manhattan Distance
@@ -38,9 +38,41 @@
 
 <img src="KNN_hamming.png?raw=true">
 
+
+### Advantages:
+* It is extremely easy to implement 
+* As said earlier, it is **Lazy Learning** algorithm and therefore requires no training prior to making real time predictions. this makes the k nn algorithm much faster than other algorithms that require trainin g e.g svm, linear regression, etc. 
+* Since the algorithm requires no training before making predictio ns, new data can be added seamlessly. 
+* There are only two parameters required to implement KNN i.e. the value of k and the distance function (e.g. euclidean or manhattan etc.
+* It is extremely easy to implement 
+* As said earlier, it is lazy learning algorithm and therefore req uires no training prior to making real time predictions. this makes the KNN algorithm much faster than other algorithms that require trainin g e.g SVM, Linear Regression, etc. 
+* Since the algorithm requires no training before making predictio ns, new data can be added seamlessly. 
+* There are only two parameters required to implement KNN i.e. the value of K and the distance function (e.g. Euclidean or Manhattan, Minkowski Distance etc.
+
+
+
+### Disadvantages:
+* The knn algorithm doesn't work well with high dimensional data because with large number of dimensions, it becomes difficult for the algorithm to calculate distance in each dimension. 
+* The KNN algorithm has a high prediction cost for large datasets. this is because in large datasets the cost of calculating distance between new point and each existing point becomes higher. 
+* Finally, the KNN algorithm doesn't work well with categorical features since it is difficult to find the distance between dime nsions with categorical features.
+
+
+### Conclusion:
+
+* KNN is a simple yet powerful classification algorithm. it requires no training for making predictions, which is typically one of the most difficult parts of a machine learningalgorithm.
+* The KNN algorithm have been widely used to find document similarity and pattern recognition.
+* It has also been employed for developing recommender systems and for dimensionality reduction and pre processing steps for computer vision, particularly face recognition tasks.
+
+
+
+
+
+
 A k-nearest-neighbor algorithm, often abbreviated k-nn, is an approach to data classification that estimates how likely a data point is to be a member of one group or the other depending on what group the data points nearest to it are in.
 
-## Methods of calculating distance between points:
+
+
+
 ### Algorithm		
-A case is classified by a majority vote of its neighbors, with the case being assigned to the class most common amongst its K nearest neighbors measured by a distance function. If K = 1, then the case is simply assigned to the class of its nearest neighbor.    
+A case is classified by a majority vote of its neighbors, with the case being assigned to the class most common amongst its K Nearest Neighbors measured by a distance function. If K = 1, then the case is simply assigned to the class of its nearest neighbor.    
 
