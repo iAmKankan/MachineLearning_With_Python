@@ -76,18 +76,5 @@
 
 * KNN is a simple yet powerful classification algorithm. it requires no training for making predictions, which is typically one of the most difficult parts of a machine learningalgorithm.
 * The KNN algorithm have been widely used to find document similarity and pattern recognition.
-* It has also been employed for developing recommender systems and for dimensionality reduction and pre processing steps for computer vision, particularly face recognition tasks.
-
-
-
-
-
-
-A k-nearest-neighbor algorithm, often abbreviated k-nn, is an approach to data classification that estimates how likely a data point is to be a member of one group or the other depending on what group the data points nearest to it are in.
-
-
-
-
-### Algorithm		
-A case is classified by a majority vote of its neighbors, with the case being assigned to the class most common amongst its K Nearest Neighbors measured by a distance function. If K = 1, then the case is simply assigned to the class of its nearest neighbor.    
+* It has also been employed for developing recommender systems and for dimensionality reduction and pre processing steps for computer vision, particularly face recognition tasks. 
 
