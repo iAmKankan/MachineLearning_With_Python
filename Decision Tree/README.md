@@ -61,12 +61,10 @@ Leaves : Terminal Nodes
 * It means an attribute with lower gini index should be preferred. 
 * Sklearn supports “ Gini ” criteria for gini index and by default, it takes “ Gini ”.
 
-[InternetShortcut]URL=https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Decision%20Tree/gini.png
-
-![gini.png](attachment:gini.png)
+![gini.png](gini.png)
 
 ### Entropy (Slow coz multiple calculation required)
 
 * Entropy is the measure of uncertainty of a random variable, it characterizes the impurity of an arbitrary collection ofexamples. the higher the entropy the more the informationcontent.
 
-![entrophy.png](attachment:entrophy.png)
+![entrophy.png](entrophy.png)
