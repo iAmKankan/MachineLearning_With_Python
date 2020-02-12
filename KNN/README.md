@@ -1,4 +1,4 @@
-# K-Nearest-Neighbor
+# K-Nearest Neighbor
 ## Definition
 * It can be used for both classification and regression.
 * Stores all the classes and classifies new classes based on a similarity measure.
@@ -39,7 +39,21 @@
 
 <img src="KNN_hamming.png?raw=true">
 
+### Steps: 
+**Step 1:** Determine the value of K.
 
+**Step 2:** Calculate the distance between the query example(training data) and the current example(test data) from the data.
+
+**Step 3:** Sort the ordered collection of distances and index from smallest to largest (in ascending order) by the distances.
+
+**Step 4:** Pick the first K entries from the sorted collection.
+
+**Step 5:** Get the labels of the selected K entries.
+
+**Step 6:** 
+    - If regression, return the mean of the K labels
+    - If classification, return the mode of the K labels
+    
 ### Advantages:
 * It is extremely easy to implement 
 * As said earlier, it is **Lazy Learning** algorithm and therefore requires no training prior to making real time predictions. this makes the k nn algorithm much faster than other algorithms that require trainin g e.g svm, linear regression, etc. 
