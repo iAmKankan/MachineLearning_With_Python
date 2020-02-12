@@ -9,7 +9,7 @@
 
     
 
-![tree](decisiontree1.png)
+![tree](decisiontree.png)
 
 ````
 Root Node : Start
