@@ -3,25 +3,20 @@
 * Graphical representation of all possible solution to a decision.
 * Decision are based on some conditions.
 * Decision mede can be easily explained.
+* Decision tree is one of the most powerful and popular algorithm.
+* Decision tree algorithm falls under the category of supervised learning algorithms.
+* Though, It works for both continuous as well as categorical
 
-
-Decision tree is a type of supervised learning algorithm (having a pre-defined target variable) that is mostly used in classification problems. It works for both categorical and continuous input and output variables. In this technique, we split the population or sample into two or more homogeneous sets (or sub-populations) based on most significant splitter / differentiator in input variables.     
+    
 
 ![tree](decisiontree1.png)
 
-![tree](dt2.png)
----
-**Categorical variable**    
-Categorical variables contain a finite number of categories or distinct groups. Categorical data might not have a logical order. For example, categorical predictors include gender, material type, and payment method. 
-
-**Discrete variable**    
-Discrete variables are numeric variables that have a countable number of values between any two values. A discrete variable is always numeric. For example, the number of customer complaints or the number of flaws or defects.
-
-**Continuous variable**      
-Continuous variables are numeric variables that have an infinite number of values between any two values. A continuous variable can be numeric or date/time. For example, the length of a part or the date and time a payment is received.
-
----
-![tree](https://www.analyticsvidhya.com/wp-content/uploads/2015/01/Decision_Tree_2.png)
+````
+Root Node : Start
+Branches : Edges
+Nodes : Decision Points
+Leaves : Terminal Nodes
+````
 
 
 * **Root Node:** It represents entire population or sample and this further gets divided into two or more homogeneous sets.
@@ -33,15 +28,43 @@ Continuous variables are numeric variables that have an infinite number of value
 * **Parent and Child Node:** A node, which is divided into sub-nodes is called parent node of sub-nodes where as sub-nodes are the child of parent node.
 
 
+### Advantages:
 
-**Advantages**
-* Easy to Understand: Decision tree output is very easy to understand even for people from non-analytical background. It does not require any statistical knowledge to read and interpret them. Its graphical representation is very intuitive and users can easily relate their hypothesis.
-* Useful in Data exploration: Decision tree is one of the fastest way to identify most significant variables and relation between two or more variables. With the help of decision trees, we can create new variables / features that has better power to predict target variable. You can refer article (Trick to enhance power of regression model) for one such trick.  It can also be used in data exploration stage. For example, we are working on a problem where we have information available in hundreds of variables, there decision tree will help to identify most significant variable.
-* Less data cleaning required: It requires less data cleaning compared to some other modeling techniques. It is not influenced by outliers and missing values to a fair degree.
-* Data type is not a constraint: It can handle both numerical and categorical variables.
-* Non Parametric Method: Decision tree is considered to be a non-parametric method. This means that decision trees have no assumptions about the space distribution and the classifier structure.
- 
+* Decision trees are easy to explain. it results in a set of rules
+* Simple to understand, interpret, and visualize.
+* It follows the same approach as humans generally follow while ma king decisions.
+* Data preparation is not much required.
+* Interpretation of a complex decision tree model can be simplifie d by its visualizations.Even a naive person can understand logic.
+* The number of hyper parameters to be tuned is almost null.
+* It can handle numerical as well as categorical data.
+* Non linear parameters has no impact on performance.
 
-**Disadvantages**
-* Over fitting: Over fitting is one of the most practical difficulty for decision tree models. This problem gets solved by setting constraints on model parameters and pruning (discussed in detailed below).
-* Not fit for continuous variables: While working with continuous numerical variables, decision tree looses information when it categorizes variables in different categories.
+### Disadvantages:
+
+* there is a high probability of overfitting in decision tree, whe n the algorithms capture\nnoise in the data.
+* generally, it gives low prediction accuracy for a dataset as com pared to other machine learning algorithms.
+* information gain in a decision tree with categorical variables g ives a biased response for attributes with greater no. of categories.
+* calculations can become complex when there are many class labels
+* high variance. the model can get unstable due to small variation s in data.
+* low biased tree. highly complicated decision trees tends to have a low bias which makes it difficult for the model to work with new data.
+
+### Assumptions we make while using decision tree :
+
+* At the beginning, we consider the whole training set as the root.
+* Attributes are assumed to be categorical for information gain and for gini index, attributes are assumed to be continuous.
+* On the basis of attribute values records are distributed recursively.
+* We use statistical methods for ordering attributes as root or internal node.
+
+### Gini index ( Fast coz single calculation)
+
+* Gini index is a metric to measure how often a randomly chosen element would be incorrectly identified. 
+* It means an attribute with lower gini index should be preferred. 
+* Sklearn supports “ Gini ” criteria for gini index and by default, it takes “ Gini ”.
+
+![gini.png](attachment:gini.png)
+
+### Entropy (Slow coz multiple calculation required)
+
+* Entropy is the measure of uncertainty of a random variable, it characterizes the impurity of an arbitrary collection ofexamples. the higher the entropy the more the informationcontent.
+
+![entrophy.png](attachment:entrophy.png)
