@@ -61,6 +61,9 @@ Leaves : Terminal Nodes
 * It means an attribute with lower gini index should be preferred. 
 * Sklearn supports “ Gini ” criteria for gini index and by default, it takes “ Gini ”.
 
+[InternetShortcut]
+URL=https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Decision%20Tree/gini.png
+
 ![gini.png](attachment:gini.png)
 
 ### Entropy (Slow coz multiple calculation required)
