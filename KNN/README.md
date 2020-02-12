@@ -28,12 +28,13 @@
 * **Not working in High dimentional data.**
 
 ### Distance is measured by -
-    * For continuous variables.
-        * Eucladian Distance 
-        * Manhattan Distance
-        * Minkowski Distance
-    * For categorical variables.
-        * Hamming Distance
+
+* For continuous variables.
+    * Eucladian Distance 
+    * Manhattan Distance
+    * Minkowski Distance
+* For categorical variables.
+    * Hamming Distance
 <img src="KNN_similarity.png?raw=true">
 
 <img src="KNN_hamming.png?raw=true">
