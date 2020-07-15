@@ -1,4 +1,4 @@
-# Randon Forest
+# Random Forest
 * Builds multiple decision trees and merges them togather.
 * More accurate and stable prediction.
 * Random decision forest correct for the dicision trees' habit of overfitting to their training set.
