@@ -1,8 +1,12 @@
 # Linear Regression
 
 ## Definition
+* **Linear Regression tends to establish a relationship between a dependent variable(Y) and one or more independent variable(X) by finding the best fit of the straight line.
+* The equation for the Linear model is **Y = mX+c**, where m is the slope and c is the intercept
+* There is no straight line that runs through all the data points. 
+* So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
 
-**Linear regression** is a linear model, e.g. a model that assumes a linear relationship between the input variables (_x_) and the single output variable (_y_). More specifically, that output variable (_y_) can be calculated from a linear combination of the input variables (_x_).
+
 
 ![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 
