@@ -1,7 +1,7 @@
 # Linear Regression
 
 ## Definition
-* **Linear Regression tends to establish a relationship between a dependent variable(Y) and one or more independent variable(X) by finding the best fit of the straight line.
+* **Linear Regression tends to establish a relationship between a dependent variable(Y) and one or more independent variable(X) by finding the best fit of the straight line.**
 * The equation for the Linear model is **Y = mX+c**, where m is the slope and c is the intercept
 * There is no straight line that runs through all the data points. 
 * So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
