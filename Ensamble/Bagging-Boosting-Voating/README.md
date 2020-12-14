@@ -1,3 +1,5 @@
+## Bagging-Boosting-Voting
+
 * The three most popular methods for combining the predictions from different models are:
 
     * BAGGING : Building multiple models (typically of the same type) from different subsamples of the training dataset.
