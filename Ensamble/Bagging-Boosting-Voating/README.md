@@ -67,7 +67,7 @@ Here <img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}
 * Where  $n$ is the number of record
 
 Step 2=
-\begin{array}
+\]left \begin{array}
   &&f1& f2& f3 & O/p&Sample Weights& \\
   \hline
   0&...&...&...&Yes&1/7\\
@@ -77,7 +77,7 @@ Step 2=
   4&...&...&...&No&1/7\\
   5&...&...&...&+&1/7\\
   6&...&...&...&+&1/7\\ 
- \end{array}
+ \end{array}\right
 
 
 * Suppose record no 3 has been wrongly classified. 4 records result was correct and 1 was wrong.
