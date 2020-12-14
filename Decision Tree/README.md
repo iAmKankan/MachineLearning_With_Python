@@ -1,5 +1,11 @@
 # Decision tree
+
 ## Definition
+* **A decision tree is a type of supervised learning algorithm that can be used in classification as well as regressor problems. The input to a decision tree can be both continuous as well as categorical. The decision tree works on an if-then statement. Decision tree tries to solve a problem by using tree representation (Node and Leaf)**
+
+
+
+
 * Graphical representation of all possible solution to a decision.
 * Decision are based on some conditions.
 * Decision mede can be easily explained.
