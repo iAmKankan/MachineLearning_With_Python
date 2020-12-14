@@ -60,8 +60,10 @@
 * It consistes of Random Forest having Decision Trees with depth one (**one root with two leaves nodes**) 
 * which is called **Stumps**(**Forest of Stumps**)
 
-* The formula of **Sample Weight** is $W=\frac {1}{n}$; Here $W=\frac {1}{7}$    <img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{n}; Here W=\frac {1}{7} = -1">
-           
+* The formula of **Sample Weight** is $W=\frac {1}{n}$; Here $W=\frac {1}{7}$    
+<img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{n}; Here W=\frac {1}{7} = -1">
+Here <img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{7} = -1">
+          
 * Where  $n$ is the number of record
 
 Step 2=
