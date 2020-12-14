@@ -1,11 +1,16 @@
 # Logistic Regression
 
-
 ## Definition
-* **Logistic Regression is a Machine Learning algorithm which is used for the classification problems,**
-* **it is a predictive analysis algorithm and based on the concept of probability.**
-* **We can call a Logistic Regression a Linear Regression model but the Logistic Regression uses a more complex cost function, this cost function can be defined as the ‘Sigmoid function’ or also known as the ‘logistic function’ instead of a linear function.**
-* **The hypothesis of logistic regression tends it to limit the cost function between 0 and 1. Therefore linear functions fail to represent it as it can have a value greater than 1 or less than 0 which is not possible as per the hypothesis of logistic regression.**
+* **The logistic regression technique involves the dependent variable, which can be represented in the binary (0 or 1, true or false, yes or no) values.**
+* Which means that the outcome could only be in either one form of two.
+* For example, it can be utilized when we need to find the probability of a **successful** or **fail event**.
+
+* **Logistic Regression is a Machine Learning algorithm which is used for the classification problems.**
+* it is a predictive analysis algorithm and based on the concept of probability. 
+
+* We can call a Logistic Regression a Linear Regression model but the Logistic Regression uses a more complex cost function, this cost function can be defined as the **‘Sigmoid function’** or also known as the **‘logistic function’** instead of a linear function.**
+
+* The hypothesis of logistic regression tends it to limit the cost function between 0 and 1. Therefore linear functions fail to represent it as it can have a value greater than 1 or less than 0 which is not possible as per the hypothesis of logistic regression.
     
     ![](https://miro.medium.com/max/279/1*GnceHPIeThNShGSmYzE4eA.png)
 
