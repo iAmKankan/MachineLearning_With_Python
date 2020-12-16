@@ -61,7 +61,7 @@
 * which is called **Stumps**(**Forest of Stumps**)
 
 * The formula of **Sample Weight** is $W=\frac {1}{n}$; Here $W=\frac {1}{7}$    
-![formula](https://render.githubusercontent.com/render/math?math=W=\frac {1}{n}; Here W=\frac {1}{7})
+<img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{n}; Here W=\frac {1}{7}">
 
           
 * Where  $n$ is the number of record
