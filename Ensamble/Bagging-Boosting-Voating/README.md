@@ -116,3 +116,8 @@ $\therefore The Output=0.349$
   6&...&...&...&+&1/7&0.05\\ 
  \end{array}
 
+
+
+<img src="http://yuml.me/diagram/scruffy/class/[User|#counter;+Forename;+Surname;+HashedPassword;-Salt|+Login(user,pass);+Logout();+Register()]" >
+
+
