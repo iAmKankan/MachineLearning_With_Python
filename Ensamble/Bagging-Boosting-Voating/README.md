@@ -59,14 +59,14 @@
 
 * It consistes of Random Forest having Decision Trees with depth one (**one root with two leaves nodes**) 
 * which is called **Stumps**(**Forest of Stumps**)
-<span>
-* The formula of **Sample Weight** is <img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{n}">
+
+* <span>The formula of **Sample Weight** is <img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{n}">
 
 Here <img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{7}">
 </span>          
 * Where  <b><i>n<b><i> is the number of record
 
-Step 2=
+Step 2=<img src="https://render.githubusercontent.com/render/math?math=
 \]left \begin{array}
   &&f1& f2& f3 & O/p&Sample Weights& \\
   \hline
@@ -77,7 +77,7 @@ Step 2=
   4&...&...&...&No&1/7\\
   5&...&...&...&+&1/7\\
   6&...&...&...&+&1/7\\ 
- \end{array}\right
+ \end{array}\right">
 
 
 * Suppose record no 3 has been wrongly classified. 4 records result was correct and 1 was wrong.
