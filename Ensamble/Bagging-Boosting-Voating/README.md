@@ -60,7 +60,7 @@
 * It consistes of Random Forest having Decision Trees with depth one (**one root with two leaves nodes**) 
 * which is called **Stumps**(**Forest of Stumps**)
 
-* <span>The formula of **Sample Weight** is</span>  <span><img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{n}">s</span> 
+* <span>The formula of **Sample Weight** is</span>  <span><img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{n}"></span> 
 
 Here <img src="https://render.githubusercontent.com/render/math?math=W=\frac {1}{7}">
           
