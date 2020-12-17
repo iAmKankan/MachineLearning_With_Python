@@ -84,22 +84,22 @@ Step 2=
 Step 3=
 * **Performence of the Stump** = <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2}\log_e\Big(\frac{1-TE}{TE}\Big)">            
 
-<img src="https://render.githubusercontent.com/render/math?math={=\frac{1}{2}\log_e\Big(\frac{1-\frac{1}{7}}{\frac{1}{7}}\Big)}">                      
+* <img src="https://render.githubusercontent.com/render/math?math={=\frac{1}{2}\log_e\Big(\frac{1-\frac{1}{7}}{\frac{1}{7}}\Big)}">                      
 
-<img src="https://render.githubusercontent.com/render/math?math={=\frac{1}{2}\log_e\Big(6\Big)}">               
+* <img src="https://render.githubusercontent.com/render/math?math={=\frac{1}{2}\log_e\Big(6\Big)}">               
  
-<img src="https://render.githubusercontent.com/render/math?math={\therefore Performence Say=0.895}">               
+* <img src="https://render.githubusercontent.com/render/math?math={\therefore Performence Say=0.895}">               
  
 
 * **New Sample Weight**=
-$Weight\times  e^{Perf Say}$
+* <img src="https://render.githubusercontent.com/render/math?math={Weight\times e^{Perf Say}}">
 
-$=\frac{1}{7}\times e^{0.895}$
+* <img src="https://render.githubusercontent.com/render/math?math={=\frac{1}{7}\times e^{0.895}}"> 
 
-$\therefore The Output=0.349$
+* <img src="https://render.githubusercontent.com/render/math?math={\therefore The Output=0.349}">
 
+* In this point we need to update the weights and the formula like - * <img src="https://render.githubusercontent.com/render/math?math={Weight\times  e^{-Pref Say}}">
 
-* In this point we need to update the weights and the formula like - $Weight\times  e^{-Pref Say}$
 \begin{array}
   &&f1& f2& f3 & O/p&Sample Weights&Updated Weights&\\
   \hline
