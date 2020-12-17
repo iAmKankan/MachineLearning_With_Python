@@ -85,7 +85,7 @@ Step 3=
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2}\log_e\Big(\frac{1-\frac{1}{7}}{\frac{1}{7}}\Big)"> 
 
-<img src="https://render.githubusercontent.com/render/math?math=\=\frac{1}{2}\log_e \Big(6\Big"> 
+<img src="https://render.githubusercontent.com/render/math?math=\=\frac{1}{2}\log_e\Big(6\Big"> 
  
 <img src="https://render.githubusercontent.com/render/math?math=\therefore Performence Say=0.895"> 
 
