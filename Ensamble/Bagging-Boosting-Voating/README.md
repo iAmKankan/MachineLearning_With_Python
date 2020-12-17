@@ -100,15 +100,12 @@ Step 3=
 
 * In this point we need to update the weights and the formula like - <img src="https://render.githubusercontent.com/render/math?math={Weight\times e^{-Pref Say}}">
 
-\begin{array}
-  &&f1& f2& f3 & O/p&Sample Weights&Updated Weights&\\
-  \hline
-  0&...&...&...&Yes&1/7&0.05\\
-  1&...&...&...&No&1/7&0.05\\
-  2&...&...&...&Yes&1/7&0.05\\
-  3&...&...&...&No&1/7&0.349\\
-  4&...&...&...&No&1/7&0.05\\
-  5&...&...&...&+&1/7&0.05\\
-  6&...&...&...&+&1/7&0.05\\ 
- \end{array}
-
+|   |  f1 |  f2 |  f3 | O/p | SampleWeights | UpdatedWeights |
+|:-:|:---:|:---:|:---:|:---:|:-------------:|:--------------:|
+| 0 | ... | ... | ... | Yes |      1/7      |      0.05      |
+| 1 | ... | ... | ... |  No |      1/7      |      0.05      |
+| 2 | ... | ... | ... | Yes |      1/7      |      0.05      |
+| 3 | ... | ... | ... |  No |      1/7      |      0.349     |
+| 4 | ... | ... | ... |  No |      1/7      |      0.05      |
+| 5 | ... | ... | ... |  +  |      1/7      |      0.05      |
+| 6 | ... | ... | ... |  +  |      1/7      |      0.05      |
