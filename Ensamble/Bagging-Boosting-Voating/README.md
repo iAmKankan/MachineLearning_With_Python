@@ -60,7 +60,7 @@
 * It consistes of Random Forest having Decision Trees with depth one (**one root with two leaves nodes**) 
 * which is called **Stumps**(**Forest of Stumps**)
 
-* <span> The formula of **Sample Weight** is <img src="https://render.githubusercontent.com/render/math?math=\large W=\frac {1}{n}">; Here <img src="https://render.githubusercontent.com/render/math?math=\large W=\frac {1}{7}"> </span>          
+* <span> The formula of **Sample Weight** is <img src="https://render.githubusercontent.com/render/math?math=\large W=\frac {1}{n}">;   Here <img src="https://render.githubusercontent.com/render/math?math=\large W=\frac {1}{7}"> </span>          
 
 * Where  <b><i>n<b><i> is the number of record
 
@@ -77,17 +77,17 @@ Step 2=
 
 
 * Suppose record no 3 has been wrongly classified. 4 records result was correct and 1 was wrong.
-* $Total Error(TE)= \frac {1}{7}$ 
-* $Total Error(TE)= \frac {Number Of Errors}{Total Sample Weights}$ 
+* <img src="https://render.githubusercontent.com/render/math?math=Total Error(TE)= \frac {1}{7}"> 
+* <img src="https://render.githubusercontent.com/render/math?math=Total Error(TE)= \frac {Number Of Errors}{Total Sample Weights}">  
 
 Step 3=
-* **Performence of the Stump** = $\frac{1}{2}\log_e \Big( \frac {1-TE}{TE}\Big)$
+* **Performence of the Stump** = <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2}\log_e \Big( \frac {1-TE}{TE}\Big)"> 
 
-$=$ $\frac{1}{2}\log_e \Big( \frac {1-\frac{1}{7}}{\frac{1}{7}}\Big)$
+<img src="https://render.githubusercontent.com/render/math?math= =\frac{1}{2}\log_e \Big( \frac {1-\frac{1}{7}}{\frac{1}{7}}\Big)"> 
 
-$=$ $\frac{1}{2}\log_e \Big(6\Big)$
-
-$\therefore$ Performence Say =$0.895$ 
+<img src="https://render.githubusercontent.com/render/math?math= =\frac{1}{2}\log_e \Big(6\Big"> 
+ 
+<img src="https://render.githubusercontent.com/render/math?math= \therefore Performence Say = 0.895"> 
 
 
 
