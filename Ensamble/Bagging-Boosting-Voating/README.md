@@ -81,13 +81,13 @@ Step 2=
 * <img src="https://render.githubusercontent.com/render/math?math=Total Error(TE)= \frac {Number Of Errors}{Total Sample Weights}">  
 
 Step 3=
-* **Performence of the Stump** = <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2}\log_e \Big( \frac {1-TE}{TE}\Big)"> 
+* **Performence of the Stump** = <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2}\log_e\Big(\frac{1-TE}{TE}\Big)"> 
 
-<img src="https://render.githubusercontent.com/render/math?math= =\frac{1}{2}\log_e \Big( \frac {1-\frac{1}{7}}{\frac{1}{7}}\Big)"> 
+<img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2}\log_e \Big(\frac{1-\frac{1}{7}}{\frac{1}{7}}\Big)"> 
 
-<img src="https://render.githubusercontent.com/render/math?math= =\frac{1}{2}\log_e \Big(6\Big"> 
+<img src="https://render.githubusercontent.com/render/math?math=\=\frac{1}{2}\log_e \Big(6\Big"> 
  
-<img src="https://render.githubusercontent.com/render/math?math= \therefore Performence Say = 0.895"> 
+<img src="https://render.githubusercontent.com/render/math?math=\therefore Performence Say = 0.895"> 
 
 
 
