@@ -1,6 +1,8 @@
 
-[![social](https://img.shields.io/github/forks/iAmKankan/MachineLearning_With_Python?style=social)](https://img.shields.io/github/watchers/iAmKankan/MachineLearning_With_Python?style=plastic)
+[![dd](https://img.shields.io/github/forks/iAmKankan/MachineLearning_With_Python?style=social)]()
+[![dd](https://img.shields.io/github/watchers/iAmKankan/MachineLearning_With_Python?style=plastic)]()
 
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/iAmKankan/MachineLearning_With_Python?style=plastic">
 
 ### Supervised Learning
 * Supervised Learning is where you have a input variable(x) and a output variable(y) and you use a mapping function from the input to the output
