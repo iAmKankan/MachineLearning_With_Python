@@ -1,27 +1,5 @@
 
-[![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
-
-module.exports = class GemVersion extends BaseJsonService {
-  // ...
-
-  // (1)
-  static category = 'version'
-
-  // (2)
-  static examples = [
-    {
-      // (3)
-      title: 'Gem',
-      namedParams: { gem: 'formatador' },
-      staticPreview: this.render({ version: '2.1.0' }),
-      keywords: ['ruby'],
-    },
-  ]
-}
-
-
-
-
+https://img.shields.io/github/forks/iAmKankan/MachineLearning_With_Python?style=social
 
 
 ### Supervised Learning
