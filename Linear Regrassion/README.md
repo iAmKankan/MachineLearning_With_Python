@@ -46,7 +46,7 @@
 * Findout the relationshio between beta and the output variables..
 
 
-![linear.png](attachment:8f6aef78-2f2c-4706-b5e2-4cc35d712b65.png)
+![linear.png](linear.png)
 
 ### Error/Loss/Cost:
 * The aim is to minimize the error which is the distance from the bestfit line to each observation.
@@ -80,7 +80,7 @@
 
 * if we replace the above function with this <img src="https://latex.codecogs.com/svg.image?Y=X^2" title="Y=X^2" />
     * for X= -1,-2,0,1,2 result will be 1,4,0,1,4 if we ploted over a chart it will be like- 
-![Linear2.png](attachment:85b84af0-c71f-409a-b2ba-7fa9e870144d.png)
+![Linear2.png](Linear2.png)
 
 
 
