@@ -3,14 +3,96 @@
 ## Definition
 * **Linear Regression tends to establish a relationship between a dependent variable(Y) and one or more independent variable(X) by finding the best fit of the straight line.**
 * The equation for the Linear model is **Y = mX+c**, where m is the slope and c is the intercept
+* Linear Regression When we want to predict real continuous values as an output
+
 * There is no straight line that runs through all the data points. 
 * So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
 
-
+#### Problem:
+* **Multi-colinearity** is the occurrence of high intercorrelations among two or more independent variables in a multiple regression model. 
+* Multicollinearity can lead to skewed or misleading results.
+* In general, multicollinearity can lead to wider confidence intervals that produce less reliable probabilities in terms of the effect of independent variables in a model.
 
 ![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 
-On the image above there is an example of dependency between input variable _x_ and output variable _y_. The red line in the above graph is referred to as the best fit straight line. Based on the given data points (training examples), we try to plot a line that models the points the best. In the real world scenario we normally have more than one input variable.
+
+* **Linear Regression is of 2 types**
+    * Simple Linear Regression 
+    * Multivariate Linear Regression
+    
+     
+* **Simple Linear Regression** 
+<img src="https://latex.codecogs.com/svg.image?Y=a&plus;bX" title="Y=a+bX" />
+
+* It contains only one input variable. Only one straight line.
+
+    * Y = Dependent Variable
+    * a = Y intercept
+    * b = slope of the line
+    * X = Independent variable
+* Y intercept(a): is the value of the Dependent variable(y) when the value of the indipendent variable is zero(0). This is the point at which the line cuts the y-axis.
+
+* Slope(b): is the change in the Dependent Variable(y) for a unit increase in the indipendent variable. It is the tangent of  the angle made by the line with the x-axis.
+
+<img src="https://latex.codecogs.com/svg.image?b=\frac{y_2-y_1}{x_2-x_1}" title="b=\frac{y_2-y_1}{x_2-x_1}" />
+
+
+* **Multi Regrtession Models**
+
+<img src="https://latex.codecogs.com/svg.image?Y=\beta&space;_0&plus;\beta_1x_1&plus;\beta_2x_2&plus;\beta_3x_3&plus;...&plus;\beta_nx_n" title="Y=\beta _0+\beta_1x_1+\beta_2x_2+\beta_3x_3+...+\beta_nx_n" />
+
+* Here we need to find out all the <img src="https://latex.codecogs.com/svg.image?\inline&space;\beta" title="\inline \beta" /> coefficients.
+* It means the beta is creating some kind of relationship or slope it is creating with respect to the output variable
+* Findout the relationshio between beta and the output variables..
+
+
+![linear.png](attachment:8f6aef78-2f2c-4706-b5e2-4cc35d712b65.png)
+
+### Error/Loss/Cost:
+* The aim is to minimize the error which is the distance from the bestfit line to each observation.
+* The Deviation or the Error is like-
+* Deviation is called Residual.
+
+<img src="https://latex.codecogs.com/svg.image?Residual&space;=&space;Y_p-Y_a" title="Residual = Y_p-Y_a" />
+
+* **The mail goal is to reduce the error**.
+
+<img src="https://latex.codecogs.com/svg.image?AllResidual&space;=&space;\sum&space;(Y_p-Y_a)" title="AllResidual = \sum (Y_p-Y_a)" />
+
+* -ve Y actuals also there thats why we take the squre of the whole residuals
+
+<img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\sum&space;&space;(Y_p-Y_a)^2" title="ResidualSumOfSqures = \sum (Y_p-Y_a)^2" />
+
+* **Residual Sum Of Squres(RSS) = Ordinary least squares(OLS) = Error function = Loss Function.**
+
+* Now we have to take the minimum of all errors. That's will give us the beest fit line.
+
+* Inorder to fing out the minimum of a function we need to use first order derivation and second order derivation to find out the minima and maxima.
+
+<img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\left&space;(min&space;&space;\sum&space;&space;(Y_p-Y_a)^2\right&space;)" title="ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )" />
+
+* **Best-fit-line we need to find out when we findout the 'a' and the 'b' that's the line which is the min error.**
+---
+
+<img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\left&space;(min&space;&space;\sum&space;&space;(Y_p-Y_a)^2\right&space;)" title="ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )" />
+
+* **This function is parabola.or Convex shaped curve**
+
+* if we replace the above function with this <img src="https://latex.codecogs.com/svg.image?Y=X^2" title="Y=X^2" />
+    * for X= -1,-2,0,1,2 result will be 1,4,0,1,4 if we ploted over a chart it will be like- 
+![Linear2.png](attachment:85b84af0-c71f-409a-b2ba-7fa9e870144d.png)
+
+
+
+
+
+* Inorder to findout the minimum error we use gradient descent
+
+https://www.mladdict.com/linear-regression-simulator
+* The learning rate is represented by alpha <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+
+
+
 
 ## Features (variables)
 
