@@ -1,5 +1,5 @@
 
-https://img.shields.io/github/forks/iAmKankan/MachineLearning_With_Python?style=social
+[![social](https://img.shields.io/github/forks/iAmKankan/MachineLearning_With_Python?style=social)](https://img.shields.io/github/watchers/iAmKankan/MachineLearning_With_Python?style=plastic)
 
 
 ### Supervised Learning
