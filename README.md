@@ -1,7 +1,29 @@
 
 [![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
 
-[![Hi i am Arijit Bhadra](https://avatars.githubusercontent.com/u/12748752?s=60&v=4)]
+module.exports = class GemVersion extends BaseJsonService {
+  // ...
+
+  // (1)
+  static category = 'version'
+
+  // (2)
+  static examples = [
+    {
+      // (3)
+      title: 'Gem',
+      namedParams: { gem: 'formatador' },
+      staticPreview: this.render({ version: '2.1.0' }),
+      keywords: ['ruby'],
+    },
+  ]
+}
+
+
+
+
+
+
 ### Supervised Learning
 * Supervised Learning is where you have a input variable(x) and a output variable(y) and you use a mapping function from the input to the output
 
