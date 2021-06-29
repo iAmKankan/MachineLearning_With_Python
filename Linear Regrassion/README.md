@@ -12,7 +12,9 @@
 * **Multi-colinearity** is the occurrence of high intercorrelations among two or more independent variables in a multiple regression model. 
 * Multicollinearity can lead to skewed or misleading results.
 * In general, multicollinearity can lead to wider confidence intervals that produce less reliable probabilities in terms of the effect of independent variables in a model.
-
+* If we have variables with Multicollinearity need to be removed.
+*  Generally 'dataframe.corr()' shows the colinearity between variables. Where **-0.4 to 0.4** is accectable range for colinearity between variables.
+*  For 
 ![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 
 
