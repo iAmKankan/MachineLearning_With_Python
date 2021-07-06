@@ -6,3 +6,7 @@
 * The result falls between **-1 to 1**.
 * The numbers fall between **-0.4 to 0.4** cannot be consider as a co-related.
 ![corr](https://cio-wiki.org/images/2/22/Pearson_Correlation_Coefficent.png)
+### Detection
+* There are solutions where programmetically detection of colinearity-
+   - Bivariate correlation
+   - Variance Inflation Factor (VIF
