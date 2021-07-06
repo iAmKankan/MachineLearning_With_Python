@@ -1,5 +1,5 @@
 ### Colinearity
-
+   
 * I want my independent variables having relationshiop with Y.
 * By increasing X1 the Y variables should be increase otherwhise it would be insignifigent variable.
 * Other hand i dont want X1,X2,X3,..Xn does not have relationshiop with each other. Otherwise it will be called **Multi-colinearity**
