@@ -14,7 +14,7 @@
 
 
 * Statistical Concept based Algos-
-    * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/wiki/Linear-Regression)
+    * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Linear%20Regrassion#linear-regression)
     - Logistic Regression
 * Information Theory Concept
     - Decision Tree
