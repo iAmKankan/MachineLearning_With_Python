@@ -9,7 +9,7 @@
 * So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
 
 #### Problem:
-* [**Multi-colinearity**](https://github.com/iAmKankan/MachineLearning_With_Python/edit/master/Linear%20Regrassion/correlation.md) is the occurrence of high intercorrelations among two or more independent variables in a multiple regression model. 
+* [**Multi-colinearity**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Linear%20Regrassion/correlation.md#colinearity) is the occurrence of high intercorrelations among two or more independent variables in a multiple regression model. 
 * Multicollinearity can lead to skewed or misleading results.
 * In general, multicollinearity can lead to wider confidence intervals that produce less reliable probabilities in terms of the effect of independent variables in a model.
 * If we have variables with Multicollinearity need to be removed.
