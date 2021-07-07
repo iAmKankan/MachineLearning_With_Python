@@ -9,4 +9,4 @@
 ### Detection
 * There are solutions where programmetically detection of colinearity-
    - Bivariate correlation
-   - Variance Inflation Factor (VIF
+   - Variance Inflation Factor (VIF)
