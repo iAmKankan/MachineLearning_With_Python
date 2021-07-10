@@ -21,21 +21,7 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 5. Sometimes removing a data point causes large changes in the value of the <img src="https://latex.codecogs.com/svg.image?b_1" title="b_1" />, or their signs.
 6. In some cases, F is significant, but the t-values (for the <img src="https://latex.codecogs.com/svg.image?b_1" title="b_1" />) may not be significant.
 
-### Tests for Multicollinearity
 
-1. Calculate the correlation coefficient (r) for each pair of the X-variables. If any of the r-values is significantly different from zero, then the independent variables involved may be collinear.
-
-<img src="https://latex.codecogs.com/svg.image?r=\frac{Coverrience&space;X_iX_j}{\sigma_i\sigma_j}" title="r=\frac{Coverrience X_iX_j}{\sigma_i\sigma_j}" />
-
-Caveat: Although the r for any two X variables may be too small, three independent variables, X₁, X₂, and X3, may be highly correlated as a group.
-
-
-* Independent variables(X) having relationshiop with dependent variable(Y).
-* By increasing X1 the Y variables should be increase otherwhise it would be insignifigent variable.
-* In multivariate regression independent variables - X1,X2,X3,..Xn should not have relationshiop with each other. Otherwise it will be called **Multi-colinearity**
-* The result falls between **-1 to 1**.
-* The numbers fall between **-0.4 to 0.4** cannot be consider as a co-related.
-![corr](https://cio-wiki.org/images/2/22/Pearson_Correlation_Coefficent.png)
 
 ### Detection
 * There are solutions where programmetically detection of colinearity-
@@ -43,7 +29,39 @@ Caveat: Although the r for any two X variables may be too small, three independe
    - Variance Inflation Factor (VIF)
 
 
+### Tests for Multicollinearity
 
+1. Calculate the correlation coefficient (r) for each pair of the X-variables. If any of the r-values is significantly different from zero, then the independent variables involved may be collinear.
+
+<img src="https://latex.codecogs.com/svg.image?r=\frac{Coverrience&space;X_iX_j}{\sigma_i\sigma_j}" title="r=\frac{Coverrience X_iX_j}{\sigma_i\sigma_j}" />
+
+ * Caveat: Although the r for any two X variables may be too small, three independent variables, X₁, X₂, and X3, may be highly correlated as a group.
+
+
+* The result falls between **-1 to 1**.
+* The numbers fall between **-0.4 to 0.4** cannot be consider as a co-related.
+![corr](https://cio-wiki.org/images/2/22/Pearson_Correlation_Coefficent.png)
+
+2. Check whether the Variance Inflation Factor (VIF) is too high
+
+ * Rule of thumb: Collinearity exists if VIF> 5. A VIF of 10, for example, means Var(b) is 10 times what it should be if no collinearity existed (if no collinearity, VIF should be 1)
+ * VIF is a more rigorous check for collinearity than correlation coefficient.
+
+<img src="https://latex.codecogs.com/svg.image?VIF&space;=&space;\frac{1}{1-R^2_i}" title="VIF = \frac{1}{1-R^2_i}" />
+VIF =
+
+In the regression model:
+
+<img src="https://latex.codecogs.com/svg.image?Y&space;=\beta_0&plus;\beta_1&space;X_1&plus;\beta_2&space;X_2&plus;\epsilon" title="Y =\beta_0+\beta_1 X_1+\beta_2 X_2+\epsilon" />
+
+R₁2 is obtained from regressing X_1, on X_2, and X_3, as follows: 
+<img src="https://latex.codecogs.com/svg.image?X_1=\alpha_0&plus;\alpha_1X_2&plus;\alpha_2X_2&plus;\epsilon" title="X_1=\alpha_0+\alpha_1X_2+\alpha_2X_2+\epsilon" />
+
+Similarly:
+* <img src="https://latex.codecogs.com/svg.image?X_2=\alpha_0&plus;\alpha_1X_2&plus;\alpha_2X_3&plus;\epsilon&space;=>X^2_2" title="X_2=\alpha_0+\alpha_1X_2+\alpha_2X_3+\epsilon =>X^2_2" />
+
+<img src="https://latex.codecogs.com/svg.image?X_3=\alpha_0&plus;\alpha_1X_2&plus;\alpha_2X_2&plus;\epsilon&space;=>X^2_3" title="X_3=\alpha_0+\alpha_1X_2+\alpha_2X_2+\epsilon =>X^2_3" />
 
 * Bibilography
 * https://en.wikipedia.org/wiki/Correlation_and_dependence
+* https://www.youtube.com/watch?v=pZhm1GMn2GY&t=159s
