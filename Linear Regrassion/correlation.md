@@ -21,7 +21,13 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 5. Sometimes removing a data point causes large changes in the value of the <img src="https://latex.codecogs.com/svg.image?b_1" title="b_1" />, or their signs.
 6. In some cases, F is significant, but the t-values (for the <img src="https://latex.codecogs.com/svg.image?b_1" title="b_1" />) may not be significant.
 
+### Tests for Multicollinearity
 
+1. Calculate the correlation coefficient (r) for each pair of the X-variables. If any of the r-values is significantly different from zero, then the independent variables involved may be collinear.
+
+<img src="https://latex.codecogs.com/svg.image?r=\frac{Coverrience&space;X_iX_j}{\sigma_i\sigma_j}" title="r=\frac{Coverrience X_iX_j}{\sigma_i\sigma_j}" />
+
+Caveat: Although the r for any two X variables may be too small, three independent variables, X₁, X₂, and X3, may be highly correlated as a group.
 
 
 * Independent variables(X) having relationshiop with dependent variable(Y).
@@ -30,6 +36,7 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 * The result falls between **-1 to 1**.
 * The numbers fall between **-0.4 to 0.4** cannot be consider as a co-related.
 ![corr](https://cio-wiki.org/images/2/22/Pearson_Correlation_Coefficent.png)
+
 ### Detection
 * There are solutions where programmetically detection of colinearity-
    - Bivariate correlation
