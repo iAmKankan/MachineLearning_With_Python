@@ -31,7 +31,7 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 
 ### Tests for Multicollinearity
 
-1. Calculate the correlation coefficient (r) for each pair of the X-variables. If any of the r-values is significantly different from zero, then the independent variables involved may be collinear.
+1. **Calculate the correlation coefficient (r) for each pair of the X-variables.** If any of the r-values is significantly different from zero, then the independent variables involved may be collinear.
 
 <img src="https://latex.codecogs.com/svg.image?r=\frac{Coverrience&space;X_iX_j}{\sigma_i\sigma_j}" title="r=\frac{Coverrience X_iX_j}{\sigma_i\sigma_j}" />
 
@@ -42,7 +42,7 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 * The numbers fall between **-0.4 to 0.4** cannot be consider as a co-related.
 ![corr](https://cio-wiki.org/images/2/22/Pearson_Correlation_Coefficent.png)
 
-2. Check whether the Variance Inflation Factor (VIF) is too high
+2. **Check whether the Variance Inflation Factor (VIF) is too high**
 
  * Rule of thumb: Collinearity exists if VIF> 5. A VIF of 10, for example, means Var(b) is 10 times what it should be if no collinearity existed (if no collinearity, VIF should be 1)
  * VIF is a more rigorous check for collinearity than correlation coefficient.
