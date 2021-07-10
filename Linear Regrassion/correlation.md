@@ -9,7 +9,7 @@
   * <img src="https://latex.codecogs.com/svg.image?\beta_1=" title="\beta_1=" /> The change of Y for a 1-unit change in <img src="https://latex.codecogs.com/svg.image?X_1" title="X_1" /> , while <img src="https://latex.codecogs.com/svg.image?X_2" title="X_2" /> is held constant
   * <img src="https://latex.codecogs.com/svg.image?\beta_2=" title="\beta_2=" /> The change of Y for a 1-unit change in <img src="https://latex.codecogs.com/svg.image?X_2" title="X_2" /> , while <img src="https://latex.codecogs.com/svg.image?X_1" title="X_1" /> is held constant
 
-* In the condition of Multicorrelation exists then above two believes are oppositive or negetive.
+* In the condition when Multicorrelation exists then above two believes are oppositive or negetive.
 
 ### Effects of Multicollinearity
 t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1}{StdErrof&space;b_1}" title="\beta_1=\frac{b_1}{StdErrof b_1}" />
