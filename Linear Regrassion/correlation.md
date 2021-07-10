@@ -43,7 +43,10 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 ![corr](https://cio-wiki.org/images/2/22/Pearson_Correlation_Coefficent.png)
 
 2. **Check whether the Variance Inflation Factor (VIF) is too high**
-
+ * Mathematically, the VIF for a regression model variable is equal to the ratio of the overall model variance to the variance of a model that includes only that single independent variable. 
+ *  This ratio is calculated for each independent variable. 
+ * A high VIF indicates that the associated independent variable is highly collinear with the other variables in the model.
+ 
  * Rule of thumb: Collinearity exists if VIF> 5. A VIF of 10, for example, means Var(b) is 10 times what it should be if no collinearity existed (if no collinearity, VIF should be 1)
  * VIF is a more rigorous check for collinearity than correlation coefficient.
 
