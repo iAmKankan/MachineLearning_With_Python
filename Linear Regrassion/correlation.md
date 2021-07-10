@@ -60,7 +60,7 @@ R₁2 is obtained from regressing X_1, on X_2, and X_3, as follows:
 Similarly:
 * <img src="https://latex.codecogs.com/svg.image?X_2=\alpha_0&plus;\alpha_1X_2&plus;\alpha_2X_3&plus;\epsilon&space;=>X^2_2" title="X_2=\alpha_0+\alpha_1X_2+\alpha_2X_3+\epsilon =>X^2_2" />
 
-<img src="https://latex.codecogs.com/svg.image?X_3=\alpha_0&plus;\alpha_1X_2&plus;\alpha_2X_2&plus;\epsilon&space;=>X^2_3" title="X_3=\alpha_0+\alpha_1X_2+\alpha_2X_2+\epsilon =>X^2_3" />
+* <img src="https://latex.codecogs.com/svg.image?X_3=\alpha_0&plus;\alpha_1X_2&plus;\alpha_2X_2&plus;\epsilon&space;=>X^2_3" title="X_3=\alpha_0+\alpha_1X_2+\alpha_2X_2+\epsilon =>X^2_3" />
 
 * Bibilography
 * https://en.wikipedia.org/wiki/Correlation_and_dependence
