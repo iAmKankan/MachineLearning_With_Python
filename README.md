@@ -25,14 +25,14 @@
  <img src="https://latex.codecogs.com/svg.image?Y=F(X)" title="Y=F(X)" />
 
 
-* Statistical Concept based Algos-
+* **Statistical Concept based Algos-**
     * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Linear%20Regrassion#linear-regression)
     - Logistic Regression
-* Information Theory Concept
+* **Information Theory Concept**
     - Decision Tree
     - Random Forest
-* Basian Statistics
+* **Basian Statistics**
     - Naive Bayes
 
-* Pure Mathemetical optimisation model
+* **Pure Mathemetical optimisation model**
     - SVM.
