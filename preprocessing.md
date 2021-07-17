@@ -1,6 +1,6 @@
 
 ## Preprocessing:
-![](proprocessing.jpg)
+![preprocessing.jpg](preprocessing.jpg)
 
 
 
@@ -22,5 +22,5 @@
 
 
 
-### Bibilography
+### Bibliography 
 1. https://serokell.io/blog/data-preprocessing
