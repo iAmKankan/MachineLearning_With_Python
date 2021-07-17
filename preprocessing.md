@@ -1,6 +1,6 @@
 
 ## Preprocessing:
-[](proprocessing.jpg)
+![](proprocessing.jpg)
 
 
 
