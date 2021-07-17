@@ -9,7 +9,7 @@
 
 ###  [Lifecycle of ML](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/ML_lifecycle.md#lifecycle-of-ml)
 * Data Acquisition
-* Data Preparation
+* [Data Preparation](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/preprocessing.md)
 * Hypothesis & Modeling
 * Evaluation & Interpretation
 * Deployment
