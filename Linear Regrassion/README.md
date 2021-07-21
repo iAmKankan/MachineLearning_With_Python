@@ -132,7 +132,7 @@ https://www.mladdict.com/linear-regression-simulator
 * If we add independent features the value of R^2 is improves by decresing the value of <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />. But the features may not to correlated  to the output variable Y.
 * So, it is not penalising the new added features.
 * In  Adjusted R Square it penalizes attributes that are not correlated with Y.
-* 
+![](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/adjustedr.png)
 
 
 
