@@ -100,10 +100,15 @@ https://www.mladdict.com/linear-regression-simulator
 * The learning rate is represented by alpha <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
 
 ### Total Squired Error:
-<img src="https://latex.codecogs.com/svg.image?SE_{Line}&space;=(Y_1-(bX_1&plus;a)^2&plus;(Y_2-(bX_2&plus;a)^2&plus;...&plus;(Y_n-(bX_n&plus;a)^2" title="SE_{Line} =(Y_1-(bX_1+a)^2+(Y_2-(bX_2+a)^2+...+(Y_n-(bX_n+a)^2" />
+<img src="https://latex.codecogs.com/svg.image?SE_{Line}&space;=(Y_1-(bX_1&plus;a))^2&plus;(Y_2-(bX_2&plus;a))^2&plus;...&plus;(Y_n-(bX_n&plus;a))^2" title="SE_{Line} =(Y_1-(bX_1+a))^2+(Y_2-(bX_2+a))^2+...+(Y_n-(bX_n+a))^2" />
 
 
 
+
+### Total varience in Y: 
+* Is the Squired Error of the mean, The mean of all Y is represented by <img src="https://latex.codecogs.com/svg.image?\overline{Y}" title="\overline{Y}" />
+
+<img src="https://latex.codecogs.com/svg.image?SE_{\overline{Y}}&space;=(Y_1-\overline{Y})^2&plus;(Y_2-\overline{Y})^2&plus;...&plus;(Y_n-\overline{Y})^2" title="SE_{\overline{Y}} =(Y_1-\overline{Y})^2+(Y_2-\overline{Y})^2+...+(Y_n-\overline{Y})^2" />
  
 
 
