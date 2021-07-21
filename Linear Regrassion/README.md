@@ -50,7 +50,7 @@
 
 ![linear.png](linear.png)
 
-### Error/Loss/Cost:
+## Error/Loss/Cost:
 * The aim is to minimize the error which is the distance from the bestfit line to each observation.
 * The Deviation or the Error is like-
 * Deviation is called Residual.
@@ -106,17 +106,17 @@ https://www.mladdict.com/linear-regression-simulator
 
 
 ### Total varience in Y: 
-* Is the Squired Error of the mean, The mean of all Y is represented by <img src="https://latex.codecogs.com/svg.image?\overline{Y}" title="\overline{Y}" />
+* Is the Squared Error of the mean, The mean of all Y is represented by <img src="https://latex.codecogs.com/svg.image?\overline{Y}" title="\overline{Y}" />
 
 <img src="https://latex.codecogs.com/svg.image?SE_{\overline{Y}}&space;=(Y_1-\overline{Y})^2&plus;(Y_2-\overline{Y})^2&plus;...&plus;(Y_n-\overline{Y})^2" title="SE_{\overline{Y}} =(Y_1-\overline{Y})^2+(Y_2-\overline{Y})^2+...+(Y_n-\overline{Y})^2" />
  
 
 
-
 ### What % of the variation is NOT Described by the vasriation in X or by the Regression line = <img src="https://latex.codecogs.com/svg.image?\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="\frac{SE_{Line} }{SE_{\overline{Y}}}" />
 
+## R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />) or Coefficient of Determination
 
-### Coefficient of Determination = What % of the variation is acctually Described by the vasriation in X or by the Regression line = <img src="https://latex.codecogs.com/svg.image?1-\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="1-\frac{SE_{Line} }{SE_{\overline{Y}}}" />
+* **Coefficient of Determination = What % of the variation is acctually Described by the vasriation in X or by the Regression line =** <img src="https://latex.codecogs.com/svg.image?1-\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="1-\frac{SE_{Line} }{SE_{\overline{Y}}}" />
 
 
 * If <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" /> is very small the we can say that the regression line is good fit.
