@@ -78,6 +78,12 @@
 
 <img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\left&space;(min&space;&space;\sum&space;&space;(Y_p-Y_a)^2\right&space;)" title="ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )" />
 
+
+
+
+
+
+---
 * **This function is parabola.or Convex shaped curve**
 
 * if we replace the above function with this <img src="https://latex.codecogs.com/svg.image?Y=X^2" title="Y=X^2" />
@@ -92,6 +98,22 @@
 
 https://www.mladdict.com/linear-regression-simulator
 * The learning rate is represented by alpha <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+
+### Total Squired Error:
+<img src="https://latex.codecogs.com/svg.image?SE_{Line}&space;=(Y_1-(bX_1&plus;a)^2&plus;(Y_2-(bX_2&plus;a)^2&plus;...&plus;(Y_n-(bX_n&plus;a)^2" title="SE_{Line} =(Y_1-(bX_1+a)^2+(Y_2-(bX_2+a)^2+...+(Y_n-(bX_n+a)^2" />
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 
