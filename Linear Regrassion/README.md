@@ -121,7 +121,7 @@ https://www.mladdict.com/linear-regression-simulator
 
 * If <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" /> is very small the we can say that the regression line is good fit.
 * the the <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> is close to 1.
-* If <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />" /> is large then  the <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> is close to 0.
+* If <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />"  is large then  the <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> is close to 0.
 
 
 ![](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/error.png)
