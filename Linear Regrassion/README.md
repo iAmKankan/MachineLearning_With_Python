@@ -113,9 +113,18 @@ https://www.mladdict.com/linear-regression-simulator
 
 
 
+### What % of the variation is NOT Described by the vasriation in X or by the Regression line = <img src="https://latex.codecogs.com/svg.image?\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="\frac{SE_{Line} }{SE_{\overline{Y}}}" />
 
 
+### Coefficient of Determination = What % of the variation is acctually Described by the vasriation in X or by the Regression line = <img src="https://latex.codecogs.com/svg.image?1-\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="1-\frac{SE_{Line} }{SE_{\overline{Y}}}" />
 
+
+* If <img src="https://latex.codecogs.com/svg.image?SE_{Line}}" title="SE_{Line}}" /> is very small the we can say that the regression line is good fit.
+* the the <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> is close to 1.
+* If <img src="https://latex.codecogs.com/svg.image?SE_{Line}}" title="SE_{Line}}" /> is large then  the <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> is close to 0.
+
+
+![](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/error.png)
 
 
 
