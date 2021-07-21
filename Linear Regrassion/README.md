@@ -126,7 +126,13 @@ https://www.mladdict.com/linear-regression-simulator
 
 ![](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/error.png)
 
-
+## Adjusted R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />):
+* It is possible to get <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> value < 0(-ve)
+   * When the the regression line is not better than the average line or Total varience in Y
+* If we add independent features the value of R^2 is improves by decresing the value of <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />. But the features may not to correlated  to the output variable Y.
+* So, it is not penalising the new added features.
+* In  Adjusted R Square it penalizes attributes that are not correlated with Y.
+* 
 
 
 
