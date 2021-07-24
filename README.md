@@ -36,3 +36,23 @@
 
 * **Pure Mathemetical optimisation model**
     - SVM.
+
+---
+* **List of Machine Learning algorithms which are sensitive to outliers:**
+1. Linear Regression
+2. Logistic Regression
+3. Support Vector Machine
+4. K- Nearest Neighbors
+5. K-Means Clustering
+6. Hierarchical Clustering
+7. Principal Component Analysis
+
+* **List of Machine Learning algorithms which are not sensitive to outliers:**
+1. Decision Tree
+2. Random Forest
+3. XGBoost
+4. AdaBoost
+5. Naive Bayes
+---
+
+
