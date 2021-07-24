@@ -15,6 +15,8 @@
 * Deployment
 * Operation & Optimization
 
+![purple-divider](https://user-images.githubusercontent.com/7065401/52071927-c1cd7100-2562-11e9-908a-dde91ba14e59.png)
+
 ### Supervised Learning
 * Supervised Learning is where you have a input variable(x) and a output variable(y) and you use a mapping function from the input to the output
 
@@ -53,6 +55,7 @@
 3. XGBoost
 4. AdaBoost
 5. Naive Bayes
----
+
+![purple-divider](https://user-images.githubusercontent.com/7065401/52071927-c1cd7100-2562-11e9-908a-dde91ba14e59.png)
 
 
