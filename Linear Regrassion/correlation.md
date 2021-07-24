@@ -1,4 +1,4 @@
-### Colinearity
+### :red_circle: Colinearity
 
 <img src="https://latex.codecogs.com/svg.image?Y&space;=\beta_0&plus;\beta_1&space;X_1&plus;\beta_2&space;X_2&plus;\epsilon" title="Y =\beta_0+\beta_1 X_1+\beta_2 X_2+\epsilon" />
 
@@ -11,7 +11,7 @@
 
 * In the condition when Multicorrelation exists then above two believes are oppositive or negetive.
 
-### Effects of Multicollinearity
+### :yellow_circle: Effects of Multicollinearity
 t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1}{StdErrof&space;b_1}" title="\beta_1=\frac{b_1}{StdErrof b_1}" />
 
 1. Variances (and standard errors) of regression coefficient estimators (i.e. the b.) are inflated. This means that Var(b) is too large.
@@ -23,15 +23,15 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 
 
 
-### Detection
+### :yellow_circle: Detection
 * There are solutions where programmetically detection of colinearity-
    - Bivariate correlation
    - Variance Inflation Factor (VIF)
 
 
-### Tests for Multicollinearity
+### :yellow_circle: Tests for Multicollinearity
 
-1. **Calculate the correlation coefficient (r) for each pair of the X-variables.** If any of the r-values is significantly different from zero, then the independent variables involved may be collinear.
+:large_blue_diamond: 1. **Calculate the correlation coefficient (r) for each pair of the X-variables.** If any of the r-values is significantly different from zero, then the independent variables involved may be collinear.
 
 <img src="https://latex.codecogs.com/svg.image?r=\frac{Coverrience&space;X_iX_j}{\sigma_i\sigma_j}" title="r=\frac{Coverrience X_iX_j}{\sigma_i\sigma_j}" />
 
@@ -42,7 +42,7 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 * The numbers fall between **-0.4 to 0.4** cannot be consider as a co-related.
 ![corr](https://cio-wiki.org/images/2/22/Pearson_Correlation_Coefficent.png)
 
-2. **Check whether the Variance Inflation Factor (VIF) is too high**
+:large_blue_diamond: 2.  **Check whether the Variance Inflation Factor (VIF) is too high**
  * Mathematically, the VIF for a regression model variable is equal to the ratio of the overall model variance to the variance of a model that includes only that single independent variable. 
  *  This ratio is calculated for each independent variable. 
  * A high VIF indicates that the associated independent variable is highly collinear with the other variables in the model.
