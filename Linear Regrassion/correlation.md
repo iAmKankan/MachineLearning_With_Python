@@ -65,6 +65,6 @@ Similarly:
 
 * <img src="https://latex.codecogs.com/svg.image?X_3=\alpha_0&plus;\alpha_1X_2&plus;\alpha_2X_2&plus;\epsilon&space;=>X^2_3" title="X_3=\alpha_0+\alpha_1X_2+\alpha_2X_2+\epsilon =>X^2_3" />
 
-* Bibilography
+### :black_circle: Bibilography
 * https://en.wikipedia.org/wiki/Correlation_and_dependence
 * https://www.youtube.com/watch?v=pZhm1GMn2GY&t=159s
