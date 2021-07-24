@@ -25,6 +25,7 @@
 
  <img src="https://latex.codecogs.com/svg.image?Y=F(X)" title="Y=F(X)" />
 
+![green_divider](https://user-images.githubusercontent.com/12748752/126882205-c7d06127-2ac4-4d6e-83e8-cf7161c3421a.png)
 
 * **Statistical Concept based Algos-**
     * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Linear%20Regrassion#linear-regression)
@@ -38,7 +39,8 @@
 * **Pure Mathemetical optimisation model**
     - SVM.
 
----
+![green_divider](https://user-images.githubusercontent.com/12748752/126882205-c7d06127-2ac4-4d6e-83e8-cf7161c3421a.png)
+
 * **List of Machine Learning algorithms which are sensitive to outliers:**
 1. Linear Regression
 2. Logistic Regression
@@ -55,6 +57,5 @@
 4. AdaBoost
 5. Naive Bayes
 
-![purple-divider](https://user-images.githubusercontent.com/7065401/52071927-c1cd7100-2562-11e9-908a-dde91ba14e59.png)
-
+![purple_divider](https://user-images.githubusercontent.com/12748752/126882221-737c839e-480b-45e3-b0a6-fefc9dac980d.png)
 
