@@ -15,8 +15,7 @@
 * Deployment
 * Operation & Optimization
 
-![purple-divider](https://user-images.githubusercontent.com/7065401/52071927-c1cd7100-2562-11e9-908a-dde91ba14e59.png)
-
+ ![purple_divider](https://user-images.githubusercontent.com/12748752/126882221-737c839e-480b-45e3-b0a6-fefc9dac980d.png)
 ### Supervised Learning
 * Supervised Learning is where you have a input variable(x) and a output variable(y) and you use a mapping function from the input to the output
 
