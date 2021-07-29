@@ -48,7 +48,7 @@
 * Findout the relationshio between beta and the output variables..
 
 
-![linear.png](linear.png)
+![linear](https://user-images.githubusercontent.com/12748752/127488303-78ce74fd-a216-4e55-953d-e97f4ec9798a.png)
 
 ## Error/Loss/Cost:
 * The aim is to minimize the error which is the distance from the bestfit line to each observation.
@@ -88,7 +88,7 @@
 
 * if we replace the above function with this <img src="https://latex.codecogs.com/svg.image?Y=X^2" title="Y=X^2" />
     * for X= -1,-2,0,1,2 result will be 1,4,0,1,4 if we ploted over a chart it will be like- 
-![Linear2.png](Linear2.png)
+![Linear2](https://user-images.githubusercontent.com/12748752/127488310-b20c91b5-d450-47ad-9e2b-d490ebc07233.png)
 
 
 
@@ -124,7 +124,7 @@ https://www.mladdict.com/linear-regression-simulator
 * If <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />"  is large then  the <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> is close to 0.
 
 
-![](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/error.png)
+![error](https://user-images.githubusercontent.com/12748752/127488864-8d0310bd-02a5-4bab-8ea6-5140917eca64.png)
 
 ## Adjusted R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />):
 * It is possible to get <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> value < 0(-ve)
@@ -132,7 +132,7 @@ https://www.mladdict.com/linear-regression-simulator
 * If we add independent features the value of R^2 is improves by decresing the value of <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />. But the features may not to correlated  to the output variable Y.
 * So, it is not penalising the new added features.
 * In  Adjusted R Square it penalizes attributes that are not correlated with Y.
-![](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/adjustedr.png)
+![adjustedr](https://user-images.githubusercontent.com/12748752/127488214-c98d545a-fad0-4f0e-8176-786836be572d.png)
 
 
 
