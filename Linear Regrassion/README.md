@@ -1,6 +1,9 @@
 # Linear Regression
-
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 ## Definition
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * **Linear Regression tends to establish a relationship between a dependent variable(Y) and one or more independent variable(X) by finding the best fit of the straight line.**
 * The equation for the Linear model is **Y = mX+c**, where m is the slope and c is the intercept
 * Linear Regression When we want to predict real continuous values as an output
@@ -9,6 +12,8 @@
 * So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
 
 #### Problem:
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * [**Multi-colinearity**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Linear%20Regrassion/correlation.md#colinearity) is the occurrence of high intercorrelations among two or more independent variables in a multiple regression model. 
 * Multicollinearity can lead to skewed or misleading results.
 * In general, multicollinearity can lead to wider confidence intervals that produce less reliable probabilities in terms of the effect of independent variables in a model.
@@ -51,6 +56,8 @@
 ![linear](https://user-images.githubusercontent.com/12748752/127488303-78ce74fd-a216-4e55-953d-e97f4ec9798a.png)
 
 ## Error/Loss/Cost:
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * The aim is to minimize the error which is the distance from the bestfit line to each observation.
 * The Deviation or the Error is like-
 * Deviation is called Residual.
