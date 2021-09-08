@@ -1,4 +1,5 @@
-### :red_circle: Colinearity
+### Colinearity
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
 <img src="https://latex.codecogs.com/svg.image?Y&space;=\beta_0&plus;\beta_1&space;X_1&plus;\beta_2&space;X_2&plus;\epsilon" title="Y =\beta_0+\beta_1 X_1+\beta_2 X_2+\epsilon" />
 
@@ -11,7 +12,9 @@
 
 * In the condition when Multicorrelation exists then above two believes are oppositive or negetive.
 
-### :yellow_circle: Effects of Multicollinearity
+### Effects of Multicollinearity
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1}{StdErrof&space;b_1}" title="\beta_1=\frac{b_1}{StdErrof b_1}" />
 
 1. Variances (and standard errors) of regression coefficient estimators (i.e. the b.) are inflated. This means that Var(b) is too large.
@@ -23,13 +26,16 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 
 
 
-### :yellow_circle: Detection
+### Detection
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * There are solutions where programmetically detection of colinearity-
    - Bivariate correlation
    - Variance Inflation Factor (VIF)
 
 
-### :yellow_circle: Tests for Multicollinearity
+### Tests for Multicollinearity
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 :large_blue_diamond: 1. **Calculate the correlation coefficient (r) for each pair of the X-variables.** If any of the r-values is significantly different from zero, then the independent variables involved may be collinear.
 
@@ -66,5 +72,7 @@ Similarly:
 * <img src="https://latex.codecogs.com/svg.image?X_3=\alpha_0&plus;\alpha_1X_2&plus;\alpha_2X_2&plus;\epsilon&space;=>X^2_3" title="X_3=\alpha_0+\alpha_1X_2+\alpha_2X_2+\epsilon =>X^2_3" />
 
 ### :black_circle: Bibilography
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * https://en.wikipedia.org/wiki/Correlation_and_dependence
 * https://www.youtube.com/watch?v=pZhm1GMn2GY&t=159s
