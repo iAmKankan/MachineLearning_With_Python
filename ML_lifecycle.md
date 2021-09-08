@@ -1,11 +1,14 @@
 ## Lifecycle of ML
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 ![](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/lifecycle.png)
 
 
 
 ## Lifecycle of data and ML 
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
 ### 1-Categorize the problem
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * **Categorize by the input:** 
     - If it is a labeled data, it’s a supervised learning problem. 
@@ -18,6 +21,7 @@
     - If the output of the model is a set of input groups, it’s a clustering problem.
     
 ### 2-Understand Your Data
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * The process of understanding the data plays a key role in the process of choosing the right algorithm for the right problem. * Some algorithms can work with smaller sample sets while others require tons and tons of samples.
 
@@ -26,10 +30,11 @@
 * **Transform the data**
     - Transform data and feature engineering may, in fact, be synonyms. 
     - **Feature engineering**
-        - Is the process of transforming raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy on unseen data. -By Jason Brownlee.
+     - Is the process of transforming raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy on unseen data. -By Jason Brownlee.
         
         
 ### 3-Find the available algorithms     
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 - The accuracy of the model.
 - The interpretability of the model.
@@ -43,11 +48,15 @@
 
 
 ### 4-Implement machine learning algorithms.
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * Set up a machine learning pipeline that compares the performance of each algorithm on the dataset using a set of carefully selected evaluation criteria.
 * Another approach is to use the same algorithm on different subgroups of datasets.
 * The best solution for this is to do it once or have a service running that does this in intervals when new data is added.
 
 ### 5-Optimize hyperparameters
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 - There are three options for optimizing hyperparameters-
     - Grid search
     - Random search and 
@@ -55,6 +64,8 @@
     
     
 ### Model Evoluation 
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
    - Train/test split
    - Cross-Validation
 
@@ -77,6 +88,7 @@
 * If k equals the sample size, this is called "leave-one-out".
 
 ### 6-Fine-Tune the System
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 *  You will want to use as much data as possible for this step, especially as you move toward the end of fine-tuning.
 * As always automate what you can.
@@ -90,11 +102,11 @@
 * Once you are confident about your final model, measure its performance on the test set to estimate the generalization error.
 
 
-## Model Performance Evaluation - Classification
-https://www.saedsayad.com/model_evaluation_c.htm
+## [Model Performance Evaluation - Classification](https://www.saedsayad.com/model_evaluation_c.htm)
 
 
 #### 1) Confusion Matrix:
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data. 
 * The matrix is NxN, where N is the number of target values (classes). 
