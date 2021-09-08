@@ -5,9 +5,13 @@
  
  
 ## What is Machine Learning?
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+
 * Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.
 
 ###  [Lifecycle of ML](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/ML_lifecycle.md#lifecycle-of-ml)
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * Data Acquisition
 * [Data Preparation/ Data Preprocessing](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/preprocessing.md)
 * Hypothesis & Modeling
@@ -15,9 +19,10 @@
 * Deployment
 * Operation & Optimization
 
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
  
 ### Supervised Learning
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * Supervised Learning is where you have a input variable(x) and a output variable(y) and you use a mapping function from the input to the output
 
 
@@ -27,7 +32,6 @@
  <img src="https://latex.codecogs.com/svg.image?Y=F(X)" title="Y=F(X)" />
 
  
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * **Statistical Concept based Algos-**
     * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Linear%20Regrassion#linear-regression)
