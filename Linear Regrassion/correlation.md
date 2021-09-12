@@ -1,21 +1,22 @@
-### Colinearity
+###  Colinearity
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
-<img src="https://latex.codecogs.com/svg.image?Y&space;=\beta_0&plus;\beta_1&space;X_1&plus;\beta_2&space;X_2&plus;\epsilon" title="Y =\beta_0+\beta_1 X_1+\beta_2 X_2+\epsilon" />
+>  <img src="https://latex.codecogs.com/svg.image?Y&space;=\beta_0&plus;\beta_1&space;X_1&plus;\beta_2&space;X_2&plus;\epsilon" title="Y =\beta_0+\beta_1 X_1+\beta_2 X_2+\epsilon" />
+
 
 * Two independent variables <img src="https://latex.codecogs.com/svg.image?X_1,X_2" title="X_1,X_2" />  are colinear when they are correlated with each other
 * In a multiple regression study, we assume theat the X variables are independent to each other.
 * We also assube that each X-variable has a unique piece of information about Y.
 * We belive that 
-  * <img src="https://latex.codecogs.com/svg.image?\beta_1=" title="\beta_1=" /> The change of Y for a 1-unit change in <img src="https://latex.codecogs.com/svg.image?X_1" title="X_1" /> , while <img src="https://latex.codecogs.com/svg.image?X_2" title="X_2" /> is held constant
-  * <img src="https://latex.codecogs.com/svg.image?\beta_2=" title="\beta_2=" /> The change of Y for a 1-unit change in <img src="https://latex.codecogs.com/svg.image?X_2" title="X_2" /> , while <img src="https://latex.codecogs.com/svg.image?X_1" title="X_1" /> is held constant
+  * >  <img src="https://latex.codecogs.com/svg.image?\beta_1=" title="\beta_1=" /> The change of Y for a 1-unit change in <img src="https://latex.codecogs.com/svg.image?X_1" title="X_1" /> , while <img src="https://latex.codecogs.com/svg.image?X_2" title="X_2" /> is held constant
+  * > <img src="https://latex.codecogs.com/svg.image?\beta_2=" title="\beta_2=" /> The change of Y for a 1-unit change in <img src="https://latex.codecogs.com/svg.image?X_2" title="X_2" /> , while <img src="https://latex.codecogs.com/svg.image?X_1" title="X_1" /> is held constant
 
 * In the condition when Multicorrelation exists then above two believes are oppositive or negetive.
 
 ### Effects of Multicollinearity
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1}{StdErrof&space;b_1}" title="\beta_1=\frac{b_1}{StdErrof b_1}" />
+> **t statistic for**      <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1}{StdErrof&space;b_1}" title="\beta_1=\frac{b_1}{StdErrof b_1}" />
 
 1. Variances (and standard errors) of regression coefficient estimators (i.e. the b.) are inflated. This means that Var(b) is too large.
 2. The magnitude of the <img src="https://latex.codecogs.com/svg.image?b_1" title="b_1" />, may be different from what we expect.
@@ -39,7 +40,7 @@ t statistic for <img src="https://latex.codecogs.com/svg.image?\beta_1=\frac{b_1
 
 :large_blue_diamond: 1. **Calculate the correlation coefficient (r) for each pair of the X-variables.** If any of the r-values is significantly different from zero, then the independent variables involved may be collinear.
 
-<img src="https://latex.codecogs.com/svg.image?r=\frac{Coverrience&space;X_iX_j}{\sigma_i\sigma_j}" title="r=\frac{Coverrience X_iX_j}{\sigma_i\sigma_j}" />
+> <img src="https://latex.codecogs.com/svg.image?r=\frac{Coverrience&space;X_iX_j}{\sigma_i\sigma_j}" title="r=\frac{Coverrience X_iX_j}{\sigma_i\sigma_j}" />
 
  * Caveat: Although the r for any two X variables may be too small, three independent variables, X₁, X₂, and X3, may be highly correlated as a group.
 
