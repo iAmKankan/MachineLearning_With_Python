@@ -1,6 +1,3 @@
-
-![Forks](https://img.shields.io/github/forks/iAmKankan/MachineLearning_With_Python?style=plastic)
-![Watch](https://img.shields.io/github/watchers/iAmKankan/MachineLearning_With_Python?style=plastic)
 ![Time](https://img.shields.io/date/1625002503)
  
  
