@@ -49,8 +49,7 @@
 ### Multivariate Linear Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-
-<img src="https://latex.codecogs.com/svg.image?Y=\beta&space;_0&plus;\beta_1x_1&plus;\beta_2x_2&plus;\beta_3x_3&plus;...&plus;\beta_nx_n" title="Y=\beta _0+\beta_1x_1+\beta_2x_2+\beta_3x_3+...+\beta_nx_n" />
+> <img src="https://latex.codecogs.com/svg.image?Y=\beta&space;_0&plus;\beta_1x_1&plus;\beta_2x_2&plus;\beta_3x_3&plus;...&plus;\beta_nx_n" title="Y=\beta _0+\beta_1x_1+\beta_2x_2+\beta_3x_3+...+\beta_nx_n" />
 
 * Here we need to find out all the <img src="https://latex.codecogs.com/svg.image?\inline&space;\beta" title="\inline \beta" /> coefficients.
 * It means the beta is creating some kind of relationship or slope it is creating with respect to the output variable
@@ -66,7 +65,7 @@
 * The Deviation or the Error is like-
 * Deviation is called Residual.
 
-<img src="https://latex.codecogs.com/svg.image?Residual&space;=&space;Y_p-Y_a" title="Residual = Y_p-Y_a" />
+> <img src="https://latex.codecogs.com/svg.image?Residual&space;=&space;Y_p-Y_a" title="Residual = Y_p-Y_a" />
 
 * **The mail goal is to reduce the error**.
 
@@ -74,7 +73,7 @@
 
 * -ve Y actuals also there thats why we take the squre of the whole residuals
 
-<img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\sum&space;&space;(Y_p-Y_a)^2" title="ResidualSumOfSqures = \sum (Y_p-Y_a)^2" />
+> <img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\sum&space;&space;(Y_p-Y_a)^2" title="ResidualSumOfSqures = \sum (Y_p-Y_a)^2" />
 
 * **Residual Sum Of Squres(RSS) = Ordinary least squares(OLS) = Error function = Loss Function.**
 
@@ -82,12 +81,12 @@
 
 * Inorder to fing out the minimum of a function we need to use first order derivation and second order derivation to find out the minima and maxima.
 
-<img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\left&space;(min&space;&space;\sum&space;&space;(Y_p-Y_a)^2\right&space;)" title="ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )" />
+> <img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\left&space;(min&space;&space;\sum&space;&space;(Y_p-Y_a)^2\right&space;)" title="ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )" />
 
 * **Best-fit-line we need to find out when we findout the 'a' and the 'b' that's the line which is the min error.**
 ---
 
-<img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\left&space;(min&space;&space;\sum&space;&space;(Y_p-Y_a)^2\right&space;)" title="ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )" />
+> <img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\left&space;(min&space;&space;\sum&space;&space;(Y_p-Y_a)^2\right&space;)" title="ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )" />
 
 
 
@@ -111,7 +110,7 @@ https://www.mladdict.com/linear-regression-simulator
 * The learning rate is represented by alpha <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
 
 ### Total Squired Error:
-<img src="https://latex.codecogs.com/svg.image?SE_{Line}&space;=(Y_1-(bX_1&plus;a))^2&plus;(Y_2-(bX_2&plus;a))^2&plus;...&plus;(Y_n-(bX_n&plus;a))^2" title="SE_{Line} =(Y_1-(bX_1+a))^2+(Y_2-(bX_2+a))^2+...+(Y_n-(bX_n+a))^2" />
+> <img src="https://latex.codecogs.com/svg.image?SE_{Line}&space;=(Y_1-(bX_1&plus;a))^2&plus;(Y_2-(bX_2&plus;a))^2&plus;...&plus;(Y_n-(bX_n&plus;a))^2" title="SE_{Line} =(Y_1-(bX_1+a))^2+(Y_2-(bX_2+a))^2+...+(Y_n-(bX_n+a))^2" />
 
 
 
@@ -119,7 +118,7 @@ https://www.mladdict.com/linear-regression-simulator
 ### Total varience in Y: 
 * Is the Squared Error of the mean, The mean of all Y is represented by <img src="https://latex.codecogs.com/svg.image?\overline{Y}" title="\overline{Y}" />
 
-<img src="https://latex.codecogs.com/svg.image?SE_{\overline{Y}}&space;=(Y_1-\overline{Y})^2&plus;(Y_2-\overline{Y})^2&plus;...&plus;(Y_n-\overline{Y})^2" title="SE_{\overline{Y}} =(Y_1-\overline{Y})^2+(Y_2-\overline{Y})^2+...+(Y_n-\overline{Y})^2" />
+> <img src="https://latex.codecogs.com/svg.image?SE_{\overline{Y}}&space;=(Y_1-\overline{Y})^2&plus;(Y_2-\overline{Y})^2&plus;...&plus;(Y_n-\overline{Y})^2" title="SE_{\overline{Y}} =(Y_1-\overline{Y})^2+(Y_2-\overline{Y})^2+...+(Y_n-\overline{Y})^2" />
  
 
 
