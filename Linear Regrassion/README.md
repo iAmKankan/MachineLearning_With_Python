@@ -4,7 +4,7 @@
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * **Linear Regression tends to establish a relationship between a dependent variable(Y) and one or more independent variable(X) by finding the best fit of the straight line.**
-* The equation for the Linear model is **Y = mX+c**, where m is the slope and c is the intercept
+* The equation for the Linear model is _**Y = mX+c**_, where _**m**_ is the slope and _**c**_ is the intercept
 * Linear Regression When we want to predict real continuous values as an output
 
 * There is no straight line that runs through all the data points. 
@@ -18,17 +18,21 @@
 * In general, multicollinearity can lead to wider confidence intervals that produce less reliable probabilities in terms of the effect of independent variables in a model.
 * If we have variables with Multicollinearity need to be removed.
 *  Generally 'dataframe.corr()' shows the colinearity between variables. Where **-0.4 to 0.4** is accectable range for colinearity between variables.
-*  For 
+
 ![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 
 
-* **Linear Regression is of 2 types**
-    * Simple Linear Regression 
-    * Multivariate Linear Regression
+### Linear Regression is of 2 types-
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+  * **Simple Linear Regression** 
+  * **Multivariate Linear Regression**
     
      
-* **Simple Linear Regression** 
-<img src="https://latex.codecogs.com/svg.image?Y=a&plus;bX" title="Y=a+bX" />
+### Simple Linear Regression
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+> <img src="https://latex.codecogs.com/svg.image?Y=a&plus;bX" title="Y=a+bX" />
 
 * It contains only one input variable. Only one straight line.
 
@@ -42,8 +46,9 @@
 
 <img src="https://latex.codecogs.com/svg.image?b=\frac{y_2-y_1}{x_2-x_1}" title="b=\frac{y_2-y_1}{x_2-x_1}" />
 
+### Multivariate Linear Regression
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-* **Multi Regrtession Models**
 
 <img src="https://latex.codecogs.com/svg.image?Y=\beta&space;_0&plus;\beta_1x_1&plus;\beta_2x_2&plus;\beta_3x_3&plus;...&plus;\beta_nx_n" title="Y=\beta _0+\beta_1x_1+\beta_2x_2+\beta_3x_3+...+\beta_nx_n" />
 
