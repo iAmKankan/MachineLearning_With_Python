@@ -53,6 +53,16 @@
 
  <img src="https://latex.codecogs.com/svg.image?Y=F(X)" title="Y=F(X)" />
 
+
+
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+<img src="https://latex.codecogs.com/svg.image?\begin{matrix}\textbf{ML&space;algorithms&space;Sensitive&space;to&space;outliers}&space;\\\textit{1.&space;Linear&space;Regression}\\\textit{2.&space;Logistic&space;Regression}\\\textit{3.&space;Support&space;Vector&space;Machine}\\\textit{4.&space;K-&space;Nearest&space;Neighbors}\\\textit{5.&space;K-Means&space;Clustering}\\\textit{6.&space;Hierarchical&space;Clustering}\\\textit{7.&space;Principal&space;Component&space;Analysis}&space;\\\end{matrix}" title="\begin{matrix}\textbf{ML algorithms Sensitive to outliers} \\\textit{1. Linear Regression}\\\textit{2. Logistic Regression}\\\textit{3. Support Vector Machine}\\\textit{4. K- Nearest Neighbors}\\\textit{5. K-Means Clustering}\\\textit{6. Hierarchical Clustering}\\\textit{7. Principal Component Analysis} \\\end{matrix}" />
+<img src="https://latex.codecogs.com/svg.image?\begin{matrix}\textbf{ML&space;algorithms&space;Not&space;Sensitive&space;to&space;outliers}&space;\\\textit{1.&space;Decision&space;Tree}\\\textit{2.&space;Random&space;Forest}\\\textit{3.&space;XGBoost}\\\textit{4.&space;AdaBoost}\\\textit{5.&space;Naive&space;Bayes}\\\end{matrix}" title="\begin{matrix}\textbf{ML algorithms Not Sensitive to outliers} \\\textit{1. Decision Tree}\\\textit{2. Random Forest}\\\textit{3. XGBoost}\\\textit{4. AdaBoost}\\\textit{5. Naive Bayes}\\\end{matrix}" />
+
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+
 ## Terminologies
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
@@ -79,12 +89,6 @@
   * **Overfitting** means you have trained your model havely that it gives good accuracy with training datya but failing miserably with test data.
   * **Underfit** means you have not trained your data good enough to get a decent accuracy.
 
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
-<img src="https://latex.codecogs.com/svg.image?\begin{matrix}\textbf{ML&space;algorithms&space;Sensitive&space;to&space;outliers}&space;\\\textit{1.&space;Linear&space;Regression}\\\textit{2.&space;Logistic&space;Regression}\\\textit{3.&space;Support&space;Vector&space;Machine}\\\textit{4.&space;K-&space;Nearest&space;Neighbors}\\\textit{5.&space;K-Means&space;Clustering}\\\textit{6.&space;Hierarchical&space;Clustering}\\\textit{7.&space;Principal&space;Component&space;Analysis}&space;\\\end{matrix}" title="\begin{matrix}\textbf{ML algorithms Sensitive to outliers} \\\textit{1. Linear Regression}\\\textit{2. Logistic Regression}\\\textit{3. Support Vector Machine}\\\textit{4. K- Nearest Neighbors}\\\textit{5. K-Means Clustering}\\\textit{6. Hierarchical Clustering}\\\textit{7. Principal Component Analysis} \\\end{matrix}" />
-<img src="https://latex.codecogs.com/svg.image?\begin{matrix}\textbf{ML&space;algorithms&space;Not&space;Sensitive&space;to&space;outliers}&space;\\\textit{1.&space;Decision&space;Tree}\\\textit{2.&space;Random&space;Forest}\\\textit{3.&space;XGBoost}\\\textit{4.&space;AdaBoost}\\\textit{5.&space;Naive&space;Bayes}\\\end{matrix}" title="\begin{matrix}\textbf{ML algorithms Not Sensitive to outliers} \\\textit{1. Decision Tree}\\\textit{2. Random Forest}\\\textit{3. XGBoost}\\\textit{4. AdaBoost}\\\textit{5. Naive Bayes}\\\end{matrix}" />
-
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
  
