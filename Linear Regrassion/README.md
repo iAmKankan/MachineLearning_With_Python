@@ -4,8 +4,18 @@
 * [Definition Of Linear Regression](#definition)
 * [Problem Of Linear Regression](#problem)
   * [Multicolinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Linear%20Regrassion/correlation.md#colinearity)
-* 
-### Definition
+* [Types of Linear Regression](#linear-regression-is-of-2-types)
+  * [Simple Linear Regression](#simple-linear-regression)
+  * [Multivariate Linear Regression](#multivariate-linear-regression)
+* [Error](#error-or-loss-or-cost)
+  * [Residual Sum Of Squres(RSS)](#residual-sum-of-squres)
+  * [Total Squired Error](#total-squired-error)
+  * [Total varience in Y](#total-varience-in-y)
+  * [ R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />) or Coefficient of Determination](#r-squared-error-or-coefficient-of-determination)
+  * [Adjusted R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />)](#adjusted-r-squared-error)
+
+
+## Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * **Linear Regression tends to establish a relationship between a dependent variable(Y) and one or more independent variable(X) by finding the best fit of the straight line.**
@@ -27,7 +37,7 @@
 ![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 
 
-### Linear Regression is of 2 types-
+## Linear Regression is of 2 types
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
   * **Simple Linear Regression** 
@@ -63,7 +73,9 @@
 
 ![linear](https://user-images.githubusercontent.com/12748752/127488303-78ce74fd-a216-4e55-953d-e97f4ec9798a.png)
 
-## Error/Loss/Cost:
+## Error or Loss or Cost
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+#### Residual Sum Of Squres
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * The aim is to minimize the error which is the distance from the bestfit line to each observation.
@@ -114,22 +126,27 @@
 https://www.mladdict.com/linear-regression-simulator
 * The learning rate is represented by alpha <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
 
-### Total Squired Error:
+### Total Squired Error
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 > <img src="https://latex.codecogs.com/svg.image?SE_{Line}&space;=(Y_1-(bX_1&plus;a))^2&plus;(Y_2-(bX_2&plus;a))^2&plus;...&plus;(Y_n-(bX_n&plus;a))^2" title="SE_{Line} =(Y_1-(bX_1+a))^2+(Y_2-(bX_2+a))^2+...+(Y_n-(bX_n+a))^2" />
 
 
 
 
-### Total varience in Y: 
+### Total varience in Y
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * Is the Squared Error of the mean, The mean of all Y is represented by <img src="https://latex.codecogs.com/svg.image?\overline{Y}" title="\overline{Y}" />
 
 > <img src="https://latex.codecogs.com/svg.image?SE_{\overline{Y}}&space;=(Y_1-\overline{Y})^2&plus;(Y_2-\overline{Y})^2&plus;...&plus;(Y_n-\overline{Y})^2" title="SE_{\overline{Y}} =(Y_1-\overline{Y})^2+(Y_2-\overline{Y})^2+...+(Y_n-\overline{Y})^2" />
  
 
 
-### What % of the variation is NOT Described by the vasriation in X or by the Regression line = <img src="https://latex.codecogs.com/svg.image?\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="\frac{SE_{Line} }{SE_{\overline{Y}}}" />
+#### What % of the variation is NOT Described by the vasriation in X or by the Regression line = <img src="https://latex.codecogs.com/svg.image?\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="\frac{SE_{Line} }{SE_{\overline{Y}}}" />
 
-## R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />) or Coefficient of Determination
+### R Squared Error or Coefficient of Determination
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * **Coefficient of Determination = What % of the variation is acctually Described by the vasriation in X or by the Regression line =** <img src="https://latex.codecogs.com/svg.image?1-\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="1-\frac{SE_{Line} }{SE_{\overline{Y}}}" />
 
@@ -141,7 +158,9 @@ https://www.mladdict.com/linear-regression-simulator
 
 ![error](https://user-images.githubusercontent.com/12748752/127488864-8d0310bd-02a5-4bab-8ea6-5140917eca64.png)
 
-## Adjusted R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />):
+### Adjusted R Squared Error
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * It is possible to get <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> value < 0(-ve)
    * When the the regression line is not better than the average line or Total varience in Y
 * If we add independent features the value of R^2 is improves by decresing the value of <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />. But the features may not to correlated  to the output variable Y.
