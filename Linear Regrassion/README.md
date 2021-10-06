@@ -1,5 +1,7 @@
 # Linear Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
+
 ### Index
 * [Definition Of Linear Regression](#definition)
 * [Problem Of Linear Regression](#problem)
@@ -24,17 +26,73 @@
 
 * There is no straight line that runs through all the data points. 
 * So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
+## Assumptions of Linear Regression
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+* Let’s look at the important assumptions in regression analysis-
+  * There should be no correlation between the residual (error) terms. Absence of this phenomenon is known as **Autocorrelation**.
+  * The independent variables should not be correlated. Absence of this phenomenon is known as **Multicollinearity**.
+  * The error terms must have constant variance. This phenomenon is known as **Homoskedasticity**. The presence of non-constant variance is referred to **Heteroskedasticity**.
+  * **The error terms must be normally distributed**.
+  * There should be a **linear and additive relationship between dependent (response) variable and independent (predictor) variable(s)**. 
+     * A linear relationship suggests that a change in response Y due to one unit change in X¹ is constant, regardless of the value of X¹. 
+     * An additive relationship suggests that the effect of X¹ on Y is independent of other variables.
+## What if these assumptions get violated
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+### Linear and Additive: 
+* If you fit a linear model to a non-linear, non-additive data set, the regression algorithm would fail to capture the trend mathematically, thus resulting in an inefficient model. Also, this will result in erroneous predictions on an unseen data set.
 
-### Problem
+#### How to check
+* Look for residual vs fitted value plots.
+*  Also, you can include polynomial terms (X, X², X³) in your model to capture the non-linear effect.
+
+### [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Linear%20Regrassion/correlation.md#colinearity)
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-* [**Multi-colinearity**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Linear%20Regrassion/correlation.md#colinearity) is the occurrence of high intercorrelations among two or more independent variables in a multiple regression model. 
-* Multicollinearity can lead to skewed or misleading results.
-* In general, multicollinearity can lead to wider confidence intervals that produce less reliable probabilities in terms of the effect of independent variables in a model.
-* If we have variables with Multicollinearity need to be removed.
-*  Generally 'dataframe.corr()' shows the colinearity between variables. Where **-0.4 to 0.4** is accectable range for colinearity between variables.
+* It is an scenario when two or more indipendent variables are highly correlated to each other in such a way that isolating their individual effect on the dependent variable is very difficult in a multiple regression model.
+* Multicollinearity can lead to skewed or misleading results when we attempts to determine how well each independent variable can be used most effectively to predict or understand the dependent variable in a statistical model.
+* There are four steps to remove multicollinearity-
+  * **Increase the sample size**- By doin g this it might reduce the high colinearity of those two variables.
+  * **Use priori information**- We can look into the previous data to make the conclution
+  * **Transform the function relationship with dependent variable**
+  * **Drop the variable**
+ #### How to check
+ * You can use scatter plot to visualize correlation effect among variables. 
+ *  Generally 'dataframe.corr()' shows the colinearity between variables. Where **-0.4 to 0.4** is accectable range for colinearity between variables.
+ * Also, you can also use VIF factor. 
+   * VIF value <= 4 suggests no multicollinearity whereas a value of >= 10 implies serious multicollinearity.
+ ### Heteroscedasticity 
+ ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
+ * The presence of non-constant variance in the error terms results in heteroskedasticity.
+ * Generally, non-constant variance arises in presence of outliers or extreme leverage values.
+ * Look like, these values get too much weight, thereby disproportionately influences the model’s performance. 
+ * When this phenomenon occurs, the confidence interval for out of sample prediction tends to be unrealistically wide or narrow.
+
+#### How to check
+* You can look at residual vs fitted values plot.
+*  If heteroskedasticity exists, the plot would exhibit a funnel shape pattern (shown in next section). 
+*  Also, you can use Breusch-Pagan / Cook – Weisberg test or White general test to detect this phenomenon.
+ ### Autocorrelation 
+ ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+ * It's refers to a perticular data where the error term of one time period is correlated to the error term of anothether time period. 
+ * This is very common to time series data analysis.
+ #### How to check
+ * Durbin – Watson (DW) statistic. 
+    *  It must lie between 0 and 4.
+    *  If DW = 2, implies no autocorrelation, 
+    *  0 < DW < 2 implies positive autocorrelation 
+    *  2 < DW < 4 indicates negative autocorrelation
+ *  Also, you can see residual vs time plot and look for the seasonal or correlated pattern in residual values.
+  
+### Normal Distribution of error terms
+* If the error terms are non- normally distributed, confidence intervals may become too wide or narrow.
+* Once confidence interval becomes unstable, it leads to difficulty in estimating coefficients based on minimization of least squares.
+* Presence of non – normal distribution suggests that there are a few unusual data points which must be studied closely to make a better model.
+
+#### How to check: 
+* You can look at QQ plot (shown below). 
+* You can also perform statistical tests of normality such as Kolmogorov-Smirnov test, Shapiro-Wilk test.
 
 
 ## Linear Regression is of 2 types
@@ -170,11 +228,7 @@ https://www.mladdict.com/linear-regression-simulator
 ![adjustedr](https://user-images.githubusercontent.com/12748752/127488214-c98d545a-fad0-4f0e-8176-786836be572d.png)
 
 
-## Assumptions of Linear Regression
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-### Multicollinearity
-* It is an scenario when two or more indipendent variables are highly correlated to each other in such a way that isolating their individual effect on the dependent variable is very difficult in a multiple regression model.
-* Multicollinearity can lead to skewed or misleading results when we attempts to determine how well each independent variable can be used most effectively to predict or understand the dependent variable in a statistical model.
+
 
 ## Batch Gradient Descent
 
