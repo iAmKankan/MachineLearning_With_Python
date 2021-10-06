@@ -1,36 +1,34 @@
-![Time](https://img.shields.io/date/1625002503)
- ### Index
-* [What is Machine Learning](#what-is-machine-learning)
-* [Lifecycle of ML](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/ML_lifecycle.md#lifecycle-of-ml)
+### Index 
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+*  [What is Machine Learning](#what-is-machine-learning)
+*  [Lifecycle of ML](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/ML_lifecycle.md#lifecycle-of-ml)
    * Data Acquisition
    * [Data Preparation/ Data Preprocessing](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing#readme)
    * Hypothesis & Modeling
    * Evaluation & Interpretation
    * Deployment
    * Operation & Optimization
-  
- * [Supervised Learning](#supervised-learning)
-   * Statistical Concept based Algos
-      * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Linear%20Regrassion#linear-regression)
-      * Logistic Regression
-   *  Information Theory Concept
-      * Decision Tree
-      * Random Forest
-   * **Basian Statistics**
-      * Naive Bayes
-
-   * **Pure Mathemetical optimisation model**
-      * SVM.
-  
- * [Terminologies](#terminologies)
+* [Supervised Learning](#supervised-learning)   
+  * **Statistical Concept based Algos**
+    * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Linear%20Regrassion#linear-regression)
+    * [Logistic Regression]()
+  * **Information Theory Concept**
+    * [Decision Tree]()
+    * [Random Forest]()
+  * **Basian Statistics**
+    * [Naive Bayes]()
+  * **Pure Mathemetical optimisation model**
+    * [SVM]()
+* [Terminologies](#terminologies)
    * [Bias and Varience](#bias-and-varience)
-     * Regularization
-     * Boosting
-     * Bagging
+     * [Regularization]
+     * [Boosting]
+     * [Bagging]
    * [Overfitting And Underfitting](#overfitting-and-underfitting)
+
+
 ## What is Machine Learning
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-
 * Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.
 
 ###  [Lifecycle of ML](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/ML_lifecycle.md#lifecycle-of-ml)
