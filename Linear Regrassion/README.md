@@ -4,8 +4,12 @@
 
 ### Index
 * [Definition Of Linear Regression](#definition)
-* [Problem Of Linear Regression](#problem)
-  * [Multicolinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Linear%20Regrassion/correlation.md#colinearity)
+* [Assumptions of Linear Regression](#assumptions-of-linear-regression)
+  * [Multicollinearity](#multicollinearity)
+  * [Linear and Additive](#linear-and-additive)
+  * [Heteroscedasticity](#heteroscedasticity)
+  * [Autocorrelation](#autocorrelation)
+  * [Normal Distribution of error terms](#normal-distribution-of-error-terms)
 * [Types of Linear Regression](#linear-regression-is-of-2-types)
   * [Simple Linear Regression](#simple-linear-regression)
   * [Multivariate Linear Regression](#multivariate-linear-regression)
@@ -38,7 +42,9 @@
      * An additive relationship suggests that the effect of X¹ on Y is independent of other variables.
 ## What if these assumptions get violated
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-### Linear and Additive: 
+### Linear and Additive
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * If you fit a linear model to a non-linear, non-additive data set, the regression algorithm would fail to capture the trend mathematically, thus resulting in an inefficient model. Also, this will result in erroneous predictions on an unseen data set.
 
 #### How to check
