@@ -21,9 +21,9 @@
     * [SVM]()
 * [Terminologies](#terminologies)
    * [Bias and Varience](#bias-and-varience)
-     * [Regularization]
-     * [Boosting]
-     * [Bagging]
+     * [Regularization]()
+     * [Boosting]()
+     * [Bagging]()
    * [Overfitting And Underfitting](#overfitting-and-underfitting)
 
 
