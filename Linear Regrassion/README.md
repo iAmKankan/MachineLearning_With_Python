@@ -144,6 +144,7 @@ https://www.mladdict.com/linear-regression-simulator
 
 
 #### What % of the variation is NOT Described by the vasriation in X or by the Regression line = <img src="https://latex.codecogs.com/svg.image?\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="\frac{SE_{Line} }{SE_{\overline{Y}}}" />
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ### R Squared Error or Coefficient of Determination
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
@@ -169,9 +170,11 @@ https://www.mladdict.com/linear-regression-simulator
 ![adjustedr](https://user-images.githubusercontent.com/12748752/127488214-c98d545a-fad0-4f0e-8176-786836be572d.png)
 
 
-
-
-
+## Assumptions of Linear Regression
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+### Multicollinearity
+* It is an scenario when two or more indipendent variables are highly correlated to each other in such a way that isolating their individual effect on the dependent variable is very difficult in a multiple regression model.
+* Multicollinearity can lead to skewed or misleading results when we attempts to determine how well each independent variable can be used most effectively to predict or understand the dependent variable in a statistical model.
 
 ## Batch Gradient Descent
 
