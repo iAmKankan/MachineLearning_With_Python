@@ -1,6 +1,32 @@
-# Logistic Regression
+## Logistic Regression
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+## Index
 
-## Definition
+
+
+
+
+
+### Difference between Linear Regression and Logistic Regression
+||Y|X|
+|:---:|:---:|:---:|
+|Linear Regression|<img src="https://latex.codecogs.com/svg.image?\mathrm{-\infty&space;\textbf{To}&space;&plus;\infty" title="\mathrm{-\infty \textbf{To} +\infty" />|<img src="https://latex.codecogs.com/svg.image?\mathrm{-\infty&space;\textbf{To}&space;&plus;\infty" title="\mathrm{-\infty \textbf{To} +\infty" />|
+|Logistic Regression|_0 or 1_|<img src="https://latex.codecogs.com/svg.image?\mathrm{-\infty&space;\textbf{To}&space;&plus;\infty" title="\mathrm{-\infty \textbf{To} +\infty" />|
+
+
+
+
+### Definition
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* Logestic Regression is a binary classifier that classify your data as a linear separation boundary.
+* But unlike Linear Regression the result cann't be infered by drawing a single regression line, like below-
+![linear_logis](https://user-images.githubusercontent.com/12748752/136411478-043f0eb2-e6ef-43d5-9e34-dc1d02f073cc.png)
+
+
+
+
+
 * **The logistic regression technique involves the dependent variable, which can be represented in the binary (0 or 1, true or false, yes or no) values.**
 * Which means that the outcome could only be in either one form of two.
 * For example, it can be utilized when we need to find the probability of a **successful** or **fail event**.
