@@ -16,12 +16,15 @@
 
 
 
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
+
+
 
 ### Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Logestic Regression is a binary classifier that classify your data as a linear separation boundary.
 * But unlike Linear Regression the result cann't be infered by drawing a single regression line, like below-
-![linear_logis](https://user-images.githubusercontent.com/12748752/136411478-043f0eb2-e6ef-43d5-9e34-dc1d02f073cc.png)
+![linear_logis](https://user-images.githubusercontent.com/12748752/136411478-043f0eb2-e6ef-43d5-9e34-dc1d02f073cc.png){:width=50%}
 
 
 
