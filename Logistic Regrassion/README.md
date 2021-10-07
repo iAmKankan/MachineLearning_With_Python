@@ -16,19 +16,38 @@
 
 
 
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
-
+ 
 
 
 ### Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Logestic Regression is a binary classifier that classify your data as a linear separation boundary.
 * But unlike Linear Regression the result cann't be infered by drawing a single regression line, like below-
-![linear_logis](https://user-images.githubusercontent.com/12748752/136411478-043f0eb2-e6ef-43d5-9e34-dc1d02f073cc.png){:width=50%}
-
-
-
-
+![Blank Diagram](https://user-images.githubusercontent.com/12748752/136457221-4ea7043b-4e18-482c-bd0f-38ee24d8ceb9.png)
+* Because, the result is not always 0 and 1. Sometimes may be slight less than 0 or little more than 1. Thats why one regression line is not enough 
+* So, anything bigger than 1 we need to clip it and make it 1 similarly anything less than 0 we need to clip it and make it 0. For this we need to draw 3 lines hence it is not differenciable. 
+* The Solution is to pass the function _**f(x)**_ (which is = <img src="https://latex.codecogs.com/svg.image?\mathrm{-\infty&space;\textbf{To}&space;&plus;\infty" title="\mathrm{-\infty \textbf{To} +\infty" />) to another function lets _**g()**_ such a way that the result will lies between _**0**_ and _**1**_.
+* _**g(f(x))**_ it is called Generalized Linear Model(GLM)
+* y= _**g(f(x))**_
+    * Where _**g()**_ is a **Identity** function = Linear regression
+    * Where _**g()**_ is a **Sigmoid** function = Logistic regression
+* Sigmoid function = <img src="https://latex.codecogs.com/svg.image?\mathrm{\frac{1}{1&plus;&space;e^{-x}}}" title="\mathrm{\frac{1}{1+ e^{-x}}}" />
+* if x= <img src="https://latex.codecogs.com/svg.image?\infty" title="\infty" /> 
+    * ⇒ e-∞
+    * ⇒ ( 2.71…)-∞
+    * ⇒ 1/ e∞ or 1/ (2.71…)∞
+    * ⇒ 1/ ∞
+    * ⇒ 0
+* Hence, if x= <img src="https://latex.codecogs.com/svg.image?\infty" title="\infty" />. Then <img src="https://latex.codecogs.com/svg.image?\mathrm{\frac{1}{1&plus;&space;e^{-x}}}" title="\mathrm{\frac{1}{1+ e^{-x}}}" /> = 1 or very close to 1
+* if x= - <img src="https://latex.codecogs.com/svg.image?\infty" title="\infty" /> 
+    * ⇒ e∞
+    * ⇒ ( 2.71…)∞
+* ⇒ 1/ e∞ or 1/ (2.71…)∞
+* ⇒ 1/ ∞
+* ⇒ 0
+* Hence, if x= -<img src="https://latex.codecogs.com/svg.image?\infty" title="\infty" />. Then <img src="https://latex.codecogs.com/svg.image?\mathrm{\frac{1}{1&plus;&space;e^{-x}}}" title="\mathrm{\frac{1}{1+ e^{-x}}}" /> = 0 or very close to 0
+ 
+> ![sigmoid](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/480px-Logistic-curve.svg.png) 
 
 * **The logistic regression technique involves the dependent variable, which can be represented in the binary (0 or 1, true or false, yes or no) values.**
 * Which means that the outcome could only be in either one form of two.
