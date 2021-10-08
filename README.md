@@ -27,6 +27,7 @@
    * [Overfitting And Underfitting](#overfitting-and-underfitting)
    * [Interpretable Models](#interpretable-model)
    * [Black-Box Models](#black-box-model)
+   * [Curse of Dimensionlity](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/README.md#curse-of-dimentionlity)
 
 
 ## What is Machine Learning
