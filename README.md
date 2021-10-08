@@ -97,6 +97,7 @@
    * **Linear Regression**
    * **Logistic Regression**
    * **Desission Tree**
+* Banking sector and Healthcare sector it is very common.
 ### Black-Box model
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Every other model than interpretable models are fall under this catagory
