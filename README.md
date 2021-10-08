@@ -25,6 +25,8 @@
      * [Boosting]()
      * [Bagging]()
    * [Overfitting And Underfitting](#overfitting-and-underfitting)
+   * [Interpretable Models](#interpretable-model)
+   * [Black-Box Models](#black-box-model)
 
 
 ## What is Machine Learning
@@ -89,13 +91,14 @@
   * **Overfitting** means you have trained your model havely that it gives good accuracy with training datya but failing miserably with test data.
   * **Underfit** means you have not trained your data good enough to get a decent accuracy.
 
-### Interpretable models
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+### Interpretable model
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Interpretable models are models who explain themselves, for instance from a decision tree you can easily extract decision rules. 
    * **Linear Regression**
    * **Logistic Regression**
    * **Desission Tree**
 ### Black-Box model
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Every other model than interpretable models are fall under this catagory
   * **Deep Learning** models are fully Black-Box models.
   *  **Random Forest** is fully Black-Box model.
