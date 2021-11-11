@@ -20,6 +20,7 @@
     * [Naive Bayes]()
   * **Pure Mathemetical optimisation model**
     * [SVM]()
+   
 * [Terminologies](#terminologies)
    * [Bias and Varience](#bias-and-varience)
      * [Regularization]()
