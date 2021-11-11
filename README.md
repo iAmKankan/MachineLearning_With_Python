@@ -56,6 +56,7 @@
 
  <img src="https://latex.codecogs.com/svg.image?Y=F(X)" title="Y=F(X)" />
 
+<img src="https://user-images.githubusercontent.com/12748752/141359379-bbb6102c-ae37-477d-a5a1-a6b1cedd3295.png" height=100%/>
 
 
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
