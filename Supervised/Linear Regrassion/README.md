@@ -5,7 +5,7 @@
 ### Index
 * [Definition Of Linear Regression](#definition)
 * [Assumptions of Linear Regression](#assumptions-of-linear-regression)
-  * [Multicollinearity](#multicollinearity)
+  * [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
   * [Linear and Additive](#linear-and-additive)
   * [Heteroscedasticity](#heteroscedasticity)
   * [Autocorrelation](#autocorrelation)
@@ -54,18 +54,6 @@
 ### [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-* It is an scenario when two or more indipendent variables are highly correlated to each other in such a way that isolating their individual effect on the dependent variable is very difficult in a multiple regression model.
-* Multicollinearity can lead to skewed or misleading results when we attempts to determine how well each independent variable can be used most effectively to predict or understand the dependent variable in a statistical model.
-* There are four steps to remove multicollinearity-
-  * **Increase the sample size**- By doin g this it might reduce the high colinearity of those two variables.
-  * **Use priori information**- We can look into the previous data to make the conclution
-  * **Transform the function relationship with dependent variable**
-  * **Drop the variable**
- #### How to check
- * You can use scatter plot to visualize correlation effect among variables. 
- *  Generally 'dataframe.corr()' shows the colinearity between variables. Where **-0.4 to 0.4** is accectable range for colinearity between variables.
- * Also, you can also use VIF factor. 
-   * VIF value <= 4 suggests no multicollinearity whereas a value of >= 10 implies serious multicollinearity.
  ### Heteroscedasticity 
  ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
