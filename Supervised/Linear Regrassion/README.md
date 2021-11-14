@@ -51,7 +51,7 @@
 * Look for residual vs fitted value plots.
 *  Also, you can include polynomial terms (X, X², X³) in your model to capture the non-linear effect.
 
-### [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Linear%20Regrassion/correlation.md#colinearity)
+### [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * It is an scenario when two or more indipendent variables are highly correlated to each other in such a way that isolating their individual effect on the dependent variable is very difficult in a multiple regression model.
