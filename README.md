@@ -79,7 +79,7 @@
 * Because the squiggly line is fitted in train set but not in test set we say it is **Overfit** and the performance is not consistence.
 * In machine learning, the ideal algorithm has low bias and can accurately model the true relationship and it has low variability, by producing consistent predictions across different datasets.
 * Three commonly used methods for finding the sweet spot between simple and complicated models are:
-  * **Regularization.**
+  * [**Regularization.**](https://github.com/iAmKankan/Regularization/blob/master/README.md)
   * **Boosting.**
   * **Bagging.**
 ### Overfitting And Underfitting
