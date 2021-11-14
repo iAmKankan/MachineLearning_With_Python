@@ -4,8 +4,8 @@
 * [Supervised Learning](#supervised-learning) 
 * [Supervised Learning Catagories](#supervised-learning-catagories)   
   * **Statistical Concept based Algos**
-    * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Linear%20Regrassion#readme)
-    * [Logistic Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Logistic%20Regrassion#readme)
+    * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Linear%20Regrassion#readme)
+    * [Logistic Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Logistic%20Regrassion#readme)
   * **Information Theory Concept**
     * [Decision Tree]()
     * [Random Forest]()
