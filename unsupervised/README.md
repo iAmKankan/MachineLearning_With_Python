@@ -9,8 +9,8 @@
    * Anomaly detection and novelty detection
       * One-class SVM
       * Isolation Forest
-  * Visualization and dimensionality reduction
-     * Principal Component Analysis (PCA)
+  * [Visualization and dimensionality reduction](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Dimensionality_Reduction#readme)
+     * [Principal Component Analysis (PCA)](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Dimensionality_Reduction/PCA.md)
      * Kernel PCA
      * Locally-Linear Embedding (LLE)
      * t-distributed Stochastic Neighbor Embedding (t-SNE)
