@@ -9,7 +9,6 @@
    * Deployment
    * Operation & Optimization
 * [Supervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
-* [Supervised Learning Catagories](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised#supervised-learning-catagories)   
   * **Statistical Concept based Algos**
     * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Linear%20Regrassion#readme)
     * [Logistic Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Logistic%20Regrassion#readme)
