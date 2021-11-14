@@ -99,3 +99,4 @@ Similarly:
 
 * https://en.wikipedia.org/wiki/Correlation_and_dependence
 * https://www.youtube.com/watch?v=pZhm1GMn2GY&t=159s
+* https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/
