@@ -1,7 +1,6 @@
 ## Lifecycle of ML
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-![](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/lifecycle.png)
-
+![lifecycle](https://user-images.githubusercontent.com/12748752/141670973-047dd271-d037-4004-81c0-64c5dca810d3.png)
 
 
 ## Lifecycle of data and ML 
@@ -69,7 +68,7 @@
    - Train/test split
    - Cross-Validation
 
-![Train_test_Flow.png](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Train_test_Flow.png)
+![Train_test_Flow](https://user-images.githubusercontent.com/12748752/141670977-ae3e17a8-0636-4fb6-a052-cf4de904f5a9.png)
 
 
 #### Train/test split
@@ -123,16 +122,16 @@
 
 
 
-![confusion.jpg](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/confusion.jpg)
+![confusion](https://user-images.githubusercontent.com/12748752/141670970-d95a8f0d-550e-4c66-9740-84e06ef269b7.jpg)
    
- ![accuracy.png](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/accuracy.png)     
+![accuracy](https://user-images.githubusercontent.com/12748752/141670978-009b1fe1-9dd3-496e-830f-7514383e3cd1.png)
  
  ---
- ![precision.png](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/precision.png)
+![precision](https://user-images.githubusercontent.com/12748752/141670975-9bb6438b-f858-4b73-83d3-015d10f44027.png)
 
- ![recall.png](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/recall.png)
+![recall](https://user-images.githubusercontent.com/12748752/141670976-318580ca-12e4-474b-95be-8d01862b50ca.png)
 
- ![f1.png](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/f1.png)
+![f1](https://user-images.githubusercontent.com/12748752/141670972-4a4c0e56-8b64-4f35-a33c-89b31da196d1.png)
 
 
 
