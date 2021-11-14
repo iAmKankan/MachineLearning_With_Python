@@ -20,7 +20,22 @@
     * [Naive Bayes]()
   * **Pure Mathemetical optimisation model**
     * [SVM]()
-* [Unsupervised Learning](#unsupervised-learning)
+* [Unsupervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
+   * Clustering
+      * K-Means
+      * DBSCAN
+      * Hierarchical Cluster Analysis (HCA)
+   * Anomaly detection and novelty detection
+      * One-class SVM
+      * Isolation Forest
+  * Visualization and dimensionality reduction
+     * Principal Component Analysis (PCA)
+     * Kernel PCA
+     * Locally-Linear Embedding (LLE)
+     * t-distributed Stochastic Neighbor Embedding (t-SNE)
+  * Association rule learning
+     * Apriori
+     * Eclat
 
 * [Terminologies](#terminologies)
    * [Bias and Varience](#bias-and-varience)
