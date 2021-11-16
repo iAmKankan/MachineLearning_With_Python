@@ -21,6 +21,7 @@
 
 ### Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* **Regression refers to a set of methods for modeling the relationship between one or more independent variables and a dependent variable.**
 * Logestic Regression is a binary classifier that classify your data as a linear separation boundary.
 * But unlike Linear Regression the result cann't be infered by drawing a single regression line, like below-
 ![Blank Diagram](https://user-images.githubusercontent.com/12748752/136457221-4ea7043b-4e18-482c-bd0f-38ee24d8ceb9.png)
