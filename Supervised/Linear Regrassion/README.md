@@ -3,6 +3,7 @@
 ![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 
 ### Index
+* [What is Regression](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
 * [Definition Of Linear Regression](#definition)
 * [Assumptions of Linear Regression](#assumptions-of-linear-regression)
   * [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
@@ -19,6 +20,9 @@
   * [Total varience in Y](#total-varience-in-y)
   * [ R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />) or Coefficient of Determination](#r-squared-error-or-coefficient-of-determination)
   * [Adjusted R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />)](#adjusted-r-squared-error)
+
+## [What is Regression](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 
 ## Definition
