@@ -3,9 +3,10 @@
 https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/
 ### Multicollinearity
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+> #### Multicollinearity occurs when independent variables in a regression model are correlated. This correlation is a problem because independent variables should be independent. 
+> #### If the degree of correlation between variables is high enough, it can cause problems when you fit the model and interpret the results.
 
-* It is an scenario when two or more indipendent variables are highly correlated to each other in such a way that isolating their individual effect on the dependent variable is very difficult in a multiple regression model.
-* Multicollinearity can lead to skewed or misleading results when we attempts to determine how well each independent variable can be used most effectively to predict or understand the dependent variable in a statistical model.
+
 * There are four steps to remove multicollinearity-
   * **Increase the sample size**- By doin g this it might reduce the high colinearity of those two variables.
   * **Use priori information**- We can look into the previous data to make the conclution
