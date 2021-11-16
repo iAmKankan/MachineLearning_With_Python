@@ -38,7 +38,7 @@
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * Let’s look at the important assumptions in regression analysis-
   * There should be no correlation between the residual (error) terms. Absence of this phenomenon is known as **Autocorrelation**.
-  * The independent variables should not be correlated. Absence of this phenomenon is known as **Multicollinearity**.
+  * The independent variables should not be correlated. Absence of this phenomenon is known as [**Multicollinearity**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md).
   * The error terms must have constant variance. This phenomenon is known as **Homoskedasticity**. The presence of non-constant variance is referred to **Heteroskedasticity**.
   * **The error terms must be normally distributed**.
   * There should be a **linear and additive relationship between dependent (response) variable and independent (predictor) variable(s)**. 
@@ -55,9 +55,9 @@
 * Look for residual vs fitted value plots.
 *  Also, you can include polynomial terms (X, X², X³) in your model to capture the non-linear effect.
 
-### [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
+### Multicollinearity
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
+* [Please follow the link](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
  ### Heteroscedasticity 
  ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
