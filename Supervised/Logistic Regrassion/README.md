@@ -9,6 +9,7 @@
 
 ## [What is Regression](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* Please follow the link
 
 ### Difference between Linear Regression and Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
