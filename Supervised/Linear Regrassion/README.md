@@ -21,9 +21,9 @@
   * [ R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />) or Coefficient of Determination](#r-squared-error-or-coefficient-of-determination)
   * [Adjusted R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />)](#adjusted-r-squared-error)
 
-## [What is Regression](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
+## What is Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* Please follow the link
+* [**Please follow the link**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
 
 ## Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
