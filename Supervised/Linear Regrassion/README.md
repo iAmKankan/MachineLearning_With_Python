@@ -3,7 +3,7 @@
 ![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 
 ### Index
-* [What is Regression](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
+* [What is Regression](#what-is-regression)
 * [Definition Of Linear Regression](#definition)
 * [Assumptions of Linear Regression](#assumptions-of-linear-regression)
   * [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
@@ -23,7 +23,7 @@
 
 ## [What is Regression](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
+* Please follow the link
 
 ## Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
