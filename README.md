@@ -33,6 +33,8 @@
      * Locally-Linear Embedding (LLE)
      * t-distributed Stochastic Neighbor Embedding (t-SNE)
   * Association rule learning
+     * Apriori
+     * Eclat
 * [Terminologies](#terminologies)
    * [Bias and Varience](#bias-and-varience)
      * [Regularization]()
@@ -113,12 +115,9 @@
 
 <img src="https://user-images.githubusercontent.com/12748752/144843896-495dcb21-0fda-4887-ad92-63581c467e52.gif" width=20%/>
 
-However, there are infinite number of lines that can be drawn to discriminate two separable classes, as shown below
+* However, there are infinite number of lines that can be drawn to discriminate two separable classes, as shown below
 <img src="https://user-images.githubusercontent.com/12748752/144843889-fc4494a5-7493-4220-99a5-094c7a6ff107.png" width=20%/>
+* How you approximate the exact location of this discriminating line (or plane or hyperplane) depends on the type of a classifier called linear classifier. 
+* Some examples of linear classifier are: Linear Discriminant Classifier, Naive Bayes, Logistic Regression, Perceptron, SVM (with linear kernel)
 
-(Image Source: Linear versus nonlinear classifiers)
-
-How you approximate the exact location of this discriminating line (or plane or hyperplane) depends on the type of a classifier called linear classifier. Some examples of linear classifier are: Linear Discriminant Classifier, Naive Bayes, Logistic Regression, Perceptron, SVM (with linear kernel)
-     * Apriori
-     * Eclat
  
