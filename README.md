@@ -117,7 +117,20 @@
 
 * However, there are infinite number of lines that can be drawn to discriminate two separable classes, as shown below
 <img src="https://user-images.githubusercontent.com/12748752/144843889-fc4494a5-7493-4220-99a5-094c7a6ff107.png" width=20%/>
-* How you approximate the exact location of this discriminating line (or plane or hyperplane) depends on the type of a classifier called linear classifier. 
-* Some examples of linear classifier are: Linear Discriminant Classifier, Naive Bayes, Logistic Regression, Perceptron, SVM (with linear kernel)
+
+* How you approximate the exact location of this discriminating line (or plane or hyperplane) depends on the type of a classifier called linear classifier.
+* Some examples of linear classifier are: `Linear Discriminant Classifier`, `Naive Bayes`, `Logistic Regression`, `Perceptron`, `SVM (with linear kernel)`.
+
+
+#### Non-Linear Classifier
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* Let’s consider the famous XOR problem. An XOR’s truth table and the data distribution is shown below.
+* In this situation, there is no way that a straight line can be drawn to discriminate the two classes (0 and 1)
+
+<img src="https://user-images.githubusercontent.com/12748752/144843899-ea16eeac-2329-4664-8912-60f26d9cfaff.gif"/>
+
+* Another example is below, where majority of points one one class can be discriminated from the other classes by drawing a straight line. 
+* But some points of that class are present in between the data points of second class (shown inside a circle). 
+* It is clear that drawing one straight line cannot identify all the points of one of the class correctly.
 
  
