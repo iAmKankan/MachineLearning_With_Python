@@ -129,8 +129,4 @@
 
 <img src="https://user-images.githubusercontent.com/12748752/144843899-ea16eeac-2329-4664-8912-60f26d9cfaff.gif"/>
 
-* Another example is below, where majority of points one one class can be discriminated from the other classes by drawing a straight line. 
-* But some points of that class are present in between the data points of second class (shown inside a circle). 
-* It is clear that drawing one straight line cannot identify all the points of one of the class correctly.
 
- 
