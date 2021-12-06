@@ -44,6 +44,7 @@
    * [Interpretable Models](#interpretable-model)
    * [Black-Box Models](#black-box-model)
    * [Curse of Dimensionlity](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/README.md#curse-of-dimentionlity)
+   * [Linear and Non-Linear Classifications](#linear-classification-vs-non-linear-classification)
 
 
 ## What is Machine Learning
