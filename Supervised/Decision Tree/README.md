@@ -1,28 +1,20 @@
-# Decision tree
+## Index
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-## Definition
-* **A decision tree is a type of supervised learning algorithm that can be used in classification as well as regressor problems. The input to a decision tree can be both continuous as well as categorical. The decision tree works on an if-then statement. Decision tree tries to solve a problem by using tree representation (Node and Leaf)**
-
-
-
-
+## Decision tree
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+### Definition
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* Decision Trees are versatile Machine Learning algorithms that can perform both classification and regression tasks, and even multi-output tasks. 
+* They are powerful algorithms, capable of fitting complex datasets.
+* Decision Trees are also the fundamental components of Random Forests
 * Graphical representation of all possible solution to a decision.
-* Decision are based on some conditions.
-* Decision mede can be easily explained.
-* Decision tree is one of the most powerful and popular algorithm.
-* Decision tree algorithm falls under the category of supervised learning algorithms.
-* Though, It works for both continuous as well as categorical
+* One of the many qualities of Decision Trees is that they require very little data preparation. 
+* In fact, they don’t require feature scaling or centering at all.
 
     
 
-![tree](decisiontree.png)
-
-````
-Root Node : Start
-Branches : Edges
-Nodes : Decision Points
-Leaves : Terminal Nodes
-````
 
 
 * **Root Node:** It represents entire population or sample and this further gets divided into two or more homogeneous sets.
