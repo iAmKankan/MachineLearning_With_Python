@@ -33,9 +33,6 @@
      * Locally-Linear Embedding (LLE)
      * t-distributed Stochastic Neighbor Embedding (t-SNE)
   * Association rule learning
-     * Apriori
-     * Eclat
-
 * [Terminologies](#terminologies)
    * [Bias and Varience](#bias-and-varience)
      * [Regularization]()
@@ -102,4 +99,26 @@
   * **Deep Learning** models are fully Black-Box models.
   *  **Random Forest** is fully Black-Box model.
   
+  
+  
+
+### Linear Classification Vs Non-Linear Classification
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+
+#### Linear Classifier
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* Let’s say we have data from two classes (o and  χ ) distributed as shown in the figure below. 
+* To discriminate the two classes, one can draw an arbitrary line, s.t. all the ‘o’ are on one side of the line and  χ ’s on the other side of the line. 
+* These two classes are called linearly-separable.
+
+<img src="https://user-images.githubusercontent.com/12748752/144843896-495dcb21-0fda-4887-ad92-63581c467e52.gif" width=20%/>
+
+However, there are infinite number of lines that can be drawn to discriminate two separable classes, as shown below
+<img src="https://user-images.githubusercontent.com/12748752/144843889-fc4494a5-7493-4220-99a5-094c7a6ff107.png" width=20%/>
+
+(Image Source: Linear versus nonlinear classifiers)
+
+How you approximate the exact location of this discriminating line (or plane or hyperplane) depends on the type of a classifier called linear classifier. Some examples of linear classifier are: Linear Discriminant Classifier, Naive Bayes, Logistic Regression, Perceptron, SVM (with linear kernel)
+     * Apriori
+     * Eclat
  
