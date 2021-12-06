@@ -9,7 +9,8 @@
 * SVMs are particularly well suited for classification of complex `small` or `medium-sized` datasets.
 
 
-
+### Linear SVM Classification
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 
 ## References
