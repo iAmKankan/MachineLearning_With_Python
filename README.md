@@ -42,8 +42,8 @@
      * [Bagging]()
    * [Overfitting And Underfitting](#overfitting-and-underfitting)
    * [MODEL INTERPRETATION](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/README.md#model-interpretation)
-      * [WHITE BOX Models](url)
-      * [BLACK BOX Models](#black-box-model)
+      * [WHITE BOX Models](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/README.md#white-box-models)
+      * [BLACK BOX Models](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/README.md#black-box-models)
    * [Curse of Dimensionlity](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/README.md#curse-of-dimentionlity)
    * [Linear and Non-Linear Classifications](#linear-classification-vs-non-linear-classification)
 
@@ -92,6 +92,11 @@
 
 ## MODEL INTERPRETATION
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+* `Decision Trees` are intuitive, and their decisions are easy to interpret. 
+* Such models are often called white box models. 
+* `Random Forests` or `neural networks` are generally considered black box models. 
+* They make great predictions, and you can easily check the calculations that they performed to make these predictions; nevertheless, it is usually hard to explain in simple terms why the predictions were made. 
+* For example, if a neural network says that a particular person appears on a picture, it is hard to know what contributed to this prediction: did the model recognize that person’s eyes? Their mouth? Their nose? Their shoes? Or even the couch that they were sitting on? Conversely, Decision Trees provide nice, simple classification rules that can even be applied manually if need be (e.g., for flower classification).
 ### WHITE BOX Models
 * Interpretable models are models who explain themselves, for instance from a decision tree you can easily extract decision rules. 
    * **Linear Regression**
@@ -99,7 +104,6 @@
    * **Desission Tree**
 * Banking sector and Healthcare sector it is very common.
 ### BLACK BOX Models
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Every other model than interpretable models are fall under this catagory
   * **Deep Learning** models are fully Black-Box models.
   *  **Random Forest** is fully Black-Box model.
