@@ -13,7 +13,7 @@
 
 ### _Voting Classifiers_
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* Suppose we have trained a few classifiers, each one achieving about 80% accuracy.Like- a Logistic Regression classifier, an SVM classifier, a Random Forest classifier, a K-Nearest Neighbors classifier, and many more.
+* Suppose we have trained a few classifiers, each one achieving about 80% accuracy.Like- _a Logistic Regression classifier, an SVM classifier, a Random Forest classifier, a K-Nearest Neighbors classifier_, and many more.
 * A very simple way to create an even better classifier is to aggregate the predictions of each classifier and predict the class that gets the most votes. 
 * This majority-vote classifier is called a _**hard voting classifier**_
 * **Voting Classifier** Voting classifier has two types. **Hard Voting Classifier** and **Soft Voting Classifier**.
