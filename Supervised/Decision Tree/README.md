@@ -1,6 +1,5 @@
 ## Index
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ## Decision tree
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
@@ -13,11 +12,15 @@
 * Decision Trees are also the fundamental components of Random Forests
 * One of the many qualities of Decision Trees is that they require very little data preparation. 
 * In fact, they don’t require feature scaling or centering at all.
+
+### Classification and Regression Tree (CART) algorithm
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 > #### Scikit-Learn uses the `Classification and Regression Tree` **(CART)** algorithm, which produces only binary trees: nonleaf nodes always have two children (i.e., questions only have yes/no answers). 
 > #### However, other algorithms such as **ID3** can produce Decision Trees with nodes that have more than two children.
-### The CART Training Algorithm
+
 * _Scikit-Learn_ uses the _**`Classification and Regression Tree (CART)`**_ algorithm to train Decision Trees (also called “growing” trees). 
-> #### The algorithm works -
+> #### How the algorithm works -
 >> * **First** splitting the training set into _`two subsets`_ using a _`single feature`_ **k** and a threshold **t<sub>k</sub>** (e.g., “petal length ≤ 2.45 cm”). 
 >> * **Then** after spliting the training set in two, it `recursively` splits the subsets using the same logic, then the sub-subsets, and so on. 
 >> * **Last** It stops recursing once it reaches the maximum depth (defined by the `max_depth` hyperparameter), or if it cannot find a split that will reduce impurity. 
@@ -27,11 +30,44 @@
 >>  It searches for the pair (**k**,**t<sub>k</sub>** ) that produces the purest subsets (weighted by their size). 
 
 
-#### CART cost function for classification
+### CART cost function for classification
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 <img src="https://latex.codecogs.com/svg.image?\\J(k,t_k)&space;=&space;\frac{m_{left}}{m}G_{left}\&space;&plus;&space;\frac{m_{right}}{m}G_{right}\\&space;\\&space;\\\mathrm{Where}\left\{\begin{matrix}G_{left&space;\setminus&space;&space;right}\textrm{\&space;=&space;\&space;measures&space;the&space;impurity&space;of&space;the&space;left/right&space;subset,}\\\&space;\&space;\&space;\&space;\&space;m_{left&space;\setminus&space;&space;right}\textrm{\&space;=&space;\&space;is&space;the&space;number&space;of&space;instances&space;in&space;the&space;left/right&space;subset.}\end{matrix}\right.&space;" title="\\J(k,t_k) = \frac{m_{left}}{m}G_{left}\ + \frac{m_{right}}{m}G_{right}\\ \\ \\\mathrm{Where}\left\{\begin{matrix}G_{left \setminus right}\textrm{\ = \ measures the impurity of the left/right subset,}\\\ \ \ \ \ m_{left \setminus right}\textrm{\ = \ is the number of instances in the left/right subset.}\end{matrix}\right. " /> 
+
+
+
+
+> #### Note: 
+> * As you can see, the CART algorithm is a greedy algorithm: it greedily searches for an optimum split at the top level, then repeats the process at each subsequent level. It does not check whether or not the split will lead to the lowest possible impurity several levels down. A greedy algorithm often produces a solution that’s reasonably good but not guaranteed to be optimal. 
+> * Unfortunately, finding the optimal tree is known to be an NP-Complete problem: it requires O(exp(m)) time, making the problem intractable even for small training sets. This is why we must settle for a “reasonably good” solution.
+
+
+### Computational Complexity
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+
+### Decision Tree Splitting Methods
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* It’s tough to decide which variables to put at the **root** or at different levels of the tree as internal nodes when the dataset comprises N variables. 
+* Choosing any node as the root at random will not solve the problem. 
+* We can receive disappointing results with limited precision if we use a random technique. 
+* Researchers recommended employing criteria such-
+
+1. Gini Impurity
+2. Information Gain
+3. Chi-Square
 
 ### Gini impurity
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* The division is called **pure** if all elements are accurately separated into different classes (_**an ideal scenario**_). 
+* The Gini impurity is used to predict the likelihood that a randomly selected example would be incorrectly classified by a specific node. 
+* **It is called an “impurity” metric because it shows how the model differs from a pure division. **
+* The degree of Gini impurity ranges from **_0 to 1_**, 
+    * **0** indicating that all of the elements belong to a single class 
+    * **1** indicates that only one class exists. 
+* The Gini impurity of value 1 indicates that all of the items are randomly distributed over various classes, whereas a value of 0.5 indicates that the elements are uniformly distributed across some classes. 
+
 > #### A node’s gini attribute measures its impurity:
 > #### A node is “pure” (gini=0) if all training instances it applies to belong to the same class.
 
@@ -83,8 +119,9 @@
 
 
 ### Entropy (Slow coz multiple calculation required)
-
-* Entropy is the measure of uncertainty of a random variable, it characterizes the impurity of an arbitrary collection ofexamples. the higher the entropy the more the informationcontent.
+* The concept of entropy originated in thermodynamics as a measure of molecular disorder: entropy approaches zero when molecules are still and well ordered. 
+* In Machine Learning, entropy is frequently used as an _impurity measure_: **a set’s entropy is zero when it contains instances of only one class**.
+ 
 
 ![entrophy.png](entrophy.png)
 
