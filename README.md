@@ -13,7 +13,7 @@
     * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Linear%20Regrassion#readme)
     * [Logistic Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Logistic%20Regrassion#readme)
   * **Information Theory Concept**
-    * [Decision Tree]()
+    * [Decision Tree](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Decision%20Tree#readme)
     * [Random Forest]()
   * **Basian Statistics**
     * [Naive Bayes]()
