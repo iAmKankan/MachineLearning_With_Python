@@ -9,14 +9,25 @@
 * Decision Trees are versatile Machine Learning algorithms that can perform both classification and regression tasks, and even multi-output tasks. 
 * They are powerful algorithms, capable of fitting complex datasets.
 * Decision Trees are also the fundamental components of Random Forests
-* Graphical representation of all possible solution to a decision.
 * One of the many qualities of Decision Trees is that they require very little data preparation. 
 * In fact, they don’t require feature scaling or centering at all.
+> #### Scikit-Learn uses the `Classification and Regression Tree` **(CART)** algorithm, which produces only binary trees: nonleaf nodes always have two children (i.e., questions only have yes/no answers). 
+> #### However, other algorithms such as **ID3** can produce Decision Trees with nodes that have more than two children.
 
-    
+### Gini impurity
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+> #### A node’s gini attribute measures its impurity:
+> #### A node is “pure” (gini=0) if all training instances it applies to belong to the same class.
 
+<img src="https://latex.codecogs.com/svg.image?\mathrm{G}_i&space;=&space;1-&space;\sum_{n}^{k=1}(p_{i,k})^2" title="\mathrm{G}_i = 1- \sum_{n}^{k=1}(p_{i,k})^2" width=25% />
 
+>> * <img src="https://latex.codecogs.com/svg.image?p_{i,k}" title="p_{i,k}" /> is the ratio of class _**k**_ instances among the training instances in the _**i<sup>th</sup>**_ node. 
 
+* Gini index is a metric to measure how often a randomly chosen element would be incorrectly identified. 
+* It means an attribute with lower gini index should be preferred. 
+* Sklearn supports “ Gini ” criteria for gini index and by default, it takes “ Gini ”.
+
+### Eliments
 * **Root Node:** It represents entire population or sample and this further gets divided into two or more homogeneous sets.
 * **Splitting:** It is a process of dividing a node into two or more sub-nodes.
 * **Decision Node:** When a sub-node splits into further sub-nodes, then it is called decision node.
@@ -53,16 +64,14 @@
 * On the basis of attribute values records are distributed recursively.
 * We use statistical methods for ordering attributes as root or internal node.
 
-### Gini index ( Fast coz single calculation)
 
-* Gini index is a metric to measure how often a randomly chosen element would be incorrectly identified. 
-* It means an attribute with lower gini index should be preferred. 
-* Sklearn supports “ Gini ” criteria for gini index and by default, it takes “ Gini ”.
-
-![gini.png](gini.png)
 
 ### Entropy (Slow coz multiple calculation required)
 
 * Entropy is the measure of uncertainty of a random variable, it characterizes the impurity of an arbitrary collection ofexamples. the higher the entropy the more the informationcontent.
 
 ![entrophy.png](entrophy.png)
+
+
+
+
