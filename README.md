@@ -41,7 +41,7 @@
      * [Boosting]()
      * [Bagging]()
    * [Overfitting And Underfitting](#overfitting-and-underfitting)
-   * [MODEL INTERPRETATION](#interpretable-model)
+   * [MODEL INTERPRETATION](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/README.md#model-interpretation)
       * [WHITE BOX Models](url)
       * [BLACK BOX Models](#black-box-model)
    * [Curse of Dimensionlity](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/README.md#curse-of-dimentionlity)
