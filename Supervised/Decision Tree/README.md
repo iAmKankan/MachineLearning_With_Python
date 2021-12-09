@@ -118,13 +118,30 @@
 
 
 
-### Entropy (Slow coz multiple calculation required)
+### Entropy 
 * The concept of entropy originated in thermodynamics as a measure of molecular disorder: entropy approaches zero when molecules are still and well ordered. 
 * In Machine Learning, entropy is frequently used as an _impurity measure_: **a set’s entropy is zero when it contains instances of only one class**.
  
+<img src="https://latex.codecogs.com/svg.image?\mathrm{H}_i&space;=&space;-&space;\sum_{k=1,\&space;p_{i,k}\neq&space;0}^{n}p_{i,k}&space;\log_2&space;(p_{i,k})" title="\mathrm{H}_i = - \sum_{k=1,\ p_{i,k}\neq 0}^{n}p_{i,k} \log_2 (p_{i,k})" width=30% />
 
-![entrophy.png](entrophy.png)
+### Gini Impurity or Entrophy?
+* The truth is, most of the time it does not make a big difference: they lead to similar trees. 
+* _**Gini impurity**_ is slightly _faster to compute_, so it is a good default. 
+* However, when they differ, 
+    * **`Gini impurity`** **tends to isolate the most frequent class in its own branch of the tree**, 
+    * While **`Entropy`** **tends to produce slightly more balanced trees**.
 
-
-
+## Questions and Answers 
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+1. What is the approximate depth of a Decision Tree trained (without restrictions) on a training set with one million instances?
+   * 
+2. Is a node’s Gini impurity generally lower or greater than its parent’s? Is it generally lower/greater, or always lower/greater? 
+   * A node’s Gini impurity is generally lower than its parent’s. 
+   * This is ensured by the CART training algorithm’s cost function, which splits each node in a way that minimizes the weighted sum of its children’s Gini impurities. 
+3. If a Decision Tree is overfitting the training set, is it a good idea to try decreasing max_depth? 
+   * If a Decision Tree is overfitting the training set, it may be a good idea to decrease max_depth, since this will constrain the model, regularizing it.
+4. If a Decision Tree is underfitting the training set, is it a good idea to try scaling the input features? 
+5. If it takes one hour to train a Decision Tree on a training set containing 1 million instances, roughly how much time will it take to train another Decision Tree on a training set containing 10 million instances? 
+6. If your training set contains 100,000 instances, will setting presort=True speed up training? 
+7. Train and fine-tune a Decision Tree for the moons dataset by following these steps:
 
