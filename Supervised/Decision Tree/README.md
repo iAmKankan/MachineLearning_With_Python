@@ -134,13 +134,15 @@
 ## Questions and Answers 
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 1. What is the approximate depth of a Decision Tree trained (without restrictions) on a training set with one million instances?
-   * 
+   * log2(10⁶) ≈ 20 (actually a bit more since the tree will generally not be perfectly well balanced)
 2. Is a node’s Gini impurity generally lower or greater than its parent’s? Is it generally lower/greater, or always lower/greater? 
    * A node’s Gini impurity is generally lower than its parent’s. 
    * This is ensured by the CART training algorithm’s cost function, which splits each node in a way that minimizes the weighted sum of its children’s Gini impurities. 
-3. If a Decision Tree is overfitting the training set, is it a good idea to try decreasing max_depth? 
-   * If a Decision Tree is overfitting the training set, it may be a good idea to decrease max_depth, since this will constrain the model, regularizing it.
+3. If a Decision Tree is overfitting the training set, is it a good idea to try decreasing `max_depth`? 
+   * If a Decision Tree is overfitting the training set, it may be a good idea to decrease `max_depth`, since this will constrain the model, regularizing it.
 4. If a Decision Tree is underfitting the training set, is it a good idea to try scaling the input features? 
+   * Decision Trees don’t care whether or not the training data is scaled or centered; that’s one of the nice things about them. 
+   * So if a Decision Tree underfits the training set, scaling the input features will just be a waste of time.
 5. If it takes one hour to train a Decision Tree on a training set containing 1 million instances, roughly how much time will it take to train another Decision Tree on a training set containing 10 million instances? 
 6. If your training set contains 100,000 instances, will setting presort=True speed up training? 
 7. Train and fine-tune a Decision Tree for the moons dataset by following these steps:
