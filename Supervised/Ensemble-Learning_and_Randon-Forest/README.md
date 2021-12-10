@@ -37,11 +37,19 @@
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * One way to get a diverse set of classifiers is to use very **_different training algorithms_**. [See Voting Classifier Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/votingClassifier.ipynb)
 * Another approach is to use the ***same training algorithm*** for every predictor and train them on ***different random subsets of the training set***.
-* When _sampling_ is performed with _replacement_, this method is called **`bagging`** (short for **`bootstrap aggregating`** ). 
-* When _sampling_ is performed _without replacement_, it is called **`pasting`**. 
+* When **_sampling_** is performed **_with replacement_**, this method is called **`bagging`** (short for **`bootstrap aggregating`** ). 
+* When **_sampling_** is performed **_without replacement_**, it is called **`pasting`**. 
 * In other words, both `bagging` and `pasting` allow **_training instances to be sampled several times across multiple predictors_**, but only bagging allows training instances to be sampled several times for the same predictor.
 
 > #### Note: The BaggingClassifier automatically performs soft voting instead of hard voting if the base classifier can estimate class probabilities (i.e., if it has a `predict_proba()` method), which is the case with Decision Tree classifiers.
+
+
+> #### Difference
+> * _**Bootstrapping**_ introduces a bit more diversity in the subsets that each predictor is trained on, so bagging ends up with **a slightly higher bias than pasting**; 
+> * but the extra diversity also means that the predictors end up being **less correlated**, so the **ensemble’s variance is reduced**. 
+> * **Overall**, _**bagging often results in better models**_. 
+> * However, if you have spare time and CPU power, you can use cross-validation to evaluate both bagging and pasting and select the one that works best.
+
 
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
