@@ -51,6 +51,17 @@
 > * However, if you have spare time and CPU power, you can use cross-validation to evaluate both bagging and pasting and select the one that works best.
 
 
+### Out-of-Bag Evaluation
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* With _bagging_, some instances may be sampled _several times_ for any given predictor, while others may _not be sampled at all_. 
+* By default a `BaggingClassifier` samples `m` training instances with `replacement` (`bootstrap=True`), where _m_ is the size of the training set. 
+* This means that only about 63% of the training instances are sampled on average for each predictor. 
+* The remaining 37% of the training instances that are not sampled are called **_out-of-bag (oob) instances_**.
+
+*  **Note**:  that they are not the same 37% for all predictors. 
+*  Since a predictor never sees the oob instances during training, it can be evaluated on these instances, without the need for a separate validation set. 
+*  You can evaluate the ensemble itself by averaging out the oob evaluations of each predictor. In Scikit-Learn, you can set oob_score=True when creating a BaggingClassifier to request an automatic oob evaluation after training. The following code demonstrates this. The resulting evaluation score is available through the oob_score_ variable
+
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * In _Random Forest_, we train a group of Decision Tree classifiers, each on a different random subset of the training set.
