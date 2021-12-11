@@ -5,7 +5,7 @@
  * [Bagging and Pasting](#bagging-and-pasting)
  * [Out-of-Bag Evaluation](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Ensemble-Learning_and_Randon-Forest#out-of-bag-evaluation)
    * [Bagging-Pasting, Out-of-Box Evalution Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/bagging_pasting.ipynb)
- * 
+
 
 ### _Voting Classifiers_
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
