@@ -46,9 +46,7 @@
 * When **_sampling_** is performed **_with replacement_**, this method is called **`bagging`** (short for **`bootstrap aggregating`** ). 
 * When **_sampling_** is performed **_without replacement_**, it is called **`pasting`**. 
 * In other words, both `bagging` and `pasting` allow **_training instances to be sampled several times across multiple predictors_**, but only bagging allows training instances to be sampled several times for the same predictor.
-
 > #### Note: The BaggingClassifier automatically performs soft voting instead of hard voting if the base classifier can estimate class probabilities (i.e., if it has a `predict_proba()` method), which is the case with Decision Tree classifiers.
-
 
 > #### Difference
 > * _**Bootstrapping**_ introduces a bit more diversity in the subsets that each predictor is trained on, so bagging ends up with **a slightly higher bias than pasting**; 
@@ -63,7 +61,6 @@
 * By default a `BaggingClassifier` samples `m` training instances with `replacement` (`bootstrap=True`), where _m_ is the size of the training set. 
 * This means that only about 63% of the training instances are sampled on average for each predictor. 
 * The remaining 37% of the training instances that are not sampled are called **_out-of-bag (oob) instances_**.
-
 *  **Note**:  that they are not the same 37% for all predictors. 
 *  Since a predictor never sees the oob instances during training, it can be evaluated on these instances, without the need for a separate validation set. 
 *  You can evaluate the ensemble itself by averaging out the oob evaluations of each predictor. In Scikit-Learn, you can set oob_score=True when creating a BaggingClassifier to request an automatic oob evaluation after training. The following code demonstrates this. The resulting evaluation score is available through the oob_score_ variable
