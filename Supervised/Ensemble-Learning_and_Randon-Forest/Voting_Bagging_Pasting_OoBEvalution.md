@@ -54,3 +54,13 @@
 *  **Note**:  that they are not the same 37% for all predictors. 
 *  Since a predictor never sees the oob instances during training, it can be evaluated on these instances, without the need for a separate validation set. 
 *  You can evaluate the ensemble itself by averaging out the oob evaluations of each predictor. In Scikit-Learn, you can set oob_score=True when creating a BaggingClassifier to request an automatic oob evaluation after training. The following code demonstrates this. The resulting evaluation score is available through the oob_score_ variable
+
+### Random Patches and Random Subspaces
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* The _`BaggingClassifier`_ class supports sampling the features as well. 
+* Sampling is controlled by two hyperparameters: `max_features` and `bootstrap_features`. 
+* They work the same way as `max_samples` and `bootstrap`, but for feature sampling instead of instance sampling. 
+* Thus, each predictor will be trained on a random subset of the input features.
+
+* Sampling both training instances and features is called the _**Random Patches method**_. 
+* Keeping all training instances (by setting bootstrap=False and max_samples=1.0) but sampling features (by setting bootstrap_features to True and/or max_features to a value smaller than 1.0) is called the _**Random Subspaces method**_. 
