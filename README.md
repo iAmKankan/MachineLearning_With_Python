@@ -70,10 +70,12 @@
 ### Bias and Varience
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Suppose we have some observations(data) and they are split into train data and test data.
-* **In the first scenario**, like Linear Regression we draw a regression line through the training observations and obhously that straight line cann't cover each and every observation.
+> #### In the first scenario
+* Like Linear Regression we draw a regression line through the training observations and obhously that straight line cann't cover each and every observation.
 * The minimum of the sum of the squre of the difference between the line and each observation is the error.
 * That scenario is called Bias.
-* **In the second scenario**, we draw a squiggly line which connects each and every training observations.
+> #### In the second scenario
+* We draw a squiggly line which connects each and every training observations.
 * Now the error is zero.
 * But when we run test data, the error for train data and the test data of 1st scenario is almost the same. The error for train data which is zero but the test data of 2nd scenario is different. Here difference between the train and the test is a consequence of variance.
 * The 1st scenario is having high Bias but it has low varience because the sum of squre is similer for the different data sets and it performence is consistent.
