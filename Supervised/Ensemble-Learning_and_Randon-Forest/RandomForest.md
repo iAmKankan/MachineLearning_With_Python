@@ -1,6 +1,6 @@
 ## Index
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-* [Randomforest,Extra Forest, Feature inportance Notebook](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/Random_Forest.ipynb)
+* [Randomforest,Extra Forest, Feature inportance Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/Random_Forest.ipynb)
 ### Random Forests
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * **In **_Random Forest_**, we train a group of Decision Tree classifiers, each on a different random subset of the training set.**
