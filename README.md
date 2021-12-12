@@ -81,8 +81,8 @@
 * In machine learning, the ideal algorithm has low bias and can accurately model the true relationship and it has low variability, by producing consistent predictions across different datasets.
 * Three commonly used methods for finding the sweet spot between simple and complicated models are:
   * [**Regularization.**](https://github.com/iAmKankan/Regularization/blob/master/README.md)
-  * **Boosting.**
-  * **Bagging.**
+  * [**Boosting.**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/boosting.md)
+  * [**Bagging.**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/Voting_Bagging_Pasting_OoBEvalution.md)
 ### Overfitting And Underfitting
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Overfitting and Underfitting is direct related to Bias and Varience.
