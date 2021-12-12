@@ -30,6 +30,6 @@
 * `Scikit-Learn` measures a feature’s importance by looking at **_how much the tree nodes that use that feature reduce impurity on average_** (across all trees in the forest).
 * More precisely, it is a _weighted average_, where each node’s weight is equal to the number of training samples that are associated with it.
 * `Scikit-Learn` computes this score automatically for each feature after training, then it scales the results so that the sum of all importances is equal to 1. 
-* You can access the result using the _**feature_importances_**_ variable.
+* You can access the result using the ***feature_importances_*** variable.
 
 
