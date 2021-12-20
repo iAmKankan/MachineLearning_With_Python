@@ -46,6 +46,7 @@
       * [BLACK BOX Models](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/README.md#black-box-models)
    * [Curse of Dimensionlity](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/README.md#curse-of-dimentionlity)
    * [Linear and Non-Linear Classifications](#linear-classification-vs-non-linear-classification)
+   * [Stratified Sampling](#stratified-sampling)
 
 
 ## What is Machine Learning
@@ -145,4 +146,10 @@
 
 <img src="https://user-images.githubusercontent.com/12748752/144843899-ea16eeac-2329-4664-8912-60f26d9cfaff.gif"/>
 
-
+### _Stratified Sampling_
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* _`Random Sampling`_ methods is generally fine if the dataset is large enough (especially relative to the number of attributes), but if it is not, you run the risk of introducing a _**significant sampling bias**_. 
+* For example, the US population is 51.3% females and 48.7% males, so a well-conducted survey in the US would try to maintain this ratio in the sample: 513 female and 487 male.
+* This is called **_`Stratified Sampling`_**: 
+   * The population is divided into homogeneous subgroups called _`strata`_, and the right number of instances are sampled from each _`stratum`_ to guarantee that the test set is representative of the overall population. 
+   * If the people running the survey used purely random sampling, there would be about a 12% chance of sampling a skewed test set that was either less than 49% female or more than 54% female. Either way, the survey results would be significantly biased.
