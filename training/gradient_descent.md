@@ -20,3 +20,14 @@
 <img src="https://user-images.githubusercontent.com/12748752/146699335-d3b9e07e-1fe4-43d0-a805-14481610dc7e.png" width=40%/>
 
 > In this depiction of Gradient Descent, the model parameters are initialized randomly and get tweaked repeatedly to minimize the cost function; the learning step size is proportional to the slope of the cost function, so the steps gradually get smaller as the parameters approach the minimum
+### _`Learning rate`_
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+#### _Too Small_
+<img src="https://user-images.githubusercontent.com/12748752/146699334-39c448ea-cc58-41fc-a85e-9e9cf56d72f2.png" width=40%/>
+
+* An important parameter in Gradient Descent is the size of the steps, determined by the _`learning rate`_ hyperparameter. 
+* If the learning rate is too small, then the algorithm will have to go through many iterations to converge, which will take a long time.
+* On the other hand, if the learning rate is too high, you might jump across the valley and end up on the other side, possibly even higher up than you were before. 
+* This might make the algorithm diverge, with larger and larger values, failing to find a good solution.
+#### _Too Large_
+<img src="https://user-images.githubusercontent.com/12748752/146699332-7793518a-29dd-4fab-94b5-746f0ff232c7.png" width=40% />
