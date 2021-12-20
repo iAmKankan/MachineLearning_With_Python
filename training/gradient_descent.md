@@ -38,3 +38,11 @@
 * If the random initialization starts the algorithm on the left, then it will converge to a local minimum, which is not as good as the global minimum. 
 * If it starts on the right, then it will take a very long time to cross the plateau. 
 * And if you stop too early, you will never reach the global minimum.
+### GD in Linear Regression
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* Fortunately, the MSE cost function for a Linear Regression model happens to be a convex function, which means that if you pick any two points on the curve, the line segment joining them never crosses the curve. 
+* This implies that there are no local minima, just one global minimum.
+* It is also a continuous function with a slope that never changes abruptly. 
+* These two facts have a great consequence: Gradient Descent is guaranteed to approach arbitrarily close the global minimum (if you wait long enough and if the learning rate is not too high).
+
+> ### When using _`Gradient Descent`_ , you should ensure that all features have a similar scale (e.g., using Scikit-Learn’s _StandardScaler_ class), or else it will take much longer to converge.
