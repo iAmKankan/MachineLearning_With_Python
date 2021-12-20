@@ -31,3 +31,9 @@
 * This might make the algorithm diverge, with larger and larger values, failing to find a good solution.
 #### _Too Large_
 <img src="https://user-images.githubusercontent.com/12748752/146699332-7793518a-29dd-4fab-94b5-746f0ff232c7.png" width=40% />
+
+### The Problem
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+<img src="https://user-images.githubusercontent.com/12748752/146699336-bfff17ac-fcdf-48a5-9527-5c7ff8a89634.png" width=40%/>
+* If the random initialization starts the algorithm on the left, then it will converge to a local minimum, which is not as good as the global minimum. 
+* If it starts on the right, then it will take a very long time to cross the plateau. And if you stop too early, you will never reach the global minimum.
