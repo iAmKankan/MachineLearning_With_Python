@@ -3,3 +3,4 @@
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * [Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/edit/master/training/gradient_descent.md)
+* [Batch Gradient Descent](url)
