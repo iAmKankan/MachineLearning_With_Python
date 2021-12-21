@@ -4,6 +4,7 @@
 
 * [Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/gradient_descent.md)
    * [Batch Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/batch_gd.md)
+   * [Stochastic Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/stochastic_gradient_descent.md)
 * [Terminologies](#terminologies)
    * [Convergence](#convergence)
    * [Theta _<a>&theta;</a>_](#theta-%CE%B8)
