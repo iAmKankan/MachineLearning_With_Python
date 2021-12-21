@@ -47,6 +47,7 @@
    * [Curse of Dimensionlity](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/README.md#curse-of-dimentionlity)
    * [Linear and Non-Linear Classifications](#linear-classification-vs-non-linear-classification)
    * [Stratified Sampling](#stratified-sampling)
+   * [Out-of-Core Algorithm](url)
 
 
 ## What is Machine Learning
@@ -153,3 +154,6 @@
 * This is called **_`Stratified Sampling`_**: 
    * The population is divided into homogeneous subgroups called _`strata`_, and the right number of instances are sampled from each _`stratum`_ to guarantee that the test set is representative of the overall population. 
    * If the people running the survey used purely random sampling, there would be about a 12% chance of sampling a skewed test set that was either less than 49% female or more than 54% female. Either way, the survey results would be significantly biased.
+### Out-of-Core Algorithm
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* An algorithm which exploits external storage in order to support large data volumes that cannot be supported by primary memory. 
