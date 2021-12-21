@@ -19,6 +19,6 @@
 * Once the agent, after many steps, realize the cost does not improve by a lot and it is stuck very near a particular point (minima), technically this is known as **_`convergence`_**. 
 * The value of the parameters at that very last step is known as the ‘best’ set of parameters, and we have a trained model.
 
-### Theta _<a>&theta;</a>_
+### _Theta <a>&theta;</a>_
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * By convention, the Greek letter **_<a>&theta;</a>_ (theta)** is frequently used to represent model parameters.
