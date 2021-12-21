@@ -10,11 +10,11 @@
 > ### Example 01
 * _Suppose you are lost in the mountains in a dense fog, and you can only feel the slope of the ground below your feet_. 
 * _A good strategy to get to the bottom of the valley quickly is to go downhill in the direction of the steepest slope_. 
-* This is exactly what Gradient Descent does: it measures the local gradient of the error function with regard to the _`parameter vector`_ **_θ_**, and it goes in the direction of descending gradient. 
+* This is exactly what Gradient Descent does: it measures the local gradient of the error function with regard to the _`parameter vector`_ **_<a>&theta;</a>_**, and it goes in the direction of descending gradient. 
 * Once the gradient is zero, you have reached a minimum!
 
 > ### Steps
-* **First**, start by filling **_θ_** with random values (this is called _`random initialization`_). 
+* **First**, start by filling **_<a>&theta;</a>_** with random values (this is called _`random initialization`_). 
 * **Then** you improve it gradually, taking one baby step at a time, each step attempting to decrease the cost function (e.g., the MSE), until the algorithm converges to a minimum.
 
 <img src="https://user-images.githubusercontent.com/12748752/146699335-d3b9e07e-1fe4-43d0-a805-14481610dc7e.png" width=40%/>
