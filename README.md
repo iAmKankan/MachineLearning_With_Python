@@ -47,7 +47,7 @@
    * [Curse of Dimensionlity](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/README.md#curse-of-dimentionlity)
    * [Linear and Non-Linear Classifications](#linear-classification-vs-non-linear-classification)
    * [Stratified Sampling](#stratified-sampling)
-   * [Out-of-Core Algorithm](url)
+   * [Out-of-Core Algorithm](#out-of-core-algorithm)
 
 
 ## What is Machine Learning
