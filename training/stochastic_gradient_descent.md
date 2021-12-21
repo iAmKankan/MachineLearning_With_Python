@@ -14,5 +14,7 @@
 <img src="https://user-images.githubusercontent.com/12748752/147009180-f4b49dc4-3e70-421e-bed2-4d6de3034532.png" width=30% />
 
 * With _**Stochastic Gradient Descent**_, each training step is much faster but also much more _stochastic_ than when using _Batch Gradient Descent_
+* When the cost function is very irregular, this can actually help the algorithm jump out of local minima, so **_Stochastic Gradient Descent_** has a better chance of finding the global minimum than **_Batch Gradient Descent_** does.
+
 * One advantage is that the frequent updates allow us to have a pretty detailed rate of improvement. The frequent updates are more computationally expensive as the approach of Batch Gradient Descent.
 * The frequency of those updates can also result in noisy gradients, which may cause the error rate to jump around, instead of slowly decreasing.
