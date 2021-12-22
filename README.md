@@ -9,15 +9,11 @@
    * Deployment
    * Operation & Optimization
 * [Supervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
-  * **Statistical Concept based Algos**
     * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Linear%20Regrassion#readme)
     * [Logistic Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Logistic%20Regrassion#readme)
-  * **Information Theory Concept**
     * [Decision Tree](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Decision%20Tree#readme)
     * [Random Forest and Ensemble](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Ensemble-Learning_and_Randon-Forest#readme)
-  * **Basian Statistics**
     * [Naive Bayes]()
-  * **Pure Mathemetical optimisation model**
     * [SVM]()
 * [Unsupervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
    * Clustering
