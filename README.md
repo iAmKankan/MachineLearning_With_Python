@@ -9,28 +9,7 @@
    * Deployment
    * Operation & Optimization
 * [Supervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
-    * [Linear Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Linear%20Regrassion#readme)
-    * [Logistic Regression](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Logistic%20Regrassion#readme)
-    * [Decision Tree](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Decision%20Tree#readme)
-    * [Random Forest and Ensemble](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Ensemble-Learning_and_Randon-Forest#readme)
-    * [Naive Bayes]()
-    * [SVM]()
 * [Unsupervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
-   * Clustering
-      * K-Means
-      * DBSCAN
-      * Hierarchical Cluster Analysis (HCA)
-   * Anomaly detection and novelty detection
-      * One-class SVM
-      * Isolation Forest
-  * Visualization and dimensionality reduction
-     * Principal Component Analysis (PCA)
-     * Kernel PCA
-     * Locally-Linear Embedding (LLE)
-     * t-distributed Stochastic Neighbor Embedding (t-SNE)
-  * Association rule learning
-     * Apriori
-     * Eclat
 * [Terminologies](#terminologies)
    * [Bias and Varience](#bias-and-varience)
      * [Regularization]()
