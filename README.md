@@ -1,13 +1,7 @@
 ### Index 
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 *  [What is Machine Learning](#what-is-machine-learning)
-*  [Lifecycle of ML](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/ML_lifecycle.md#lifecycle-of-ml)
-   * Data Acquisition
-   * [Data Preparation/ Data Preprocessing](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing#readme)
-   * Hypothesis & Modeling
-   * Evaluation & Interpretation
-   * Deployment
-   * Operation & Optimization
+*  [Machine Learning Life Cycle](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/MachineLearning_LifeCycle/README.md)
 * [Supervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
 * [Unsupervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
 * [Terminologies](#terminologies)
@@ -35,17 +29,6 @@
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 <img src="https://user-images.githubusercontent.com/12748752/146688585-e2ecc295-c3e0-4ea8-acb1-ad03a8ec8ce6.png" width=110% />
-
-###  [Lifecycle of ML](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/ML_lifecycle.md#lifecycle-of-ml)
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
-* Data Acquisition
-* [Data Preparation/ Data Preprocessing](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing#readme)
-* Hypothesis & Modeling
-* Evaluation & Interpretation
-* Deployment
-* Operation & Optimization
-
  
 
 ## Terminologies
