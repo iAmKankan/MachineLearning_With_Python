@@ -9,7 +9,15 @@
    * [Convergence](#convergence)
    * [Theta _<a>&theta;</a>_](#theta-%CE%B8)
    
-   
+|Algorithm| Large m|Out-of-core support|Large n| Hyperparams| Scaling required| Scikit-Learn|
+|---|---|---|---|---|---|---|
+|Normal Equation| Fast| No| Slow| 0| No| N/A|
+SVD| Fast| No| Slow| 0| No| LinearRegression
+Batch GD| Slow| No| Fast| 2| Yes| SGDRegressor
+Stochastic GD| Fast| Yes| Fast| ≥2| Yes| SGDRegressor
+Mini-batch GD| Fast| Yes| Fast| ≥2| Yes| SGDRegressor
+
+  
    
    
    
