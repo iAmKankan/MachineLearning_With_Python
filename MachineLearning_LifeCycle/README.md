@@ -2,6 +2,8 @@
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * [Data Preprocessing](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/README.md)
 * [Regularization](https://github.com/iAmKankan/Regularization/blob/master/README.md)
+* [Optimization](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/README.md)
+
 ## Lifecycle of ML
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 <img src="https://user-images.githubusercontent.com/12748752/141670973-047dd271-d037-4004-81c0-64c5dca810d3.png" width=60% />
