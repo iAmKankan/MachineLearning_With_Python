@@ -21,9 +21,20 @@
 
 ## What is Machine Learning
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-* Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.
-## Machine Learning Algorithms Catagories
+* Machine Learning is the science (and art) of programming computers so they can _learn from data_.
+* Here is a slightly more general definition:
+> #### [Machine Learning is the] field of study that gives computers the ability to learn without being explicitly programmed.
+_— Arthur Samuel, 1959_
+* And a more engineering-oriented one: 
+> #### A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E. 
+— _Tom Mitchell, 1997_
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+### Machine Learning Algorithms Based on Trainging
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* Machine Learning systems can be classified according to the amount and type of supervision they get during training. 
+* There are four major categories:
+
+<img src="https://user-images.githubusercontent.com/12748752/150331825-26bc70db-8c11-4d0a-bf54-445d32cc03a8.png" width=100% />
 
 ### Based on the Performence
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
