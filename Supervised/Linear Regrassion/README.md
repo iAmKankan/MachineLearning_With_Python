@@ -18,8 +18,8 @@
   * [Residual Sum Of Squres(RSS)](#residual-sum-of-squres)
   * [Total Squired Error](#total-squired-error)
   * [Total varience in Y](#total-varience-in-y)
-  * [ R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />) or Coefficient of Determination](#r-squared-error-or-coefficient-of-determination)
-  * [Adjusted R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />)](#adjusted-r-squared-error)
+  * [ R Squared Error ( _**R <sup>2**_ ) or Coefficient of Determination](#r-squared-error-or-coefficient-of-determination)
+  * [Adjusted R Squared Error _**R <sup>2**_](#adjusted-r-squared-error)
 
 # Linear Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
@@ -49,8 +49,8 @@
   * The error terms must have constant variance. This phenomenon is known as **Homoskedasticity**. The presence of non-constant variance is referred to **Heteroskedasticity**.
   * **The error terms must be normally distributed**.
   * There should be a **linear and additive relationship between dependent (response) variable and independent (predictor) variable(s)**. 
-     * A linear relationship suggests that a change in response Y due to one unit change in X¹ is constant, regardless of the value of X¹. 
-     * An additive relationship suggests that the effect of X¹ on Y is independent of other variables.
+     * A linear relationship suggests that a change in response _Y_ due to one unit change in _X<sup>1_ is constant, regardless of the value of _X<sup>1_. 
+     * An additive relationship suggests that the effect of _X<sup>1_ on _Y_ is independent of other variables.
 ## What if these assumptions get violated
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 ### Linear and Additive
@@ -60,7 +60,7 @@
 
 #### How to check
 * Look for residual vs fitted value plots.
-*  Also, you can include polynomial terms (X, X², X³) in your model to capture the non-linear effect.
+*  Also, you can include polynomial terms (_X_, _X <sup>2_, _X <sup>3_ ) in your model to capture the non-linear effect.
 
 ### Multicollinearity
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
