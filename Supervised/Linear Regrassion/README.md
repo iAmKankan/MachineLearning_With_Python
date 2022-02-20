@@ -1,7 +1,3 @@
-# Linear Regression
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
-
 ### Index
 * [What is Regression](#what-is-regression)
 * [Definition Of Linear Regression](#definition)
@@ -25,10 +21,9 @@
   * [ R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />) or Coefficient of Determination](#r-squared-error-or-coefficient-of-determination)
   * [Adjusted R Squared Error (<img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />)](#adjusted-r-squared-error)
 
-## What is Regression
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* [**Please follow the link**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
-
+# Linear Regression
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 ## Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
@@ -38,6 +33,10 @@
 
 * There is no straight line that runs through all the data points. 
 * So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
+## What is Regression
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* [**Please follow the link**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
+
 ## Assumptions of Linear Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * Let’s look at the important assumptions in regression analysis-
