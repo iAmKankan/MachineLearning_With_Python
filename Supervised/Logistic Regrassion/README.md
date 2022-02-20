@@ -2,9 +2,10 @@
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 ## Index
-* [Logistic Regression Assumptions](url)
+* [Logistic Regression Assumptions](#logistic-regression-assumptions)
+* [Logistic Regression Definition](#logistic-regression-definition)
 * [What is Regression](#what-is-regression)
-* [Difference between Linear Regression and Logistic Regression]()
+* [Difference between Linear Regression and Logistic Regression](#difference-between-linear-regression-and-logistic-regression)
 
 ## Logistic Regression Assumptions
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
@@ -12,7 +13,7 @@
 * It usually requires a large sample size to predict properly.
 * It assumes the observations to be independent of each other.
  
-### Definition
+### Logistic Regression Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * **Regression refers to a set of methods for modeling the relationship between one or more independent variables and a dependent variable.**
 * Logestic Regression is a binary classifier that classify your data as a linear separation boundary.
