@@ -1,6 +1,6 @@
 ### Index
-* [What is Regression](#what-is-regression)
 * [Definition Of Linear Regression](#definition)
+* [What is Regression](#what-is-regression)
 * [Assumptions of Linear Regression](#assumptions-of-linear-regression)
   * [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
   * [Linear and Additive](#linear-and-additive)
@@ -23,17 +23,21 @@
 
 # Linear Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 ## Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
 * **Linear Regression tends to establish a relationship between a dependent variable(Y) and one or more independent variable(X) by finding the best fit of the straight line.**
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg" align=right width=30% />
+
 * The equation for the Linear model is _**Y = mX+c**_, where _**m**_ is the slope and _**c**_ is the intercept
 * Linear Regression When we want to predict real continuous values as an output
-
 * There is no straight line that runs through all the data points. 
 * So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
-## What is Regression
+
+
+
+
+### What is Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * [**Please follow the link**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
 
