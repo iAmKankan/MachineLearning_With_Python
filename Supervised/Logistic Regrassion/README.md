@@ -19,13 +19,36 @@
 ### Working of a Logistic Model
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * For linear regression, the model is defined by:
-> ### _y = &beta;<sub>0 + &beta;<sub>1x  -------- (i)_
+> ### _y = <a>&beta;<sub>0 + <a>&beta;<sub>1x  -------- (i)_
 
-and for logistic regression, we calculate probability, i.e. y is the probability of a given variable x belonging to a certain class. Thus, it is obvious that the value of y should lie between 0 and 1.
+* And for logistic regression, we calculate probability. _i.e. **_y_** is the probability of a given variable **_x_** belonging to a certain class_. 
+* Thus, it is obvious that the value of y should lie between **_0_** and **_1_**.
+* But, when we use equation(i) to calculate probability, we would get values less than **0** as well as greater than **1**. Which doesn’t make any sense
+* So, we need to use such an equation which always gives values between **0** and **1**, as we desire while calculating the probability.
 
-But, when we use equation(i) to calculate probability, we would get values less than 0 as well as greater than 1. That doesn’t make any sense
-.
-So, we need to use such an equation which always gives values between 0 and 1, as we desire while calculating the probability.
+### Sigmoid function 
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+<img src="https://user-images.githubusercontent.com/12748752/155903849-f8ab533c-74c3-440a-b5ea-920c0c7f4e04.PNG" width=50%>
+
+<a><i><u> We use the sigmoid function as the underlying function in Logistic regression. Mathematically and graphically, it is shown as </u> </i></a>
+
+**Why do we use the Sigmoid Function?**
+
+1)	The sigmoid function’s range is bounded between 0 and 1. Thus it’s useful in calculating the probability for the  Logistic function.
+2)	 It’s derivative is easy to calculate than other functions which is useful during gradient descent calculation.
+3)	It is a simple way of introducing non-linearity to the model.
+
+Although there are other functions as well, which can be used, but sigmoid is the most common function used for logistic regression. We will talk about the rest of the functions in the neural network section.
+
+The logistic function is given as:
+
+<img src="logistic_function.PNG" width="300">
+
+Let’s see some manipulation with the logistic function: 
+
+<img src="manip1.PNG" width="300">
+
+We can see that the logit function is linear in terms with x.
 
 
 ### Logistic Regression Definition
