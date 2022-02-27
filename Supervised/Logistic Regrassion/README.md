@@ -11,7 +11,21 @@
    
 ## Logistic Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-* Logistic regression is one such regression algorithm which can be used for performing classification problems. It calculates the probability that a given value belongs to a specific class. If the probability is more than 50%, it assigns the value in that particular class else if the probability is less than 50%, the value is assigned to the other class. Therefore, we can say that logistic regression acts as a binary classifier.
+* Logistic regression is one such regression algorithm which can be used for performing classification problems. 
+* It calculates the probability that a given value belongs to a specific class. 
+   * If the probability is more than 50%, it assigns the value in that particular class 
+   * else if the probability is less than 50%, the value is assigned to the other class. 
+* Therefore, we can say that logistic regression acts as a binary classifier.
+### Working of a Logistic Model
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+* For linear regression, the model is defined by:
+> ### <a>y = \beta<sub>0 + \beta<sub>{1x}  -------- (i)
+
+and for logistic regression, we calculate probability, i.e. y is the probability of a given variable x belonging to a certain class. Thus, it is obvious that the value of y should lie between 0 and 1.
+
+But, when we use equation(i) to calculate probability, we would get values less than 0 as well as greater than 1. That doesn’t make any sense
+.
+So, we need to use such an equation which always gives values between 0 and 1, as we desire while calculating the probability.
 
 
 ### Logistic Regression Definition
