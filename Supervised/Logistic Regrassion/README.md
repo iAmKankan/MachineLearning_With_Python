@@ -1,7 +1,5 @@
-## Logistic Regression
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 ## Index
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * [Logistic Regression Assumptions](#logistic-regression-assumptions)
 * [Logistic Regression Definition](#logistic-regression-definition)
 * [What is Regression](#what-is-regression)
@@ -11,14 +9,10 @@
    * Geometric Approach (Distance Based Approach)
    * Log-Loss Based Approach
    
-
-## Logistic Regression Assumptions
+## Logistic Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-* There should be a linear relationship in data (data should be linearly separable).
-* It assumes that there is minimal or no multicollinearity among the independent variables.
-* It usually requires a large sample size to predict properly.
-* It assumes the observations to be independent of each other.
-* Homoscedasticity: The variance of residual should be the same for any value of X.
+* Logistic regression is one such regression algorithm which can be used for performing classification problems. It calculates the probability that a given value belongs to a specific class. If the probability is more than 50%, it assigns the value in that particular class else if the probability is less than 50%, the value is assigned to the other class. Therefore, we can say that logistic regression acts as a binary classifier.
+
 
 ### Logistic Regression Definition
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
@@ -33,6 +27,14 @@
 * y= _**g(f(x))**_
     * Where _**g()**_ is a **Identity** function = Linear regression
     * Where _**g()**_ is a **Sigmoid** function = Logistic regression
+
+## Logistic Regression Assumptions
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+* There should be a linear relationship in data (data should be linearly separable).
+* It assumes that there is minimal or no multicollinearity among the independent variables.
+* It usually requires a large sample size to predict properly.
+* It assumes the observations to be independent of each other.
+* Homoscedasticity: The variance of residual should be the same for any value of X.
 
 ## What is Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
