@@ -19,7 +19,7 @@
 ### Working of a Logistic Model
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * For linear regression, the model is defined by:
-> ### <a>y = \beta<sub>0 + \beta<sub>{1x}  -------- (i)
+> ### _y = &beta;<sub>0 + &beta;<sub>1x  -------- (i)_
 
 and for logistic regression, we calculate probability, i.e. y is the probability of a given variable x belonging to a certain class. Thus, it is obvious that the value of y should lie between 0 and 1.
 
