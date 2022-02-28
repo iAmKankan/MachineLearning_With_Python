@@ -16,39 +16,64 @@
    * If the probability is more than 50%, it assigns the value in that particular class 
    * else if the probability is less than 50%, the value is assigned to the other class. 
 * Therefore, we can say that logistic regression acts as a binary classifier.
+
 ### Working of a Logistic Model
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * For linear regression, the model is defined by:
-> ### _y = <a>&beta;<sub>0 + <a>&beta;<sub>1x  -------- (i)_
+<img src="https://latex.codecogs.com/svg.image?\mathbf{y\&space;=\&space;}&space;\mathbf{\beta_0}&space;&plus;&space;\mathbf{\beta_{1}x}\cdots&space;\cdots\cdots(\mathrm{\textbf{i}})" title="\mathbf{y\ =\ } \mathbf{\beta_0} + \mathbf{\beta_{1}x}\cdots \cdots\cdots(\mathrm{\textbf{i}})" width=25% />
 
 * And for logistic regression, we calculate probability. _i.e. **_y_** is the probability of a given variable **_x_** belonging to a certain class_. 
 * Thus, it is obvious that the value of y should lie between **_0_** and **_1_**.
 * But, when we use equation(i) to calculate probability, we would get values less than **0** as well as greater than **1**. Which doesn’t make any sense
 * So, we need to use such an equation which always gives values between **0** and **1**, as we desire while calculating the probability.
+* We use the **sigmoid function** as the underlying function in Logistic regression. 
 
-### Sigmoid function 
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 <img src="https://user-images.githubusercontent.com/12748752/155903849-f8ab533c-74c3-440a-b5ea-920c0c7f4e04.PNG" width=50%>
 
-<a><i><u> We use the sigmoid function as the underlying function in Logistic regression. Mathematically and graphically, it is shown as </u> </i></a>
+<ins> ***Mathematically and graphically representation of Logistic Regression*** </ins>
 
-**Why do we use the Sigmoid Function?**
+### Why do we use the _Sigmoid Function_?
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+1)	The sigmoid function’s range is bounded between **0** and **1**. Thus it’s useful in calculating the probability for the  Logistic function.
+2)	It’s derivative is easy to calculate than other functions which is useful during **gradient descent calculation**.
+3)	It is a simple way of introducing **non-linearity** to the model.
 
-1)	The sigmoid function’s range is bounded between 0 and 1. Thus it’s useful in calculating the probability for the  Logistic function.
-2)	 It’s derivative is easy to calculate than other functions which is useful during gradient descent calculation.
-3)	It is a simple way of introducing non-linearity to the model.
+* Although there are other functions as well, which can be used, but sigmoid is the most common function used for logistic regression.
+> ### Probabilistic proof
+* The logistic function is given as:
+<img src="https://latex.codecogs.com/svg.image?P(X)\&space;=&space;\&space;\frac{e^{\mathbf{\beta_0}&space;&plus;&space;\mathbf{\beta_{1}x}}}{1&plus;e^{\mathbf{\beta_0}&space;&plus;&space;\mathbf{\beta_{1}x}}}" title="P(X)\ = \ \frac{e^{\mathbf{\beta_0} + \mathbf{\beta_{1}x}}}{1+e^{\mathbf{\beta_0} + \mathbf{\beta_{1}x}}}" width=15% />
 
-Although there are other functions as well, which can be used, but sigmoid is the most common function used for logistic regression. We will talk about the rest of the functions in the neural network section.
+> #### Let’s see some manipulation with the logistic function: 
+<img src="https://latex.codecogs.com/svg.image?\begin{matrix}\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\\left&space;|&space;\&space;p(X)\&space;=&space;\&space;\frac{1}{1&plus;e^{-(\mathbf{\beta_0}&space;&plus;&space;\mathbf{\beta_{1}x)}}}\&space;&space;\right|&space;\\\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\&space;&space;\end{matrix}" title="\begin{matrix}\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\\left | \ p(X)\ = \ \frac{1}{1+e^{-(\mathbf{\beta_0} + \mathbf{\beta_{1}x)}}}\ \right| \\\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\ \end{matrix}" width=20% />
+ 
+<img src="https://latex.codecogs.com/svg.image?\\p(X)\&space;=&space;\&space;\frac{1}{1&plus;e^{-(\mathbf{\beta_0}&space;&plus;&space;\mathbf{\beta_{1}x)}}}&space;\cdots&space;\cdots\cdots\cdots&space;\cdots&space;(1)\\&space;\\&space;1-&space;p(X)\&space;=&space;1&space;-&space;\frac{e^{h(0)}}{1&plus;e^{h(0)}}&space;\&space;,\&space;h(0)=&space;\mathbf{\beta_0}&space;&plus;&space;\mathbf{\beta_{1}x}&space;\\&space;\\1-&space;p(X)\&space;=&space;1&space;-&space;\frac{1}{1&plus;e^{h(0)}}&space;\&space;=\&space;\frac{1}{1&plus;e^{\beta_0&space;&plus;&space;&space;\beta_{1}x}}&space;\cdots\cdots\cdots&space;(2)\\" title="\\p(X)\ = \ \frac{1}{1+e^{-(\mathbf{\beta_0} + \mathbf{\beta_{1}x)}}} \cdots \cdots\cdots\cdots \cdots (1)\\ \\ 1- p(X)\ = 1 - \frac{e^{h(0)}}{1+e^{h(0)}} \ ,\ h(0)= \mathbf{\beta_0} + \mathbf{\beta_{1}x} \\ \\1- p(X)\ = 1 - \frac{1}{1+e^{h(0)}} \ =\ \frac{1}{1+e^{\beta_0 + \beta_{1}x}} \cdots\cdots\cdots (2)\\" width=40% />
 
-The logistic function is given as:
+* If we Divide `(1)` by `(2)` we will get-
+<img src="https://latex.codecogs.com/svg.image?\\&space;\frac{p(X)}{1&space;-&space;p(X)}=e^{(\mathbf{\beta_0}&space;&plus;&space;\mathbf{\beta_{1}x)}" title="\\ \frac{p(X)}{1 - p(X)}=e^{(\mathbf{\beta_0} + \mathbf{\beta_{1}x)}" width=20%/>
 
-<img src="logistic_function.PNG" width="300">
+* Lets take _Log_ at each side, we will get Logit Function
+<img src="https://latex.codecogs.com/svg.image?\\&space;log\left&space;(\frac{p(X)}{1&space;-&space;p(X)}&space;&space;\right&space;)=\&space;\mathbf{\beta_0}&space;&plus;&space;\mathbf{\beta_{1}x" title="\\ log\left (\frac{p(X)}{1 - p(X)} \right )=\ \mathbf{\beta_0} + \mathbf{\beta_{1}x" width=30%  />  
 
-Let’s see some manipulation with the logistic function: 
+* We can see that the logit function is linear in terms with **x**.
 
-<img src="manip1.PNG" width="300">
+> ### Prediction
+<img src="https://latex.codecogs.com/svg.image?y=\left\{\begin{matrix}\mathrm{0\&space;\&space;,\&space;\&space;if\&space;\&space;&space;p(X)\&space;<&space;&space;0.5}\\\mathrm{1\&space;\&space;,\&space;\&space;if\&space;\&space;&space;p(X)\&space;\geqslant&space;&space;&space;0.5}\\\end{matrix}\right." title="y=\left\{\begin{matrix}\mathrm{0\ \ ,\ \ if\ \ p(X)\ < 0.5}\\\mathrm{1\ \ ,\ \ if\ \ p(X)\ \geqslant 0.5}\\\end{matrix}\right." />
 
-We can see that the logit function is linear in terms with x.
+> ### Cost Function
+* for a single 
+<img src="https://latex.codecogs.com/svg.image?Cost&space;(\&space;p(X),\&space;y)\&space;\left\{\begin{matrix}-\&space;log(p(X)),&space;\&space;if&space;\&space;y\&space;=\&space;1&space;\\\&space;\&space;\&space;\&space;-\&space;log(1\&space;-\&space;p(X)),&space;\&space;if&space;\&space;y\&space;=\&space;0&space;\end{matrix}\right.&space;" title="Cost (\ p(X),\ y)\ \left\{\begin{matrix}-\ log(p(X)), \ if \ y\ =\ 1 \\\ \ \ \ -\ log(1\ -\ p(X)), \ if \ y\ =\ 0 \end{matrix}\right. " />
+
+* **Why this cost function?**
+  * **_if p(x) = 1 and y=1, Cost = 0_**
+  * **_if p(x) = 0 and y=0, Cost = 0_**
+* **but**
+  * **_if p(x) = 0 and y=1, Cost<a>&rarr; &infin; [log(0)&rarr; &infin; ]</a>_**
+  * **_if p(x) = 1 and y=0, Cost<a>&rarr; &infin; [log(0)&rarr; &infin; ]</a>_**
+
+
+* **Cost Function for the whole training set is**
+<img src="https://latex.codecogs.com/svg.image?J(\theta)=&space;-\frac{1}{m}\sum_{i=1}^{m}\left&space;[&space;y^{(i)}&space;log(\hat&space;p^{(i)})&plus;(1-y^{(i)})log(1-\hat&space;p^{(i)})\right&space;]" title="J(\theta)= -\frac{1}{m}\sum_{i=1}^{m}\left [ y^{(i)} log(\hat p^{(i)})+(1-y^{(i)})log(1-\hat p^{(i)})\right ]" width=40% />
+
 
 
 ### Logistic Regression Definition
