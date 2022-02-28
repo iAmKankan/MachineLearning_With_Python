@@ -72,8 +72,11 @@
 
 
 * **Cost Function for the whole training set is**
-<img src="https://latex.codecogs.com/svg.image?J(\theta)=&space;-\frac{1}{m}\sum_{i=1}^{m}\left&space;[&space;y^{(i)}&space;log(\hat&space;p^{(i)})&plus;(1-y^{(i)})log(1-\hat&space;p^{(i)})\right&space;]" title="J(\theta)= -\frac{1}{m}\sum_{i=1}^{m}\left [ y^{(i)} log(\hat p^{(i)})+(1-y^{(i)})log(1-\hat p^{(i)})\right ]" width=40% />
+<img src="https://latex.codecogs.com/svg.image?J(\theta)=&space;-\frac{1}{m}\sum_{i=1}^{m}\left&space;[&space;y^{(i)}&space;log(\hat&space;p^{(i)})&plus;(1-y^{(i)})log(1-\hat&space;p^{(i)})\right&space;]" title="J(\theta)= -\frac{1}{m}\sum_{i=1}^{m}\left [ y^{(i)} log(\hat p^{(i)})+(1-y^{(i)})log(1-\hat p^{(i)})\right ]" width=50% />
 
+* The values of parameters (&theta;) for which the cost function is minimum is calculated using the gradient descent (as discussed in the Linear Regression section) algorithm.
+* **The partial derivative for cost function is given as :**
+<img src="https://latex.codecogs.com/svg.image?\frac{\partial&space;}{\partial&space;\theta_j}\&space;J(\theta)=&space;\frac{1}{m}\sum_{i=1}^{m}\left&space;(&space;\sigma\left&space;(&space;\theta^T&space;x^{(i)}&space;\right&space;)-&space;y^{(i)}\right&space;)x_j^{(i)}" title="\frac{\partial }{\partial \theta_j}\ J(\theta)= \frac{1}{m}\sum_{i=1}^{m}\left ( \sigma\left ( \theta^T x^{(i)} \right )- y^{(i)}\right )x_j^{(i)}" width=35%  />
 
 
 ### Logistic Regression Definition
