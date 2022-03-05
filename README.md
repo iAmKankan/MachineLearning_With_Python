@@ -28,6 +28,7 @@
 * And a more engineering-oriented one: 
 > #### A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E. 
 > — _Tom Mitchell, 1997_
+
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 ### Machine Learning Algorithms Based on Trainging
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
@@ -36,7 +37,7 @@
 
 <img src="https://user-images.githubusercontent.com/12748752/150331825-26bc70db-8c11-4d0a-bf54-445d32cc03a8.png" width=100% />
 
-### Based on the Performence
+### Based on the Performence(_Handling Outliers_)
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 <img src="https://user-images.githubusercontent.com/12748752/146688585-e2ecc295-c3e0-4ea8-acb1-ad03a8ec8ce6.png" width=110% />
