@@ -15,12 +15,13 @@
 * At the left side we can see some scenarios where linear classification wrongly done.
 * The other side is the correct way how linear SVM works, both are on **_Iris_** dataset.
 <img src="https://user-images.githubusercontent.com/12748752/158370041-e271cffa-7cf4-49b8-b71e-0cd53a0b3aec.png" width=50% />
+
 #### Left side:
 * The two classes can clearly be separated easily with a straight line (they are linearly separable). 
 * The left plot shows the decision boundaries of three possible linear classifiers. 
-* The model whose decision boundary is represented by the < a style="color:red;">Blue dashed</a> line is so bad that it does not even separate the classes properly.
+* The model whose decision boundary is represented by the <a style="color:red;">Blue dashed</a> line is so bad that it does not even separate the classes properly.
 * The other two models work perfectly on this training set, but their decision boundaries come so close to the instances that these models will probably not perform as well on new instances.
-
+<span color="red">red</span>
 
 
 
