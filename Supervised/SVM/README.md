@@ -38,17 +38,31 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/SVM_margin.png/450px-SVM_margin.png" align="left" width=25% />
 
-#### Anything on or above this boundary is of one class, with label 1 - <b>w<sup>T</sup>x - b= 1</b>
 #### Any hyperplane can be written as the set of points **x** satisfying - <b>w<sup>T</sup>x - b= 0</b>
+#### With a normalized or standardized dataset, these hyperplanes can be described by the equations-
+#### Anything on or above this boundary is of one class, with label 1 - <b>w<sup>T</sup>x - b= 1</b>
 #### Anything on or below this boundary is of the other class, with label −1 <b>w<sup>T</sup>x - b= -1</b>
 #### Geometrically, the distance between these two hyperplanes is <img src="https://latex.codecogs.com/svg.image?\frac{\mathbf{2}}{||\mathbf{w}||}" align="center" /> so to maximize the distance between the planes we want to minimize <img src="https://latex.codecogs.com/svg.image?{\displaystyle&space;\|\mathbf&space;{w}&space;\|}" align="center" />. The distance is computed using the distance from a point to a plane equation. We also have to prevent data points from falling into the margin, we add the following constraint: for each {\displaystyle i}i either 
 
-
 * When we strictly impose that all instances must be _off the street_ and on the right side, this is called hard margin classification.
+#### There are two main issues with hard margin classification. 
+  * First, it only works if the data is linearly separable. 
+  * Second, it is sensitive to outliers.
 
+### _Soft Margin Classification_
+* The objective of the soft margin classification is to find a good balance between keeping the street as large as possible and limiting the margin violations (i.e., instances that end up in the middle of the street or even on the wrong side).
+* To extend SVM to cases in which the data are not linearly separable, the **_hinge loss_**(parameter **_C_**) function is helpful
 
+> #### _If your SVM model is overfitting, you can try regularizing it by reducing C._
+### _Hyperparameters_
+<img src="https://user-images.githubusercontent.com/12748752/159112742-b72efa06-3183-4214-8653-fcfdbb148e8e.png" width=50%/>
 
-
+* When creating an SVM model using Scikit-Learn, we can specify a number of hyperparameters. C is one of those hyperparameters. 
+* If we set it to a low value, then we end up with the model on the left.
+* With a high value, we get the model on the right.
+* **Margin violations are bad.**
+   *  It’s usually better to have few of them.
+   *   However, in this case the model on the left has a lot of margin violations but will probably generalize better
 
 
 [1]: https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/README.md#linear-classification-vs-non-linear-classification
