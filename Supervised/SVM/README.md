@@ -67,6 +67,9 @@
 
 [1]: https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/README.md#linear-classification-vs-non-linear-classification
 [2]: https://en.wikipedia.org/wiki/Support-vector_machine#:~:text=Given%20a%20set%20of%20training,use%20SVM%20in%20a%20probabilistic
+
 ## References
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * [SVM Link](http://www.statsoft.com/Textbook/Support-Vector-Machines#index)
+* [Wiki](https://en.wikipedia.org/wiki/Support-vector_machine#Hard-margin)
+* [Hands-On..](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
