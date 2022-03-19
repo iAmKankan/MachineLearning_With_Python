@@ -12,6 +12,7 @@
 * Unlike Logistic Regression classifiers, SVM classifiers do not output probabilities for each class.
 * It is one of the most popular models in Machine Learning, prior to Neural Network for pictures and videos SVM was used intensively.
 ### Linear SVM Classification
+![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * The following picture is a demonstration why we need a Linear SVM Classifier.
 * At the left side we can see some scenarios where linear classification wrongly done.
 * The other side is the correct way how linear SVM works, both are on **_Iris_** dataset.
