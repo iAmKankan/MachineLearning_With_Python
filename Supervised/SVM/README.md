@@ -9,7 +9,7 @@
 > * SVMs are particularly well suited for classification of complex _small_- or _medium-sized_ datasets.
 > * SVM is a [non-probabilistic][] binary linear classifier. [_Wiki_][2]
 > * Although methods such as _`Platt scaling`_ exist to use SVM in a probabilistic classification setting.[_Wiki_][2]
-
+* Unlike Logistic Regression classifiers, SVM classifiers do not output probabilities for each class.
 * It is one of the most popular models in Machine Learning, prior to Neural Network for pictures and videos SVM was used intensively.
 ### Linear SVM Classification
 * The following picture is a demonstration why we need a Linear SVM Classifier.
@@ -67,6 +67,10 @@
 
 [1]: https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/README.md#linear-classification-vs-non-linear-classification
 [2]: https://en.wikipedia.org/wiki/Support-vector_machine#:~:text=Given%20a%20set%20of%20training,use%20SVM%20in%20a%20probabilistic
+## Nonlinear SVM Classification
+
+## SVM Regression
+
 
 ## References
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
