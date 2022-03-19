@@ -68,10 +68,10 @@
 
 [1]: https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/README.md#linear-classification-vs-non-linear-classification
 [2]: https://en.wikipedia.org/wiki/Support-vector_machine#:~:text=Given%20a%20set%20of%20training,use%20SVM%20in%20a%20probabilistic
-## Nonlinear SVM Classification
-
+### Nonlinear SVM Classification
+![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 ## SVM Regression
-
+![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ## References
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
