@@ -68,7 +68,7 @@
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Overfitting and Underfitting is direct related to Bias and Varience.
 * In simple words-
-  * **Overfitting** means you have trained your model havely that it gives good accuracy with training datya but failing miserably with test data.
+  * **Overfitting** means you have trained your model havely that it gives good accuracy with training data but failing miserably with test data.
   * **Underfit** means you have not trained your data good enough to get a decent accuracy.
 
 ## MODEL INTERPRETATION
