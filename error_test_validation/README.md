@@ -3,7 +3,7 @@
 
 ## Testing and Validating 
 
-< img src="https://user-images.githubusercontent.com/12748752/141670977-ae3e17a8-0636-4fb6-a052-cf4de904f5a9.png" align='right' width=60% />
+<img src="https://user-images.githubusercontent.com/12748752/141670977-ae3e17a8-0636-4fb6-a052-cf4de904f5a9.png" >
 
 * The only way to know how well a model will generalize to new cases is to actually try it out on new cases. 
 * One way to do that is to put your model in production and monitor how well it performs. 
