@@ -4,7 +4,7 @@
 *  [Machine Learning Life Cycle](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/MachineLearning_LifeCycle/README.md)
 * [Supervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
 * [Unsupervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
-#### _Terminologies_ [](#terminologies)
+#### _Terminologies_
    * [Bias and Varience](#bias-and-varience)
      * [Regularization]()
      * [Boosting]()
@@ -17,7 +17,7 @@
    * [Linear and Non-Linear Classifications](#linear-classification-vs-non-linear-classification)
    * [Stratified Sampling](#stratified-sampling)
    * [Out-of-Core Algorithm](#out-of-core-algorithm)
-[Error Test Validation](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
+#### [_Error Test Validation_](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
 
 
 ## What is Machine Learning
