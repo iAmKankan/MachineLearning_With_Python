@@ -4,14 +4,15 @@
 * [Machine Learning Life Cycle](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/MachineLearning_LifeCycle/README.md)
 * [Supervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
 * [Unsupervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
-### _Training_
+### _Model Training_
 * [Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/gradient_descent.md)
    * [Batch Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/batch_gd.md)
    * [Stochastic Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/stochastic_gradient_descent.md)
 
-#### [_Error Test Validation_](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
+### _Training Sets, Validation Sets, and Holdout Sets_
+* [_Error Train-Test Validation_](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
 
-#### _Terminologies_
+### _Terminologies_
    * [Bias and Varience](#bias-and-varience)
      * [Regularization]()
      * [Boosting]()
