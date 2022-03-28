@@ -65,6 +65,7 @@
   * [**Regularization.**](https://github.com/iAmKankan/Regularization/blob/master/README.md)
   * [**Boosting.**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/boosting.md)
   * [**Bagging.**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/Voting_Bagging_Pasting_OoBEvalution.md)
+  * [**Data Augmentation**](https://github.com/iAmKankan/AI-ML_R-and-D/tree/main/Text_Augmentation)
 ### Overfitting And Underfitting
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Overfitting and Underfitting is direct related to Bias and Varience.
