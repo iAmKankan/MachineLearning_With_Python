@@ -10,7 +10,7 @@
    * [Stochastic Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/stochastic_gradient_descent.md)
 
 ### _Training Sets, Validation Sets, and Holdout Sets_
-* [_Error Train-Test Validation_](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
+* [Error Train-Test Validation](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
 
 ### _Terminologies_
    * [Bias and Varience](#bias-and-varience)
