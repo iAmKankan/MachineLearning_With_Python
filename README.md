@@ -1,9 +1,16 @@
 ### Index 
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-*  [What is Machine Learning](#what-is-machine-learning)
-*  [Machine Learning Life Cycle](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/MachineLearning_LifeCycle/README.md)
+* [What is Machine Learning](#what-is-machine-learning)
+* [Machine Learning Life Cycle](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/MachineLearning_LifeCycle/README.md)
 * [Supervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
 * [Unsupervised Learning](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
+### _Training_
+* [Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/gradient_descent.md)
+   * [Batch Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/batch_gd.md)
+   * [Stochastic Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/stochastic_gradient_descent.md)
+
+#### [_Error Test Validation_](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
+
 #### _Terminologies_
    * [Bias and Varience](#bias-and-varience)
      * [Regularization]()
@@ -17,8 +24,6 @@
    * [Linear and Non-Linear Classifications](#linear-classification-vs-non-linear-classification)
    * [Stratified Sampling](#stratified-sampling)
    * [Out-of-Core Algorithm](#out-of-core-algorithm)
-#### [_Error Test Validation_](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
-
 
 ## What is Machine Learning
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
