@@ -6,10 +6,13 @@
 
 ### Partitioning Data
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-The first step in developing a machine learning model is training and validation. In order to train and validate a model, you must first partition your dataset, which involves choosing what percentage of your data to use for the training, validation, and holdout sets. The following example shows a dataset with 64% training data, 16% validation data, and 20% holdout data.
+* The first step in developing a machine learning model is training and validation. 
+* In order to train and validate a model, you must first partition your dataset, which involves choosing what percentage of your data to use for the training, validation, and holdout sets. 
+* The following example shows a dataset with 64% training data, 16% validation data, and 20% holdout data.
 <img src="https://user-images.githubusercontent.com/12748752/160504728-c67c7e87-deda-4b86-889a-19d3e108a604.png" width=50% />
+
 ### What is a Training Set?
-A training set is the subsection of a dataset from which the machine learning algorithm uncovers, or “learns,” relationships between the features and the target variable. In supervised machine learning, training data is labeled with known outcomes.
+* A training set is the subsection of a dataset from which the machine learning algorithm uncovers, or “learns,” relationships between the features and the target variable. In supervised machine learning, training data is labeled with known outcomes.
 
 ### What is a Validation Set?
 A validation set is another subset of the input data to which we apply the machine learning algorithm to see how accurately it identifies relationships between the known outcomes for the target variable and the dataset’s other features.
