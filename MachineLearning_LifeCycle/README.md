@@ -116,12 +116,6 @@
 
 
 
-* **Classification reports**
-    - Precision Score
-    - Recall Score
-    - F1 Score
-    - Support
-    - ConfusionMatrix
 
 
 
