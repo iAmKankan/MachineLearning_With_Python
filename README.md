@@ -135,3 +135,10 @@
 ### Out-of-Core Algorithm
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * An algorithm which exploits external storage in order to support large data volumes that cannot be supported by primary memory. 
+### Parallelization 
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+It is the act of designing a computer program or system to process data in parallel. Normally, computer programs compute data serially: they solve one problem, and then the next, then the next. If a computer program or system is parallelized, it breaks a problem down into smaller pieces to be independently solved simultaneously by discrete computing resources. When optimized for this type of computation, parallelized programs can arrive at a solution much faster than programs executing processes in serial.
+
+Parallelization as a computing technique has been used for many years, especially in the field of **supercomputing**. Each new generation of processors approaches the physical limitations of microelectronics, which is a major engineering concern in CPU design. Because individual chips are approaching their fastest possible speeds, parallel processing becomes an important area where to improve computing performance. The majority of modern desktop computers and laptops have **multiple cores on their CPU** that help parallel processing in the operating system.
+
+
