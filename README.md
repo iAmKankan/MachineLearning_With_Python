@@ -25,6 +25,7 @@
    * [Linear and Non-Linear Classifications](#linear-classification-vs-non-linear-classification)
    * [Stratified Sampling](#stratified-sampling)
    * [Out-of-Core Algorithm](#out-of-core-algorithm)
+   * Parallelization
 
 ## What is Machine Learning
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
