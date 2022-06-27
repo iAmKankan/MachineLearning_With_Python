@@ -37,7 +37,10 @@
 > #### A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E. 
 > — _Tom Mitchell, 1997_
 
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+## Software Engineering Vs AI/ML
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+<img src="https://user-images.githubusercontent.com/12748752/165293822-f6f8fe1c-ddd3-4ecb-8af9-12421f0d2639.png" width=70%/>
+
 ### Machine Learning Algorithms Based on Trainging
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * Machine Learning systems can be classified according to the amount and type of supervision they get during training. 
