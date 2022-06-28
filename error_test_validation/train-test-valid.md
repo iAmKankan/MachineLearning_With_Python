@@ -44,12 +44,22 @@ Given two sequences, like **x** and **y** here, ***`train_test_split()`*** perfo
 4) **_y_test_**: The test part of the second sequence (y)
 
 ### The randomness
-The dataset splitting is **random** by default. The result differs each time you run the function. However, this often isn’t what you want.
+The dataset splitting is **random** by default. The result differs each time you run the function.
 
-Sometimes, to make your tests reproducible, you need a random split with the same output for each function call. You can do that with the parameter random_state. The value of random_state isn’t important—it can be any non-negative integer. You could use an instance of numpy.random.RandomState instead, but that is a more complex approach.
+Sometimes, to make your tests **reproducible**, you need a random split with the same output for each function call. You can do that with the parameter **_`random_state`_**. The value of **_`random_state`_** isn’t important—it can be any non-negative integer. You could use an instance of **_`numpy.random.RandomState`_** instead, but that is a more complex approach.
 
-In the previous example, you used a dataset with twelve observations (rows) and got a training sample with nine rows and a test sample with three rows. That’s because you didn’t specify the desired size of the training and test sets. By default, 25 percent of samples are assigned to the test set. This ratio is generally fine for many applications, but it’s not always what you need.
+The samples of the dataset are shuffled randomly and then split into the training and test sets according to the size you defined.
 
-Typically, you’ll want to define the size of the test (or training) set explicitly, and sometimes you’ll even want to experiment with different values. You can do that with the parameters train_size or test_size.
+### The size of _train data_ or _test data_
+By default, **25 percent** of samples are assigned to the **test set**. This ratio is generally fine for many applications, but it’s not always what you need.
 
-Modify the code so you can choose the size of the test set and get a reproducible result:
+Typically, you’ll want to define the size of the **test** (or **training**) set explicitly, and sometimes you’ll even want to experiment with different values. You can do that with the parameters **_`train_size`_** or **_`test_size`_**.
+
+### Statify
+Suppose **y** has _six zeros_ and _six ones_. However, the _**test set**_ has _three zeros_ out of _four items_. If you want to (approximately) keep the proportion of **y** values through the **training** and **test** sets, then pass **_`stratify=y`_**. This will enable stratified splitting:
+
+Now **_`y_train`_** and **_`y_test`_** have the same ratio of zeros and ones as the original **y** array.
+
+**Stratified** splits are desirable in some cases, like when you’re classifying an **_imbalanced dataset_**, a dataset with a significant difference in the number of samples that belong to distinct classes.
+
+Finally, you can turn off data shuffling and random split with **_`shuffle=False`_**:
