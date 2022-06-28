@@ -13,9 +13,9 @@ How you measure the **precision** of your model depends on the type of a problem
 Splitting the dataset is essential for an **unbiased evaluation** of prediction performance or it can leads to the data leackage(**Data leakage** in machine learning happens when the data that we are used to training a machine learning algorithm is having the information which the model is trying to predict). In most cases, it’s enough to split your dataset randomly into **three** subsets:
 1) **The training set** is applied to **train** or **fit** our model. For example, you use the training set to find the **optimal weights** or **coefficients**, for **_linear regression_**, **_logistic regression_** or **_neural networks_**.
 2) **The validation set** is used for _unbiased model evaluation_ during **_hyperparameter tuning_**. For example, when you want to find the **optimal number of neurons in a neural network** or the **best kernel for a support vector machine**, you experiment with different values. For each considered setting of **hyperparameters**, you **fit** the model with the **training set** and assess its **performance with the validation set**.
-  * GridSearchCV
-  * RandomSearchCV
-  * Cross Validation.etc.
+   * GridSearchCV
+   * RandomSearchCV
+   * Cross Validation.etc.
 3) **The test set** is needed for an _unbiased evaluation_ of the **final model** or to perform the model prediction.
 
 > In less complex cases, when you don’t have to tune hyperparameters, it’s okay to work with only the training and test sets.
