@@ -27,11 +27,7 @@ Splitting a dataset might also be important for **detecting** if our model suffe
 * **Overfitting** usually takes place when a model has an **excessively complex structure** and learns both the existing relations among **data** and **noise**. Such models often have bad **generalization capabilities**. _Although they work well with training data_, _they usually yield poor performance with unseen (test) data_.
 
 
-## Spliting the Data using _`train_test_split()`_:
-![dark](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
-### Syntax of _`train_test_split()`_
-![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ```Python
 sklearn.model_selection.train_test_split(*arrays, **options) -> list
@@ -97,7 +93,7 @@ Now **_`y_train`_** and **_`y_test`_** have the same ratio of zeros and ones as 
 We can turn off data shuffling and random split with **_`shuffle=False`_**:  
 > No **shuffling**. No **randomness**. If **_`shuffle=False`_** then no matter what we set for **_`random_state`_**, it will <ins><i>linearly divide the data into **train** and **test** data</i></ins>.
 
-### Why _`random_state=42`_?
+### Why _`random_state=42`_ ?
 You may have seen multiple times that most commonly **42** is used for **`random_state`**. Is there any reason for that? **And the answer is NO**. Python has used **42** as **`random_state`** in their documentation for example and many people have copied from the example code snippet, some people may have used it subconsciously and some may have used it lazily. So there is no particular reason for using 42 as random_state number and you are free to use any number you want.
 
 Does this random seed has to be 42? Not really. It can be any number. To be specific, 42 have nothing to do with ML or AI. It is actually a generic number, but has some significance. In Machine Learning, it doesn't matter what the actual random number is, anything more than 0 is sufficient enough.
