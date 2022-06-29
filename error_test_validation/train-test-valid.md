@@ -69,11 +69,9 @@ Now **_`y_train`_** and **_`y_test`_** have the same ratio of zeros and ones as 
 
 ### Sheffle
 We can turn off data shuffling and random split with **_`shuffle=False`_**:  
-> No **shuffling**. No **randomness**.
+> No **shuffling**. No **randomness**. If **_`shuffle=False`_** then no matter what we set for **_`random_state`_**, it will <ins><i>linearly divide the data into **train** and **test** data</i></ins>.
 
-As you can see when **_`shuffle=False`_** then no matter what we set for **_`random_state`_**, it will <ins>linearly divide the data into **train** and **test** data</ins>.
-
-> ### Why _`random_state=42`_?
-You may have seen multiple times that most commonly **42** is used for **`random_state`**. Is there any reason for that? And the answer is NO. Python has used **42** as **`random_state`** in their documentation for example and many people have copied from the example code snippet, some people may have used it subconsciously and some may have used it lazily. So there is no particular reason for using 42 as random_state number and you are free to use any number you want.
+### Why _`random_state=42`_?
+You may have seen multiple times that most commonly **42** is used for **`random_state`**. Is there any reason for that? **And the answer is NO**. Python has used **42** as **`random_state`** in their documentation for example and many people have copied from the example code snippet, some people may have used it subconsciously and some may have used it lazily. So there is no particular reason for using 42 as random_state number and you are free to use any number you want.
 
 Does this random seed has to be 42? Not really. It can be any number. To be specific, 42 have nothing to do with ML or AI. It is actually a generic number, but has some significance. In Machine Learning, it doesn't matter what the actual random number is, anything more than 0 is sufficient enough.
