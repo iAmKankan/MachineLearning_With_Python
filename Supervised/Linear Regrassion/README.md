@@ -88,7 +88,7 @@ Let’s look at the important assumptions in regression analysis-
 * You can also perform statistical tests of normality such as Kolmogorov-Smirnov test, Shapiro-Wilk test.
 
 
-## Types of Linear Regressio
+## Types of Linear Regression
 Linear Regression is of 2 types
  1) **Simple Linear Regression** 
  2) **Multivariate Linear Regression**
