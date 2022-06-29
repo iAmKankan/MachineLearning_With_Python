@@ -190,4 +190,4 @@ Is the Squared Error of the mean, The mean of all **Y** is represented by <img s
 * So, it is not penalising the new added features.
 * In  _Adjusted R<sup>2</sup> Error_ it penalizes attributes that are not correlated with **Y**.
 
-![adjustedr](https://user-images.githubusercontent.com/12748752/127488214-c98d545a-fad0-4f0e-8176-786836be572d.png)
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{R^2\&space;adjusted=&space;1-}\mathbf{\frac{(1-R^2)(N-1)}{N-p-1}}\&space;\&space;\&space;\&space;\&space;Where\&space;\begin{cases}\mathit{R^2=\&space;Sample\&space;R-square&space;}&space;\\\mathit{p=\&space;Number\&space;of\&space;Predictors&space;}&space;\\\mathit{N=\&space;Total\&space;sample\&space;size}&space;\\\end{cases}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{R^2\ adjusted= 1-}\mathbf{\frac{(1-R^2)(N-1)}{N-p-1}}\ \ \ \ \ Where\ \begin{cases}\mathit{R^2=\ Sample\ R-square } \\\mathit{p=\ Number\ of\ Predictors } \\\mathit{N=\ Total\ sample\ size} \\\end{cases}}" />
