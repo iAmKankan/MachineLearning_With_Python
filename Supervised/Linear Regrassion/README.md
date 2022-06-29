@@ -125,91 +125,65 @@ Linear Regression is of 2 types
 
 ## Error or Loss or Cost
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-### Residual Sum Of Squres
-* The aim is to minimize the error which is the distance from the bestfit line to each observation.
-* The Deviation or the Error is like-
-* Deviation is called Residual.
+### ⚫ _Residual Sum Of Squres_
+#### The Error is the _distance_ from the _bestfit line_ to _each observation_. Our aim is to minimize the error. 
+The **_Deviation_** or the **_Error_** is also called **_Residual_**.
 
-> <img src="https://latex.codecogs.com/svg.image?Residual&space;=&space;Y_p-Y_a" title="Residual = Y_p-Y_a" />
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{Residual&space;=&space;(Y_p-Y_a)}}&space;\&space;\&space;{\color{Purple}\begin{cases}&space;p=predicted\\a=actual\end{cases}&space;}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{Residual = (Y_p-Y_a)}} \ \ {\color{Purple}\begin{cases} p=predicted\\a=actual\end{cases} }" />
 
-* **The mail goal is to reduce the error**.
+#### Sum of all Errors
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{AllResidual=&space;\sum(Y_p-Y_a)}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{AllResidual= \sum(Y_p-Y_a)}}" />
 
-<img src="https://latex.codecogs.com/svg.image?AllResidual&space;=&space;\sum&space;(Y_p-Y_a)" title="AllResidual = \sum (Y_p-Y_a)" />
+#### In order to eliminate the nagative from _Y actuals_ (_-Y<sub>a</sub>_), we take the squre (<sup>2</sup>) of the whole residuals and it becomes- 
+> #### _Residual Sum Of Squres(RSS)_ = _Ordinary least squares(OLS)_ = _Error function_ = _Loss Function_.
 
-* -ve Y actuals also there thats why we take the squre of the whole residuals
-
-> <img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\sum&space;&space;(Y_p-Y_a)^2" title="ResidualSumOfSqures = \sum (Y_p-Y_a)^2" />
-
-* **Residual Sum Of Squres(RSS) = Ordinary least squares(OLS) = Error function = Loss Function.**
-
-* Now we have to take the minimum of all errors. That's will give us the beest fit line.
-
-* Inorder to fing out the minimum of a function we need to use first order derivation and second order derivation to find out the minima and maxima.
-
-> <img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\left&space;(min&space;&space;\sum&space;&space;(Y_p-Y_a)^2\right&space;)" title="ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )" />
-
-* **Best-fit-line we need to find out when we findout the 'a' and the 'b' that's the line which is the min error.**
----
-
-> <img src="https://latex.codecogs.com/svg.image?ResidualSumOfSqures&space;=&space;\left&space;(min&space;&space;\sum&space;&space;(Y_p-Y_a)^2\right&space;)" title="ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )" />
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{ResidualSumOfSqures=&space;\sum(Y_p-Y_a)^2}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{ResidualSumOfSqures= \sum(Y_p-Y_a)^2}}" />
 
 
+#### Now we have to take the minimum of all errors. That's will give us the beest fit line.
+Inorder to fing out the minimum of a function we need to use **first order derivation** and **second order derivation** to find out the **minima** and **maxima**.
+
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{ResidualSumOfSqures&space;=&space;\left&space;(min&space;\sum&space;(Y_p-Y_a)^2\right&space;)}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )}}" />
+
+#### _Best-fit-line_ we need to find out when we findout the '_a_' and the '_b_' that's the line which is the min error.
+
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{ResidualSumOfSqures&space;=&space;\left&space;(min&space;\sum&space;(Y_p-Y_a)^2\right&space;)}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{ResidualSumOfSqures = \left (min \sum (Y_p-Y_a)^2\right )}}" />
+
+#### _This function is Parabola or Convex shaped curve_
+If we replace the above function with this <img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{Y=X^2}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{Y=X^2}}" align="center"/>
+
+* For **X= -1,-2,0,1,2** result will be **1,4,0,1,4** if we ploted over a chart it will be like- 
+<img src="https://user-images.githubusercontent.com/12748752/176536026-6ce5fc99-c3c9-4c06-99e4-4b0cf5a1d5fa.jpg" width=50%>
 
 
+> ### Inorder to findout the minimum error we use gradient descent
+> #### The learning rate is represented by alpha <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
+
+[Linear Regression Simulator](https://www.mladdict.com/linear-regression-simulator)
 
 
----
-* **This function is parabola.or Convex shaped curve**
-
-* if we replace the above function with this <img src="https://latex.codecogs.com/svg.image?Y=X^2" title="Y=X^2" />
-    * for X= -1,-2,0,1,2 result will be 1,4,0,1,4 if we ploted over a chart it will be like- 
-![Linear2](https://user-images.githubusercontent.com/12748752/127488310-b20c91b5-d450-47ad-9e2b-d490ebc07233.png)
+### ⚫ _Total Squired Error_
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{SE_{Line}&space;=(Y_1-(bX_1&plus;a))^2&plus;(Y_2-(bX_2&plus;a))^2&plus;...&plus;(Y_n-(bX_n&plus;a))^2}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{SE_{Line} =(Y_1-(bX_1+a))^2+(Y_2-(bX_2+a))^2+...+(Y_n-(bX_n+a))^2}}" />
 
 
+### ⚫ _Total varience in Y_
+Is the Squared Error of the mean, The mean of all **Y** is represented by <img src="https://latex.codecogs.com/svg.image?\overline{Y}" title="\overline{Y}" />
 
-
-
-* Inorder to findout the minimum error we use gradient descent
-
-https://www.mladdict.com/linear-regression-simulator
-* The learning rate is represented by alpha <img src="https://latex.codecogs.com/svg.image?\alpha" title="\alpha" />
-
-### Total Squired Error
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
-> <img src="https://latex.codecogs.com/svg.image?SE_{Line}&space;=(Y_1-(bX_1&plus;a))^2&plus;(Y_2-(bX_2&plus;a))^2&plus;...&plus;(Y_n-(bX_n&plus;a))^2" title="SE_{Line} =(Y_1-(bX_1+a))^2+(Y_2-(bX_2+a))^2+...+(Y_n-(bX_n+a))^2" />
-
-
-
-
-### Total varience in Y
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
-* Is the Squared Error of the mean, The mean of all Y is represented by <img src="https://latex.codecogs.com/svg.image?\overline{Y}" title="\overline{Y}" />
-
-> <img src="https://latex.codecogs.com/svg.image?SE_{\overline{Y}}&space;=(Y_1-\overline{Y})^2&plus;(Y_2-\overline{Y})^2&plus;...&plus;(Y_n-\overline{Y})^2" title="SE_{\overline{Y}} =(Y_1-\overline{Y})^2+(Y_2-\overline{Y})^2+...+(Y_n-\overline{Y})^2" />
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{SE_{\overline{Y}}&space;=(Y_1-\overline{Y})^2&plus;(Y_2-\overline{Y})^2&plus;...&plus;(Y_n-\overline{Y})^2}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{SE_{\overline{Y}} =(Y_1-\overline{Y})^2+(Y_2-\overline{Y})^2+...+(Y_n-\overline{Y})^2}}" />
  
+#### What % of the variation is _NOT_ Described by the variation in _X_ or by the Regression line = <img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{\frac{SE_{Line}&space;}{SE_{\overline{Y}}}}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{\frac{SE_{Line} }{SE_{\overline{Y}}}}}" align="center"/>
 
 
-#### What % of the variation is NOT Described by the vasriation in X or by the Regression line = <img src="https://latex.codecogs.com/svg.image?\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="\frac{SE_{Line} }{SE_{\overline{Y}}}" />
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+### ⚫ _R<sup>2</sup> Error_ or _Coefficient of Determination_
+#### Coefficient of Determination = What % of the variation is acctually Described by the vasriation in _X_ or by the Regression line = <img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{1-\frac{SE_{Line}&space;}{SE_{\overline{Y}}}}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{1-\frac{SE_{Line} }{SE_{\overline{Y}}}}}" align="center" />
 
-### R<sup>2</sup> Error or Coefficient of Determination
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
-* **Coefficient of Determination = What % of the variation is acctually Described by the vasriation in X or by the Regression line =** <img src="https://latex.codecogs.com/svg.image?1-\frac{SE_{Line}&space;}{SE_{\overline{Y}}}" title="1-\frac{SE_{Line} }{SE_{\overline{Y}}}" />
-
-
-* If <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" /> is very small the we can say that the regression line is good fit.
-* the the <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> is close to 1.
-* If <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />"  is large then  the <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> is close to 0.
+* If <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{SE_{Line}}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{SE_{Line}}}" align="center" /> is very small then we can say that the regression line is good fit and the <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{R^2}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{R^2}}" align="center"/> is close to **_1_**.
+* If <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{SE_{Line}}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{SE_{Line}}}" align="center" />   is large then  the <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{R^2}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{R^2}}" align="center"/> is close to **_0_** and the regression line is loosely fit.
 
 
 ![error](https://user-images.githubusercontent.com/12748752/127488864-8d0310bd-02a5-4bab-8ea6-5140917eca64.png)
 
-### Adjusted R<sup>2</sup> Error
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
+### ⚫ _Adjusted R<sup>2</sup> Error_
 * It is possible to get <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> value < 0(-ve)
    * When the the regression line is not better than the average line or Total varience in Y
 * If we add independent features the value of R^2 is improves by decresing the value of <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />. But the features may not to correlated  to the output variable Y.
