@@ -4,7 +4,9 @@
 ## Application of _`train_test_split()`_:
 ![dark](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
-## Syntax for the function _`train_test_split()`_
+## Syntax of _`train_test_split()`_
+![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 ```Python
 sklearn.model_selection.train_test_split(*arrays, **options) -> list
 ```
@@ -25,7 +27,7 @@ _`**options`_ are the _optional keyword arguments_ that you can use to get desir
 * **_stratify_** is an array-like object that, if not None, determines how to use a stratified split.
 
 
-## Essential packages to be import:
+## Essential packages to import:
 Numpy library needs to be import along with the  _`train_test_split`_ package
 ```Python
  import numpy as np
@@ -42,6 +44,9 @@ Given two sequences, like **x** and **y** here, ***`train_test_split()`*** perfo
 2) **_x_test_**: The test part of the first sequence (x)
 3) **_y_train_**: The training part of the second sequence (y)
 4) **_y_test_**: The test part of the second sequence (y)
+
+## The parameters for _`train_test_split()`_ (_`**options`_)
+![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ### The randomness
 The dataset splitting is **random** by default. The result differs each time you run the function.
@@ -62,4 +67,13 @@ Now **_`y_train`_** and **_`y_test`_** have the same ratio of zeros and ones as 
 
 **Stratified** splits are desirable in some cases, like when you’re classifying an **_imbalanced dataset_**, a dataset with a significant difference in the number of samples that belong to distinct classes.
 
-Finally, you can turn off data shuffling and random split with **_`shuffle=False`_**:
+### Sheffle
+We can turn off data shuffling and random split with **_`shuffle=False`_**:  
+> No **shuffling**. No **randomness**.
+
+As you can see when **_`shuffle=False`_** then no matter what we set for **_`random_state`_**, it will <ins>linearly divide the data into **train** and **test** data</ins>.
+
+> ### Why _`random_state=42`_?
+You may have seen multiple times that most commonly **42** is used for **`random_state`**. Is there any reason for that? And the answer is NO. Python has used **42** as **`random_state`** in their documentation for example and many people have copied from the example code snippet, some people may have used it subconsciously and some may have used it lazily. So there is no particular reason for using 42 as random_state number and you are free to use any number you want.
+
+Does this random seed has to be 42? Not really. It can be any number. To be specific, 42 have nothing to do with ML or AI. It is actually a generic number, but has some significance. In Machine Learning, it doesn't matter what the actual random number is, anything more than 0 is sufficient enough.
