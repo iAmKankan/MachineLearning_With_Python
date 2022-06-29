@@ -27,7 +27,11 @@ Splitting a dataset might also be important for **detecting** if our model suffe
 * **Overfitting** usually takes place when a model has an **excessively complex structure** and learns both the existing relations among **data** and **noise**. Such models often have bad **generalization capabilities**. _Although they work well with training data_, _they usually yield poor performance with unseen (test) data_.
 
 
+## Spliting the Data using _`train_test_split()`_:
+![dark](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
+### Syntax of _`train_test_split()`_
+![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ```Python
 sklearn.model_selection.train_test_split(*arrays, **options) -> list
