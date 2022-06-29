@@ -14,12 +14,12 @@
   * [**_Ridge Regression_**](https://github.com/iAmKankan/Regularization/blob/master/linear_regularization.md)
   * [**_Lasso Regression_**](https://github.com/iAmKankan/Regularization/blob/master/linear_regularization.md)
   * [**_Elastic Net_**](https://github.com/iAmKankan/Regularization/blob/master/linear_regularization.md)
-* [Error](#error-or-loss-or-cost)
+### [_Error_](#error-or-loss-or-cost)
   * [Residual Sum Of Squres(RSS)](#residual-sum-of-squres)
   * [Total Squired Error](#total-squired-error)
   * [Total varience in Y](#total-varience-in-y)
-  * [ R Squared Error ( _**R <sup>2**_ ) or Coefficient of Determination](#r-squared-error-or-coefficient-of-determination)
-  * [Adjusted R Squared Error _**R <sup>2**_](#adjusted-r-squared-error)
+  * [ R Squared Error ( _**R <sup>2**_ ) or Coefficient of Determination](#r2-error-or-coefficient-of-determination)
+  * [Adjusted R Squared Error _**R <sup>2**_](#adjusted-r2-error)
 
 # Linear Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
