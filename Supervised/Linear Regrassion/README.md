@@ -15,17 +15,16 @@
   * [**_Lasso Regression_**](https://github.com/iAmKankan/Regularization/blob/master/linear_regularization.md)
   * [**_Elastic Net_**](https://github.com/iAmKankan/Regularization/blob/master/linear_regularization.md)
 ### [_Error_](#error-or-loss-or-cost)
-  * [Residual Sum Of Squres(RSS)](#residual-sum-of-squres)
+  * [Residual Sum Of Squres(**RSS**)](#residual-sum-of-squres)
   * [Total Squired Error](#total-squired-error)
-  * [Total varience in Y](#total-varience-in-y)
-  * [ R Squared Error ( _**R <sup>2**_ ) or Coefficient of Determination](#r2-error-or-coefficient-of-determination)
-  * [Adjusted R Squared Error _**R <sup>2**_](#adjusted-r2-error)
+  * [Total varience in **Y**](#total-varience-in-y)
+  * [ R Squared Error ( _**R <sup>2</sup>**_ ) or **Coefficient of Determination**](#r2-error-or-coefficient-of-determination)
+  * [Adjusted R Squared Error (_**R <sup>2</sup>**_)](#adjusted-r2-error)
 
-# Linear Regression
+## Linear Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-## Definition
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* **Linear Regression tends to establish a relationship between a dependent variable(Y) and one or more independent variable(X) by finding the best fit of the straight line.**
+### The Definition
+**Linear Regression tends to establish a relationship between _a dependent variable(Y)_ and _one or more independent variable(X)_ by finding the best fit of the straight line(regression line).**
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg" align=right width=30% />
 
@@ -34,40 +33,31 @@
 * There is no straight line that runs through all the data points. 
 * So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
 
-
-
-
 ### What is Regression
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* [**Please follow the link**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
+[**Please follow the link**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
 
-## Assumptions of Linear Regression
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-* Let’s look at the important assumptions in regression analysis-
-  * There should be no correlation between the residual (error) terms. Absence of this phenomenon is known as **Autocorrelation**.
-  * The independent variables should not be correlated. Absence of this phenomenon is known as [**Multicollinearity**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md).
+### Assumptions of Linear Regression
+Let’s look at the important assumptions in regression analysis-
+  * There should be no **correlation** between the **residual (error) terms**. Absence of this phenomenon is known as **_Autocorrelation_**.
+  * The **_independent variables_** should not be **correlated**. Absence of this phenomenon is known as [**_Multicollinearity_**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md).
   * The error terms must have constant variance. This phenomenon is known as **Homoskedasticity**. The presence of non-constant variance is referred to **Heteroskedasticity**.
   * **The error terms must be normally distributed**.
   * There should be a **linear and additive relationship between dependent (response) variable and independent (predictor) variable(s)**. 
-     * A linear relationship suggests that a change in response _Y_ due to one unit change in _X<sup>1_ is constant, regardless of the value of _X<sup>1_. 
-     * An additive relationship suggests that the effect of _X<sup>1_ on _Y_ is independent of other variables.
-## What if these assumptions get violated
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-### Linear and Additive
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+     * A linear relationship suggests that a change in response **_Y_** due to one unit change in **_X<sup>1</sup>_** is constant, regardless of the value of **_X<sup>1</sup>_**. 
+     * An additive relationship suggests that the effect of **_X<sup>1</sup>_** on **_Y_** is independent of other variables.
 
+### What if these assumptions get violated?
+
+### Linear and Additive
 * If you fit a linear model to a non-linear, non-additive data set, the regression algorithm would fail to capture the trend mathematically, thus resulting in an inefficient model. Also, this will result in erroneous predictions on an unseen data set.
 
 #### How to check
-* Look for residual vs fitted value plots.
-*  Also, you can include polynomial terms (_X_, _X <sup>2_, _X <sup>3_ ) in your model to capture the non-linear effect.
+* Look for **residual** vs **fitted** value plots.
+*  Also, you can include polynomial terms (_X_, _X <sup>2</sup>_, _X <sup>3</sup>_ ) in your model to capture the non-linear effect.
 
 ### Multicollinearity
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * [Please follow the link](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
  ### Heteroscedasticity 
- ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
  * The presence of non-constant variance in the error terms results in heteroskedasticity.
  * Generally, non-constant variance arises in presence of outliers or extreme leverage values.
  * Look like, these values get too much weight, thereby disproportionately influences the model’s performance. 
@@ -78,8 +68,6 @@
 *  If heteroskedasticity exists, the plot would exhibit a funnel shape pattern (shown in next section). 
 *  Also, you can use Breusch-Pagan / Cook – Weisberg test or White general test to detect this phenomenon.
  ### Autocorrelation 
- ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
  * It's refers to a perticular data where the error term of one time period is correlated to the error term of anothether time period. 
  * This is very common to time series data analysis.
  #### How to check
@@ -100,14 +88,13 @@
 * You can also perform statistical tests of normality such as Kolmogorov-Smirnov test, Shapiro-Wilk test.
 
 
-## Linear Regression is of 2 types
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
-  * **Simple Linear Regression** 
-  * **Multivariate Linear Regression**
+## Types of Linear Regressio
+Linear Regression is of 2 types
+ 1) **Simple Linear Regression** 
+ 2) **Multivariate Linear Regression**
     
      
-### Simple Linear Regression
+### 1. Simple Linear Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 > <img src="https://latex.codecogs.com/svg.image?Y=a&plus;bX" title="Y=a+bX" />
@@ -124,7 +111,7 @@
 
 <img src="https://latex.codecogs.com/svg.image?b=\frac{y_2-y_1}{x_2-x_1}" title="b=\frac{y_2-y_1}{x_2-x_1}" />
 
-### Multivariate Linear Regression
+### 2. Multivariate Linear Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 > <img src="https://latex.codecogs.com/svg.image?Y=\beta&space;_0&plus;\beta_1x_1&plus;\beta_2x_2&plus;\beta_3x_3&plus;...&plus;\beta_nx_n" title="Y=\beta _0+\beta_1x_1+\beta_2x_2+\beta_3x_3+...+\beta_nx_n" />
@@ -139,8 +126,6 @@
 ## Error or Loss or Cost
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 ### Residual Sum Of Squres
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
 * The aim is to minimize the error which is the distance from the bestfit line to each observation.
 * The Deviation or the Error is like-
 * Deviation is called Residual.
