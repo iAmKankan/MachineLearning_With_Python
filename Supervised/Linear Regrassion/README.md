@@ -184,9 +184,10 @@ Is the Squared Error of the mean, The mean of all **Y** is represented by <img s
 ![error](https://user-images.githubusercontent.com/12748752/127488864-8d0310bd-02a5-4bab-8ea6-5140917eca64.png)
 
 ### ⚫ _Adjusted R<sup>2</sup> Error_
-* It is possible to get <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> value < 0(-ve)
-   * When the the regression line is not better than the average line or Total varience in Y
-* If we add independent features the value of R^2 is improves by decresing the value of <img src="https://latex.codecogs.com/svg.image?SE_{Line}" title="SE_{Line}" />. But the features may not to correlated  to the output variable Y.
+* It is possible to get <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{R^2}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{R^2}}" align="center"/>  value < **_0_**(**-ve**)
+   * When the the regression line is not better than the average line or Total varience in **Y**
+* If we add independent features the value of <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{R^2}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{R^2}}" align="center"/>  is improves by decresing the value of <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{SE_{Line}}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{SE_{Line}}}" align="center" />. But the features may not to correlated  to the output variable **Y**.
 * So, it is not penalising the new added features.
-* In  Adjusted R Square it penalizes attributes that are not correlated with Y.
+* In  _Adjusted R<sup>2</sup> Error_ it penalizes attributes that are not correlated with **Y**.
+
 ![adjustedr](https://user-images.githubusercontent.com/12748752/127488214-c98d545a-fad0-4f0e-8176-786836be572d.png)
