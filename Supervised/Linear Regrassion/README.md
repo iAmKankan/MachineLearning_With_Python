@@ -97,29 +97,24 @@ Linear Regression is of 2 types
 ### 1. Simple Linear Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-> <img src="https://latex.codecogs.com/svg.image?Y=a&plus;bX" title="Y=a+bX" />
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{Y=a&plus;bX}\&space;\&space;\&space;\&space;\&space;Where\&space;\begin{cases}\mathit{Y&space;=&space;Dependent\&space;Variable&space;}&space;\\\mathit{a&space;=&space;Y\&space;intercept&space;}&space;\\\mathit{b&space;=&space;Slope\&space;of\&space;the\&space;line}&space;\\\mathit{X&space;=&space;Independent\&space;variable}&space;\\\end{cases}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{Y=a+bX}\ \ \ \ \ Where\ \begin{cases}\mathit{Y = Dependent\ Variable } \\\mathit{a = Y\ intercept } \\\mathit{b = Slope\ of\ the\ line} \\\mathit{X = Independent\ variable} \\\end{cases}}" />
 
-* It contains only one input variable. Only one straight line.
+* It contains only one input variable. Only one regression line.
+* **Y intercept**(a): is the value of the Dependent variable(y) when the value of the indipendent variable is zero(0). This is the point at which the line cuts the **y-axis**.
+* Slope(b): is the change in the Dependent Variable(y) for a unit increase in the indipendent variable. It is the tangent of  the angle made by the line with the **x-axis**.
 
-    * Y = Dependent Variable
-    * a = Y intercept
-    * b = slope of the line
-    * X = Independent variable
-* Y intercept(a): is the value of the Dependent variable(y) when the value of the indipendent variable is zero(0). This is the point at which the line cuts the y-axis.
-
-* Slope(b): is the change in the Dependent Variable(y) for a unit increase in the indipendent variable. It is the tangent of  the angle made by the line with the x-axis.
-
-<img src="https://latex.codecogs.com/svg.image?b=\frac{y_2-y_1}{x_2-x_1}" title="b=\frac{y_2-y_1}{x_2-x_1}" />
+<img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{b=\frac{y_2-y_1}{x_2-x_1}}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{b=\frac{y_2-y_1}{x_2-x_1}}}" />
 
 ### 2. Multivariate Linear Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-> <img src="https://latex.codecogs.com/svg.image?Y=\beta&space;_0&plus;\beta_1x_1&plus;\beta_2x_2&plus;\beta_3x_3&plus;...&plus;\beta_nx_n" title="Y=\beta _0+\beta_1x_1+\beta_2x_2+\beta_3x_3+...+\beta_nx_n" />
+<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{Y=\beta&space;_0&plus;\beta_1x_1&plus;\beta_2x_2&plus;\beta_3x_3&plus;...&plus;\beta_nx_n}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{Y=\beta _0+\beta_1x_1+\beta_2x_2+\beta_3x_3+...+\beta_nx_n}}" />
 
-* Here we need to find out all the <img src="https://latex.codecogs.com/svg.image?\inline&space;\beta" title="\inline \beta" /> coefficients.
-* It means the beta is creating some kind of relationship or slope it is creating with respect to the output variable
-* Findout the relationshio between beta and the output variables..
+* Here we need to find out all the <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{\beta}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{\beta}}" align="center"/> coefficients.
+* It means the <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{\beta}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{\beta}}" align="center"/> is creating some kind of relationship or slope in respect to the output variable.
+* Findout the relationshiop between <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{\beta}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{\beta}}" align="center"/> and the output variables.
 
+<img src="https://user-images.githubusercontent.com/12748752/176559935-2b014f87-62d2-4333-92c4-cd61feac96ff.png" width=50%/>
 
 ![linear](https://user-images.githubusercontent.com/12748752/127488303-78ce74fd-a216-4e55-953d-e97f4ec9798a.png)
 
