@@ -86,7 +86,7 @@ By default, **25 percent** of samples are assigned to the **test set**. This rat
 
 Typically, you’ll want to define the size of the **test** (or **training**) set explicitly, and sometimes you’ll even want to experiment with different values. You can do that with the parameters **_`train_size`_** or **_`test_size`_**.
 
-### Statify
+### Stratify
 Suppose **y** has _six zeros_ and _six ones_. However, the _**test set**_ has _three zeros_ out of _four items_. If you want to (approximately) keep the proportion of **y** values through the **training** and **test** sets, then pass **_`stratify=y`_**. This will enable stratified splitting:
 
 Now **_`y_train`_** and **_`y_test`_** have the same ratio of zeros and ones as the original **y** array.
@@ -101,10 +101,6 @@ We can turn off data shuffling and random split with **_`shuffle=False`_**:
 You may have seen multiple times that most commonly **42** is used for **`random_state`**. Is there any reason for that? **And the answer is NO**. Python has used **42** as **`random_state`** in their documentation for example and many people have copied from the example code snippet, some people may have used it subconsciously and some may have used it lazily. So there is no particular reason for using 42 as random_state number and you are free to use any number you want.
 
 Does this random seed has to be 42? Not really. It can be any number. To be specific, 42 have nothing to do with ML or AI. It is actually a generic number, but has some significance. In Machine Learning, it doesn't matter what the actual random number is, anything more than 0 is sufficient enough.
-
-
-
-
 
 
 
