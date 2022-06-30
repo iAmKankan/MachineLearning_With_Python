@@ -5,7 +5,7 @@
 * [_Unsupervised Learning_](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
 * [_Machine Learning Life Cycle_](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/MachineLearning_LifeCycle/README.md)
   * _Training-Validation-Error_
-    * [Error Train-Test Validation](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
+    * [Error Train-Test Validation](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/training_performance-evaluation#readme)
   * _Model Training_
     * [Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/gradient_descent.md)
        * [Batch Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/batch_gd.md)
