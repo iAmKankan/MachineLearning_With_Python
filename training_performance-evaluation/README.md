@@ -1,11 +1,11 @@
 ## Index
 ![dark](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * [Data Split with _`train_test_split()`_](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training_performance-evaluation/data_split.md)
-## Regression Data flow
+## ML Data flow During training
 ![dark](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
-<img src="https://user-images.githubusercontent.com/12748752/176573832-19c69fcb-0354-479c-9bae-8b87718a1155.png" width=100% />
-
+<img src="https://user-images.githubusercontent.com/12748752/176580015-39aad2f3-e47d-4a6c-99d7-f5a958d78f68.png" width=100% />
+<ins><i>ML Data flow During training</i></ins>
 ![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ## Performance Measures
