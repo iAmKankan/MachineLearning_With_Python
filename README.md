@@ -1,16 +1,15 @@
 ### Index 
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-### [_What is Machine Learning_](#what-is-machine-learning)
-### [_Supervised Learning_](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
-### [_Unsupervised Learning_](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
-
-### [_Machine Learning Life Cycle_](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/MachineLearning_LifeCycle/README.md)
-#### _Training-Validation-Error_
- * [Error Train-Test Validation](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
-#### _Model Training_
-* [Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/gradient_descent.md)
-   * [Batch Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/batch_gd.md)
-   * [Stochastic Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/stochastic_gradient_descent.md)
+* [_What is Machine Learning_](#what-is-machine-learning)
+* [_Supervised Learning_](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
+* [_Unsupervised Learning_](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
+* [_Machine Learning Life Cycle_](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/MachineLearning_LifeCycle/README.md)
+  * _Training-Validation-Error_
+    * [Error Train-Test Validation](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/error_test_validation)
+  * _Model Training_
+    * [Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/gradient_descent.md)
+       * [Batch Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/batch_gd.md)
+       * [Stochastic Gradient Descent](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/training/stochastic_gradient_descent.md)
 
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
