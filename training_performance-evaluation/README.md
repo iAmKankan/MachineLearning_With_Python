@@ -81,8 +81,7 @@ i.e., Of all observations that our model has labeled as positive, how many of th
 ## Model Performance Evaluation - Regression
 ![dark](https://user-images.githubusercontent.com/12748752/141935752-90492d2e-7904-4f9f-a5a1-c4e59ddc3a33.png)
 Accuracy (e.g. **classification accuracy**) is a measure for **classification**, not **regression**.
-> #### We cannot calculate accuracy for a regression model.
-The skill or performance of a regression model must be reported as an **error** in those predictions.
+> #### We don't calculate accuracy for a regression model.The **skill** or **performance** of a regression model must be reported as an **_Error_** in those predictions.
 
 This makes sense if you think about it. If you are predicting a numeric value like a height or a dollar amount, you don’t want to know if the model predicted the value exactly (this might be intractably difficult in practice); instead, we want to know how close the predictions were to the expected values.
 
