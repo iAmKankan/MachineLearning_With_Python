@@ -116,8 +116,6 @@ Linear Regression is of 2 types
 
 <img src="https://user-images.githubusercontent.com/12748752/176559935-2b014f87-62d2-4333-92c4-cd61feac96ff.png" width=50%/>
 
-![linear](https://user-images.githubusercontent.com/12748752/127488303-78ce74fd-a216-4e55-953d-e97f4ec9798a.png)
-
 ## Error or Loss or Cost
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 ### ⚫ _Residual Sum Of Squres_
