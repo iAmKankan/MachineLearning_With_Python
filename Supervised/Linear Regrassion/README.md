@@ -1,5 +1,6 @@
-### Index
-* [Definition Of Linear Regression](#definition)
+## Index
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+* [Definition Of Linear Regression](#the-definition)
 * [What is Regression](#what-is-regression)
 * [Assumptions of Linear Regression](#assumptions-of-linear-regression)
   * [Multicollinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
@@ -8,8 +9,8 @@
   * [Autocorrelation](#autocorrelation)
   * [Normal Distribution of error terms](#normal-distribution-of-error-terms)
 * [Types of Linear Regression](#linear-regression-is-of-2-types)
-  * [Simple Linear Regression](#simple-linear-regression)
-  * [Multivariate Linear Regression](#multivariate-linear-regression)
+  * [Simple Linear Regression](#1-simple-linear-regression)
+  * [Multivariate Linear Regression](#2-multivariate-linear-regression)
 * [Regularized Linear Models](https://github.com/iAmKankan/Regularization/blob/master/linear_regularization.md) 
   * [**_Ridge Regression_**](https://github.com/iAmKankan/Regularization/blob/master/linear_regularization.md)
   * [**_Lasso Regression_**](https://github.com/iAmKankan/Regularization/blob/master/linear_regularization.md)
