@@ -1,7 +1,7 @@
 ## Index 
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 ### ◼️ [_Mathematical Perspective on AI-ML_](https://github.com/iAmKankan/Mathematics/blob/main/ai-ml/README.md)
-* [_What is Machine Learning_](#what-is-machine-learning)
+### [_What is Machine Learning_](#what-is-machine-learning)
 * [_Supervised Learning_](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised) 
 * [_Unsupervised Learning_](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/unsupervised/README.md)
 * [_Machine Learning Life Cycle_](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/MachineLearning_LifeCycle/README.md)
