@@ -65,23 +65,26 @@ An NxN table that aggregates a classification model's correct and incorrect gues
 When it comes to evaluating a Binary Classifier, **Accuracy** is a well-known performance metric that is used to tell a strong classification model from one that is weak. Accuracy is, simply put, the total proportion of observations that have been correctly predicted. There are four (4) main components that comprise the mathematical formula for calculating Accuracy, viz. **TP**, **TN**, **FP**, **FN**, and these components grant us the ability to explore other ML Model Evaluation Metrics. The formula for calculating accuracy is as follows:
 
 #### The formula: 
-<img src="https://latex.codecogs.com/svg.image?\large&space;\mathbf{{\color{Purple}&space;Accuracy=&space;\frac{TP&plus;TN}{TP&plus;FP&plus;TN&plus;FN}&space;}" title="https://latex.codecogs.com/svg.image?\large \mathbf{{\color{Purple} Accuracy= \frac{TP+TN}{TP+FP+TN+FN} }" align="center"/>
+$$\large \mathbf{{\color{Purple} Accuracy= \frac{TP+TN}{TP+FP+TN+FN}}}$$
 
 ### Precision Score
 This refers to the proportion (total number) of all observations that have been predicted to belong to the positive class and are actually positive. The formula for Precision Evaluation Metric is as follows:
-
-<img src="https://latex.codecogs.com/svg.image?\large&space;\mathbf{{\color{Purple}&space;Precision=&space;\frac{TP}{TP&plus;FP}&space;}" title="https://latex.codecogs.com/svg.image?\large \mathbf{{\color{Purple} Precision= \frac{TP}{TP+FP} }" align="center" />
+$$\large \mathbf{{\color{Purple} Precision= \frac{TP}{TP+FP} }}$$
 
 ### Recall
 This is the proportion of observation predicted to belong to the positive class, that truly belongs to the positive class. It indirectly tells us the model’s ability to randomly identify an observation that belongs to the positive class. The formula for Recall is as follows:
-
-<img src="https://latex.codecogs.com/svg.image?\large&space;\mathbf{{\color{Purple}&space;Recall=&space;\frac{TP}{TP&plus;FN}&space;}" title="https://latex.codecogs.com/svg.image?\large \mathbf{{\color{Purple} Recall= \frac{TP}{TP+FN} }" align="center" />
-
+$$\large \mathbf{{\color{Purple} Recall= \frac{TP}{TP+FN} }}$$
 ### F1 Score.
 This is an averaging Evaluation Metric that is used to generate a ratio. The F1 Score is also known as the Harmonic Mean of the precision and recall Evaluation Metrics. This Evaluation Metric is a measure of overall correctness that our model has achieved in a positive prediction environment-
 i.e., Of all observations that our model has labeled as positive, how many of these observations are actually positive. The formula for the F1 Score
 
-<img src="https://latex.codecogs.com/svg.image?\large&space;\\\mathrm{{\color{Purple}&space;F1\&space;Score\&space;}}\mathbf{{\color{Purple}=&space;\frac{2}{\frac{1}{Precision}&plus;\frac{1}{Recall}}&space;}&space;}\mathbf{{\color{Purple}=&space;\frac{2(Precision\&space;*&space;\&space;Recall)}{{Precision}&plus;{Recall}}&space;}&space;}" title="https://latex.codecogs.com/svg.image?\large \\\mathrm{{\color{Purple} F1\ Score\ }}\mathbf{{\color{Purple}= \frac{2}{\frac{1}{Precision}+\frac{1}{Recall}} } }\mathbf{{\color{Purple}= \frac{2(Precision\ * \ Recall)}{{Precision}+{Recall}} } }" />
+$$\large {\color{Purple} 
+\begin{matrix}
+\textbf{F1  Score} & = & \frac{2}{\huge{\frac{1}{Precision}+\frac{1}{Recall}}} \\
+\\
+& = & \huge{\frac{2(Precision\ * \ Recall)}{{Precision}+{Recall}}  }
+\end{matrix}}
+$$
 
 ## Evaluating Multiclass Classifier Predictions
 ![dark](https://user-images.githubusercontent.com/12748752/141935752-90492d2e-7904-4f9f-a5a1-c4e59ddc3a33.png)
@@ -111,8 +114,7 @@ There are many other metrics for regression, although these are the most commonl
 It is also an important loss function for algorithms fit or optimized using the least squares framing of a regression problem. Here “least squares” refers to minimizing the mean squared error between predictions and expected values.
 
 The **MSE** is calculated as the **mean** or **average** of the **squared differences** between predicted and expected target values in a dataset.
-
-<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{MSE=}&space;\mathbf{\frac{1}{n}\sum_{i=1}^{n}&space;\left&space;(&space;Y_i&space;-&space;\hat{Y_i}&space;\right&space;)^2}&space;}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{MSE=} \mathbf{\frac{1}{n}\sum_{i=1}^{n} \left ( Y_i - \hat{Y_i} \right )^2} }" />
+$$\large {\color{Purple} \mathbf{MSE=} \mathbf{\frac{1}{n}\sum_{i=1}^{n} \left ( Y_i - \hat{Y_i} \right )^2} }$$
 
 
 ### **_Root Mean Squared Error_**
@@ -126,11 +128,11 @@ As such, it may be common to use MSE loss to train a regression predictive model
 
 The RMSE can be calculated as follows:
 
-<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{RMSE=}&space;\mathbf{\sqrt{\frac{1}{n}\sum_{i=1}^{n}&space;\left&space;(&space;Y_i&space;-&space;\hat{Y_i}&space;\right&space;)^2}&space;}&space;}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{RMSE=} \mathbf{\sqrt{\frac{1}{n}\sum_{i=1}^{n} \left ( Y_i - \hat{Y_i} \right )^2} } }" />
+$$\large {\color{Purple} \mathbf{RMSE=} \mathbf{\sqrt{\frac{1}{n}\sum_{i=1}^{n} \left ( Y_i - \hat{Y_i} \right )^2} } }$$
 
 or
- 
-<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{RMSE=}&space;\mathbf{\sqrt{MSE}&space;}&space;}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{RMSE=} \mathbf{\sqrt{MSE} } }" />
+
+$$\large {\color{Purple} \mathbf{RMSE=} \mathbf{\sqrt{MSE} } }$$
 
 Where y_i is the i’th expected value in the dataset, yhat_i is the i’th predicted value, and sqrt() is the square root function.
 
@@ -158,7 +160,7 @@ As its name suggests, the MAE score is calculated as the average of the absolute
 
 The MAE can be calculated as follows:
 
-<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{MAE=}&space;\mathbf{\frac{1}{n}\sum_{i=1}^{n}&space;\left&space;|\:&space;Y_i&space;-&space;\hat{Y_i}&space;\right&space;|}&space;}&space;&space;" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{MAE=} \mathbf{\frac{1}{n}\sum_{i=1}^{n} \left |\: Y_i - \hat{Y_i} \right |} } " />
+$$\large {\color{Purple} \mathbf{MAE=} \mathbf{\frac{1}{n}\sum_{i=1}^{n} \left |\: Y_i - \hat{Y_i} \right |} }$$
 
 Where y_i is the i’th expected value in the dataset, yhat_i is the i’th predicted value and abs() is the absolute function.
 
