@@ -130,7 +130,7 @@ The RMSE can be calculated as follows:
 
 $$\large {\color{Purple} \mathbf{RMSE=} \mathbf{\sqrt{\frac{1}{n}\sum_{i=1}^{n} \left ( Y_i - \hat{Y_i} \right )^2} } }$$
 
-or
+$$\large {\color{Purple}\mathbf{or}}$$
 
 $$\large {\color{Purple} \mathbf{RMSE=} \mathbf{\sqrt{MSE} } }$$
 
@@ -160,7 +160,7 @@ As its name suggests, the MAE score is calculated as the average of the absolute
 
 The MAE can be calculated as follows:
 
-$$\large {\color{Purple} \mathbf{MAE=} \mathbf{\frac{1}{n}\sum_{i=1}^{n} \left |\: Y_i - \hat{Y_i} \right |} }$$
+$$\large {\color{Purple} \mathbf{MAE=} \mathbf{\frac{1}{n}\sum_{i=1}^{n} \left | Y_i - \hat{Y_i} \right |} }$$
 
 Where y_i is the i’th expected value in the dataset, yhat_i is the i’th predicted value and abs() is the absolute function.
 
