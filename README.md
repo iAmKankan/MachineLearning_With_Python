@@ -52,7 +52,7 @@ Here the **rules** is difined as **models**
 To learn the parameters, we follow this paradigm 
 * Collect lots of data pairs (Input Vector, Output Vector) = $\large{\color{Purple} (x, y)}$
 * Guess for the form of the hypothesis function $\large{\color{Purple} h(x; w)}$
-  * Example : $\large{\color{Purple}h(x; w)= w_0+w_1x_1 + w_2x_2}$ User tired (Does not chayd
+  * Example : $\large{\color{Purple}h(x; w)= w_0+w_1x_1 + w_2x_2}$ 
 * For an arbitrary guess for $\large{\color{Purple}w}$
   * We will get some $\large{\color{Purple} \hat{y}= h(x; w)}$  $\textrm{which will not match the ground truth } \large {\color{Purple} y}$
 * Define a cost function $\large{\color{Purple} J(y, \hat{y}(w))}$ depending on the difference.
