@@ -10,6 +10,7 @@
     * [SVM](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/SVM#readme)
 
 ### Supervised Learning
+
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * Supervised Learning is where you have a input variable(x) and a output variable(y) and you use a mapping function from the input to the output
