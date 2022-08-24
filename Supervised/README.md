@@ -85,10 +85,13 @@ $$
 Typically we would like one number which lie between **0** and **1**. So we want to normalize this. You have a number, you would like to non-dimensionalize it, normalize it with respect to some denominator, so that you get an idea between 0 and 1.
 
 #### Varience 
-Amount of varience present in the data
+
 $$\large{\color{Purple}\sum^{m}_{i=1} (y_i-\bar{y})^2} {\color{Cyan}\textrm{(SST) Sum Square Total}}$$
 
 What does total variance mean? Before we even had a model there was some amount of **variation** in the data, and this term actually calculates the total amount of variance in the data **before we even had a model**.
+
+Amount of varience present in the data
+
 #### Error
 
 $$\large{\color{Purple}\sum^{m}_{i=1} (y_i-\hat{y_i})^2} {\color{Cyan}\textrm{(SSE) Sum Square Error}}$$
