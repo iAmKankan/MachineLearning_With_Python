@@ -28,7 +28,7 @@
 
 ## Software Engineering Vs AI/ML
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-<img src="https://user-images.githubusercontent.com/12748752/165293822-f6f8fe1c-ddd3-4ecb-8af9-12421f0d2639.png" width=70%/>
+<img src="https://user-images.githubusercontent.com/12748752/186307281-6c54df9f-2544-4610-a16a-cac2b78b866b.png" width=70%/>
 
 ### Machine Learning Algorithms Based on Trainging
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
