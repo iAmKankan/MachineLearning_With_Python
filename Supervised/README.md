@@ -10,14 +10,34 @@
     * [SVM](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/SVM#readme)
 
 ### Supervised Learning
-
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
+<img src="https://user-images.githubusercontent.com/12748752/186329450-e7e071a7-f1fc-46dc-825d-03305c3e9c89.png" width=70%/>
+
+### Regression
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+#### Fitting the Data
+Add supporting information to the text, including equations, images, and hyperlinks.
+
+Let's try fitting the data with **polynomial regression**. We'll use the _MATLAB polyfit_ function to get the coefficients.
+
+**We will see later how this relates perfectly with our linear regression procedure**.
+
+The fit equations are:
+
+$$\large{\color{Purple}
+\begin{cases}
+linear & y = w_1x+w_0  \\
+quadratic & y = w_2x^2+w_1x+w_0 \\
+cubic  & y = w_3x^3+w_2x^2+w_1x+w_0 \\
+\end{cases}
+}
+$$
+
+
 * Supervised Learning is where you have a input variable(x) and a output variable(y) and you use a mapping function from the input to the output
-
-
 * It is called supervised because the process of an algorithm training fom the dataset can be thought as a teacher supervising the learning process. 
-
 
  <img src="https://latex.codecogs.com/svg.image?Y=F(X)" title="Y=F(X)" />
 
