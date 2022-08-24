@@ -69,15 +69,36 @@ $$ \large{\color{Purple} \hat{y}= h(x)=w_{0}+ w_{1}x} $$
 
 ### Measuring the _Fit_
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-**Error:**
+**Mean Square Error:**
 
 $$\large{\color{Purple} J=\frac{1}{2m} \sum_{i}(y^{(i)}- \hat{y}^{(i)})^2}$$
 
-So basically this was mean square error. So this is one measure of how good the fit is. Sometimes this is not a good enough measure for multiple reasons, sometimes we just get a large value of **J** and we don’t know whether this is a good fit or not. 
+So this is one measure of how good the **fit** is. Sometimes this is not a good enough, sometimes we just get a large value of **J** and we don’t know whether this is a good fit or not. 
 
 #### $\large R^2$ 
-Typically we would like one number which lie between **0** and **1** where we can say something like 0 is a really a bad fit and 1 is a very good fit. So we want to normalize this, this kind of thing will repeat again and again. You have a number, you would like to non-dimensionalize it, normalize it with respect to some denominator, so that you get an idea between 0 and 1.
 
+$$\large{\color{Purple} R^2 \begin{cases} 0 &= Very\ Bad\ fit \\
+1 &= Very\ Good \ fit
+\end{cases}}
+$$ 
+
+Typically we would like one number which lie between **0** and **1**. So we want to normalize this. You have a number, you would like to non-dimensionalize it, normalize it with respect to some denominator, so that you get an idea between 0 and 1.
+
+#### Varience 
+Amount of varience present in the data
+$$\large{\color{Purple}\sum^{m}_{i=1} (y_i-\bar{y})^2} {\color{Cyan}\textrm{(SST) Sum Square Total}}$$
+
+What does total variance mean? Before we even had a model there was some amount of **variation** in the data, and this term actually calculates the total amount of variance in the data **before we even had a model**.
+#### Error
+
+$$\large{\color{Purple}\sum^{m}_{i=1} (y_i-\hat{y_i})^2} {\color{Cyan}\textrm{(SSE) Sum Square Error}}$$
+
+Here y<sub>i</sub> is the **Ground Truth** and the &hat; y<sub>i</sub> is the prediction or Hypothesis or Model.
+#### Varience in Prediction
+
+$$\large{\color{Purple}\sum^{m}_{i=1} (\hat{y_i} - \bar{y})^2} {\color{Cyan}\textrm{(SSR) Sum Square Regression}}$$
+
+Amount of varience captured by the model.
 
 ### Supervised Learning Catagories - Based on Types
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
