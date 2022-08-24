@@ -67,17 +67,22 @@ $$ \large{\color{Purple} \hat{y}= h(x)=w_{0}+ w_{1}x} $$
    * So the $\large{\color{Purple} w}$ that we get at the end of the process will be called **_Least Square Coefficient_**
    * This **_fit_** is called **_Least Square fit_** and the **_cost function_** is called **_Least Mean Squre (LMS)_**
 
+### Measuring the _Fit_
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+**Error:**
+
+$$\large{\color{Purple} J=\frac{1}{2m} \sum_{i}(y^{(i)}- \hat{y}^{(i)})^2}$$
+
+So basically this was mean square error. So this is one measure of how good the fit is. Sometimes this is not a good enough measure for multiple reasons, sometimes we just get a large value of **J** and we don’t know whether this is a good fit or not. 
+
+#### $\large R^2$ 
+Typically we would like one number which lie between **0** and **1** where we can say something like 0 is a really a bad fit and 1 is a very good fit. So we want to normalize this, this kind of thing will repeat again and again. You have a number, you would like to non-dimensionalize it, normalize it with respect to some denominator, so that you get an idea between 0 and 1.
 
 
 ### Supervised Learning Catagories - Based on Types
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 <img src="https://user-images.githubusercontent.com/12748752/141359379-bbb6102c-ae37-477d-a5a1-a6b1cedd3295.png" height=100%/>
 
-
 ### Machine Learning Catagories - Based on Outliers handling
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 <img src="https://user-images.githubusercontent.com/12748752/146688585-e2ecc295-c3e0-4ea8-acb1-ad03a8ec8ce6.png" width=100% />
-
-
-
-
