@@ -35,6 +35,9 @@ cubic  & y = w_3x^3+w_2x^2+w_1x+w_0 \\
 }
 $$
 
+#### Example:
+
+<img src="https://user-images.githubusercontent.com/12748752/186338649-5d77b044-8c6c-4ffe-a525-debcdbfa101d.png" width=70%/>
 
 * Supervised Learning is where you have a input variable(x) and a output variable(y) and you use a mapping function from the input to the output
 * It is called supervised because the process of an algorithm training fom the dataset can be thought as a teacher supervising the learning process. 
