@@ -24,7 +24,7 @@ Let's try fitting the data with **polynomial regression**. We'll use the _MATLAB
 
 **We will see later how this relates perfectly with our linear regression procedure**.
 
-The fit equations are:
+#### The fit equations are:
 
 $$\large{\color{Purple}
 \begin{cases}
@@ -36,13 +36,22 @@ cubic  & y = w_3x^3+w_2x^2+w_1x+w_0 \\
 $$
 
 #### Example:
-
 <img src="https://user-images.githubusercontent.com/12748752/186338649-5d77b044-8c6c-4ffe-a525-debcdbfa101d.png" width=70%/>
-
+---
 * Supervised Learning is where you have a input variable(x) and a output variable(y) and you use a mapping function from the input to the output
 * It is called supervised because the process of an algorithm training fom the dataset can be thought as a teacher supervising the learning process. 
 
  <img src="https://latex.codecogs.com/svg.image?Y=F(X)" title="Y=F(X)" />
+ 
+### Data point
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+<img src="https://user-images.githubusercontent.com/12748752/186367469-db591c5e-8fde-48d4-b5a8-35566cb138af.png" width=30%/>
+
+We start with the case where there is a single input and a single output 
+* $\large{\color{Purple} (x^{(i)}, y^{(i)})} : i^{th} \textit{ example of (input, output) set.}$
+* We assume that there are **51** pairs of data points.
+
+<img src="https://user-images.githubusercontent.com/12748752/186380825-d6cd3822-0512-4db3-a2f9-b85231395a19.png" width=40%/>
 
 ### Supervised Learning Catagories - Based on Types
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
