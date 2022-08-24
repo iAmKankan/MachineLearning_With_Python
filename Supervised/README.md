@@ -45,13 +45,22 @@ $$
  
 ### Data point
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-<img src="https://user-images.githubusercontent.com/12748752/186367469-db591c5e-8fde-48d4-b5a8-35566cb138af.png" width=30%/>
+<img src="https://user-images.githubusercontent.com/12748752/186367469-db591c5e-8fde-48d4-b5a8-35566cb138af.png" width=30%/> <img src="https://user-images.githubusercontent.com/12748752/186380825-d6cd3822-0512-4db3-a2f9-b85231395a19.png" width=30%/>
 
 We start with the case where there is a single input and a single output 
 * $\large{\color{Purple} (x^{(i)}, y^{(i)})} : i^{th} \textit{ example of (input, output) set.}$
+*  $\large{\color{Purple}m}$ : Number of examples or data points
 * We assume that there are **51** pairs of data points.
+#### Hypothesis
+The general univariate linear regression problem
+We now introduce our model hypothesis Linear Model-
 
-<img src="https://user-images.githubusercontent.com/12748752/186380825-d6cd3822-0512-4db3-a2f9-b85231395a19.png" width=40%/>
+$$ \large{\color{Purple} \hat{y}= h(x)=w_0+ w_1x}$$
+
+
+#### Problem
+There are infinite $1_1$ possibilities. Which do we choose?
+
 
 ### Supervised Learning Catagories - Based on Types
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
