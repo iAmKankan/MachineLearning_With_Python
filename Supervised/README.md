@@ -49,17 +49,24 @@ $$
 
 We start with the case where there is a single input and a single output 
 * $\large{\color{Purple} (x^{(i)}, y^{(i)})} : i^{th} \textit{ example of (input, output) set.}$
-*  $\large{\color{Purple}m}$ : Number of examples or data points
+*  $\large{\color{Purple}m}$ : Number of examples or data points.
 * We assume that there are **51** pairs of data points.
 #### Hypothesis
 The general univariate linear regression problem
 We now introduce our model hypothesis Linear Model-
 
-$$ \large{\color{Purple} \hat{y}= h(x)=w_0+ w_1x}$$
+$$ \large{\color{Purple} \hat{y}= h(x)=w_{0}+ w_{1}x} $$
+   
 
+* $\large{\color{Purple} w_0, w_1}$ are parameters and there are infinite possibilities. Which do we choose?
+* For this we defined a cost function $\large{\color{Purple} J=\frac{1}{2m} \sum_{i}(y^{(i)}- \hat{y}^{(i)})^2}$ 
+    * Notice that no line is going to fit all of this perfectly so the difference between the points $\large{\color{Purple}y}$ and the pont resides on the regression line $\large{\color{Purple}\hat{y}}$ is the loss.  
 
-#### Problem
-There are infinite $1_1$ possibilities. Which do we choose?
+#### How would we achieve our optimal $\large{\color{Purple} w}$ ?.
+   * So we say that the optimal $\large{\color{Purple} w}$ (so you can now notice it has now become optimization problem) is the one **_which minimizes this net cost function_**. 
+   * So the $\large{\color{Purple} w}$ that we get at the end of the process will be called **_Least Square Coefficient_**
+   * This **_fit_** is called **_Least Square fit_** and the **_cost function_** is called **_Least Mean Squre (LMS)_**
+
 
 
 ### Supervised Learning Catagories - Based on Types
