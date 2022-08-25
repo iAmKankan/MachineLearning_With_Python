@@ -44,4 +44,9 @@ At the right we have **third degree polynomial**.
  
 So ideally when you are done with the fit, you would expect the **red curve** to _lie close_ to the **green curve**, but in this case, _in between samples is actually off_. 
 
-So even the with higher degree polynomial is, we are able to fit every point exactly, so that our **fitting error is very small**. We see that in points, other than the blue circles, it is actually **quite far from the ground truth**.
+So **even the with higher degree polynomial is, we are able to fit every point exactly**, so that our **fitting error is very small**. We see that in points, other than the blue circles, it is actually **quite far from the ground truth**.
+
+### Over fitting
+<p align="center"> <img src="https://user-images.githubusercontent.com/12748752/186604933-a349fff4-9c77-49db-8bc6-512eb5e2b9d2.png" width=30%/>
+ <br><ins><b>Graphs of the <i>Root-Mean-Square Error</i>, evaluated on the <i>training set</i> and on an independent <i>test set</i> for various values of <i>M</i></b></ins></p>
+
