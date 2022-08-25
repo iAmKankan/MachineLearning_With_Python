@@ -54,3 +54,41 @@ So, if we actually plot the error, the error as we defined previously, so as you
 
 <p align="center" ><img src="https://user-images.githubusercontent.com/12748752/186613543-48161972-0869-43d6-a0d2-7cb6807132dd.png" width=30%/></p>
 
+## Bias Variance trade off
+![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+<img src="https://user-images.githubusercontent.com/12748752/186632648-5b374274-5a53-40ac-9bd7-1cc6e9043094.png" width=20% align="right"/>
+
+* **Bias Variance trade off** relates to **model complexity** which is nothing but the number of parameters and the basis functions (<img src="https://latex.codecogs.com/svg.image?\large{\color{Purple}&space;x,&space;x^2,&space;\cdots,&space;x^m}" title="https://latex.codecogs.com/svg.image?\large{\color{Purple} x, x^2, \cdots, x^m}" align="center"/>) used in the model.
+*  $\hat{Y}$  is what is called a statistical estimate of the true model 𝑌
+
+#### Bias:
+Expectation value of the difference between the model prediction and the correct value. Here the expectation is over the X and different data sets.
+
+$$ \large{\color{Purple}\mathbf{Bias^2} = E \\{[\hat{Y} -Y ]^2 \\} }$$  
+  
+#### Variance:  
+The variance is the variance on the predictions of the model trained using different data sets. 
+
+$$ \large{\color{Purple}\mathbf{Variance} = E \\{[\hat{Y} - \bar{\hat{Y}} ]^2 \\} } $$
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/12748752/186631445-9d8bf8b3-3d10-47dc-9fc6-6fbaf6caf232.png" width=30% />
+<br><ins><b>Bias Variance trade off graph</b></ins></p>
+
+#### Model Complexity on Bias Variance
+* Complex models with many parameters might  have a small bias but large variance. 
+* Simple models with few parameters might have a large bias but small variance.
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/12748752/186634193-9a9ed2a1-e146-4e8f-8d20-ed2b28f6b04d.png" width=60% />
+<br><ins><b>Bias Variance trade off graph</b></ins></p>
+
+<img src="https://user-images.githubusercontent.com/12748752/186638585-b1af972f-00d6-4901-8c5a-1e3ea24bc59f.png" width=80%/>
+
+### How to measure Bias-Variance?
+![light](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+
+
+
+
+
