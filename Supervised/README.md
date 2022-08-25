@@ -109,6 +109,16 @@ $$\large{\color{Purple} \mathbf{R^2 \in \Bigl[0, 1 \Bigl] } }  \normalsize{\colo
 \end{cases}}
 $$ 
 
+### Conclusion
+
+$$ \large{\color{Purple}
+\begin{align*}
+\textbf{SST} &= SSE + SSR \\
+SSR &= SST-SSE\\
+R^2 &= 1- \frac{SSE}{SST}
+\end{align*}
+}
+$$
 
 ### Supervised Learning Catagories - Based on Types
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
