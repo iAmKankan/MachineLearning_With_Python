@@ -50,3 +50,7 @@ So **even the with higher degree polynomial is, we are able to fit every point e
 <p align="center"> <img src="https://user-images.githubusercontent.com/12748752/186604933-a349fff4-9c77-49db-8bc6-512eb5e2b9d2.png" width=35%/>
  <br><ins><b>Graphs of the <i>Root-Mean-Square Error</i>, evaluated on the <i>training set</i> and on an independent <i>test set</i> for various values of <i>M</i></b></ins></p>
 
+So, if we actually plot the error, the error as we defined previously, so as you fit the error 4 different values of **M** that is degree of the polynomial, see that as we hit the higher degree polynomials, the error on the **training data is very small**, which is what the blue circle indicates. However the test data error, this starts to diverge. So, this phenomenon is referred to as overshooting. Similarly has become back here, we see that again, there is quite high when we are using a polynomial of degree zero, that is we are just fitting it to a constant function. So in both the cases, we have a fairly large error, one in this end of the spectrum, we can call this under fitting and at this end of the spectrum, we will call it **over fitting**.
+
+<p align="center" ><img src="https://user-images.githubusercontent.com/12748752/186613543-48161972-0869-43d6-a0d2-7cb6807132dd.png" width=30%/></p>
+
