@@ -29,7 +29,14 @@ So **_t_** is the ground truth or the correct answer and whatever your polynomia
 
 <img src="https://user-images.githubusercontent.com/12748752/186598693-db686c38-6e19-4cf5-82ca-efef4a1e2fe2.png" />
 
+So, at the extreme left we have a **zero degree polynomial**, which is nothing but a **constant term**, so as you can see there is a red line, which is actually the fit, the fitted curve, of course does not match the data that we have used.
 
-![poly9](https://user-images.githubusercontent.com/12748752/186589809-16614600-9242-48a5-9841-900db3964731.png)
+At the middle we use a **first degree polynomial**, which is nothing but a **linear fit**, and did not fit
+
+At the right we have **third degree polynomial**. 
+
+
+### 9<sup>th</sup> Order Polynomials
+<img src="https://user-images.githubusercontent.com/12748752/186589809-16614600-9242-48a5-9841-900db3964731.png" />
 
  
