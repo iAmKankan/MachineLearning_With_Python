@@ -69,20 +69,14 @@ $$ \large{\color{Purple} \hat{y}= h(x)=w_{0}+ w_{1}x} $$
 
 ### Measuring the _Fit_
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+<img src="https://user-images.githubusercontent.com/12748752/186551372-28265384-b462-4ebb-ba0d-d412af31aade.png" width=40%/>
+
 **Mean Square Error:**
 
 $$\large{\color{Purple} J=\frac{1}{2m} \sum_{i}(y^{(i)}- \hat{y}^{(i)})^2}$$
 
 So this is one measure of how good the **fit** is. Sometimes this is not a good enough, sometimes we just get a large value of **J** and we don’t know whether this is a good fit or not. 
 
-#### $\large R^2$ 
-
-$$\large{\color{Purple} R^2 \begin{cases} 0 &= Very\ Bad\ fit \\
-1 &= Very\ Good \ fit
-\end{cases}}
-$$ 
-
-Typically we would like one number which lie between **0** and **1**. So we want to normalize this. You have a number, you would like to non-dimensionalize it, normalize it with respect to some denominator, so that you get an idea between 0 and 1.
 
 #### Varience 
 
@@ -102,6 +96,19 @@ Here y<sub>i</sub> is the **Ground Truth** and the &hat; y<sub>i</sub> is the pr
 $$\large{\color{Purple}\sum^{m}_{i=1} (\hat{y_i} - \bar{y})^2} {\color{Cyan}\textrm{(SSR) Sum Square Regression}}$$
 
 Amount of varience captured by the model.
+
+#### $\large R^2$ Error
+
+$$\large{\color{Purple}\mathbf{R^2} = \frac{\textrm{SSR}}{\textrm{SST}} = \frac{\textit{Amount of varience captured by the Model}}{\textit{Amount of varience present in Data}} }$$
+
+
+Typically we would like one number which lie between **0** and **1**. So we want to normalize this. You have a number, you would like to non-dimensionalize it, normalize it with respect to some denominator, so that you get an idea between **0** and **1**.
+
+$$\large{\color{Purple} R^2 \begin{cases} 0 &= Very\ Bad\ fit \\
+1 &= Very\ Good \ fit
+\end{cases}}
+$$ 
+
 
 ### Supervised Learning Catagories - Based on Types
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
