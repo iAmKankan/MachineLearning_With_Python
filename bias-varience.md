@@ -37,6 +37,11 @@ At the right we have **third degree polynomial**.
 
 
 ### 9<sup>th</sup> Order Polynomials
-<img src="https://user-images.githubusercontent.com/12748752/186589809-16614600-9242-48a5-9841-900db3964731.png" width=30% />
+<p align="center"> <img src="https://user-images.githubusercontent.com/12748752/186589809-16614600-9242-48a5-9841-900db3964731.png" width=30% />
+<br><ins><b>9<sup>th</sup> Order Polynomials</b></ins></p>
+
 
  
+So ideally when you are done with the fit, you would expect the **red curve** to _lie close_ to the **green curve**, but in this case, _in between samples is actually off_. 
+
+So even the with higher degree polynomial is, we are able to fit every point exactly, so that our **fitting error is very small**. We see that in points, other than the blue circles, it is actually **quite far from the ground truth**.
