@@ -104,7 +104,7 @@ $$\large{\color{Purple}\mathbf{R^2} = \frac{\textrm{SSR}}{\textrm{SST}} = \frac{
 
 Typically we would like one number which lie between **0** and **1**. So we want to normalize this. You have a number, you would like to non-dimensionalize it, normalize it with respect to some denominator, so that you get an idea between **0** and **1**.
 
-$$\large{\color{Purple} R^2 \begin{cases} 0 &= Very\ Bad\ fit \\
+$$\large{\color{Purple} \mathbf{R^2 \in \Bigl[0, 1 \Bigl] } }  \normalsize{\color{Cyan} \begin{cases} 0 &= Very\ Bad\ fit \\
 1 &= Very\ Good \ fit
 \end{cases}}
 $$ 
