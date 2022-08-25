@@ -113,9 +113,9 @@ $$
 
 $$ \large{\color{Purple}
 \begin{align*}
-\textbf{SST} &= SSE + SSR \\
-SSR &= SST-SSE\\
-R^2 &= 1- \frac{SSE}{SST}
+\because & \textbf{SST} = \textbf{SSE + SSR} \\
+\Rightarrow & \textbf{SSR} = \textbf{SST-SSE} \\
+\Rightarrow & \mathbf{R^2} = \mathbf{1- \frac{SSE}{SST}}
 \end{align*}
 }
 $$
