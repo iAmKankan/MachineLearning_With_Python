@@ -10,13 +10,12 @@
    * Log-Loss Based Approach
    
    
-  <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/12748752/186793462-77129039-e4b7-46b8-a64d-9d2b4b507c6c.png" width=40%/> 
-   
-   </p>
-   
-   
-   
+### Binary Classification
+
+<p align="center" >
+  <img src="https://user-images.githubusercontent.com/12748752/186793462-77129039-e4b7-46b8-a64d-9d2b4b507c6c.png" width=27%/>  <img src="https://user-images.githubusercontent.com/12748752/186803012-94d84921-f53d-4789-9d8c-340375c23edf.png" width=40%/>
+  <br> <ins><b><i>Linear model to perform Binary Classification</i></b></ins>
+ </p>  
    
    
    
