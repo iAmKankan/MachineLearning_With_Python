@@ -9,6 +9,19 @@
    * Geometric Approach (Distance Based Approach)
    * Log-Loss Based Approach
    
+   
+  <p align="center"> 
+  <img src="https://user-images.githubusercontent.com/12748752/186793462-77129039-e4b7-46b8-a64d-9d2b4b507c6c.png" width=40%/> 
+   
+   </p>
+   
+   
+   
+   
+   
+   
+   
+   
 ## Logistic Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * Logistic regression is one such regression algorithm which can be used for performing classification problems. 
