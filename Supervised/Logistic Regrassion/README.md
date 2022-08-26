@@ -61,10 +61,10 @@ $${\color{Purple}
 $$
 
 
-### Cost function
+### Cost function for Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-#### Logistic regression
+##### This was our forward model Logistic regression 
 
 $${\color{Purple}
 \huge \mathbf{\hat{y} = \sigma(w . x)} 
@@ -75,17 +75,31 @@ x =[x_1,x_2, \cdots, x_n]
 }
 $$
 
-This was our forward model. Now the question is what is a good **cost function** for this? in our usual learning paradigm what we have is
+Now the question is what is a good **cost function** for this? in our usual learning paradigm what we have is
 * I have an input **x**, this **predicts** a <img src="https://render.githubusercontent.com/render/math?math=\hat{y}" align="center">, the **ground truth** is some **y**, and I wish to find out some cost or penalty for <img src="https://render.githubusercontent.com/render/math?math=\hat{y}" align="center"> and **y** being different.
 
+#### Why _Least Square_ cost function BAD for Logistic regression?
+What we do for **linear regression**  we take the sum of all these examples and take an average that is .
+
+$$ {\color{Purple} \large \mathbf{J^{LS} = \frac{1}{2} (y- \hat{y})^2} }$$
 
 
+But it is not a good cost function for classification because the cost that you incur for misclassification, that is when <img src="https://latex.codecogs.com/svg.image?\large&space;\large{\color{Purple}y}" title="https://latex.codecogs.com/svg.image?\large \large{\color{Purple}y}" /> is **0** if you say <img src="https://latex.codecogs.com/svg.image?\large&space;\large{\color{Purple}\hat{y}}" title="https://latex.codecogs.com/svg.image?\large \large{\color{Purple}\hat{y}}" /> is **1** or close to 1 let us say 0.99, so when we want to predict something as clear as classification and you give a misclassification, the cost incurred for that is actually very low, that is we do not penalize this cost high enough, even though there is a penalty it is not high enough. So because of that, this is one of the reasons why the usual least square cost function is a bad cost function for classification.
 
+### _Binary cross entropy_ cost function
 
+$$ {\color{Purple} \Huge \mathbf{ J= - \Bigl\\{ y \ln\hat{y} + (1-y) \ln(1-\hat{y}) \Bigl\\} }}$$
 
+* So, $\large{\color{Purple} y}$ is either a **0** or **1**, $\large{\color{Purple} \hat{y}}$ is between **0** and **1**. 
+* Therefore $\large{\color{Purple} \ln \hat{y}}$ is going to be **negative (-ve)** . 
+* $\large{\color{Purple} y}$ is going to be either a **0** or **1**, 
+* So this whole term Therefore $\large{\color{Purple} y \ln \hat{y}}$ is **negative (-ve)**. 
+* Similarly this term Therefore $\large{\color{Purple} (1 − y ) \ln(1− \hat{y})}$  is also **negative (-ve)**, and that is why we have minus sign so that the whole term actually becomes positive. So that it is consistent with least squares.
 
-
-
+#### Desirable properties for classification cost function-
+1. $\large{\color{Purple} \mathbf{J = 0} \textit{, if } \mathbf{y=\hat{y}} }$
+2. $\large{\color{Purple} \mathbf{J} \textrm{ would be very high for }\mathbf{missclassification}}$
+3. $\large{\color{Purple} \mathbf{J \geq 0}}\textrm{    [required for consistency]}$
 
 
 
