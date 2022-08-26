@@ -41,7 +41,55 @@ As \textbf{ z} = 0 &, \sigma(z) = 0.5 \\
 \end{cases}
 }
 $$
-   
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/12748752/186841982-9a9a3b1f-76a8-456a-b8ca-ced8bc4c89c5.png" width=30% />
+  <br> <ins><b><i>Sigmoid Curve</i></b></ins>
+</p>   
+
+
+If I use sigmoid of linear regression, this would tell me that <img src="https://render.githubusercontent.com/render/math?math=\hat{y}" align="center"> will always lie between 0 and 1. Now this has an additional advantage which is now we can interpret ^y as the probability that the output belongs to class 1 even the input x, let me explain. Now let us look at this line here, we want this value let us call this something z, this value z=w0+w1 x1+w2 x2, such that if it has to lie in class 1 then z has to be really high ok. If it has to belong to class 0 we know that z has to be really low ok
+
+$${\color{Purple}
+\begin{matrix}
+\huge \mathbf{\hat{y} = \sigma} (w_0+w_1x_1+w_2x_2) & \\
+& \large \mathbf{\Rightarrow \hat{y} \in [0, 1]} \\
+& \textrm{Interprit } \large \mathbf{\hat{y} = p(y=1|x)}\\
+& \large \mathbf{\hat{y} = \sigma(z) = p(y=1|x)}
+\end{matrix}
+}
+$$
+
+
+### Cost function
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+#### Logistic regression
+
+$${\color{Purple}
+\huge \mathbf{\hat{y} = \sigma(w . x)} 
+\large \begin{cases}
+w = [w_0, w_1, \cdots,w_n]^{\top} \\
+x =[x_1,x_2, \cdots, x_n]
+\end{cases}
+}
+$$
+
+This was our forward model. Now the question is what is a good **cost function** for this? in our usual learning paradigm what we have is
+* I have an input **x**, this **predicts** a <img src="https://render.githubusercontent.com/render/math?math=\hat{y}" align="center">, the **ground truth** is some **y**, and I wish to find out some cost or penalty for <img src="https://render.githubusercontent.com/render/math?math=\hat{y}" align="center"> and **y** being different.
+
+
+
+
+
+
+
+
+
+
+
+
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 ## Logistic Regression
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * Logistic regression is one such regression algorithm which can be used for performing classification problems. 
