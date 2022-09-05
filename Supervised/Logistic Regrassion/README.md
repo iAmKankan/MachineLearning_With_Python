@@ -88,7 +88,7 @@ But it is not a good cost function for classification because the cost that you 
 
 ### _Binary cross entropy_ cost function
 
-$$ {\color{Purple} \Huge \mathbf{ J= - \Bigl\\{ y \ln\hat{y} + (1-y) \ln(1-\hat{y}) \Bigl\\} }}$$
+$$ {\color{Purple} \Huge \boxed{\mathbf{ J= - \Bigl\\{ y \ln\hat{y} + (1-y) \ln(1-\hat{y}) \Bigl\\} }} }$$
 
 * So, $\large{\color{Purple} y}$ is either a **0** or **1**, $\large{\color{Purple} \hat{y}}$ is between **0** and **1**. 
 * Therefore $\large{\color{Purple} \ln \hat{y}}$ is going to be **negative (-ve)** . 
