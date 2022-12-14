@@ -11,7 +11,21 @@
 
 ### Supervised Learning
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+#### What is Supervised Learning?
+**Supervised learning (SL)** is a machine learning paradigm for problems where the available data consists of **labelled examples**, meaning that _each data point contains_ **features (covariates)** and an associated label. 
 
+The goal of supervised learning algorithms is learning a function that maps **feature vectors (inputs)** to **labels (output)**, based on example **input-output pairs**. In supervised learning, each example is _a pair consisting of an input object_ (typically a **vector**) and a _desired output value_ (also called the **supervisory signa**l). 
+
+A supervised learning algorithm analyzes the **training data** and produces **an inferred function**, **_which can be used for mapping new examples_**. 
+> An optimal scenario will allow for the algorithm to correctly determine the class labels for unseen instances. This requires the learning algorithm to generalize from the training data to unseen situations in a "reasonable" way (see inductive bias). This statistical quality of an algorithm is measured through the so-called **generalization error**.
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/12748752/207528771-2cdc96f9-1840-4c3b-aadc-3dad4938a8a9.png" width=60% />
+</p>
+
+
+
+### Classification and Regresssion
 <img src="https://user-images.githubusercontent.com/12748752/186329450-e7e071a7-f1fc-46dc-825d-03305c3e9c89.png" width=70%/>
 
 ### Regression
