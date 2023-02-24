@@ -6,6 +6,13 @@
 * [Terminologies](#terminologies)
    * [Convergence](#convergence)
    * [Theta _<a>&theta;</a>_](#theta-%CE%B8)
+
+## What is a Gradient? [link ↗️](https://builtin.com/data-science/gradient-descent)
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+$\large Answer :$
+In machine learning, a gradient is a derivative of a function that has more than one input variable. Known as the slope of a function in mathematical terms, the gradient simply measures the change in all weights with regard to the change in error.
+
+
 ### Different types of optimizers and its performence   
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 |Algorithm| Large m|Out-of-core support|Large n| Hyperparams| Scaling required| Scikit-Learn|
