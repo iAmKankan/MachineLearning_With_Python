@@ -29,11 +29,14 @@
 
 ### Software Engineering Vs AI/ML
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-<img src="https://user-images.githubusercontent.com/12748752/186307281-6c54df9f-2544-4610-a16a-cac2b78b866b.png" width=70%/>
 
-Here the **rules** is difined as **models**
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/12748752/186307281-6c54df9f-2544-4610-a16a-cac2b78b866b.png" width=70%/>
+ <br><ins><i><b>Here the `rules` is difined as `models`</b></i></ins>
+</p>
 
 ### Machine Learning Application Flow
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 <p align="center">
    <img src="https://user-images.githubusercontent.com/12748752/207588605-0800a3e5-7655-4683-9d90-fb15405b8d78.png" width=60%/>
