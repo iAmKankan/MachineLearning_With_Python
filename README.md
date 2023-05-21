@@ -45,7 +45,9 @@
 ### Learning Paradigm
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
  
-<img src="https://user-images.githubusercontent.com/12748752/186326497-c540fae4-3267-4e4e-ac6e-469037fd4e9a.png" width=70%/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/12748752/186326497-c540fae4-3267-4e4e-ac6e-469037fd4e9a.png" width=70%/>
+</p>
 
 To learn the parameters, we follow this paradigm 
 * Collect lots of data pairs (Input Vector, Output Vector) = $\large{\color{Purple} (x, y)}$
