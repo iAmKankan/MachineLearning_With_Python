@@ -26,7 +26,10 @@ A supervised learning algorithm analyzes the **training data** and produces **an
 
 
 ### Classification and Regresssion
+<p align="center">
 <img src="https://user-images.githubusercontent.com/12748752/186329450-e7e071a7-f1fc-46dc-825d-03305c3e9c89.png" width=70%/>
+</p>
+
 
 ### Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
@@ -59,7 +62,9 @@ $$
  
 ### Data point
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-<img src="https://user-images.githubusercontent.com/12748752/186367469-db591c5e-8fde-48d4-b5a8-35566cb138af.png" width=30%/> <img src="https://user-images.githubusercontent.com/12748752/186380825-d6cd3822-0512-4db3-a2f9-b85231395a19.png" width=30%/>
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/12748752/186367469-db591c5e-8fde-48d4-b5a8-35566cb138af.png" width=30%/> <img src="https://user-images.githubusercontent.com/12748752/186380825-d6cd3822-0512-4db3-a2f9-b85231395a19.png" width=30%/>
+</p>
 
 We start with the case where there is a single input and a single output 
 * $\large{\color{Purple} (x^{(i)}, y^{(i)})} : i^{th} \textit{ example of (input, output) set.}$
@@ -83,7 +88,9 @@ $$ \large{\color{Purple} \hat{y}= h(x)=w_{0}+ w_{1}x} $$
 
 ### Measuring the _Fit_
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+<p align="center">
 <img src="https://user-images.githubusercontent.com/12748752/186551372-28265384-b462-4ebb-ba0d-d412af31aade.png" width=40%/>
+</p>
 
 **Mean Square Error:**
 
