@@ -39,7 +39,7 @@
 
 ### Assumptions of Linear Regression
 Let’s look at the important assumptions in regression analysis-
-  * There should be no **correlation** between the **residual (error) terms**. Absence of this phenomenon is known as **_Autocorrelation_**.
+  * There should be no [**correlation**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#correlation) between the **residual (error) terms**. Absence of this phenomenon is known as **_Autocorrelation_**.
   * The **_independent variables_** should not be **correlated**. Absence of this phenomenon is known as [**_Multicollinearity_**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md).
   * The error terms must have [constant variance](https://github.com/iAmKankan/Statistics/blob/main/measureofcentraltendency.md#constant-variance). This phenomenon is known as **Homoskedasticity**. The presence of non-constant variance is referred to **Heteroskedasticity**.
   * **The error terms must be normally distributed**.
