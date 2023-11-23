@@ -56,8 +56,7 @@ To learn the parameters, we follow this paradigm
 * For an arbitrary guess for $\large{\color{Purple}w}$
   * We will get some $\large{\color{Purple} \hat{y}= h(x; w)}$  ${\color{Blue}\textrm{which will not match the ground truth }} \large {\color{Purple} y}$
 * Define a cost function $\large{\color{Purple} J(y, \hat{y}(w))}$ depending on the difference.
-* Find optimal $\large{\color{Purple} w}$ by minimizing $\large{\color{Purple} J(w)}$.
-* By using some optimization procedure such as Gradient Descent.
+* Find optimal $\large{\color{Purple} w}$ by minimizing $\large{\color{Purple} J(w)}$ by using some optimization procedure such as **Gradient Descent**.
 
 ### Machine Learning Algorithms Based on Trainging
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
