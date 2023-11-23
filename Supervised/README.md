@@ -20,7 +20,9 @@ A supervised learning algorithm analyzes the **training data** and produces **an
 > An optimal scenario will allow for the algorithm to correctly determine the class labels for unseen instances. This requires the learning algorithm to generalize from the training data to unseen situations in a "reasonable" way (see inductive bias). This statistical quality of an algorithm is measured through the so-called **generalization error**.
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/12748752/207528771-2cdc96f9-1840-4c3b-aadc-3dad4938a8a9.png" width=60% />
+   <img src="https://user-images.githubusercontent.com/12748752/207528771-2cdc96f9-1840-4c3b-aadc-3dad4938a8a9.png" width=80% />
+   <br>
+   <ins><b><i>Train-test Split of data</i></b></ins>
 </p>
 
 
