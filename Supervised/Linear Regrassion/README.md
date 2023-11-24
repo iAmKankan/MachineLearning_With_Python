@@ -42,7 +42,7 @@ Let’s look at the important assumptions in regression analysis-
   * There should be no [**correlation**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#correlation) between the **residual (error) terms**. Absence of this phenomenon is known as **_Autocorrelation_**.
   * The **_independent variables_** should not be **correlated**. Absence of this phenomenon is known as [**_Multicollinearity_**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md).
   * The error terms must have [constant variance](https://github.com/iAmKankan/Statistics/blob/main/measureofcentraltendency.md#constant-variance). This phenomenon is known as **Homoskedasticity**. The presence of non-constant variance is referred to **Heteroskedasticity**.
-  * **The error terms must be normally distributed**.
+  * **The error terms must be [normally distributed](https://github.com/iAmKankan/Statistics/blob/main/probability/distributions.md#-what-is-a-normal-distribution)**.
   * There should be a **linear and additive relationship between dependent (response) variable and independent (predictor) variable(s)**. 
      * A linear relationship suggests that a change in response **_Y_** due to one unit change in **_X<sup>1</sup>_** is constant, regardless of the value of **_X<sup>1</sup>_**. 
      * An additive relationship suggests that the effect of **_X<sup>1</sup>_** on **_Y_** is independent of other variables.
