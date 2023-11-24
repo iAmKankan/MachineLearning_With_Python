@@ -101,8 +101,8 @@ Linear Regression is of 2 types
 <img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{Y=a&plus;bX}\&space;\&space;\&space;\&space;\&space;Where\&space;\begin{cases}\mathit{Y&space;=&space;Dependent\&space;Variable&space;}&space;\\\mathit{a&space;=&space;Y\&space;intercept&space;}&space;\\\mathit{b&space;=&space;Slope\&space;of\&space;the\&space;line}&space;\\\mathit{X&space;=&space;Independent\&space;variable}&space;\\\end{cases}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{Y=a+bX}\ \ \ \ \ Where\ \begin{cases}\mathit{Y = Dependent\ Variable } \\\mathit{a = Y\ intercept } \\\mathit{b = Slope\ of\ the\ line} \\\mathit{X = Independent\ variable} \\\end{cases}}" />
 
 * It contains only one input variable. Only one regression line.
-* **Y intercept**(a): is the value of the Dependent variable(y) when the value of the indipendent variable is zero(0). This is the point at which the line cuts the **y-axis**.
-* Slope(b): is the change in the Dependent Variable(y) for a unit increase in the indipendent variable. It is the tangent of  the angle made by the line with the **x-axis**.
+* $\Large \textrm{Y intercept (a)}$: is the value of the Dependent variable(y) when the value of the indipendent variable is zero(0). This is the point at which the line cuts the **y-axis**.
+* $\Large \textrm{Slope(b)}$: is the change in the Dependent Variable(y) for a unit increase in the indipendent variable. It is the tangent of  the angle made by the line with the **x-axis**.
 
 <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{b=\frac{y_2-y_1}{x_2-x_1}}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{b=\frac{y_2-y_1}{x_2-x_1}}}" />
 
