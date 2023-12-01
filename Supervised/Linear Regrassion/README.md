@@ -97,9 +97,9 @@ Linear Regression is of 2 types
      
 ### 1. Simple Linear Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
+<p align="center">
 <img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{Y=a&plus;bX}\&space;\&space;\&space;\&space;\&space;Where\&space;\begin{cases}\mathit{Y&space;=&space;Dependent\&space;Variable&space;}&space;\\\mathit{a&space;=&space;Y\&space;intercept&space;}&space;\\\mathit{b&space;=&space;Slope\&space;of\&space;the\&space;line}&space;\\\mathit{X&space;=&space;Independent\&space;variable}&space;\\\end{cases}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{Y=a+bX}\ \ \ \ \ Where\ \begin{cases}\mathit{Y = Dependent\ Variable } \\\mathit{a = Y\ intercept } \\\mathit{b = Slope\ of\ the\ line} \\\mathit{X = Independent\ variable} \\\end{cases}}" />
-
+</p>
 
 * It contains only one input variable. Only one regression line.
 * $\large \textrm{Y intercept (a)}$: is the value of the Dependent variable(y) when the value of the indipendent variable is zero(0). This is the point at which the line cuts the **y-axis**.
