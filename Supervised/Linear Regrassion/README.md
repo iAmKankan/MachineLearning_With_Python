@@ -34,10 +34,10 @@
 * There is no straight line that runs through all the data points. 
 * So, the objective here is to fit the best fit of a straight line that will try to minimize the error between the expected and actual value.
 
-### What is Regression
+### 🔲 What is Regression
 [**Please follow the link**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#regression)
 
-### Assumptions of Linear Regression
+### 🔲 Assumptions of Linear Regression
 Let’s look at the important assumptions in regression analysis-
   * There should be no [**correlation**](https://github.com/iAmKankan/Statistics/blob/main/commonTerms.md#correlation) between the **residual (error) terms**. Absence of this phenomenon is known as **_Autocorrelation_**.
   * The **_independent variables_** should not be **correlated**. Absence of this phenomenon is known as [**_Multicollinearity_**](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md).
@@ -100,6 +100,7 @@ Linear Regression is of 2 types
 
 <img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{Y=a&plus;bX}\&space;\&space;\&space;\&space;\&space;Where\&space;\begin{cases}\mathit{Y&space;=&space;Dependent\&space;Variable&space;}&space;\\\mathit{a&space;=&space;Y\&space;intercept&space;}&space;\\\mathit{b&space;=&space;Slope\&space;of\&space;the\&space;line}&space;\\\mathit{X&space;=&space;Independent\&space;variable}&space;\\\end{cases}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{Y=a+bX}\ \ \ \ \ Where\ \begin{cases}\mathit{Y = Dependent\ Variable } \\\mathit{a = Y\ intercept } \\\mathit{b = Slope\ of\ the\ line} \\\mathit{X = Independent\ variable} \\\end{cases}}" />
 
+<p
 * It contains only one input variable. Only one regression line.
 * $\large \textrm{Y intercept (a)}$: is the value of the Dependent variable(y) when the value of the indipendent variable is zero(0). This is the point at which the line cuts the **y-axis**.
 * $\large \textrm{Slope(b)}$: is the change in the Dependent Variable(y) for a unit increase in the indipendent variable. It is the tangent of  the angle made by the line with the **x-axis**.
@@ -117,7 +118,7 @@ Linear Regression is of 2 types
 
 <img src="https://user-images.githubusercontent.com/12748752/176559935-2b014f87-62d2-4333-92c4-cd61feac96ff.png" width=50%/>
 
-## Error or Loss or Cost
+### 🔲 Error or Loss or Cost
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 ### ⚫ _Residual Sum Of Squres_
 #### The Error is the _distance_ from the _bestfit line_ to _each observation_. Our aim is to minimize the error. 
