@@ -105,10 +105,11 @@ Linear Regression is of 2 types
 * $\large \textrm{Y intercept (a)}$: is the value of the Dependent variable(y) when the value of the indipendent variable is zero(0). This is the point at which the line cuts the **y-axis**.
 * $\large \textrm{Slope(b)}$: is the change in the Dependent Variable(y) for a unit increase in the indipendent variable. It is the tangent of  the angle made by the line with the **x-axis**.
 
-$${\color{Purple} \mathbf{b=\dfrac{y_2-y_1}{x_2-x_1}}}$$
+$$\large{\color{Purple} \mathbf{b=\dfrac{y_2-y_1}{x_2-x_1}}}$$
 
+#### Example: 
 <p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/1db6759d-540c-4703-9b60-1399d542faf1" width=50%/>
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/1db6759d-540c-4703-9b60-1399d542faf1" width=30%/>
 </p>
 
 
