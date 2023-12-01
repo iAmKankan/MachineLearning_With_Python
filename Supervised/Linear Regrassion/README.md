@@ -110,7 +110,7 @@ $${\color{Purple} \mathbf{b=\dfrac{y_2-y_1}{x_2-x_1}}} \[\textit{Later in Calcul
 ### 2. Multivariate Linear Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-<img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Purple}&space;\mathbf{Y=\beta&space;_0&plus;\beta_1x_1&plus;\beta_2x_2&plus;\beta_3x_3&plus;...&plus;\beta_nx_n}}" title="https://latex.codecogs.com/svg.image?\large {\color{Purple} \mathbf{Y=\beta _0+\beta_1x_1+\beta_2x_2+\beta_3x_3+...+\beta_nx_n}}" />
+$$\large {\color{Purple} \mathbf{Y=\beta _0+\beta_1 x_1+\beta_2 x_2+\beta_3 x_3+...+\beta_n x_n}}$$
 
 * Here we need to find out all the <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{\beta}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{\beta}}" align="center"/> coefficients.
 * It means the <img src="https://latex.codecogs.com/svg.image?{\color{Purple}&space;\mathbf{\beta}}" title="https://latex.codecogs.com/svg.image?{\color{Purple} \mathbf{\beta}}" align="center"/> is creating some kind of relationship or slope in respect to the output variable.
