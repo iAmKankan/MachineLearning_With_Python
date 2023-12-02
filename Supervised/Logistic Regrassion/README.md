@@ -50,10 +50,23 @@ $$
 
 If I use **Sigmoid** of linear regression, this would tell me that $\large{\color{purple}\hat{y}}$ will always lie between $\large{\color{purple}0}$ and $\large{\color{purple}1}$. 
 
-Now this has an additional advantage which is now we can **interpret** as- 
+Now this has an additional advantage which is now we can **interpret** Means- $\large{\color{purple}\hat{y}}$ as the **Probability** that the output belongs to **class 1** even the **input x**
+
 $$\large{\color{purple}\hat{y} = P(y=1|x)}$$
 
-Means- $\large{\color{purple}\hat{y}}$ as the **Probability** that the output belongs to **class 1** even the **input x**, let me explain. Now let us look at this line here, we want this value let us call this something z, this value z=w0+w1 x1+w2 x2, such that if it has to lie in class 1 then z has to be really high ok. If it has to belong to class 0 we know that z has to be really low ok
+ Let me explain-
+
+<p align="center">
+<img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/90c1177f-59d6-4ed1-9373-1bf9db96f660" width=30% />
+  <br> <ins><b><i></i></b></ins>
+</p>   
+
+
+Now let us look at this classification line there, we want this value  $\large{\color{purple} \hat{y} = \sigma({\color{red}\boxed{{\color{purple}w_0+w_1 x_1+w_2 x_2}}})}$ be called as $\large{\color{purple}z}$ , such that if it has to lie in **class 1** then z has to be really high  $\large{\color{purple} z>0}$. If it has to belong to **class 0** we know that z has to be really low $\large{\color{purple} z<0}$.
+
+Now suppose I look at a new point which is there in dotted circle, what this tells me is that this point is almost certain to lie in **class 1**. Just looking at this data the further away we get away from this classifying line then more and more uncertain we are that this point belongs to class 1. Similarly, the further away we get to decide of the line, the further and further closer certain we are that we belong to class 0 okay. So what we can think of z as- z is the perpendicular distance from the classifying line.
+
+How does that help us? The classifying line then is the line z=0 which means σ ( z) is equal to 0.5, if I come to this side σ ( z) becomes close to 1, if I come to this side σ ( z) becomes close to 0, the closer I am to this line the more uncertain we are about where it lies, whether it lies on class 1 or whether it lies on class 0. Therefore it is easy to now interpret ^y which was equal to σ ( z) as the probability that you belong to class 1 okay for example, if your sigmoid value is close to 0.5 okay then what it means is you are not really certain about how close it is to class 1, it means probability is approximately 0.5 that it is class 1.
 
 $${\color{Purple}
 \begin{matrix}
