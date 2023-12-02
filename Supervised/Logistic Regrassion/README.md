@@ -68,6 +68,8 @@ Now suppose I look at a new point which is there in dotted circle, what this tel
 
 How does that help us? The classifying line then is the line z=0 which means σ ( z) is equal to 0.5, if I come to this side σ ( z) becomes close to 1, if I come to this side σ ( z) becomes close to 0, the closer I am to this line the more uncertain we are about where it lies, whether it lies on class 1 or whether it lies on class 0. Therefore it is easy to now interpret ^y which was equal to σ ( z) as the probability that you belong to class 1 okay for example, if your sigmoid value is close to 0.5 okay then what it means is you are not really certain about how close it is to class 1, it means probability is approximately 0.5 that it is class 1.
 
+Let us see sigmoid is close to 0.99 okay then we know that it is really far away and that we are very-very certain that it lies in class 1. Suppose the sigmoid value is 0.01 then we know that the probability that it lies in class I is actually pretty low it is equal to 0.01. So this is the simple idea behind logistic regression, we will see how to compute classifying lines using logistic regression in later videos.
+
 $${\color{Purple}
 \begin{matrix}
 \huge \mathbf{\hat{y} = \sigma} (w_0+w_1x_1+w_2x_2) & \\
