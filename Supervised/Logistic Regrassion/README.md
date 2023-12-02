@@ -68,8 +68,8 @@ Now suppose I look at a new point which is there in **red dotted circle**, what 
 
 How does that help us? 
 * The classifying line is $\large{\color{purple}z=0}$ which means $\large{\color{purple}\sigma ( z) = 0.5}$ ,
-* if I come to this red side $\large{\color{purple}\sigma ( z)}$  becomes close to 1,
-* if I come to this side $\large{\color{purple}\sigma ( z)}$ becomes close to 0,
+* if I come to this Red side $\large{\color{purple}\sigma ( z)}$  becomes close to 1,
+* if I come to this Blue side $\large{\color{purple}\sigma ( z)}$ becomes close to 0,
 
   The closer I am to this **Classification line** the more uncertain we are about where the result lies, whether it lies on **class 1** or whether it lies on **class 0**. Therefore it is easy to now interpret $\large{\color{purple}\hat{y}}$ which was equal to $\large{\color{purple}\sigma ( z)}$ as the probability that you belong to **class 1**, for example- if your **Sigmoid** value is close to **0.5** okay then what it means is you are not really certain about how close it is to **class 1**, it means probability is approximately **0.5** that it is **class 1**.
 
