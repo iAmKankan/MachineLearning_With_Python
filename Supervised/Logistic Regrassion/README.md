@@ -10,10 +10,10 @@
    * Log-Loss Based Approach
    
    
-### Binary Classification
+### ⬛ Binary Classification
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
-### Problem with Linear Regression for Binary Classification
+### 🔲 Problem with Linear Regression for Binary Classification
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 Suppose we have two classes **red class** or the **blue class** which is class **1** / $x_1$ or class **0** / $x_2$. So, our label **y** should always be either **0** or **1**.
 
@@ -22,7 +22,7 @@ Suppose we have two classes **red class** or the **blue class** which is class *
   <br> <ins><b><i>Linear model to perform Binary Classification; X<sup>&#8407;</sup>	 is the input vector</i></b></ins>
  </p>  
 
-#### 🔲 The problem
+###  The problem
 If I had fit a simple **_linear regression line_**, in a **linear model**  $\large{\color{Purple} \hat{y}=w_0+w_1 x_1+w_2 x_2}$ and introduce a point(data) far in **red** class then-
 * Regardless of your weights $\large{\color{Purple}w_1}$ and $\large{\color{Purple}w_2}$ if I pick up that far away point then above $\large{\color{Purple} \hat{y}}$ value will come **very high** _it is not going to lie between **0** and **1**_. 
 * Similarly if I choose _a point at the extreme blue class_, there is no way for you to ensure that a **_simple linear model_** will always give values between **0** and **1**.
