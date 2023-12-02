@@ -15,7 +15,7 @@
 
 ### 🔲 Problem with Linear Regression for Binary Classification
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-Suppose we have two classes **red class** or the **blue class** which is class **1** / $x_1$ or class **0** / $x_2$. So, our label **y** should always be either **0** or **1**.
+Suppose we have two classes **red class** or the **blue class** which is class **1** or $\mathbf{x_1}$ or class **0** or $\mathbf{x_2}$. So, our label **y** should always be either **0** or **1**.
 
 <p align="center" >
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/dd33d76f-9c99-42ea-9b75-7a6f8853da32" width=31%/>  <img src="https://user-images.githubusercontent.com/12748752/186803012-94d84921-f53d-4789-9d8c-340375c23edf.png" width=40%/>
