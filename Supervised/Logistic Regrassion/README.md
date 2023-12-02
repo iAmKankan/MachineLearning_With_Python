@@ -18,7 +18,7 @@
 Suppose we have two classes **red class** or the **blue class** which is class **1** / $x_1$ or class **0** / $x_2$. So, our label **y** should always be either **0** or **1**.
 
 <p align="center" >
-  <img src="https://user-images.githubusercontent.com/12748752/186793462-77129039-e4b7-46b8-a64d-9d2b4b507c6c.png" width=27%/>  <img src="https://user-images.githubusercontent.com/12748752/186803012-94d84921-f53d-4789-9d8c-340375c23edf.png" width=40%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/dd33d76f-9c99-42ea-9b75-7a6f8853da32" width=31%/>  <img src="https://user-images.githubusercontent.com/12748752/186803012-94d84921-f53d-4789-9d8c-340375c23edf.png" width=40%/>
   <br> <ins><b><i>Linear model to perform Binary Classification; X<sup>&#8407;</sup>	 is the input vector</i></b></ins>
  </p>  
 
