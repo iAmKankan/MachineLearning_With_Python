@@ -48,7 +48,7 @@ $$
 </p>   
 
 
-If I use sigmoid of linear regression, this would tell me that <img src="https://render.githubusercontent.com/render/math?math=\hat{y}" align="center"> will always lie between 0 and 1. Now this has an additional advantage which is now we can interpret ^y as the probability that the output belongs to class 1 even the input x, let me explain. Now let us look at this line here, we want this value let us call this something z, this value z=w0+w1 x1+w2 x2, such that if it has to lie in class 1 then z has to be really high ok. If it has to belong to class 0 we know that z has to be really low ok
+If I use sigmoid of linear regression, this would tell me that $\large{\color{purple}\hat{y}}$ will always lie between 0 and 1. Now this has an additional advantage which is now we can interpret ^y as the probability that the output belongs to class 1 even the input x, let me explain. Now let us look at this line here, we want this value let us call this something z, this value z=w0+w1 x1+w2 x2, such that if it has to lie in class 1 then z has to be really high ok. If it has to belong to class 0 we know that z has to be really low ok
 
 $${\color{Purple}
 \begin{matrix}
