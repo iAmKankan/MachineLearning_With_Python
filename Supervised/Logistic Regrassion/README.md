@@ -15,7 +15,7 @@
 
 ### Problem with Linear Regression for Binary Classification
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-Suppose we have two classes **red class** or the **green class** which is class **1** or class **0**. So, our label **y** should always be either **0** or **1**.
+Suppose we have two classes **red class** or the **blue class** which is class **1** / $x_1$ or class **0** / $x_2$. So, our label **y** should always be either **0** or **1**.
 
 <p align="center" >
   <img src="https://user-images.githubusercontent.com/12748752/186793462-77129039-e4b7-46b8-a64d-9d2b4b507c6c.png" width=27%/>  <img src="https://user-images.githubusercontent.com/12748752/186803012-94d84921-f53d-4789-9d8c-340375c23edf.png" width=40%/>
@@ -50,7 +50,10 @@ $$
 
 If I use **Sigmoid** of linear regression, this would tell me that $\large{\color{purple}\hat{y}}$ will always lie between $\large{\color{purple}0}$ and $\large{\color{purple}1}$. 
 
-Now this has an additional advantage which is now we can interpret $\large{\color{purple}\hat{y}}$ as the **Probability** that the output belongs to class 1 even the input x, let me explain. Now let us look at this line here, we want this value let us call this something z, this value z=w0+w1 x1+w2 x2, such that if it has to lie in class 1 then z has to be really high ok. If it has to belong to class 0 we know that z has to be really low ok
+Now this has an additional advantage which is now we can **interpret** as- 
+$$\large{\color{purple}\hat{y} = P(y=1|x)}$$
+
+Means- $\large{\color{purple}\hat{y}}$ as the **Probability** that the output belongs to **class 1** even the **input x**, let me explain. Now let us look at this line here, we want this value let us call this something z, this value z=w0+w1 x1+w2 x2, such that if it has to lie in class 1 then z has to be really high ok. If it has to belong to class 0 we know that z has to be really low ok
 
 $${\color{Purple}
 \begin{matrix}
