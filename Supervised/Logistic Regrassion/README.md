@@ -57,7 +57,7 @@ $$\large{\color{purple}\hat{y} = P(y=1|x)}$$
  Let me explain-
 
 <p align="center">
-<img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/e382c65b-67c0-483d-ba91-9d5cc75f299c" width=30% />
+<img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/e382c65b-67c0-483d-ba91-9d5cc75f299c" width=60% />
   <br> <ins><b><i></i></b></ins>
 </p>   
 
