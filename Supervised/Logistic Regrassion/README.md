@@ -57,10 +57,9 @@ $$\large{\color{purple}\hat{y} = P(y=1|x)}$$
  Let me explain-
 
 <p align="center">
-<img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/90c1177f-59d6-4ed1-9373-1bf9db96f660" width=30% />
+<img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/e382c65b-67c0-483d-ba91-9d5cc75f299c" width=30% />
   <br> <ins><b><i></i></b></ins>
 </p>   
-
 
 Now let us look at this classification line there, we want this value  $\large{\color{purple} \hat{y} = \sigma({\color{red}\boxed{{\color{purple}w_0+w_1 x_1+w_2 x_2}}})}$ be called as $\large{\color{purple}z}$ , such that if it has to lie in **class 1** then z has to be really high  $\large{\color{purple} z>0}$. If it has to belong to **class 0** we know that z has to be really low $\large{\color{purple} z<0}$.
 
