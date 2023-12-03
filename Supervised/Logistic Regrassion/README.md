@@ -113,9 +113,9 @@ x =[x_1,x_2, \cdots, x_n]
 $$
 
 Now the question is what is a good **cost function** for this? in our usual learning paradigm what we have is
-* I have an input $\large{\color{purple}x}$, this **predicts** a $\large{\color{purple}?math=\hat{y}}$, the **ground truth** is some $\large{\color{purple}y}$ , and I wish to find out some cost or penalty for $\large{\color{purple}?math=\hat{y}}$ and $\large{\color{purple}y}$ being different.
+* I have an input $\large{\color{purple}x}$, this **predicts** a $\large{\color{purple}\hat{y}}$, the **ground truth** is some $\large{\color{purple}y}$ , and I wish to find out some cost or penalty for $\large{\color{purple}\hat{y}}$ and $\large{\color{purple}y}$ being different.
 
-#### Why _Least Square_ cost function BAD for Logistic regression?
+### Why _Least Square_ cost function BAD for Logistic regression?
 What we do for **linear regression**  we take the sum of all these examples and take an average that is .
 
 $$ {\color{Purple} \large \mathbf{J^{LS} = \frac{1}{2} (y- \hat{y})^2} }$$
