@@ -84,6 +84,19 @@ $${\color{Purple}
 }
 $$
 
+### 🔲 Multinomial Classification for Logistic Regression
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
+### We need to know the followings-
+1) How do we represent the output class(label): Catagorical=Horse,Dogs,Cats or One-Hot-Vector.
+2) What happens to the final layer- In Binary classification task we use the **sigmoid** function, because it neatly gave us a number **between 0 and 1**. Now in a multinomial classification case we use **Softmax** function, which actually corresponds very well with the **One Hot Vector**.
+3) How we are going to look at the loss function for multinomial classification.
+
+
+
+
+
+
 
 ### Cost function for Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
