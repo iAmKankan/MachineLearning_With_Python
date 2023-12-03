@@ -101,7 +101,7 @@ $$
 ### 🔲 Cost function for Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-So far we had this - a forward model **Logistic regression**, Here we have a Sigmoid function and its corresponding weights $\large{\color{Purple}w_1,w_2,\cdots,w_n}$ as well as some input variables  $\large{\color{Purple}x_1,x_2,\cdots,x_n}$
+So far we had this - a forward model **Logistic regression**, Here we have a Sigmoid function and its corresponding **weights** $\large{\color{Purple}w_1,w_2,\cdots,w_n}$ as well as some input **variables**  $\large{\color{Purple}x_1,x_2,\cdots,x_n}$
 
 $${\color{Purple}
 \huge \mathbf{\hat{y} = \sigma(w . x)} 
