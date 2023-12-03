@@ -84,7 +84,7 @@ $${\color{Purple}
 }
 $$
 
-### 🔲 Multinomial Classification for Logistic Regression
+### ⬛ Multinomial Classification for Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ### We need to know the followings-
@@ -98,7 +98,7 @@ $$
 
 
 
-### Cost function for Logistic Regression
+### 🔲 Cost function for Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 ### This was our forward model Logistic regression 
