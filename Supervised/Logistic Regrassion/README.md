@@ -101,7 +101,7 @@ $$
 ### Cost function for Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-##### This was our forward model Logistic regression 
+### This was our forward model Logistic regression 
 
 $${\color{Purple}
 \huge \mathbf{\hat{y} = \sigma(w . x)} 
