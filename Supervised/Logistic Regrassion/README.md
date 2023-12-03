@@ -34,7 +34,7 @@ As a solution we use a very simple idea which is too **_squish_** all data to th
 
 $$ {\color{Purple}
 \Huge \mathbf{\sigma (z) \equiv \frac{1}{1+ e^{-z}} }
-\normalsize \begin{cases}
+ \large\begin{cases}
 As \textbf{ z} \to \infty & , \sigma(z) \to 1 \\
 As \textbf{ z} \to - \infty & , \sigma(z) \to 0 \\
 As \textbf{ z} = 0 &, \sigma(z) = 0.5 \\
