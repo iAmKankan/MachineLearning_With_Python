@@ -95,13 +95,13 @@ $$
 
 
 
-
-
-
 ### 🔲 Cost function for Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
-So far we had this - a forward model **Logistic regression**, Here we have a Sigmoid function and its corresponding **weights** $\large{\color{Purple}w_1,w_2,\cdots,w_n}$ as well as some input **variables**  $\large{\color{Purple}x_1,x_2,\cdots,x_n}$
+So far we had this - a forward model **Logistic regression**, Here we have a Sigmoid function and its corresponding **weights** $\large{\color{Purple}w_0,w_1,w_2,\cdots,w_n}$ as well as some input **variables**  $\large{\color{Purple}x_1,x_2,\cdots,x_n}$.
+
+Now the question is what is a good **cost function**  $\large{\color{Purple}J()}$ for this? in our usual learning paradigm what we have is
+* I have an input $\large{\color{purple}x}$, this **predicts** a $\large{\color{purple}\hat{y}}$, the **ground truth** is some $\large{\color{purple}y}$ , and I wish to find out some cost or penalty for $\large{\color{purple}\hat{y}}$ and $\large{\color{purple}y}$ being different.
 
 $${\color{Purple}
 \huge \mathbf{\hat{y} = \sigma(w . x)} 
@@ -112,8 +112,7 @@ x =[x_1,x_2, \cdots, x_n]
 }
 $$
 
-Now the question is what is a good **cost function** for this? in our usual learning paradigm what we have is
-* I have an input $\large{\color{purple}x}$, this **predicts** a $\large{\color{purple}\hat{y}}$, the **ground truth** is some $\large{\color{purple}y}$ , and I wish to find out some cost or penalty for $\large{\color{purple}\hat{y}}$ and $\large{\color{purple}y}$ being different.
+
 
 ### Why _Least Square_ cost function BAD for Logistic regression?
 What we do for **linear regression**  we take the sum of all these examples and take an average that is .
