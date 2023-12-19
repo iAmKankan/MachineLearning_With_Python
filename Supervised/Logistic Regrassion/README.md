@@ -98,6 +98,27 @@ $$
 ### 🔲 Cost function for Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
+The output of Sigmoid function is -
+
+$$\Large{\color{purple} \hat{y} = \sigma (w^\top x +b) \cdots \cdots \cdots \mathrm{Where \ \sigma(z) = \dfrac{1}{1+e^{-z}}}} $$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 So far we had this - a forward model **Logistic regression**, Here we have a Sigmoid function and its corresponding **weights** $\large{\color{Purple}w_0,w_1,w_2,\cdots,w_n}$ as well as some input **variables**  $\large{\color{Purple}x_1,x_2,\cdots,x_n}$.
 
 Now the question is what is a good **cost function**  $\large{\color{Purple}J()}$ for this? in our usual learning paradigm what we have is
