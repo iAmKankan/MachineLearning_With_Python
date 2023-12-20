@@ -17,10 +17,10 @@ Suppose the cost that you incur for misclassification, $\large{\color{Purple}y}$
 The cost that you incur for misclassification, that is when $\large{\color{Purple}y}$ is **0** if you say $\large{\color{Purple}\hat{y}}$ is **1** or close to **1** let us say **0.99**, so when we want to predict something as clear as classification and you give a misclassification, the cost incurred for that is actually very low, that is we do not penalize this cost high enough, even though there is a penalty it is not high enough. So because of that, this is one of the reasons why the usual least square cost function is a bad cost function for classification.
 
 ### $\large{\color{Purple}\underline{Reason \ 2 \\#}}$
-For **Logistic Regression** we don't use the same **loss function** as for **Linear Regression** because when we come to learn the parameters of **optimization** problem become **non-convex**, which will cause multiple **Local Optima** and the **Gradient Descent** may not find the **Global Optima**. 
+For **Logistic Regression** we don't use the same **loss function** as for **Linear Regression** because when we come to learn the parameters of **optimization** problem, it become **non-convex**, which will cause multiple **Local Optima** and the **Gradient Descent** may not find the **Global Optima**. 
 
 <p align="center">
-<img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/7b238c0e-d650-497b-884a-ae4fa70a1944" width=70%/>
+<img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/7b238c0e-d650-497b-884a-ae4fa70a1944" width=40%/>
   <br><ins><b><i> Convex vs Non-Convex </i></b></ins>
 </p>
 
