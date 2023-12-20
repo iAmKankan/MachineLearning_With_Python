@@ -18,3 +18,9 @@ The cost that you incur for misclassification, that is when $\large{\color{Purpl
 
 ### $\large{\color{Purple}\underline{Reason \ 2 \\#}}$
 For **Logistic Regression** we don't use the same **loss function** as for **Linear Regression** because when we come to learn the parameters of **optimization** problem become **non-convex**, which will cause multiple **Local Optima** and the **Gradient Descent** may not find the **Global Optima**. 
+
+<p align="center">
+<img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/7b238c0e-d650-497b-884a-ae4fa70a1944" width=70%/>
+  <br><ins><b><i> Convex vs Non-Convex </i></b></ins>
+</p>
+
