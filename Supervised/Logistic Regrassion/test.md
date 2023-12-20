@@ -4,4 +4,16 @@ $$\Large{\color{purple} \mathrm{\hat{y}^{(i)} = \sigma (w^\top x^{(i)} +b)} \cdo
 
 ♠️ Given $\large{\color{purple} \\{ (x^{(1)},y^{(1)}) \cdots (x^{(m)},y^{(m)}) \\} }$ and we want $\large{\color{purple}\  \hat{y}^{(i)} \approx y^{(i)} }$  \[ <ins> The superscript <b>i</b> refers to the <b>i<sup>th</sup></b> training example</ins> \]
 
+### 🔲 <ins>Least Squared Error:</ins>
 
+$$\Large{\color{Purple} {J^{\normalsize{LS}} = \frac{1}{2} (y- \hat{y})^2}}$$
+
+### Why Least-Squared cost function BAD for Logistic regression?
+What we do for **Linear Regression**  we take the sum of all these examples and take an average. But it is not a good cost function for Binary classification. There are several reasons 
+
+### $\large{\color{Purple}\underline{Reason \ 1 \\#}}$
+Suppose the cost that you incur for misclassification, $\large{\color{Purple}y}$ is class $\large{\color{Purple}0}$ and $\large{\color{Purple}\hat{y}}$ is as $\large{\color{Purple}1}$ or very close like $\large{\color{Purple}0.99}$
+
+The cost that you incur for misclassification, that is when $\large{\color{Purple}y}$ is **0** if you say $\large{\color{Purple}\hat{y}}$ is **1** or close to **1** let us say **0.99**, so when we want to predict something as clear as classification and you give a misclassification, the cost incurred for that is actually very low, that is we do not penalize this cost high enough, even though there is a penalty it is not high enough. So because of that, this is one of the reasons why the usual least square cost function is a bad cost function for classification.
+
+### $\large{\color{Purple}\underline{Reason \ 2 \\#}}$
