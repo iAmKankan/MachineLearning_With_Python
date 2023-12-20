@@ -14,7 +14,6 @@
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
 ### 🔲 Problem with Linear Regression for Binary Classification
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 Suppose we have two classes **red class** or the **blue class** which is class **1** or $\mathbf{x_1}$ or class **0** or $\mathbf{x_2}$. So, our label **y** should always be either **0** or **1**.
 
 <p align="center" >
@@ -28,7 +27,6 @@ If I had fit a simple **_linear regression line_**, in a **linear model**  $\lar
 * Similarly if I choose _a point at the extreme blue class_, there is no way for you to ensure that a **_simple linear model_** will always give values between **0** and **1**.
 
 ### 🔲 Solution of this problem
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 As a solution we use a very simple idea which is too **_squish_** all data to the range **[0, 1 ]** which is what we require as our output, by introducing a **sigmoid (&sigma;)**
 
@@ -85,7 +83,7 @@ $${\color{Purple}
 $$
 
 ### ⬛ Multinomial Classification for Logistic Regression
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 
 ### We need to know the followings-
 1) How do we represent the output class(label): Catagorical=Horse,Dogs,Cats or One-Hot-Vector.
@@ -93,9 +91,7 @@ $$
 3) How we are going to look at the loss function for multinomial classification.
 
 
-
-
-### 🔲 Cost function for Logistic Regression
+### ⬛ Cost function for Logistic Regression
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 The output of Sigmoid function is -
