@@ -9,7 +9,7 @@ $$\Large{\color{purple} \mathrm{\hat{y}^{(i)} = \sigma (w^\top x^{(i)} +b)} \cdo
 $$\Large{\color{Purple} {J^{\normalsize{LS}} = \frac{1}{2} (y- \hat{y})^2}}$$
 
 ### Why Least-Squared cost function BAD for Logistic regression?
-What we do for **Linear Regression**  we take the sum of all these examples and take an average. But it is not a good cost function for Binary classification. There are several reasons 
+$\large Answer:$ What we do for **Linear Regression**  we take the sum of all these examples and take an average. But it is not a good cost function for Binary classification. There are several reasons 
 
 ### $\large{\color{Purple}\underline{Reason \ 1 \\#}}$
 Suppose the cost that you incur for misclassification, $\large{\color{Purple}y}$ is class $\large{\color{Purple}0}$ and $\large{\color{Purple}\hat{y}}$ is as $\large{\color{Purple}1}$ or very close like $\large{\color{Purple}0.99}$
