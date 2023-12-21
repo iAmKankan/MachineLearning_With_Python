@@ -32,10 +32,10 @@ $$ {\color{Purple} \Huge \boxed{\mathbf{ J= - \Bigl\\{ y \ln\hat{y} + (1-y) \ln(
 2. $\large{\color{Purple} \mathbf{J} \textrm{ should be very high for }\mathbf{missclassification}}$
 3. $\large{\color{Purple} \mathbf{J \geq 0}}\textrm{    [required for consistency]}$
 
-### $\Large{\color{purple} Case \\# 1:}$
+### $\large{\color{purple} Case \\# 1}$
 1. $\large {\color{Purple}y=0}$ and $\large {\color{Purple}\hat{y}=0}$  $\large {\color{Purple}( \hat{y} \approx 0)}$ $\large {\color{Purple}\Rightarrow J \approx 0}$
 
-### $\Large{\color{purple} Case \\# 2:}$
+### $\large{\color{purple} Case \\# 2}$
 
 1. $\large {\color{Purple}y=1}$ and $\large {\color{Purple}\hat{y} \approx 1}$  $\large {\color{Purple}\Rightarrow J \approx 0}$
 
