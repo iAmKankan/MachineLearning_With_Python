@@ -33,14 +33,16 @@ $$ {\color{Purple} \Huge \boxed{\mathbf{ J= - \Bigl\\{ y \ln\hat{y} + (1-y) \ln(
 3. $\large{\color{Purple} \mathbf{J \geq 0}}\textrm{    [required for consistency]}$
 
 ### $\large{\color{purple} Case \\# 1}$
-1. $\large {\color{Purple}y=0}$ and $\large {\color{Purple}\hat{y}=0}$  $\large {\color{Purple}( \hat{y} \approx 0)}$ $\large {\color{Purple}\Rightarrow J \approx 0}$
+$\large {\color{Purple}y=0}$ and $\large {\color{Purple}\hat{y}=0}$  $\large {\color{Purple}( \hat{y} \approx 0)}$ $\large {\color{Purple}\Rightarrow J \approx 0}$
 
 ### $\large{\color{purple} Case \\# 2}$
+$\large {\color{Purple}y=1}$ and $\large {\color{Purple}\hat{y} \approx 1}$  $\large {\color{Purple}\Rightarrow  J \approx 0 }$
 
-1. $\large {\color{Purple}y=1}$ and $\large {\color{Purple}\hat{y} \approx 1}$  $\large {\color{Purple}\Rightarrow J \approx 0}$
+### $\large{\color{purple} Case \\# 3}$
+$\large {\color{Purple}y=0}$ and $\large {\color{Purple}\hat{y} \approx 1}$  $\large {\color{Purple}\Rightarrow J \rightarrow \infty}$
 
-
-
+### $\large{\color{purple} Case \\# 4}$
+$\large {\color{Purple}y=1}$ and $\large {\color{Purple}\hat{y} \approx 0}$  $\large {\color{Purple}\Rightarrow J \rightarrow \infty}$
 
 * So, $\large{\color{Purple} y}$ is either a **0** or **1**, $\large{\color{Purple} \hat{y}}$ is between **0** and **1**. 
 * Therefore $\large{\color{Purple} \ln \hat{y}}$ is going to be **negative (-ve)** . 
