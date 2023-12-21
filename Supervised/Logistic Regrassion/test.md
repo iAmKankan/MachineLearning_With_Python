@@ -24,3 +24,44 @@ For **Logistic Regression** we don't use the same **loss function** as for **Lin
   <br><ins><b><i> Convex vs Non-Convex </i></b></ins>
 </p>
 
+### 🔲 <ins> Binary Cross Entropy</ins>
+$$ {\color{Purple} \Huge \boxed{\mathbf{ J= - \Bigl\\{ y \ln\hat{y} + (1-y) \ln(1-\hat{y}) \Bigl\\} }} }$$
+
+### ♠️ Desirable properties for classification cost function-
+1. $\large{\color{Purple} \mathbf{J = 0} \textit{, if } \mathbf{y=\hat{y}} }$
+2. $\large{\color{Purple} \mathbf{J} \textrm{ should be very high for }\mathbf{missclassification}}$
+3. $\large{\color{Purple} \mathbf{J \geq 0}}\textrm{    [required for consistency]}$
+
+### Case \\# 1:
+1. $\large {\color{Purple}y=0}$ and $\large {\color{Purple}\hat{y}=0}$  $\large {\color{Purple}( \hat{y} \approx 0)}$ $\large {\color{Purple}\Rightarrow J \approx 0}$
+
+
+
+
+
+
+* So, $\large{\color{Purple} y}$ is either a **0** or **1**, $\large{\color{Purple} \hat{y}}$ is between **0** and **1**. 
+* Therefore $\large{\color{Purple} \ln \hat{y}}$ is going to be **negative (-ve)** . 
+* $\large{\color{Purple} y}$ is going to be either **0** or **1**, 
+* So this whole term Therefore $\large{\color{Purple} y \ln \hat{y}}$ is **negative (-ve)**. 
+* Similarly this term Therefore $\large{\color{Purple} (1 − y ) \ln(1− \hat{y})}$  is also **negative (-ve)**, and that is why we have minus sign so that the whole term actually becomes positive. So that it is consistent with least squares.
+
+
+#### 1. For $\large{\color{Purple} \mathbf{J = 0} \textit{, if } \mathbf{y=\hat{y}} }$ and for  $\large{\color{Purple} \mathbf{J \geq 0}}$
+#### Example
+* Suppose $\large \mathrm{y=0, \ \  \hat{y}=0} \textrm{ or close to 0, } \mathbf{ J \approx 0} $
+* Suppose $\large \mathrm{y=1, \ \  \hat{y} \approx 1} ,  \mathbf{ J \approx 0} $
+* Suppose $\large \mathrm{y=0, \ \  \hat{y} \approx 1} ,  \mathbf{ J \to \infty} $
+
+#### 2. For $\large{\color{Purple} \mathbf{J} \textrm{ would be very high for }\mathbf{missclassification}}$
+##### The equation
+
+$$ {\color{Purple} \large \mathbf{ J= - \Bigl\\{ y \ln\hat{y} + (1-y) \ln(1-\hat{y}) \Bigl\\} }}$$
+
+
+
+* $\large{\color{Purple} y=0,} \textrm{ makes this term } {\color{Purple}(y \ln\hat{y}) = 0 } $ 
+* $\large{\color{Purple} y=0,} \textrm{ makes this term } {\color{Purple}((1-y)) \approx 0 } \textrm{ and } {\color{Purple} \hat{y} \approx 0,} \textrm{ makes this term } {\color{Purple}((1-\hat{y})) \approx 0 } $
+* So, $\large{\color{Purple} \ln 0 = - \infty } $ 
+* $\large{\color{Purple} y=0, \hat{y} \approx 1 \Rightarrow  \mathbf{J} \to \infty } \textrm{, Hence proved } $
+* $\large{\color{Purple} y=1, \hat{y} \approx 0 \Rightarrow  \mathbf{J} \to \infty } \textrm{, Hence proved } $
