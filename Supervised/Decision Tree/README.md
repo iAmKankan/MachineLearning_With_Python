@@ -32,10 +32,10 @@ Some of the common Terminologies used in Decision Trees are as follows:
  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/de32bd36-904e-4d64-af6a-3ca257a539a1" width=50%/>
 </p>
 
-### 🔲 $\large \underline{\textrm{Attribute Sele}\textrm{ction Measures:}}$
+### 🔲 $\large \underline{\textrm{Attribute Sele}\textrm{ction Measures:(ASM)}}$
 ### $\large{\color{Purple}\textrm{Construction of Decision Tree:}}$
-* A tree can be "<ins>learned</ins>" by splitting the **source set** into **subsets** based on **Attribute Selection Measures**. 
-* **Attribute selection measure (ASM)** is a **criterion** used in decision tree algorithms to **evaluate** the **usefulness** of **different attributes** for splitting a dataset.
+* A tree can be "<ins>learned</ins>" by splitting the **source set** into **subsets** based on <ins><b>Attribute Selection Measures</b></ins> . 
+* <ins><b>Attribute selection measure (ASM)</b></ins> is a **criterion** used in **decision tree** algorithms to **evaluate** the **usefulness** of **different attributes** for splitting a dataset.
 * The **goal** of **ASM** is to identify the attribute that will create the most homogeneous subsets of data after the split, **thereby maximizing the information gain**. This process is repeated on each derived subset in a recursive manner called recursive partitioning. The recursion is completed when the subset at a node all has the same value of the target variable, or when splitting no longer adds value to the predictions. The construction of a decision tree classifier does not require any domain knowledge or parameter setting and therefore is appropriate for exploratory knowledge discovery. Decision trees can handle high-dimensional data.
 
 Entropy:
