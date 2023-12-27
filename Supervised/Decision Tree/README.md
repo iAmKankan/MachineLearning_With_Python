@@ -1,17 +1,16 @@
 ## Index
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-
-## Decision tree
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * [Decission Tree Classification Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/Decision%20Trees1.ipynb)
 * [Decission Tree Regression Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/DecissionTree2.ipynb)
-### Definition
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* Decision Trees are versatile Machine Learning algorithms that can perform both classification and regression tasks, and even multi-output tasks. 
-* They are powerful algorithms, capable of fitting complex datasets.
-* Decision Trees are also the fundamental components of Random Forests
-* One of the many qualities of Decision Trees is that they require very little data preparation. 
-* In fact, they don’t require feature scaling or centering at all.
+  
+### ⬛ Decision tree
+### 🔲 What is a Decision Tree?
+A decision tree is a **flowchart-like tree structure** where-
+* Each **internal node** denotes the **feature**,
+* **Branches** denote the **rules** and
+* The **leaf nodes** denote the **result** of the algorithm.
+
+It is a **versatile**, **supervised machine-learning algorithm** which is used for both **classification** and **regression** problems. It is one of the very powerful algorithms. And it is also used in **Random Forest** to train on different subsets of training data, which makes random forest one of the most powerful algorithms in machine learning.
 
 ### Classification and Regression Tree (CART) algorithm
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
@@ -111,3 +110,5 @@
 6. If your training set contains 100,000 instances, will setting presort=True speed up training? 
 7. Train and fine-tune a Decision Tree for the moons dataset by following these steps:
 
+### Resources:
+* [Geeks for Geeks](https://www.geeksforgeeks.org/decision-tree/?ref=header_search)https://www.geeksforgeeks.org/decision-tree/?ref=header_search
