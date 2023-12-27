@@ -36,9 +36,13 @@ Some of the common Terminologies used in Decision Trees are as follows:
 ### $\large{\color{Purple}\textrm{Construction of Decision Tree:}}$
 * A tree can be "<ins>learned</ins>" by **splitting** the **source set** into **subsets** based on <ins><b>Attribute Selection Measures</b></ins> . 
 * <ins><b>Attribute selection measure (ASM)</b></ins> is a **criterion** used in **decision tree** algorithms to **evaluate** the **usefulness** of **different attributes** for **splitting** a dataset.
-* The **goal** of **ASM** is to identify the attribute that will create the most homogeneous subsets of data after the split, **thereby maximizing the information gain**. This process is repeated on each derived subset in a recursive manner called recursive partitioning. The recursion is completed when the subset at a node all has the same value of the target variable, or when splitting no longer adds value to the predictions. The construction of a decision tree classifier does not require any domain knowledge or parameter setting and therefore is appropriate for exploratory knowledge discovery. Decision trees can handle high-dimensional data.
+* The **goal** of **ASM** is to **identify** the attribute that will create the most **homogeneous subsets** of data after the split, **thereby maximizing the information gain**.
+* This process is repeated on each **derived subset** in a **recursive manner** called **recursive partitioning**.
+* The **recursion** is completed when the subset at a node all has the same value of the **target variable** or **when splitting no longer adds value to the predictions**.
+* The construction of a decision tree classifier does not require any **domain knowledge** or parameter setting and therefore is appropriate for **exploratory knowledge discovery**.
+* **Decision trees** can handle **high-dimensional data**.
 
-Entropy:
+### $\large{\color{Purple}\textrm{Entropy:}}$
 Entropy is the measure of the degree of randomness or uncertainty in the dataset. In the case of classifications, It measures the randomness based on the distribution of class labels in the dataset.
 
 The entropy for a subset of the original dataset having K number of classes for the ith node can be defined as:
