@@ -27,6 +27,12 @@ Some of the common Terminologies used in Decision Trees are as follows:
 * **Information Gain:** **Information gain is a measure of the reduction in impurity achieved by splitting a dataset on a particular feature in a decision tree**. The splitting criterion is determined by the feature that offers the greatest information gain, It is used to determine the most informative feature to split on at each node of the tree, with the goal of creating pure subsets.
 * **Pruning:** The process of removing branches from the tree that **do not provide any additional information** or **lead to overfitting**.
 
+
+<p align="center">
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/de32bd36-904e-4d64-af6a-3ca257a539a1" width=50%/>
+</p>
+
+
 ### Classification and Regression Tree (CART) algorithm
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
