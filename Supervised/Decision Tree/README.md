@@ -12,6 +12,21 @@ A decision tree is a **flowchart-like tree structure** where-
 
 It is a **versatile**, **supervised machine-learning algorithm** which is used for both **classification** and **regression** problems. It is one of the very powerful algorithms. And it is also used in **Random Forest** to train on different subsets of training data, which makes random forest one of the most powerful algorithms in machine learning.
 
+### 🔲 $\Large{\color{Purple}\textrm{Decision Tree Terminologies}}$
+Some of the common Terminologies used in Decision Trees are as follows:
+
+* **Root Node:** It is the topmost node in the tree,  which represents the **complete dataset**. It is the starting point of the **decision-making process**.
+* **Decision/Internal Node:** A node that symbolizes a choice regarding an input feature. Branching off of internal nodes connects them to leaf nodes or other internal nodes.
+* **Leaf/Terminal Node:** A node without any child nodes that indicates a class label or a numerical value.
+* **Splitting:** The process of **splitting** a node into **two or more sub-nodes** using a split criterion and a selected feature.
+* **Branch/Sub-Tree:** A subsection of the decision tree starts at an internal node and ends at the leaf nodes.
+* **Parent Node:** The node that **divides** into **one or more child nodes**.
+* **Child Node:** The nodes that emerge **when a parent node is split**.
+* **Impurity:** A measurement of the target variable’s **homogeneity** in a subset of data. It refers to the degree of randomness or uncertainty in a set of examples. The **Gini index** and **entropy** are two commonly used **impurity measurements** in **decision trees** for **classifications task**. 
+* **Variance:** Variance measures how much the **predicted** and the **target variables** vary in **different samples** of a dataset. It is used for **regression problems** in decision trees. **Mean squared error**, **Mean Absolute Error**, **friedman_mse**, or **Half Poisson deviance** are **used to measure the variance for the regression tasks in the decision tree**.
+* **Information Gain:** **Information gain is a measure of the reduction in impurity achieved by splitting a dataset on a particular feature in a decision tree**. The splitting criterion is determined by the feature that offers the greatest information gain, It is used to determine the most informative feature to split on at each node of the tree, with the goal of creating pure subsets.
+* **Pruning:** The process of removing branches from the tree that **do not provide any additional information** or **lead to overfitting**.
+
 ### Classification and Regression Tree (CART) algorithm
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
