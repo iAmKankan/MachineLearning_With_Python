@@ -3,8 +3,8 @@
 * [Decission Tree Classification Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/Decision%20Trees1.ipynb)
 * [Decission Tree Regression Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/DecissionTree2.ipynb)
   
-### ⬛ $\Large{\color{Blue}\underline{\textrm{Decision tree:}}}$
-### 🔲 $\Large{\color{Purple}\textrm{What is a Decision Tree?}}$
+### ⬛ $\large{\color{Blue}\underline{\textrm{Decision tree:}}}$
+### 🔲 $\large{\color{Purple}\textrm{What is a Decision Tree?}}$
 A decision tree is a **flowchart-like tree structure** where-
 * Each **internal node** denotes the **feature**,
 * **Branches** denote the **rules** and
@@ -12,7 +12,7 @@ A decision tree is a **flowchart-like tree structure** where-
 
 It is a **versatile**, **supervised machine-learning algorithm** which is used for both **classification** and **regression** problems. It is one of the very powerful algorithms. And it is also used in **Random Forest** to train on different subsets of training data, which makes random forest one of the most powerful algorithms in machine learning.
 
-### 🔲 $\Large{\color{Purple}\textrm{Decision Tree Terminologies}}$
+### 🔲 $\large{\color{Purple}\textrm{Decision Tree Terminologies}}$
 Some of the common Terminologies used in Decision Trees are as follows:
 
 * **Root Node:** It is the topmost node in the tree,  which represents the **complete dataset**. It is the starting point of the **decision-making process**.
