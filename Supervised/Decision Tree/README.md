@@ -32,7 +32,8 @@ Some of the common Terminologies used in Decision Trees are as follows:
  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/de32bd36-904e-4d64-af6a-3ca257a539a1" width=50%/>
 </p>
 
-### 🔲 $\large \textrm{Attribute Selection Measures:}$
+### 🔲 Attribute Selection Measures:
+
 ### $\large{\color{Purple}\textrm{Construction of Decision Tree:}}$
 * A tree can be "<ins>learned</ins>" by splitting the **source set** into **subsets** based on **Attribute Selection Measures**. 
 * **Attribute selection measure (ASM)** is a **criterion** used in decision tree algorithms to **evaluate** the **usefulness** of **different attributes** for splitting a dataset.
