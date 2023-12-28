@@ -49,11 +49,11 @@ The entropy for a subset of the original dataset having $\large{\color{Purple}K}
 
 $$\large{\color{Purple} H_i = -\sum_{k \epsilon K}^{n} p(i,k)\log_2p(i,k)}$$
 
-Where,
-* S is the dataset sample.
-* k is the particular class from K classes
-* p(k) is the proportion of the data points that belong to class k to the total number of data points in dataset sample S. $\large{\color{Purple} p(k) = \frac{1}{n}\sum{I(y=k)}}$
-* Here p(i,k) should not be equal to zero.
+<ins><b>Where: </b></ins>
+* **S** is the dataset sample.
+* **k **is the particular class from **K** classes
+* **p(k)** is the proportion of the data points that belong to class **k** to the total number of data points in dataset sample **S**. $\large{\color{Purple} p(k) = \frac{1}{n}\sum{I(y=k)}}$
+* Here **p(i,k)** should not be equal to **zero**.
 
 ### Important points related to Entropy:
 
