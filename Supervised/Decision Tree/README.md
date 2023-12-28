@@ -43,19 +43,19 @@ Some of the common Terminologies used in Decision Trees are as follows:
 * **Decision trees** can handle **high-dimensional data**.
 
 ### $\large{\color{Purple}\textrm{Entropy:}}$
-Entropy is the measure of the degree of randomness or uncertainty in the dataset. In the case of classifications, It measures the randomness based on the distribution of class labels in the dataset.
+**Entropy** is the **measure of the degree of randomness** or **uncertainty in the dataset**. In the case of **classifications** it measures the **randomness** based on the **distribution of class labels** in the dataset.
 
-The entropy for a subset of the original dataset having K number of classes for the ith node can be defined as:
+The entropy for a subset of the original dataset having $\large{\color{Purple}K}$ number of classes for the $\large{\color{Purple}i^{th}}$ node can be defined as:
 
-H_i = -\sum_{k \epsilon K}^{n} p(i,k)\log_2p(i,k) 
+$$\large{\color{Purple} H_i = -\sum_{k \epsilon K}^{n} p(i,k)\log_2p(i,k)}$$
 
 Where,
+* S is the dataset sample.
+* k is the particular class from K classes
+* p(k) is the proportion of the data points that belong to class k to the total number of data points in dataset sample S. $\large{\color{Purple} p(k) = \frac{1}{n}\sum{I(y=k)}}$
+* Here p(i,k) should not be equal to zero.
 
-S is the dataset sample.
-k is the particular class from K classes
-p(k) is the proportion of the data points that belong to class k to the total number of data points in dataset sample S. p(k) = \frac{1}{n}\sum{I(y=k)} 
-Here p(i,k) should not be equal to zero.
-Important points related to Entropy:
+### Important points related to Entropy:
 
 The entropy is 0 when the dataset is completely homogeneous, meaning that each instance belongs to the same class. It is the lowest entropy indicating no uncertainty in the dataset sample.
 when the dataset is equally divided between multiple classes, the entropy is at its maximum value. Therefore, entropy is highest when the distribution of class labels is even, indicating maximum uncertainty in the dataset sample.
