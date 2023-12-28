@@ -29,7 +29,7 @@ Some of the common Terminologies used in Decision Trees are as follows:
 
 
 <p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/de32bd36-904e-4d64-af6a-3ca257a539a1" width=50%/>
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/11372f36-4a76-419e-906f-68a028614239" width=50%/>
 </p>
 
 ### 🔲 $\large \underline{\textrm{Attribute Sele}\textrm{ction Measures(ASM):}}$
