@@ -32,6 +32,16 @@ Some of the common Terminologies used in Decision Trees are as follows:
  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/11372f36-4a76-419e-906f-68a028614239" width=70%/>
 </p>
 
+### Algorithm of Decision Tree
+
+* **Step-1:** Begin the tree with the root node, says S, which contains the complete dataset. Step-2: Find the best attribute in the dataset using Attribute Selection Measure (ASM).
+* **Step-3:** Divide the S into subsets that contains possible values for the best attributes.
+* **Step-4:** Generate the decision tree node, which contains the best attribute.
+* **Step-5:** Recursively make new decision trees using the subsets of the dataset created in step -3. Continue this process until a stage is reached where you cannot further classify the nodes and  called the final node as a leaf node.
+
+
+
+
 ### 🔲 $\large \underline{\textrm{Attribute Sele}\textrm{ction Measures(ASM):}}$
 ### $\large{\color{Purple}\textrm{Construction of Decision Tree:}}$
 * A tree can be "<ins>learned</ins>" by **splitting** the **source set** into **subsets** based on <ins><b>Attribute Selection Measures</b></ins> . 
