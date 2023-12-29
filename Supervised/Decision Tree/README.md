@@ -295,3 +295,4 @@ Example:
 
 ### Resources:
 * [Geeks for Geeks](https://www.geeksforgeeks.org/decision-tree/?ref=header_search)https://www.geeksforgeeks.org/decision-tree/?ref=header_search
+* [Dhilip Subramanian](https://towardsdatascience.com/decision-tree-in-laymans-terms-part-1-76e1f1a6b672) 
