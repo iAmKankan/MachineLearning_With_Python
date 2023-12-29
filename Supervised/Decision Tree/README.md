@@ -48,7 +48,7 @@ Some of the common Terminologies used in Decision Trees are as follows:
 <p align="center">
  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/bb433edb-6c10-4c0d-8826-0859155e3bba" width=80%/>
   <br>
-  <ins><b><i> Identify the animal in the picture through Decision Tree</i></b></ins> 
+<ins><b><i> Identify the animal in the picture through Decision Tree</i></b></ins> 
 </p>
 
 ###  🔲 $\large{\color{Purple}\textrm{Algorithm of Decision Tree}}$
