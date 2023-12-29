@@ -39,6 +39,9 @@ Some of the common Terminologies used in Decision Trees are as follows:
 <p align="center">
  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/88d04282-892b-4af9-83cb-b8355d712b63" width=80%/>
   <br> 
+   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/4ca0bac3-e9b8-480b-9d9f-d1e888017a1f" width=80%/>
+
+<br>
   <ins><b><i> Job acceptance through Decision Tree</i></b></ins> 
 </p>
 
@@ -47,6 +50,8 @@ Some of the common Terminologies used in Decision Trees are as follows:
 
 <p align="center">
  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2452b1df-83b7-4077-9482-477dd4328338" width=80%/>
+  <br>
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/bb433edb-6c10-4c0d-8826-0859155e3bba" width=80%/>
   <br>
   <ins><b><i> Identify the animal in the picture through Decision Tree</i></b></ins> 
 </p>
