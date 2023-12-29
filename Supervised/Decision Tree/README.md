@@ -1,4 +1,4 @@
-## Index
+![Blank diagram (20)](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/1d955527-3808-472f-a7cb-d469518d3261)## Index
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * [Decission Tree Classification Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/Decision%20Trees1.ipynb)
 * [Decission Tree Regression Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/DecissionTree2.ipynb)
@@ -37,7 +37,7 @@ Some of the common Terminologies used in Decision Trees are as follows:
 #### Suppose we have a Job offer and we want to acceptance the job in Decision Tree process- 
 
 <p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/7b239cf8-bab8-4003-9341-d50363be3285" width=70%/>
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6159a4e0-91b0-4f38-b081-8bc7010b972e" width=70%/>
   <br>
   <ins><b><i> Job acceptance through Decision Tree</i></b></ins> 
 </p>
