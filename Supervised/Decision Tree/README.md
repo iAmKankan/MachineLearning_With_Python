@@ -42,11 +42,11 @@ Some of the common Terminologies used in Decision Trees are as follows:
 
 ###  🔲 $\large{\color{Purple}\textrm{Decision making Example of Decision Tree}}$
 ### $\large{\color{Purple}Example \\# 1 }$
-#### Suppose we have a Picture of an animal and we need to identify the animal through Decision Tree
+#### Suppose we have a Picture of an animal and we need to identify the animal through a Decision Tree
 <p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/a2d42ede-b3b7-46d7-b836-2cb8f0e38678" width=70%/>
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2452b1df-83b7-4077-9482-477dd4328338" width=70%/>
   <br>
-  <ins><b><i>  Animal Picture Identification through Decision Tree</i></b></ins> 
+  <ins><b><i> Identify the animal in the picture through Decision Tree</i></b></ins> 
 </p>
 
 ### 🔲 $\large \underline{\textrm{Attribute Sele}\textrm{ction Measures(ASM):}}$
