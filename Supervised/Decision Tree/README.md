@@ -38,7 +38,7 @@ Some of the common Terminologies used in Decision Trees are as follows:
 
 <p align="center">
  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/88d04282-892b-4af9-83cb-b8355d712b63" width=80%/>
-  <br>
+  <br> 
   <ins><b><i> Job acceptance through Decision Tree</i></b></ins> 
 </p>
 
