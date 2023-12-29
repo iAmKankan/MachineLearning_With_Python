@@ -29,7 +29,26 @@ Some of the common Terminologies used in Decision Trees are as follows:
 
 
 <p align="center">
-   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/514c1fc5-8eab-43a4-a4df-2b2e2aecae76" />
+   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/858a55dc-e695-4399-85ab-dc6f732488df" width=70%/>
+</p>
+
+###  🔲 $\large{\color{Purple}\textrm{Decision making Example of Decision Tree}}$
+### $\large{\color{Purple}Example \\# 1 }$
+#### Suppose we have a Job offer and we want to accept the job in Decision Tree process- 
+
+<p align="center">
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/acea1b4a-e76c-4ff8-8428-590c675447f3" width=60%/>
+  <br>
+  <ins><b><i> Job accept through Decision Tree</i></b></ins> 
+</p>
+
+### $\large{\color{Purple}Example \\# 2 }$
+#### Suppose we have a Picture of an animal and we need to identify the animal through a Decision Tree
+
+<p align="center">
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2452b1df-83b7-4077-9482-477dd4328338" width=80%/>
+  <br>
+  <ins><b><i> Identify the animal in the picture through Decision Tree</i></b></ins> 
 </p>
 
 ###  🔲 $\large{\color{Purple}\textrm{Algorithm of Decision Tree}}$
@@ -40,14 +59,6 @@ Some of the common Terminologies used in Decision Trees are as follows:
 * **Step-4:** Generate the <ins>decision tree node, which contains the best attribute</ins>.
 * **Step-5:** Recursively <ins>make new decision trees using the subsets of the dataset</ins> created in **Step -3**. Continue this process until a stage is reached where you cannot further classify the nodes and  called the <ins>final node as a leaf node</ins>.
 
-###  🔲 $\large{\color{Purple}\textrm{Decision making Example of Decision Tree}}$
-### $\large{\color{Purple}Example \\# 1 }$
-#### Suppose we have a Picture of an animal and we need to identify the animal through a Decision Tree
-<p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2452b1df-83b7-4077-9482-477dd4328338" width=80%/>
-  <br>
-  <ins><b><i> Identify the animal in the picture through Decision Tree</i></b></ins> 
-</p>
 
 ### 🔲 $\large \underline{\textrm{Attribute Sele}\textrm{ction Measures(ASM):}}$
 ### $\large{\color{Purple}\textrm{Construction of Decision Tree:}}$
