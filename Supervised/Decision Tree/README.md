@@ -29,7 +29,9 @@ Some of the common Terminologies used in Decision Trees are as follows:
 
 
 <p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/11372f36-4a76-419e-906f-68a028614239" width=70%/>
+   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/514c1fc5-8eab-43a4-a4df-2b2e2aecae76" width=90%/>
+  <br>
+   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/11372f36-4a76-419e-906f-68a028614239" width=70%/>
 </p>
 
 ###  🔲 $\large{\color{Purple}\textrm{Algorithm of Decision Tree}}$
