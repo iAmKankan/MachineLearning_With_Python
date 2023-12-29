@@ -74,8 +74,7 @@ There are many specific decision-tree algorithms are available. Notable ones inc
 * **Step-5:** Recursively <ins>make new decision trees using the subsets of the dataset</ins> created in **Step -3**. Continue this process until a stage is reached where you cannot further classify the nodes and  called the <ins>final node as a leaf node</ins>.
 
 
-### 🔲 $\large \underline{\textrm{Attribute Sele}\textrm{ction Measures(ASM):}}$
-### $\large{\color{Purple}\textrm{Construction of Decision Tree:}}$
+### 🔲 $\large{\color{Purple}\textrm{Construction of Decision Tree:}}$
 * A tree can be "<ins>learned</ins>" by **splitting** the **source set** into **subsets** based on <ins><b>Attribute Selection Measures</b></ins> . 
 * <ins><b>Attribute selection measure (ASM)</b></ins> is a **criterion** used in **decision tree** algorithms to **evaluate** the **usefulness** of **different attributes** for **splitting** a dataset.
 * The **goal** of **ASM** is to **identify** the attribute that will create the most **homogeneous subsets** of data after the split, **thereby maximizing the information gain**.
@@ -84,7 +83,7 @@ There are many specific decision-tree algorithms are available. Notable ones inc
 * The construction of a decision tree classifier does not require any **domain knowledge** or parameter setting and therefore is appropriate for **exploratory knowledge discovery**.
 * **Decision trees** can handle **high-dimensional data**.
 
-### $\large{\color{Purple}\textrm{Entropy:}}$
+### 🔲 $\large{\color{Purple}\textrm{Entropy:}}$
 **Entropy** is the **measure of the degree of randomness** or **uncertainty in the dataset**. In the case of **classifications** it measures the **randomness** based on the **distribution of class labels** in the dataset.
 
 The entropy for a subset of the original dataset having $\large{\color{Purple}K}$ number of classes for the $\large{\color{Purple}i^{th}}$ node can be defined as:
