@@ -44,7 +44,7 @@ Some of the common Terminologies used in Decision Trees are as follows:
 ### $\large{\color{Purple}Example \\# 1 }$
 #### Suppose we have a Picture of an animal and we need to identify the animal through a Decision Tree
 <p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2452b1df-83b7-4077-9482-477dd4328338" width=70%/>
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2452b1df-83b7-4077-9482-477dd4328338" width=80%/>
   <br>
   <ins><b><i> Identify the animal in the picture through Decision Tree</i></b></ins> 
 </p>
