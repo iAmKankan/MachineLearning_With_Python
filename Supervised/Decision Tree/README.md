@@ -34,12 +34,12 @@ Some of the common Terminologies used in Decision Trees are as follows:
 
 ###  🔲 $\large{\color{Purple}\textrm{Decision making Example of Decision Tree}}$
 ### $\large{\color{Purple}Example \\# 1 }$
-#### Suppose we have a Job offer and we want to accept the job in Decision Tree process- 
+#### Suppose we have a Job offer and we want to acceptance the job in Decision Tree process- 
 
 <p align="center">
  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/acea1b4a-e76c-4ff8-8428-590c675447f3" width=60%/>
   <br>
-  <ins><b><i> Job accept through Decision Tree</i></b></ins> 
+  <ins><b><i> Job acceptance through Decision Tree</i></b></ins> 
 </p>
 
 ### $\large{\color{Purple}Example \\# 2 }$
