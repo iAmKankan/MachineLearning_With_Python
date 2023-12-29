@@ -40,8 +40,14 @@ Some of the common Terminologies used in Decision Trees are as follows:
 * **Step-4:** Generate the <ins>decision tree node, which contains the best attribute</ins>.
 * **Step-5:** Recursively <ins>make new decision trees using the subsets of the dataset</ins> created in **Step -3**. Continue this process until a stage is reached where you cannot further classify the nodes and  called the <ins>final node as a leaf node</ins>.
 
-
-
+###  🔲 $\large{\color{Purple}\textrm{Decision making Example of Decision Tree}}$
+### $\large{\color{Purple}Example \\# 1 $
+#### Suppose we have a Picture of an animal and we need to identify the animal through Decision Tree
+<p align="center">
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/a2d42ede-b3b7-46d7-b836-2cb8f0e38678" width=70%/>
+  <br>
+  <ins><b><i>  Animal Picture Identification through Decision Tree</i></b></ins> 
+</p>
 
 ### 🔲 $\large \underline{\textrm{Attribute Sele}\textrm{ction Measures(ASM):}}$
 ### $\large{\color{Purple}\textrm{Construction of Decision Tree:}}$
