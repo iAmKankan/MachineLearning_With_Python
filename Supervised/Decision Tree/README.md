@@ -308,6 +308,6 @@ Example:
 
 ### Resources:
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* [Geeks for Geeks](https://www.geeksforgeeks.org/decision-tree/?ref=header_search)https://www.geeksforgeeks.org/decision-tree/?ref=header_search
+* [Geeks for Geeks](https://www.geeksforgeeks.org/decision-tree/?ref=header_search)https://www.geeksforgeeks.org/decision-tree/?ref=header_search)
 * [Dhilip Subramanian](https://towardsdatascience.com/decision-tree-in-laymans-terms-part-1-76e1f1a6b672)
 * [SK Learn Docs](https://scikit-learn.org/stable/modules/tree.html#decision-trees)
