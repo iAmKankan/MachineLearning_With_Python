@@ -16,7 +16,7 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 * **An Ensemble Learning algorithm** is called an **_Ensemble method_**.
 
 
-**Ensemble methods** work **best** when the predictors are as <ins>independent</ins> from one another as possible. One way to get diverse classifiers is to train them using _very different algorithms_. _This increases the chance that they will make very different types of errors, improving the ensemble’s accuracy_.
+**Ensemble methods** work **best** when the <ins>predictors are as independent from one another as possible</ins>. <ins>One way to get diverse classifiers is to train them using very different algorithms. This increases the chance that they will make very different types of **errors**, improving the ensemble’s accuracy</ins>.
 
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
