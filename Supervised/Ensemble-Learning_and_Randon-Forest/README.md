@@ -39,3 +39,6 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 * Random decision forest correct for the dicision trees' habit of overfitting to their training set.
 * Training with the "bagging" method. This based on the idea that the combination of the learning model increases the overall result.
 * if the learning dataset is huge then a single decision tree results a 
+
+### References:
+* Hands-On Machine Learning with Scikit-Learn Keras and TensorFlow Concepts Tools and Techniques to Build Intelligent Systems by Aurélien Géron, 2nd Edition
