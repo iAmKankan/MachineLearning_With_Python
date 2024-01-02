@@ -5,8 +5,11 @@
 
 ## ⬛ $\Large {\color{Blue}\underline{\mathcal{Ensemble\ Learning\ and\ Random\ Forests:}}}$
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
-* Suppose you pose a complex question to thousands of random people, then aggregate their answers. In many cases you will find that this aggregated answer is better than an expert’s answer. 
-* This is called the _`wisdom of the crowd`_. 
+### <ins>Wisdom of the Crowd:</ins>
+Suppose you pose a complex question to thousands of random people, then aggregate their answers. In many cases you will find that this aggregated answer is better than an expert’s answer. 
+ This is called the **wisdom of the crowd**. 
+
+ 
 * Similarly, if you aggregate the predictions of a group of predictors (such as **classifiers** or **regressors**), you will often get better predictions than with the best individual predictor. 
 * _A group of predictors_ is called an **_ensemble_**; thus, this _technique_ is called _**Ensemble Learning**_, and _an Ensemble Learning algorithm_ is called an **_Ensemble method_**.
 
