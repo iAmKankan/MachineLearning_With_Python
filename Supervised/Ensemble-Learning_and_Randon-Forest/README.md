@@ -8,12 +8,15 @@
 ### $\large {\color{Purple}\underline{\textrm{Wisdom of the Crowd:}}}$
 Suppose you pose a complex question to thousands of **random people**, then **aggregate** their answers. In many cases you will find that this **aggregated answer** is better than an expert’s answer. This is called the **wisdom of the crowd**. 
 
-Similarly, if you **aggregate the predictions** of a group of predictors (such as **classifiers** or **regressors**), you will often get better **predictions** than with the best individual predictor. 
+### $\large {\color{Purple}\underline{\textrm{Ensemble Learning:}}}$
 
-**A group of predictors** is called an **_ensemble_**; thus, this technique is called _**Ensemble Learning**_, and  **an Ensemble Learning algorithm** is called an **_Ensemble method_**.
+Similarly, if you **aggregate** the predictions of **a group of predictors** (such as **classifiers** or **regressors**), you will often get better **predictions** than with the best **individual predictor**. 
+* Here **A group of predictors** is called an **_Ensemble_**,
+* Thus, this technique is called _**Ensemble Learning**_, and
+* **An Ensemble Learning algorithm** is called an **_Ensemble method_**.
 
 
-> #### Ensemble methods work best when the predictors are as _independent_ from one another as possible. One way to get diverse classifiers is to train them using _very different algorithms_. _This increases the chance that they will make very different types of errors, improving the ensemble’s accuracy_.
+**Ensemble methods** work **best** when the predictors are as <ins>independent</ins> from one another as possible. One way to get diverse classifiers is to train them using _very different algorithms_. _This increases the chance that they will make very different types of errors, improving the ensemble’s accuracy_.
 
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
