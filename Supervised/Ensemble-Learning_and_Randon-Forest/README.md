@@ -22,8 +22,8 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* In _Random Forest_, we train a group of Decision Tree classifiers, each on a different random subset of the training set.
-* To make predictions, we obtain the predictions of all the individual trees, then predict the class that gets the most votes.
+1. In _Random Forest_, we train a group of Decision Tree classifiers, each on a different random subset of the training set.
+2. To make predictions, we obtain the predictions of all the individual trees, then predict the class that gets the most votes.
 
 
 
