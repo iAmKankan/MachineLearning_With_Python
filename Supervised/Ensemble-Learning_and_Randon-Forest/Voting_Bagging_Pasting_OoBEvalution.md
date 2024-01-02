@@ -64,3 +64,6 @@
 
 * Sampling both training instances and features is called the _**Random Patches method**_. 
 * Keeping all training instances (by setting bootstrap=False and max_samples=1.0) but sampling features (by setting bootstrap_features to True and/or max_features to a value smaller than 1.0) is called the _**Random Subspaces method**_. 
+
+### References
+* Hands-On Machine Learning with Scikit-Learn Keras and TensorFlow Concepts Tools and Techniques to Build Intelligent Systems- Aurélien Géron, 2nd Edition
