@@ -16,7 +16,9 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 * **An Ensemble Learning algorithm** is called an **_Ensemble method_**.
 
 
-**Ensemble methods** work **best** when the <ins>predictors are as independent from one another as possible</ins>. <ins>One way to get diverse classifiers is to train them using very different algorithms. This increases the chance that they will make very different types of **errors**, improving the ensemble’s accuracy</ins>.
+**Ensemble methods** work **best** when the <ins>predictors are as independent as possible from one another</ins>. 
+* <ins>One way to get diverse classifiers is to train them using very different algorithms.</ins>
+* <ins>This increases the chance that they will make very different types of **errors**, improving the ensemble’s accuracy</ins>.
 
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
@@ -41,4 +43,6 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 * if the learning dataset is huge then a single decision tree results a 
 
 ### References:
+![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
+
 * Hands-On Machine Learning with Scikit-Learn Keras and TensorFlow Concepts Tools and Techniques to Build Intelligent Systems by Aurélien Géron, 2nd Edition
