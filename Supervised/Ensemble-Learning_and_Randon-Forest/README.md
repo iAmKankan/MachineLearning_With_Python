@@ -22,8 +22,8 @@ Two very famous examples of ensemble methods are **gradient-boosted trees** and 
 
 More generally, ensemble models can be applied to **any base learner** beyond trees, in **averaging methods** such as **Bagging methods**, **model stacking** or **Voting** or in **boosting** as **AdaBoost**.
 
-* $\large {\color{Purple}\underline{\textrm{Base learners}}}$ are the first level of an ensemble learning architecture and each one of them is trained to make individual predictions. 
-* $\large {\color{Purple}\underline{\textrm{Meta learners}}}$ on the other hand are in the second level and they are trained on the output of the base learners. 
+* $\large {\color{Purple}\underline{\textrm{Base learners}}}$ are the first level of an ensemble learning architecture and each one of them is **trained to make individual predictions**. 
+* $\large {\color{Purple}\underline{\textrm{Meta learners}}}$ on the other hand are in the second level and they are **trained on the output of the base learners**. 
 
 ### Types of Ensemble Methods
 There are various types of ensemble learning methods, including:
