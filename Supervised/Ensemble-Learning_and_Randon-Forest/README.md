@@ -7,6 +7,8 @@
 ### $\large {\color{Purple}\underline{\textrm{Wisdom of the Crowd:}}}$
 Suppose you pose a complex question to thousands of **random people**, then **aggregate** their answers. In many cases you will find that this **aggregated answer** is better than an expert’s answer. This is called the **wisdom of the crowd**. 
 
+**Ensemble methods** combine the predictions of <ins>several base estimators</ins> built with a given learning algorithm in order to improve <ins>generalizability</ins> / <ins>robustness</ins> over a **single estimator**.
+
 ### $\large {\color{Purple}\underline{\textrm{Ensemble Learning:}}}$
 
 Similarly, if you **aggregate** the predictions of **a group of predictors** (such as **classifiers** or **regressors**), you will often get better **predictions** than with the best **individual predictor**. 
@@ -16,6 +18,8 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 
 
 **Ensemble methods** work **best** when the <ins>predictors are as independent as possible from one another</ins>. **One way to get diverse classifiers** is to train them using very <ins>different algorithms.</ins>. This increases the chance that they will make very different types of **errors**, <ins>improving the ensemble’s accuracy</ins>.
+
+
 
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
