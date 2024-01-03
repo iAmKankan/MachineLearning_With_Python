@@ -46,3 +46,4 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
 * Hands-On Machine Learning with Scikit-Learn Keras and TensorFlow Concepts Tools and Techniques to Build Intelligent Systems by Aurélien Géron, 2nd Edition
+* [Scikit Learn](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier)
