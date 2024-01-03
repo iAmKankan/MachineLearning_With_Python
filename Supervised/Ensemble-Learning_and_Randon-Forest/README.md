@@ -22,13 +22,19 @@ Two very famous examples of ensemble methods are **gradient-boosted trees** and 
 
 More generally, ensemble models can be applied to **any base learner** beyond trees, in **averaging methods** such as **Bagging methods**, **model stacking** or **Voting** or in **boosting** as **AdaBoost**.
 
-* Gradient-boosted trees
-* Random forests and other randomized tree ensembles
-* Bagging meta-estimator
-* Voting Classifier
-* Voting Regressor
-* Stacked generalization
-* AdaBoost
+* $\large {\color{Purple}\underline{\textrm{Base learners}}}$ are the first level of an ensemble learning architecture and each one of them is trained to make individual predictions. 
+* $\large {\color{Purple}\underline{\textrm{Meta learners}}}$ on the other hand are in the second level and they are trained on the output of the base learners. 
+
+### Types of Ensemble Methods
+There are various types of ensemble learning methods, including:
+
+1. **Bagging (Bootstrap Aggregating):** This method involves training multiple models on random subsets of the training data. The predictions from the individual models are then combined, typically by averaging.
+2. **Boosting:** This method involves training a sequence of models, where each subsequent model focuses on the errors made by the previous model. The predictions are combined using a weighted voting scheme.
+3. **Stacking:** This method involves using the predictions from one set of models as input features for another model. The final prediction is made by the second-level model.
+4. Voting
+
+
+
 
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
