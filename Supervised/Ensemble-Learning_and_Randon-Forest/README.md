@@ -17,13 +17,13 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 
 
 **Ensemble methods** work **best** when the <ins>predictors are as independent as possible from one another</ins>. 
-* <ins>One way to get diverse classifiers is to train them using very different algorithms.</ins>
-* <ins>This increases the chance that they will make very different types of **errors**, improving the ensemble’s accuracy</ins>.
+1. <ins>One way to get diverse classifiers is to train them using very different algorithms.</ins>
+2. <ins>This increases the chance that they will make very different types of **errors**, improving the ensemble’s accuracy</ins>.
 
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-1. In _Random Forest_, we train a group of Decision Tree classifiers, each on a different random subset of the training set.
-2. To make predictions, we obtain the predictions of all the individual trees, then predict the class that gets the most votes.
+* In _Random Forest_, we train a group of Decision Tree classifiers, each on a different random subset of the training set.
+* To make predictions, we obtain the predictions of all the individual trees, then predict the class that gets the most votes.
 
 
 
