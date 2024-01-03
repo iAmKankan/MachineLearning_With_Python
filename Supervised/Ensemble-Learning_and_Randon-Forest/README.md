@@ -18,7 +18,17 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 
 **Ensemble methods** work **best** when the <ins>predictors are as independent as possible from one another</ins>. **One way to get diverse classifiers** is to train them using very <ins>different algorithms.</ins>. This increases the chance that they will make very different types of **errors**, <ins>improving the ensemble’s accuracy</ins>.
 
+Two very famous examples of ensemble methods are **gradient-boosted trees** and **random forests**.
 
+More generally, ensemble models can be applied to **any base learner** beyond trees, in **averaging methods** such as **Bagging methods**, **model stacking** or **Voting** or in **boosting** as **AdaBoost**.
+
+* Gradient-boosted trees
+* Random forests and other randomized tree ensembles
+* Bagging meta-estimator
+* Voting Classifier
+* Voting Regressor
+* Stacked generalization
+* AdaBoost
 
 ### Random Forest
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
