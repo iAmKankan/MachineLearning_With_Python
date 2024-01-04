@@ -192,10 +192,9 @@ While **decision trees** can be used in a variety of use cases, other algorithms
 
 
 ### 🔲 $\Large{\color{Purple}\underline{\textrm{Classification and Regression Tree (CART) algorithm}}}$
-
 **Scikit-Learn** uses the **Classification and Regression Tree (CART)** algorithm, which produces only **binary trees: nonleaf nodes always have two children** (i.e., questions only have **yes/no** answers). However, other algorithms such as **ID3** can produce **Decision Trees** with nodes that have **more than two children**. Training Decision Trees is also called “**growing**” trees).
 
-#### How does the algorithm CART work?
+### How does the algorithm CART work?
 * **First** splitting the training set into _`two subsets`_ using a _`single feature`_ **k** and a threshold **t<sub>k</sub>** (e.g., “petal length ≤ 2.45 cm”). 
 * **Then** after spliting the training set in two, it `recursively` splits the subsets using the same logic, then the sub-subsets, and so on. 
 * **Last** It stops recursing once it reaches the maximum depth (defined by the `max_depth` hyperparameter), or if it cannot find a split that will reduce impurity. 
