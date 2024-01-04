@@ -75,3 +75,10 @@ While **decision trees** can be used in a variety of use cases, other algorithms
 
 - $\large{\color{Purple}\textrm{More flexible:}}$ Decision trees can be leveraged for both classification and regression tasks, making it more flexible than some other algorithms. It’s also insensitive to underlying relationships between attributes; this means that if two variables are highly correlated, the algorithm will only choose one of the features to split on. 
 
+### $\Large{\color{Purple}\underline{\textrm{Disadvantages:}}}$
+- $\large{\color{Purple}\textrm{Prone to overfitting:}}$ Complex decision trees tend to overfit and do not generalize well to new data. This scenario can be avoided through the processes of pre-pruning or post-pruning. Pre-pruning halts tree growth when there is insufficient data while post-pruning removes subtrees with inadequate data after tree construction. 
+
+- $\large{\color{Purple}\textrm{High variance estimators:}}$ Small variations within data can produce a very different decision tree. Bagging, or the averaging of estimates, can be a method of reducing variance of decision trees. However, this approach is limited as it can lead to highly correlated predictors.  
+
+- $\large{\color{Purple}\textrm{More costly:}}$ Given that decision trees take a greedy search approach during construction, they can be more expensive to train compared to other algorithms. 
+
