@@ -43,12 +43,12 @@ Let’s walk through an example to solidify these concepts. Imagine that we have
  <ins><b><i> Lets consider that total number of samples are 14; with in that 9 times "Yes" class appear and 5 times "No" class appear</i></b></ins> 
 </p>
 
-For this dataset, the entropy is **0.94**. This can be calculated by finding the proportion of days where “**Play Tennis**” is “**Yes**”, which is **9/14**, and the proportion of days where “**Play Tennis**” is “**No**”, which is **5/14**. 
+For this dataset, the $\large{\color{Purple}Entropy}$ is **0.94**. This can be calculated by finding the proportion of days where “**Play Tennis**” is “**Yes**”, which is **9/14**, and the proportion of days where “**Play Tennis**” is “**No**”, which is **5/14**. 
 
 Then, these values can be plugged into the entropy formula above.
 
 $$\Large{\color{Purple}Entropy (Tennis) = -(9/14) \log_2(9/14) – (5/14) \log_2 (5/14) = 0.94}$$
 
-We can then compute the information gain for each of the attributes individually. For example, the information gain for the attribute, “Humidity” would be the following:
+We can then compute the $\large{\color{Purple}Information\ Gain}$ for each of the attributes individually. For example, the information gain for the attribute, “**Humidity**” would be the following:
 
 $$\Large{\color{Purple} Gain (Tennis, Humidity) = (0.94)-(7/14) \times (0.985) – (7/14)\times (0.592) = 0.151}$$
