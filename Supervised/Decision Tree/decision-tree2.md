@@ -40,9 +40,12 @@ Let’s walk through an example to solidify these concepts. Imagine that we have
 <p align="center">
  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/5f6c6995-6b76-413a-9cb9-9cf25b0b31a8" width=50%/>
  <br>
+ <ins><b><i> Lets consider that total number of samples are 14; with in that 9 times "Yes" class appear and 5 times "No" class appear</i></b></ins> 
 </p>
 
-For this dataset, the entropy is **0.94**. This can be calculated by finding the proportion of days where “**Play Tennis**” is “**Yes**”, which is **9/14**, and the proportion of days where “**Play Tennis**” is “**No**”, which is **5/14**. Then, these values can be plugged into the entropy formula above.
+For this dataset, the entropy is **0.94**. This can be calculated by finding the proportion of days where “**Play Tennis**” is “**Yes**”, which is **9/14**, and the proportion of days where “**Play Tennis**” is “**No**”, which is **5/14**. 
+
+Then, these values can be plugged into the entropy formula above.
 
 $$\Large{\color{Purple}Entropy (Tennis) = -(9/14) \log_2(9/14) – (5/14) \log_2 (5/14) = 0.94}$$
 
