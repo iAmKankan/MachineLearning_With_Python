@@ -83,6 +83,7 @@ While **decision trees** can be used in a variety of use cases, other algorithms
 - $\large{\color{Purple}\textrm{More costly:}}$ Given that decision trees take a greedy search approach during construction, they can be more expensive to train compared to other algorithms. 
 
 🌧️ ⛅ :sunny: :cloud_with_rain: 💧 :cloud_with_rain: :partly_sunny: :droplet:
+:hot
 
 
 |  Day |  outlook | temp | humidity | windy | play |
