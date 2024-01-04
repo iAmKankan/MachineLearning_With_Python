@@ -44,7 +44,7 @@ Let’s walk through an example to solidify these concepts. Imagine that we have
 
 For this dataset, the entropy is **0.94**. This can be calculated by finding the proportion of days where “**Play Tennis**” is “**Yes**”, which is **9/14**, and the proportion of days where “**Play Tennis**” is “**No**”, which is **5/14**. Then, these values can be plugged into the entropy formula above.
 
-$$\Large{\color{Purple}Entropy (Tennis) = -(9/14) \log_2(9/14) – (5/14) \log_2 (5/14) = 0.94}$
+$$\Large{\color{Purple}Entropy (Tennis) = -(9/14) \log_2(9/14) – (5/14) \log_2 (5/14) = 0.94}$$
 
 We can then compute the information gain for each of the attributes individually. For example, the information gain for the attribute, “Humidity” would be the following:
 
