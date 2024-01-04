@@ -64,11 +64,11 @@ $$\Large{\color{Purple}\textrm{Gini Impurity} = 1 -\sum_i (p_i)^2}$$
 
 
 
-### ⬛ $\Large{\color{Purple}\underline{\textrm{Advantages and disadvantages of Decision Trees:}}}$ 
+### ⬛ $\Large{\color{Purple}\textrm{Advantages and disadvantages of Decision Trees}}$ 
 
 While **decision trees** can be used in a variety of use cases, other algorithms typically outperform decision tree algorithms. That said, decision trees are particularly useful for **data mining** and **knowledge discovery** tasks. Let’s explore the key benefits and challenges of utilizing decision trees more below:
 
-### $\Large{\color{Purple}\underline{\textrm{Advantages}}}$
+### $\Large{\color{Purple}\underline{\textrm{Advantages:}}}$
 - $\large{\color{Purple}\textrm{Easy to interpret:}}$ The Boolean logic and visual representations of decision trees make them easier to understand and consume. The hierarchical nature of a decision tree also makes it easy to see which attributes are most important, which isn’t always clear with other algorithms, like neural networks.
 
 - $\large{\color{Purple}\textrm{Little to no data preparation required:}}$ Decision trees have a number of characteristics, which make it more flexible than other classifiers. It can handle various data types—i.e. discrete or continuous values, and continuous values can be converted into categorical values through the use of thresholds. Additionally, it can also handle values with missing values, which can be problematic for other classifiers, like Naïve Bayes.  
