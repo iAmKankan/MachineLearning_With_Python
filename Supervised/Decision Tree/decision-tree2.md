@@ -27,4 +27,4 @@ $$\Large{\color{Purple} \mathrm{Entropy}(S) = - \sum_{c \in C} p(c)\log_2 p(c)}$
 
 **Information gain** is usually represented with the following formula, where: 
 
-$$\Large{\color{Purple} \mathrm{Information Gain}(S, \alpha) = \mathrm{Entropy}(S) - \sum_{c \in C} p(c)\log_2 p(c)}$$
+$$\Large{\color{Purple} \mathrm{Information Gain}(S, \alpha) = \mathrm{Entropy}(S) - \sum_{V \in V(\alpha)} \dfrac{\mid S_V \mid}{\mid S \mid}\mathrm{Entropy}(S_V)}$$
