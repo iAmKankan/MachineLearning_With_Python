@@ -69,15 +69,15 @@ We can then compute the $\large{\color{Purple}Information\ Gain}$ for each of th
 
 $$\Large{\color{Purple} Gain (Tennis, Humidity) = (0.94)-(7/14) \times (0.985) – (7/14)\times (0.592) = 0.151}$$
 
-### As a recap,
+### As a recap:
 
-- 7/14 represents the proportion of values where humidity equals “high” to the total number of humidity values. In this case, the number of values where humidity equals “high” is the same as the number of values where humidity equals “normal”.
+- **7/14** represents the proportion of values where **humidity** equals “**high**” to the total number of **humidity values**. In this case, the number of values where **humidity equals “high”** is the same as the number of values where **humidity equals “normal”**.
 
-- 0.985 is the entropy when Humidity = “high”
+- **0.985** is the **entropy** when **Humidity = “high”**
 
-- 0.59 is the entropy when Humidity = “normal”
+- **0.59** is the **entropy** when **Humidity = “normal”**
 
-Then, repeat the calculation for information gain for each attribute in the table above, and select the attribute with the highest information gain to be the first split point in the decision tree. In this case, outlook produces the highest information gain. From there, the process is repeated for each subtree. 
+Then, repeat the calculation for **information gain** for each attribute in the table above, and select the attribute with the highest information gain to be the first split point in the decision tree. In this case, outlook produces the highest information gain. From there, the process is repeated for each subtree. 
 
 ### 🔲 $\Large{\color{Purple}\underline{\textrm{Gini Impurity:}}}$ 
 
