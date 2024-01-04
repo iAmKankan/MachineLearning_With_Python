@@ -61,3 +61,8 @@ $$\Large{\color{Purple} Gain (Tennis, Humidity) = (0.94)-(7/14) \times (0.985) �
 Similar to **entropy**, if set, S, is pure—i.e. belonging to one class) then, its impurity is zero. This is denoted by the following formula: 
 
 $$\Large{\color{Purple}\textrm{Gini Impurity} = 1 -\sum_i (p_i)^2}$$
+
+
+
+### ⬛ $\Large{\color{Purple}\underline{\textrm{Advantages and disadvantages of Decision Trees}}}$ 
+
