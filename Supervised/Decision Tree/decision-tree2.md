@@ -18,7 +18,7 @@ $$\Large{\color{Purple} \mathrm{Entropy}(S) = - \sum_{c \in C} p(c)\log_2 p(c)}$
 
 
 **Entropy** values can **fall between** $\large{\color{Purple}0}$ and $\large{\color{Purple}1}$. 
-* If **all samples** in data set $\large{\color{Purple}S}$ , belong to **one class**, then <ins><b>entropy will be equal zero</b></ins>.
+* If **all samples** in data set $\large{\color{Purple}S}$ , belong to **one class**, then <ins><b>entropy will be equals to zero</b></ins>.
 * If **half of the samples** are classified as **one class** and the **other half** are in **another** class, <ins><b>entropy will be at its highest at 1</b></ins>.
 * **In order to select the best feature to split** on and find the **optimal decision tree**, the attribute with the <ins><b>smallest amount of entropy</b></ins> should be used.
 
