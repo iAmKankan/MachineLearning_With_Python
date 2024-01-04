@@ -64,5 +64,5 @@ $$\Large{\color{Purple}\textrm{Gini Impurity} = 1 -\sum_i (p_i)^2}$$
 
 
 
-### ⬛ $\Large{\color{Purple}\underline{\textrm{Advantages and disadvantages of Decision Trees}}}$ 
+### ⬛ $\Large{\color{Purple}\underline{\textrm{Advantages and disadvantages of Decision Trees:}}}$ 
 
