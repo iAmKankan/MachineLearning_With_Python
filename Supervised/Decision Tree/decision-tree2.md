@@ -37,11 +37,27 @@ $$\Large{\color{Purple} \mathrm{Information\ Gain}(S, \alpha) = \mathrm{Entropy}
 ### 🔲 $\Large{\color{Purple} Example \\# 1}$
 Let’s walk through an example to solidify these concepts. Imagine that we have the following arbitrary dataset:
 
-<p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/5f6c6995-6b76-413a-9cb9-9cf25b0b31a8" width=50%/>
- <br>
- <ins><b><i> Lets consider that total number of samples are 14; with in that 9 times "Yes" class appear and 5 times "No" class appear</i></b></ins> 
-</p>
+<div align="center">
+ 
+|  Day |  Outlook | Temp | Humidity | Windy | Tennis |
+|:--:|:--------|:----:|:--------|:-----:|:----:|
+|  1 |   :sunny:  sunny  |  hot |   :droplet: high   |  True |  no  |
+|  2 | :partly_sunny:  overcast  |  hot |   :droplet: high   | False |  yes |
+|  3 |   :cloud_with_rain:  rainy   | mild |  :droplet:  high   | False |  yes |
+|  4 |   :cloud_with_rain:  rainy   | cool |  :droplet: normal  | False |  yes |
+|  5 |   :cloud_with_rain:  rainy   | cool | :droplet: normal  |  True |  no  |
+|  6 | :partly_sunny:  overcast  | cool |  :droplet: normal  |  True |  yes |
+|  7 |   :sunny:  sunny  | mild |  :droplet: high   |  False |  no  |
+|  8 |   :sunny:  sunny  | cool |  :droplet: normal  | False |  yes |
+|  9 |   :cloud_with_rain:  rainy   | mild |  :droplet: normal  | False |  yes |
+| 10 |   :sunny:  sunny  | mild | :droplet: normal  |  True |  yes |
+| 11 | :partly_sunny:  overcast  | mild |  :droplet: high   |  True |  yes |
+| 12 | :partly_sunny:  overcast  |  hot |  :droplet: normal  | False |  yes |
+| 13 |   :cloud_with_rain:  rainy   | mild |   :droplet: high   |  True |  no  |
+| 14|   :sunny:  sunny  |  hot |  :droplet: high   | False |  no  |
+
+</div>
+
 
 For this dataset, the $\large{\color{Purple}Entropy}$ is **0.94**. This can be calculated by finding the proportion of days where “**Play Tennis**” is “**Yes**”, which is **9/14**, and the proportion of days where “**Play Tennis**” is “**No**”, which is **5/14**. 
 
@@ -53,6 +69,15 @@ We can then compute the $\large{\color{Purple}Information\ Gain}$ for each of th
 
 $$\Large{\color{Purple} Gain (Tennis, Humidity) = (0.94)-(7/14) \times (0.985) – (7/14)\times (0.592) = 0.151}$$
 
+### As a recap,
+
+- 7/14 represents the proportion of values where humidity equals “high” to the total number of humidity values. In this case, the number of values where humidity equals “high” is the same as the number of values where humidity equals “normal”.
+
+- 0.985 is the entropy when Humidity = “high”
+
+- 0.59 is the entropy when Humidity = “normal”
+
+Then, repeat the calculation for information gain for each attribute in the table above, and select the attribute with the highest information gain to be the first split point in the decision tree. In this case, outlook produces the highest information gain. From there, the process is repeated for each subtree. 
 
 ### 🔲 $\Large{\color{Purple}\underline{\textrm{Gini Impurity:}}}$ 
 
@@ -82,23 +107,3 @@ While **decision trees** can be used in a variety of use cases, other algorithms
 
 - $\large{\color{Purple}\textrm{More costly:}}$ Given that decision trees take a greedy search approach during construction, they can be more expensive to train compared to other algorithms. 
 
-<div align="center">
- 
-|  Day |  Outlook | Temp | Humidity | Windy | Tennis |
-|:--:|:--------|:----:|:--------|:-----:|:----:|
-|  1 |   :sunny:  sunny  |  hot |   :droplet: high   |  True |  no  |
-|  2 | :partly_sunny:  overcast  |  hot |   :droplet: high   | False |  yes |
-|  3 |   :cloud_with_rain:  rainy   | mild |  :droplet:  high   | False |  yes |
-|  4 |   :cloud_with_rain:  rainy   | cool |  :droplet: normal  | False |  yes |
-|  5 |   :cloud_with_rain:  rainy   | cool | :droplet: normal  |  True |  no  |
-|  6 | :partly_sunny:  overcast  | cool |  :droplet: normal  |  True |  yes |
-|  7 |   :sunny:  sunny  | mild |  :droplet: high   |  False |  no  |
-|  8 |   :sunny:  sunny  | cool |  :droplet: normal  | False |  yes |
-|  9 |   :cloud_with_rain:  rainy   | mild |  :droplet: normal  | False |  yes |
-| 10 |   :sunny:  sunny  | mild | :droplet: normal  |  True |  yes |
-| 11 | :partly_sunny:  overcast  | mild |  :droplet: high   |  True |  yes |
-| 12 | :partly_sunny:  overcast  |  hot |  :droplet: normal  | False |  yes |
-| 13 |   :cloud_with_rain:  rainy   | mild |   :droplet: high   |  True |  no  |
-| 14|   :sunny:  sunny  |  hot |  :droplet: high   | False |  no  |
-
-</div>
