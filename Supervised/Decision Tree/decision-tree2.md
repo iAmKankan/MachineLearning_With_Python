@@ -10,4 +10,4 @@ $$\Large{\color{Purple} \mathrm{Entropy}(S) = - \sum_{c \in C} p(c)\log_2 p(c)}$
 
 * $\large{\color{Purple}S}$ represents the **data set** that entropy is calculated.
 * $\large{\color{Purple}c}$ represents the **classes** in set $\large{\color{Purple}S}$
-* $\large{\color{Purple}p(c)}$ represents the proportion of data points that belong to $\large{\color{Purple}class c}$ to the number of total data points in set, $\large{\color{Purple}S}$
+* $\large{\color{Purple}p(c)}$ represents the **proportion of data points** that belong to **class** $\large{\color{Purple}c}$ to the number of total data points in the set $\large{\color{Purple}S}$
