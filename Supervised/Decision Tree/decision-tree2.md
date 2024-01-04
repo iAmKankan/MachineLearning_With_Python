@@ -3,7 +3,7 @@
 ### 🔲 $\Large{\color{Purple}\underline{\textrm{How to choose the best attribute at each node?}}}$
 While there are multiple ways to select the best attribute at each node, two methods- $\large{\color{Purple}\textrm{Information gain}}$ and $\large{\color{Purple}\textrm{Gini impurity}}$, act as <b>popular splitting <ins>criterion</ins></b> for decision tree models. They help to evaluate the quality of each test condition and how well it will be able to classify samples into a class.
 
-### $\Large{\color{Purple}\underline{\textrm{Entropy and Information Gain:}}}$
+### 🔲 $\Large{\color{Purple}\underline{\textrm{Entropy and Information Gain:}}}$
 It’s difficult to explain **information gain** without first discussing **Entropy**. 
 
 ♠️ $\large{\color{Purple}Entropy}$ <ins><b> measures the impurity of the sample values</b></ins>, which is a concept that stems from information theory. 
@@ -33,3 +33,19 @@ $$\Large{\color{Purple} \mathrm{Information\ Gain}(S, \alpha) = \mathrm{Entropy}
 * $\large{\color{Purple}Entropy(S)}$ is the **entropy** of dataset, $\large{\color{Purple}S}$
 * $\large{\color{Purple}|Sv|/ |S|}$ represents the proportion of the values in $\large{\color{Purple}S_v}$ to the number of values in dataset, $\large{\color{Purple}S}$
 * $\large{\color{Purple}Entropy(S_v)}$ is the entropy of dataset, $\large{\color{Purple}S_v}$
+
+### 🔲 $\Large{\color{Purple} Example \\# 1}$
+Let’s walk through an example to solidify these concepts. Imagine that we have the following arbitrary dataset:
+
+<p align="center">
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/5f6c6995-6b76-413a-9cb9-9cf25b0b31a8" width=50%/>
+ <br>
+</p>
+
+For this dataset, the entropy is **0.94**. This can be calculated by finding the proportion of days where “**Play Tennis**” is “**Yes**”, which is **9/14**, and the proportion of days where “**Play Tennis**” is “**No**”, which is **5/14**. Then, these values can be plugged into the entropy formula above.
+
+$$\Large{\color{Purple}Entropy (Tennis) = -(9/14) \log_2(9/14) – (5/14) \log_2 (5/14) = 0.94}$
+
+We can then compute the information gain for each of the attributes individually. For example, the information gain for the attribute, “Humidity” would be the following:
+
+Gain (Tennis, Humidity) = (0.94)-(7/14)*(0.985) – (7/14)*(0.592) = 0.151
