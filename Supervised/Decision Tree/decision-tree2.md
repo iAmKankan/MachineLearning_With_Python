@@ -27,7 +27,7 @@ $$\Large{\color{Purple} \mathrm{Entropy}(S) = - \sum_{c \in C} p(c)\log_2 p(c)}$
 
 **Information gain** is usually represented with the following formula, where: 
 
-$$\Large{\color{Purple} \mathrm{Information Gain}(S, \alpha) = \mathrm{Entropy}(S) - \sum_{v \in v(\alpha)} \dfrac{\mid S_v \mid}{\mid S \mid}\mathrm{Entropy}(S_v)}$$
+$$\Large{\color{Purple} \mathrm{Information\ Gain}(S, \alpha) = \mathrm{Entropy}(S) - \sum_{v \in v(\alpha)} \dfrac{\mid S_v \mid}{\mid S \mid}\mathrm{Entropy}(S_v)}$$
 
 * $\large{\color{Purple}\alpha}$ represents a **specific attribute** or **class label**.
 * $\large{\color{Purple}Entropy(S)}$ is the **entropy** of dataset, $\large{\color{Purple}S}$
