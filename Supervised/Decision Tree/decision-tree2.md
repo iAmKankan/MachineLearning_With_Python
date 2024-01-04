@@ -51,4 +51,4 @@ $$\Large{\color{Purple}Entropy (Tennis) = -(9/14) \log_2(9/14) – (5/14) \log_2
 
 We can then compute the information gain for each of the attributes individually. For example, the information gain for the attribute, “Humidity” would be the following:
 
-$$\Large{\color{Purple} Gain (Tennis, Humidity) = (0.94)-(7/14)*(0.985) – (7/14)*(0.592) = 0.151}$$
+$$\Large{\color{Purple} Gain (Tennis, Humidity) = (0.94)-(7/14) \times (0.985) – (7/14)\times (0.592) = 0.151}$$
