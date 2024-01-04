@@ -82,3 +82,22 @@ While **decision trees** can be used in a variety of use cases, other algorithms
 
 - $\large{\color{Purple}\textrm{More costly:}}$ Given that decision trees take a greedy search approach during construction, they can be more expensive to train compared to other algorithms. 
 
+🌧️ ⛅ :sunny: :cloud_with_rain: 💧 :cloud_with_rain: :partly_sunny: :droplet:
+
+
+|  Day |  outlook | temp | humidity | windy | play |
+|:--:|:--------:|:----:|:--------|:-----:|:----:|
+|  1 |   :sunny:  sunny  |  hot |   :droplet: high   |  True |  no  |
+|  2 | :partly_sunny:  overcast  |  hot |   :droplet: high   | False |  yes |
+|  3 |   :cloud_with_rain:  rainy   | mild |  :droplet:  high   | False |  yes |
+|  4 |   :cloud_with_rain:  rainy   | cool |  :droplet: normal  | False |  yes |
+|  5 |   :cloud_with_rain:  rainy   | cool | :droplet: normal  |  True |  no  |
+|  6 | :partly_sunny:  overcast  | cool |  :droplet: normal  |  True |  yes |
+|  7 |   :sunny:  sunny  | mild |  :droplet: high   |  False |  no  |
+|  8 |   :sunny:  sunny  | cool |  :droplet: normal  | False |  yes |
+|  9 |   :cloud_with_rain:  rainy   | mild |  :droplet: normal  | False |  yes |
+| 10 |   :sunny:  sunny  | mild | :droplet: normal  |  True |  yes |
+| 11 | :partly_sunny:  overcast  | mild |  :droplet: high   |  True |  yes |
+| 12 | :partly_sunny:  overcast  |  hot |  :droplet: normal  | False |  yes |
+| 13 |   :cloud_with_rain:  rainy   | mild |   :droplet: high   |  True |  no  |
+|  14|   :sunny:  sunny  |  hot |  :droplet: high   | False |  no  |
