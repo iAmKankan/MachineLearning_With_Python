@@ -191,148 +191,19 @@ While **decision trees** can be used in a variety of use cases, other algorithms
 - $\large{\color{Purple}\textrm{More costly:}}$ Given that decision trees take a greedy search approach during construction, they can be more expensive to train compared to other algorithms. 
 
 
+### 🔲 $\Large{\color{Purple}\underline{\textrm{Classification and Regression Tree (CART) algorithm}}}$
 
+**Scikit-Learn** uses the **Classification and Regression Tree (CART)** algorithm, which produces only **binary trees: nonleaf nodes always have two children** (i.e., questions only have **yes/no** answers). However, other algorithms such as **ID3** can produce **Decision Trees** with nodes that have **more than two children**. Training Decision Trees is also called “**growing**” trees).
 
-### 🔲 $\large{\color{Purple}\textrm{Entropy:}}$
-**Entropy** is the **measure of the degree of randomness** or **uncertainty in the dataset**. In the case of **classifications** it measures the **randomness** based on the **distribution of class labels** in the dataset.
+#### How does the algorithm CART work?
+* **First** splitting the training set into _`two subsets`_ using a _`single feature`_ **k** and a threshold **t<sub>k</sub>** (e.g., “petal length ≤ 2.45 cm”). 
+* **Then** after spliting the training set in two, it `recursively` splits the subsets using the same logic, then the sub-subsets, and so on. 
+* **Last** It stops recursing once it reaches the maximum depth (defined by the `max_depth` hyperparameter), or if it cannot find a split that will reduce impurity. 
 
-The entropy for a subset of the original dataset having $\large{\color{Purple}K}$ number of classes for the $\large{\color{Purple}i^{th}}$ node can be defined as:
+A few other hyperparameters control additional stopping conditions (`min_samples_split`, `min_samples_leaf`, `min_weight_fraction_leaf` and `max_leaf_nodes`).
 
-$$\large{\color{Purple} H_i = -\sum_{k \epsilon K}^{n} p(i,k)\log_2p(i,k)}$$
-
-<ins><b>Where: </b></ins>
-* **S** is the dataset sample.
-* **k** is the particular class from **K** classes
-* **p(k)** is the proportion of the data points that belong to class **k** to the total number of data points in dataset sample **S**. $\large{\color{Purple} p(k) = \frac{1}{n}\sum{I(y=k)}}$
-* Here **p(i,k)** should not be equal to **zero**.
-
-### Important points related to Entropy:
-
-The entropy is 0 when the dataset is completely homogeneous, meaning that each instance belongs to the same class. It is the lowest entropy indicating no uncertainty in the dataset sample.
-when the dataset is equally divided between multiple classes, the entropy is at its maximum value. Therefore, entropy is highest when the distribution of class labels is even, indicating maximum uncertainty in the dataset sample.
-Entropy is used to evaluate the quality of a split. The goal of entropy is to select the attribute that minimizes the entropy of the resulting subsets, by splitting the dataset into more homogeneous subsets with respect to the class labels.
-The highest information gain attribute is chosen as the splitting criterion (i.e., the reduction in entropy after splitting on that attribute), and the process is repeated recursively to build the decision tree.
-Gini Impurity or index:
-Gini Impurity is a score that evaluates how accurate a split is among the classified groups. The Gini Impurity evaluates a score in the range between 0 and 1, where 0 is when all observations belong to one class, and 1 is a random distribution of the elements within classes. In this case, we want to have a Gini index score as low as possible. Gini Index is the evaluation metric we shall use to evaluate our Decision Tree Model.
-
-\text{Gini Impurity} = 1- \sum{p_i^2}  
-
-Here,
-
-pi is the proportion of elements in the set that belongs to the ith category.
-Information Gain:
-Information gain measures the reduction in entropy or variance that results from splitting a dataset based on a specific property. It is used in decision tree algorithms to determine the usefulness of a feature by partitioning the dataset into more homogeneous subsets with respect to the class labels or target variable. The higher the information gain, the more valuable the feature is in predicting the target variable. 
-
-The information gain of an attribute A, with respect to a dataset S, is calculated as follows:
-
-\text{Information Gain(H, A)}= H - \sum{\frac{|H_V|}{|H|}H_{v}} 
-
-where
-
-A is the specific attribute or class label
-|H| is the entropy of dataset sample S
-|HV| is the number of instances in the subset S that have the value v for attribute A
-Information gain measures the reduction in entropy or variance achieved by partitioning the dataset on attribute A. The attribute that maximizes information gain is chosen as the splitting criterion for building the decision tree.
-
-Information gain is used in both classification and regression decision trees. In classification, entropy is used as a measure of impurity, while in regression, variance is used as a measure of impurity. The information gain calculation remains the same in both cases, except that entropy or variance is used instead of entropy in the formula.
-
-How does the Decision Tree algorithm Work?
-The decision tree operates by analyzing the data set to predict its classification. It commences from the tree’s root node, where the algorithm views the value of the root attribute compared to the attribute of the record in the actual data set. Based on the comparison, it proceeds to follow the branch and move to the next node. 
-
-The algorithm repeats this action for every subsequent node by comparing its attribute values with those of the sub-nodes and continuing the process further. It repeats until it reaches the leaf node of the tree. The complete mechanism can be better explained through the algorithm given below.
-
-Step-1: Begin the tree with the root node, says S, which contains the complete dataset.
-Step-2: Find the best attribute in the dataset using Attribute Selection Measure (ASM).
-Step-3: Divide the S into subsets that contains possible values for the best attributes.
-Step-4: Generate the decision tree node, which contains the best attribute.
-Step-5: Recursively make new decision trees using the subsets of the dataset created in step -3. Continue this process until a stage is reached where you cannot further classify the nodes and called the final node as a leaf nodeClassification and Regression Tree algorithm.
-Advantages of the Decision Tree:
-
- It is simple to understand as it follows the same process which a human follow while making any decision in real-life.
- It can be very useful for solving decision-related problems.
- It helps to think about all the possible outcomes for a problem.
- There is less requirement of data cleaning compared to other algorithms.
-Disadvantages of the Decision Tree:
-
- The decision tree contains lots of layers, which makes it complex.
- It may have an overfitting issue, which can be resolved using the Random Forest algorithm.
- For more class labels, the computational complexity of the decision tree may increase.
-What are appropriate problems for Decision tree learning?
-
-Although a variety of decision tree learning methods have been developed with somewhat differing capabilities and requirements, decision tree learning is generally best suited to problems with the following characteristics:
-
-1. Instances are represented by attribute-value pairs:
-
-In the world of decision tree learning, we commonly use attribute-value pairs to represent instances. An instance is defined by a predetermined group of attributes, such as temperature, and its corresponding value, such as hot. Ideally, we want each attribute to have a finite set of distinct values, like hot, mild, or cold. This makes it easy to construct decision trees. However, more advanced versions of the algorithm can accommodate attributes with continuous numerical values, such as representing temperature with a numerical scale.
-
-2. The target function has discrete output values:
-
-The marked objective has distinct outcomes. The decision tree method is ordinarily employed for categorizing Boolean examples, such as yes or no. Decision tree approaches can be readily expanded for acquiring functions with beyond dual conceivable outcome values. A more substantial expansion lets us gain knowledge about aimed objectives with numeric outputs, although the practice of decision trees in this framework is comparatively rare.
-
-3. Disjunctive descriptions may be required:
-
-Decision trees naturally represent disjunctive expressions.
-
-4.The training data may contain errors:
-
-“Techniques of decision tree learning demonstrate high resilience towards discrepancies, including inconsistencies in categorization of sample cases and discrepancies in the feature details that characterize these cases.”
-
-5. The training data may contain missing attribute values:
-
-In certain cases, the input information designed for training might have absent characteristics. Employing decision tree approaches can still be possible despite experiencing unknown features in some training samples. For instance, when considering the level of humidity throughout the day, this information may only be accessible for a specific set of training specimens.
-
-Practical issues in learning decision trees include:
-
- Determining how deeply to grow the decision tree,
- Handling continuous attributes,
- Choosing an appropriate attribute selection measure,
- Handling training data with missing attribute values,
- Handling attributes with differing costs, and
- Improving computational efficiency.
- 
-To build the Decision Tree, CART (Classification and Regression Tree) algorithm is used. It works by selecting the best split at each node based on metrics like Gini impurity or information Gain. In order to create a decision tree. Here are the basic steps of the CART algorithm:
-
-The root node of the tree is supposed to be the complete training dataset.
-Determine the impurity of the data based on each feature present in the dataset. Impurity can be measured using metrics like the Gini index or entropy for classification and Mean squared error, Mean Absolute Error, friedman_mse, or Half Poisson deviance for regression.
-Then selects the feature that results in the highest information gain or impurity reduction when splitting the data.
-For each possible value of the selected feature, split the dataset into two subsets (left and right), one where the feature takes on that value, and another where it does not. The split should be designed to create subsets that are as pure as possible with respect to the target variable.
-Based on the target variable, determine the impurity of each resulting subset.
-For each subset, repeat steps 2–5 iteratively until a stopping condition is met. For example, the stopping condition could be a maximum tree depth, a minimum number of samples required to make a split or a minimum impurity threshold.
-Assign the majority class label for classification tasks or the mean value for regression tasks for each terminal node (leaf node) in the tree.
-Classification and Regression Tree algorithm for Classification
-Let the data available at node m be Qm and it has nm samples. and tm as the threshold for node m. then, The classification and regression tree algorithm for classification can be written as :
-
-G(Q_m, t_m) = \frac{n_m^{Left}}{n_m}H(Q_m^{Left}(t_m)) +  \frac{n_m^{Right}}{n_m}H(Q_m^{Right}(t_m)) 
-
-Here,
-
-H is the measure of impurities of the left and right subsets at node m. it can be entropy or Gini impurity. 
-nm is the number of instances in the left and right subsets at node m.
-To select the parameter, we can write as:
-
-t_m = \argmin_{t_m} H(Q_m, t_m) 
-
-Example:
-
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
-
-### Classification and Regression Tree (CART) algorithm
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
-> #### Scikit-Learn uses the `Classification and Regression Tree` **(CART)** algorithm, which produces only binary trees: nonleaf nodes always have two children (i.e., questions only have yes/no answers). 
-> #### However, other algorithms such as **ID3** can produce Decision Trees with nodes that have more than two children.
-
-* _Scikit-Learn_ uses the _**`Classification and Regression Tree (CART)`**_ algorithm to train Decision Trees (also called “growing” trees). 
-> #### How the algorithm works -
->> * **First** splitting the training set into _`two subsets`_ using a _`single feature`_ **k** and a threshold **t<sub>k</sub>** (e.g., “petal length ≤ 2.45 cm”). 
->> * **Then** after spliting the training set in two, it `recursively` splits the subsets using the same logic, then the sub-subsets, and so on. 
->> * **Last** It stops recursing once it reaches the maximum depth (defined by the `max_depth` hyperparameter), or if it cannot find a split that will reduce impurity. 
-
-* A few other hyperparameters control additional stopping conditions (`min_samples_split`, `min_samples_leaf`, `min_weight_fraction_leaf` and `max_leaf_nodes`).
-> #### How does it choose **k** and **t<sub>k</sub>** ?
->>  It searches for the pair (**k**,**t<sub>k</sub>** ) that produces the purest subsets (weighted by their size). 
+### How does it choose **k** and **t<sub>k</sub>** ?
+$\Large Answer:$  It searches for the pair (**k**,**t<sub>k</sub>** ) that produces the purest subsets (weighted by their size). 
 
 
 ### CART cost function for classification
