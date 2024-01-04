@@ -52,3 +52,12 @@ $$\Large{\color{Purple}Entropy (Tennis) = -(9/14) \log_2(9/14) – (5/14) \log_2
 We can then compute the $\large{\color{Purple}Information\ Gain}$ for each of the attributes individually. For example, the information gain for the attribute, “**Humidity**” would be the following:
 
 $$\Large{\color{Purple} Gain (Tennis, Humidity) = (0.94)-(7/14) \times (0.985) – (7/14)\times (0.592) = 0.151}$$
+
+
+### 🔲 $\Large{\color{Purple}\underline{\textrm{Gini Impurity:}}}$ 
+
+<ins><b>Gini impurity is the probability of incorrectly classifying random data point in the dataset if it were labeled based on the class distribution of the dataset</b></ins>. 
+
+Similar to **entropy**, if set, S, is pure—i.e. belonging to one class) then, its impurity is zero. This is denoted by the following formula: 
+
+$$\Large{\color{Purple}\textrm{Gini Impurity} = 1 -\sum_i (p_i)^2}$$
