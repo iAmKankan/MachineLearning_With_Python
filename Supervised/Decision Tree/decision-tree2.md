@@ -86,7 +86,7 @@ While **decision trees** can be used in a variety of use cases, other algorithms
 :hot
 
 
-|  Day |  outlook | temp | humidity | windy | play |
+|  Day |  Outlook | Temp | Humidity | Windy | Tennis |
 |:--:|:--------|:----:|:--------|:-----:|:----:|
 |  1 |   :sunny:  sunny  |  hot |   :droplet: high   |  True |  no  |
 |  2 | :partly_sunny:  overcast  |  hot |   :droplet: high   | False |  yes |
