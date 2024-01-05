@@ -83,10 +83,10 @@ There are many specific decision-tree algorithms are available. Notable ones inc
 * The construction of a decision tree classifier does not require any **domain knowledge** or parameter setting and therefore is appropriate for **exploratory knowledge discovery**.
 * **Decision trees** can handle **high-dimensional data**.
 
-### 🔲 $\Large{\color{Purple}\textrm{How to choose the best attribute at each node?}}$
+### 🔲 $\large{\color{Purple}\textrm{How to choose the best attribute at each node?}}$
 While there are multiple ways to select the best attribute at each node, two methods- $\large{\color{Purple}\textrm{Information gain}}$ and $\large{\color{Purple}\textrm{Gini impurity}}$, act as <b>popular splitting <ins>criterion</ins></b> for decision tree models. They help to evaluate the quality of each test condition and how well it will be able to classify samples into a class.
 
-### 🔲 $\Large{\color{Purple}\underline{\textrm{Entropy and Information Gain:}}}$
+### 🔲 $\large{\color{Purple}\underline{\textrm{Entropy and Information Gain:}}}$
 It’s difficult to explain **information gain** without first discussing **Entropy**. 
 
 ♠️ $\large{\color{Purple}Entropy}$ <ins><b> measures the impurity of the sample values</b></ins>, which is a concept that stems from information theory. 
@@ -117,7 +117,7 @@ $$\Large{\color{Purple} \mathrm{Information\ Gain}(S, \alpha) = \mathrm{Entropy}
 * $\large{\color{Purple}|Sv|/ |S|}$ represents the proportion of the values in $\large{\color{Purple}S_v}$ to the number of values in dataset, $\large{\color{Purple}S}$
 * $\large{\color{Purple}Entropy(S_v)}$ is the entropy of dataset, $\large{\color{Purple}S_v}$
 
-### 🔲 $\Large{\color{Purple} Example \\# 1}$
+### 🔲 $\large{\color{Purple} Example \\# 1}$
 Let’s walk through an example to solidify these concepts. Imagine that we have the following arbitrary dataset:
 
 <div align="center">
@@ -162,7 +162,7 @@ $$\Large{\color{Purple} Gain (Tennis, Humidity) = (0.94)-(7/14) \times (0.985) �
 
 Then, repeat the calculation for **information gain** for each attribute in the table above, and select the attribute with the highest information gain to be the first split point in the decision tree. In this case, outlook produces the highest information gain. From there, the process is repeated for each subtree. 
 
-### 🔲 $\Large{\color{Purple}\underline{\textrm{Gini Impurity:}}}$ 
+### 🔲 $\large{\color{Purple}\underline{\textrm{Gini Impurity:}}}$ 
 
 <ins><b>Gini impurity is the probability of incorrectly classifying random data point in the dataset if it were labeled based on the class distribution of the dataset</b></ins>. 
 
@@ -172,7 +172,7 @@ $$\Large{\color{Purple}\textrm{Gini Impurity} = 1 -\sum_i (p_i)^2}$$
 
 
 
-### ⬛ $\Large{\color{Purple}\textrm{Advantages and disadvantages of Decision Trees}}$ 
+### ⬛ $\large{\color{Purple}\textrm{Advantages and disadvantages of Decision Trees}}$ 
 
 While **decision trees** can be used in a variety of use cases, other algorithms typically outperform decision tree algorithms. That said, decision trees are particularly useful for **data mining** and **knowledge discovery** tasks. Let’s explore the key benefits and challenges of utilizing decision trees more below:
 
@@ -183,7 +183,7 @@ While **decision trees** can be used in a variety of use cases, other algorithms
 
 - $\large{\color{Purple}\textrm{More flexible:}}$ Decision trees can be leveraged for both classification and regression tasks, making it more flexible than some other algorithms. It’s also insensitive to underlying relationships between attributes; this means that if two variables are highly correlated, the algorithm will only choose one of the features to split on. 
 
-### $\Large{\color{Purple}\underline{\textrm{Disadvantages:}}}$
+### $\large{\color{Purple}\underline{\textrm{Disadvantages:}}}$
 - $\large{\color{Purple}\textrm{Prone to overfitting:}}$ Complex decision trees tend to overfit and do not generalize well to new data. This scenario can be avoided through the processes of pre-pruning or post-pruning. Pre-pruning halts tree growth when there is insufficient data while post-pruning removes subtrees with inadequate data after tree construction. 
 
 - $\large{\color{Purple}\textrm{High variance estimators:}}$ Small variations within data can produce a very different decision tree. Bagging, or the averaging of estimates, can be a method of reducing variance of decision trees. However, this approach is limited as it can lead to highly correlated predictors.  
@@ -191,7 +191,7 @@ While **decision trees** can be used in a variety of use cases, other algorithms
 - $\large{\color{Purple}\textrm{More costly:}}$ Given that decision trees take a greedy search approach during construction, they can be more expensive to train compared to other algorithms. 
 
 
-### 🔲 $\Large{\color{Purple}\underline{\textrm{Classification and Regression Tree (CART) algorithm}}}$
+### 🔲 $\large{\color{Purple}\underline{\textrm{Classification and Regression Tree (CART) algorithm}}}$
 **Scikit-Learn** uses the **Classification and Regression Tree (CART)** algorithm, which produces only **binary trees: nonleaf nodes always have two children** (i.e., questions only have **yes/no** answers). However, other algorithms such as **ID3** can produce **Decision Trees** with nodes that have **more than two children**. Training Decision Trees is also called “**growing**” trees).
 
 ### How does the algorithm CART work?
@@ -218,9 +218,10 @@ $\Large Answer:$  It searches for the pair (**k**,**t<sub>k</sub>** ) that produ
 > * Unfortunately, finding the optimal tree is known to be an NP-Complete problem: it requires O(exp(m)) time, making the problem intractable even for small training sets. This is why we must settle for a “reasonably good” solution.
 
 
-### Computational Complexity
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-
+### 🔲 $\large{\color{Purple}\underline{\textrm{Computational Complexity}}}$
+In general, the run time cost to construct a balanced binary tree is $\large{\color{Purple}O(n_{samples}n_{features} \log(n_{samples}))}$  and query time $\large{\color{Purple}O( \log(n_{samples}))}$. Although the tree construction algorithm attempts to generate balanced trees, they will not always be balanced. Assuming that the subtrees remain approximately balanced, the cost at each node consists of searching through $\large{\color{Purple}O( \log(n_{features}))}$ to find the feature that offers the largest reduction in the impurity criterion, e.g. log loss (which is equivalent to an information gain). This has a cost of $\large{\color{Purple}O(n_{features}n_{samples} \log(n_{samples}))}$
+ at each node, leading to a total cost over the entire trees (by summing the cost at each node) of $\large{\color{Purple}O(n_{features}n_{samples}^2 \log(n_{samples}))}$
+.
 
 ### Decision Tree Splitting Methods
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
