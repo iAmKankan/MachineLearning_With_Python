@@ -3,7 +3,7 @@
 * [Decission Tree Classification Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/Decision%20Trees1.ipynb)
 * [Decission Tree Regression Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/DecissionTree2.ipynb)
   
-### ⬛ $\large{\color{Blue}\underline{\textrm{Decision tree:}}}$
+### ⬛ $\large{\color{Blue}\underline{\mathcal{Decision tree:}}}$
 ### 🔲 $\large{\color{Purple}\textrm{What is a Decision Tree?}}$
 A decision tree is a **flowchart-like tree structure** where-
 * Each **internal node** denotes the **feature**,
