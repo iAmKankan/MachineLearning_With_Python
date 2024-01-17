@@ -67,7 +67,7 @@ Dimensionality reduction is the process of reducing the number of features in a 
 * <ins><b>Linear Discriminant Analysis (LDA):</b></ins> Dimensionality Reduction for Discrimination
 * <ins><b>Non-negative Matrix Factorization (NMF):</b></ins> Decomposing Data into Non-negative Components
 * <ins><b>Locally Linear Embedding (LLE):</b></ins> Preserving Local Geometry in Reduced Dimensions
-* <ins><b>Isomap: Capturing Global Relationships in Reduced Dimensions
+* <ins><b>Isomap: Capturing Global Relationships in Reduced Dimensions</b></ins>
 
 ### 🔲 $\large{\color{Purple}\underline{\textrm{Anomaly detection and novelty detection}}}$
 
