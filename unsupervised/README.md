@@ -68,6 +68,7 @@ Dimensionality reduction is the process of reducing the number of features in a 
 * <ins><b>Non-negative Matrix Factorization (NMF):</b></ins> Decomposing Data into Non-negative Components
 * <ins><b>Locally Linear Embedding (LLE):</b></ins> Preserving Local Geometry in Reduced Dimensions
 * <ins><b>Isomap:</b></ins> Capturing Global Relationships in Reduced Dimensions
+* <ins><b>Autoencoders:</b></ins> Autoencoders leverage neural networks to compress data and then recreate a new representation of the original data’s input. Looking at the image below, you can see that the hidden layer specifically acts as a bottleneck to compress the input layer prior to reconstructing within the output layer. The stage from the input layer to the hidden layer is referred to as “encoding” while the stage from the hidden layer to the output layer is known as “decoding.”
 
 ### 🔲 $\large{\color{Purple}\underline{\textrm{Anomaly detection and novelty detection}}}$
 
@@ -84,7 +85,15 @@ Machine learning techniques have become a common method to improve a product use
 * **Recommendation Engines:** Using past purchase behavior data, unsupervised learning can help to discover data trends that can be used to develop more effective cross-selling strategies. This is used to make relevant add-on recommendations to customers during the checkout process for online retailers.
 * **Natural language processing (NLP):** Unsupervised learning is used in a variety of NLP tasks, including topic modeling, document clustering, and part-of-speech tagging.
 
+### Challenges of unsupervised learning
+While unsupervised learning has many benefits, some challenges can occur when it allows machine learning models to execute without any human intervention. Some of these challenges can include:
 
+* **Computational complexity due to a high volume of training data**
+* **Longer training times**
+* **Higher risk of inaccurate results**
+* **Human intervention to validate output variables**
+* **Lack of transparency into the basis on which data was clustered**
+  
 ### References:
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * [IBM](https://www.ibm.com/topics/unsupervised-learning)
