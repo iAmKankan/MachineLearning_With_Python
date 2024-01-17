@@ -39,7 +39,7 @@ There are mainly 3 types of Algorithms which are used for Unsupervised dataset.
 * $\large{\color{Purple}\textrm{Anomaly detection and novelty detection}}$
 
 
-### $\large{\color{Purple}\underline{\textrm{Clustering}}}$
+### 🔲 $\large{\color{Purple}\underline{\textrm{Clustering}}}$
 Clustering in unsupervised machine learning is the process of grouping unlabeled data into clusters based on their similarities. The goal of clustering is to identify patterns and relationships in the data without any prior knowledge of the data’s meaning.
 
 Broadly this technique is applied to group data based on different patterns, such as similarities or differences, our machine model finds. These algorithms are used to process raw, unclassified data objects into groups. 
@@ -52,7 +52,7 @@ Some common clustering algorithms
 * <ins><b>Mean-Shift Clustering:</b></ins> Finding Clusters Based on Mode Seeking
 * <ins><b>Spectral Clustering:</b></ins> Utilizing Spectral Graph Theory for Clustering
 
-### $\large{\color{Purple}\underline{\textrm{Association Rule Learning}}}$
+### 🔲 $\large{\color{Purple}\underline{\textrm{Association Rule Learning}}}$
 Association rule learning is also known as association rule mining is a common technique used to discover associations in unsupervised machine learning. This technique is a rule-based ML technique that finds out some very useful relations between parameters of a large data set. This technique is basically used for market basket analysis that helps to better understand the relationship between different products. For e.g. shopping stores use algorithms based on this technique to find out the relationship between the sale of one product w.r.t to another’s sales based on customer behavior. Like if a customer buys milk, then he may also buy bread, eggs, or butter. Once trained well, such models can be used to increase their sales by planning different offers.
 
 * <ins><b>Apriori Algorithm:</b></ins> A Classic Method for Rule Induction
@@ -60,7 +60,7 @@ Association rule learning is also known as association rule mining is a common t
 * <ins><b>Eclat Algorithm:</b></ins> Exploiting Closed Itemsets for Efficient Rule Mining
 * <ins><b>Efficient Tree-based Algorithms:</b></ins> Handling Large Datasets with Scalability
   
-### $\large{\color{Purple}\underline{\textrm{Dimensionality Reduction}}}$
+### 🔲 $\large{\color{Purple}\underline{\textrm{Dimensionality Reduction}}}$
 Dimensionality reduction is the process of reducing the number of features in a dataset while preserving as much information as possible. This technique is useful for improving the performance of machine learning algorithms and for data visualization. Examples of dimensionality reduction algorithms includeDimensionality reduction is the process of reducing the number of features in a dataset while preserving as much information as possible.
 
 * <ins><b>Principal Component Analysis (PCA):</b></ins> Linear Transformation for Reduced Dimensions
@@ -68,6 +68,8 @@ Dimensionality reduction is the process of reducing the number of features in a 
 * <ins><b>Non-negative Matrix Factorization (NMF):</b></ins> Decomposing Data into Non-negative Components
 * <ins><b>Locally Linear Embedding (LLE):</b></ins> Preserving Local Geometry in Reduced Dimensions
 * <ins><b>Isomap: Capturing Global Relationships in Reduced Dimensions
+
+### 🔲 $\large{\color{Purple}\underline{\textrm{Anomaly detection and novelty detection}}}$
 
   
 ### References:
