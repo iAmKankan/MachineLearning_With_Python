@@ -36,6 +36,7 @@ There are mainly 3 types of Algorithms which are used for Unsupervised dataset.
 * $\large{\color{Purple}\textrm{Clustering}}$
 * $\large{\color{Purple}\textrm{Association Rule Learning}}$
 * $\large{\color{Purple}\textrm{Dimensionality Reduction}}$
+* $\large{\color{Purple}\textrm{Anomaly detection and novelty detection}}$
 
 ### References:
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
