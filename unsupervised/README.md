@@ -18,7 +18,7 @@
      * Eclat
 
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-###  ⬛ $\Large{\color{Blue}\mathcal{Unsupervised Machine Learning}}$
+###  ⬛ $\Large{\color{Blue}\mathcal{Unsupervised\ Machine\ Learning}}$
 ### ♠️ <ins>What is Unsupervised Machine Learning</ins>? 
 $\Large Answer:$ Unsupervised learning, also known as unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets. These algorithms discover hidden patterns or data groupings without the need for human intervention.
 Its ability to discover similarities and differences in information make it the ideal solution for exploratory data analysis, cross-selling strategies, customer segmentation, and image recognition.
