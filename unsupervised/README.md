@@ -38,6 +38,38 @@ There are mainly 3 types of Algorithms which are used for Unsupervised dataset.
 * $\large{\color{Purple}\textrm{Dimensionality Reduction}}$
 * $\large{\color{Purple}\textrm{Anomaly detection and novelty detection}}$
 
+
+### Clustering
+Clustering in unsupervised machine learning is the process of grouping unlabeled data into clusters based on their similarities. The goal of clustering is to identify patterns and relationships in the data without any prior knowledge of the data’s meaning.
+
+Broadly this technique is applied to group data based on different patterns, such as similarities or differences, our machine model finds. These algorithms are used to process raw, unclassified data objects into groups. 
+
+Some common clustering algorithms
+
+* K-means Clustering: Partitioning Data into K Clusters
+* Hierarchical Clustering: Building a Hierarchical Structure of Clusters
+* Density-Based Clustering (DBSCAN): Identifying Clusters Based on Density
+* Mean-Shift Clustering: Finding Clusters Based on Mode Seeking
+* Spectral Clustering: Utilizing Spectral Graph Theory for Clustering
+
+### Association Rule Learning
+Association rule learning is also known as association rule mining is a common technique used to discover associations in unsupervised machine learning. This technique is a rule-based ML technique that finds out some very useful relations between parameters of a large data set. This technique is basically used for market basket analysis that helps to better understand the relationship between different products. For e.g. shopping stores use algorithms based on this technique to find out the relationship between the sale of one product w.r.t to another’s sales based on customer behavior. Like if a customer buys milk, then he may also buy bread, eggs, or butter. Once trained well, such models can be used to increase their sales by planning different offers.
+
+* Apriori Algorithm: A Classic Method for Rule Induction
+* FP-Growth Algorithm: An Efficient Alternative to Apriori
+* Eclat Algorithm: Exploiting Closed Itemsets for Efficient Rule Mining
+* Efficient Tree-based Algorithms: Handling Large Datasets with Scalability
+  
+### Dimensionality Reduction
+Dimensionality reduction is the process of reducing the number of features in a dataset while preserving as much information as possible. This technique is useful for improving the performance of machine learning algorithms and for data visualization. Examples of dimensionality reduction algorithms includeDimensionality reduction is the process of reducing the number of features in a dataset while preserving as much information as possible.
+
+* Principal Component Analysis (PCA): Linear Transformation for Reduced Dimensions
+* Linear Discriminant Analysis (LDA): Dimensionality Reduction for Discrimination
+* Non-negative Matrix Factorization (NMF): Decomposing Data into Non-negative Components
+* Locally Linear Embedding (LLE): Preserving Local Geometry in Reduced Dimensions
+* Isomap: Capturing Global Relationships in Reduced Dimensions
+
+  
 ### References:
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * [IBM](https://www.ibm.com/topics/unsupervised-learning)
