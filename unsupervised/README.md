@@ -31,7 +31,7 @@ The input to the unsupervised learning models is as follows:
 * $\large{\color{Purple}\textrm{Unstructured data:}}$ May contain noisy(meaningless) data, missing values, or unknown data. Example: Digital photos, audio, and video files
 * $\large{\color{Purple}\textrm{Unlabeled data:}}$ Data only contains a value for input parameters(features), there is no targeted value(lebel or output or Y). It is easy to collect as compared to the labeled one in the Supervised approach.
 
-### Unsupervised Learning Algorithms
+### Unsupervised Learning Algorithm Types
 There are mainly 3 types of Algorithms which are used for Unsupervised dataset.
 * $\large{\color{Purple}\textrm{Clustering}}$
 * $\large{\color{Purple}\textrm{Association Rule Learning}}$
