@@ -37,11 +37,11 @@ From the table we observe that the attribute <ins><b>"age"</b></ins> can take on
 
 We see that for each node we need the proportion of class k observations in that node in case of a two class problem (yes, no)such as the one we are considering we can use the simpler expression 
 
-$$\Large{\color{Purple}– p \log p – ((1- p) \log (1 – p)) }$$
+$$\Large{\color{Purple}– p \log p (-(1- p) \log (1 – p)) }$$
 
 Where p is the proportion of observations for the positive class. Since, we need to calculate the cross entropy for an attribute with three distinct values we will have three components.
 
-### $\large{\color{Purple}age \rightarrow youth,middle-aged,senor}$
+### $\large{\color{Purple}\textrm{age} \rightarrow \tertrm{youth, middle-aged, senor}}$
 Let us first consider the value youth this is highlighted in the table we observe that out of the 14 different data points five observations have aged equals to youth among them two are belonging to the positive class and three belong to the negative class
    
 <p align="center">
