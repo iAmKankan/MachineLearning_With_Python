@@ -29,7 +29,11 @@ $$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_
 </p>
 
 ### 🔲 $\large{\color{Purple}\underline{\textrm{Multiway Split Using Cross-entrophy}}}$
-To start with let us try and build a tree using **Multi-way splits** and **cross entropy** as the **impurity measure**, the first thing that we have to do is to identify the **root node** this is done by considering each **attribute** in turn calculating the **cross entropy value** for that **attribute** and **identifying the attribute** which uses the **lowest** value let us start by considering the attribute <ins><b>"age"</b></ins>.
+To start with let us try and build a tree using **Multi-way splits** and **cross entropy** as the **impurity measure**, the first thing that we have to do is to identify the **root node** this is done by considering each **attribute** in turn calculating the **cross entropy value** for that **attribute** and **identifying the attribute** which uses the **lowest** value let us start by considering the attribute <ins><b>"age"</b></ins>. 
+
+From the table we observe that the attribute <ins><b>"age"</b></ins> can take on three distinct values which are <ins><b>youth</b></ins>, <ins><b>middle-aged</b></ins> and <ins><b>senior</b></ins>, going back to the formula for <ins><b>Cross Entropy</b></ins>. 
+
+We see that for each node we need the proportion of class k observations in that node in case of a two class problem such as the one we are considering we can use the simpler expression – p x log p – (1- p) x (log 1 – p) where p is the proportion of observations for the positive class. Since, we need to calculate the cross entropy for an attribute with three distinct values we will have three components.
 
 ### ♠️ $\large{\color{Purple}age \rightarrow youth}$
    
