@@ -48,4 +48,8 @@ Let us first consider the value youth this is highlighted in the table we observ
 </p>
 
 
-  
+  ![image](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/ec7a1b36-6da7-4e72-b443-259b6bb776b2)
+
+  ![image](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/d7f7ea6a-f90c-4d6c-b29d-f2e66fe839bc)
+
+
