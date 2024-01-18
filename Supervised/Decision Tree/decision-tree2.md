@@ -50,9 +50,9 @@ Let us first consider the value youth this is highlighted in the table we observ
 
 Using this information we have  $\large{\color{Purple}-(2 / 5) * log (2 / 5)}$ that is the proportion of observation belonging to the positive class and  $\large{\color{Purple}- (3 / 5) * (log 3 / 5)}$ for the negative class this expression is multiplied by the ratio 5 :14 which indicates which is a weight on the which is a normalizing factor since five out of the14 data points had aged equals to youth continuing with this manner we take up the next value that is age equals two middle-aged and observe that among the 14 there are 4 points where age equal to middle-aged and for all of them buys computer equals two years that is they all belong to the positive class.
 
-$$\Large{\color{Purple}\begin{matrix} Cross_Entrophy_{age}(D)&:& (5/14)(-2/5 log_2 2/5 - 3/5 log_2 3/5) \\
-& &+(4/14)(-4/4 log_2 4/4 - 0/4 log_2 0/4)\\
-& &+(5/14)(-3/5 log_2 3/5 - 2/5 log_2 2/5)\\
+$$\Large{\color{Purple}\begin{matrix} Cross_Entrophy_{age}(D)&:& (\dfrac{5}{14})(- \dfrac{2}{5} log_2 2/5 - \dfrac{3}{5} \log_2 dfrac{3}{5}) \\
+& &+(\dfrac{4}{14})(- \dfrac{4}{4} \log_2 4/4 - \dfrac{0}{4} \log_2 \dfrac{0}{4})\\
+& &+(\dfrac{5}{14})(-\dfrac{3}{5} \log_2 \dfrac{3}{5} - \dfrac{2}{5} \log_2 \dfrac{2}{5})\\
 & &=0.6935
 \end{matrix}}$$
 
