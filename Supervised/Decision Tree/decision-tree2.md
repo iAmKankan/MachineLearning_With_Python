@@ -14,11 +14,17 @@ In the theory lectures we have already seen the different options available to u
 * Another option which we do not consider here is the **pruning technique** used.
 
 ### <ins>Cross Entrophy</ins>
-$$\Large{\color{Purple} \mathrm{Entropy}(S) = - \sum_{c \in C} p(c)\log_2 p(c)}$$
+
+$$\Large{\color{Purple} \mathrm{Cross\ Entropy} = - \sum_{k=1}^{K} \hat{p}\_{mk} \log \hat{p}\_{mk}}$$
+
 
 * $\large{\color{Purple}S}$ represents the **data set** that entropy is calculated.
 * $\large{\color{Purple}c}$ represents the **classes** in set $\large{\color{Purple}S}$
 * $\large{\color{Purple}p(c)}$ represents the **proportion of data points** that belong to **class** $\large{\color{Purple}c}$ to the number of total data points in the set $\large{\color{Purple}S}$
+
+### <ins>Gini Index</ins>
+
+$$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_{mk} \ \hat{p}\_{mk^{\prime}} = \sum_{k=1}^{K}  \hat{p}\_{mk} ( 1 - \hat{p}\_{mk})}$$
 
 
 ### 🔲 $\large{\color{Purple}\underline{\textrm{Multiway Split Using Cross-entrophy}}}$
