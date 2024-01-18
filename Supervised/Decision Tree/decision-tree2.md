@@ -60,25 +60,17 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{age}(D)}&:& (\df
 & &=0.6935
 \end{matrix}}$$
 
-Cross_Entrophy_{age}(D):
- (5/14)(-2/5 log_2 2/5 - 3/5 log_2 3/5)
-+(4/14)(-4/4 log_2 4/4 - 0/4 log_2 0/4)
-+(5/14)(-3/5 log_2 3/5 - 2/5 log_2 2/5)
-=0.6935
+### ♠️ $\large{\color{Purple}income}$
+We now consider the attribute income and find the cross entropy width next we find the cross entropy for the attribute student and a cross and trouble for the credit rating note that here we have only two components because both of these are binary valued.
 
 
-Cross_Entrophy_{age}(D):
- (5/14)(-2/5 log_2 2/5 - 3/5 log_2 3/5)
-+(4/14)(-4/4 log_2 4/4 - 0/4 log_2 0/4)
-+(5/14)(-3/5 log_2 3/5 - 2/5 log_2 2/5)
-=0.6935 
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(D)}&:& (\dfrac{4}{14})(- \dfrac{3}45} \log_2 \dfrac{3}{4} - \dfrac{1}{4} \log_2 \dfrac{1}{4}) \\
+& &+(\dfrac{6}{14})(- \dfrac{4}{6} \log_2 \dfrac{4}{6} - \dfrac{2}{6} \log_2 \dfrac{2}{6})\\
+& &+(\dfrac{4}{14})(-\dfrac{2}{4} \log_2 \dfrac{2}{4} - \dfrac{2}{4} \log_2 \dfrac{2}{4})\\
+& &=0.9111
+\end{matrix}}$$
 
-
-Cross_Entrophy_{income}(D):
- (4/14)(-3/4 log_2 3/4 - 1/4 log_2 1/4)
-+(6/14)(-4/6 log_2 4/6 - 2/6 log_2 2/6)
-+(4/14)(-2/4 log_2 2/4 - 2/4 log_2 2/4)
-=0.9111
+### ♠️ $\large{\color{Purple}income}$
 
 Cross_Entrophy_{student}(D):
  (7/14)(-3/7 log_2 3/7 - 4/7 log_2 4/7)
