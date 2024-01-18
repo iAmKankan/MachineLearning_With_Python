@@ -85,8 +85,8 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{credit-rating}(D
 \end{matrix}}$$
 
 
-$$\Large{\color{Purple}\begin{matrix} Cross-Entrophy_{age}(D) & =& 0.6935 \\
-Cross-Entrophy_{income}(D) &=& 0.9111 \\
-Cross-Entrophy_{student}(D) &=& 0.7885 \\
-Cross-Entrophy_{credit-rating}(D) &=&  0.8922
+$$\Large{\color{Purple}\begin{matrix} & Cross-Entrophy_{age}(D) = 0.6935 \\
+& Cross-Entrophy_{income}(D) = 0.9111 \\
+& Cross-Entrophy_{student}(D) = 0.7885 \\
+& Cross-Entrophy_{credit-rating}(D) = 0.8922
 \end{matrix}}$$
