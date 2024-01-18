@@ -41,7 +41,7 @@ $$\Large{\color{Purple}– p \log p – ((1- p) \log (1 – p)) }$$
 
 Where p is the proportion of observations for the positive class. Since, we need to calculate the cross entropy for an attribute with three distinct values we will have three components.
 
-### $\large{\color{Purple}age \rightarrow youth}$
+### $\large{\color{Purple}age \rightarrow youth,middle-aged,senor}$
 Let us first consider the value youth this is highlighted in the table we observe that out of the 14 different data points five observations have aged equals to youth among them two are belonging to the positive class and three belong to the negative class
    
 <p align="center">
