@@ -45,21 +45,18 @@ Where p is the proportion of observations for the positive class. Since, we need
 Let us first consider the value youth this is highlighted in the table we observe that out of the 14 different data points five observations have aged equals to youth among them two are belonging to the positive class and three belong to the negative class
    
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/bacc1bd7-4759-4614-a639-9999e54f1dd1" width=50%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/bacc1bd7-4759-4614-a639-9999e54f1dd1" width=30%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/ec7a1b36-6da7-4e72-b443-259b6bb776b2" width=30%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/d7f7ea6a-f90c-4d6c-b29d-f2e66fe839bc" width=30%/>
 </p>
 
 Using this information we have  $\large{\color{Purple}-(2 / 5) * log (2 / 5)}$ that is the proportion of observation belonging to the positive class and  $\large{\color{Purple}- (3 / 5) * (log 3 / 5)}$ for the negative class this expression is multiplied by the ratio 5 :14 which indicates which is a weight on the which is a normalizing factor since five out of the14 data points had aged equals to youth continuing with this manner we take up the next value that is age equals two middle-aged and observe that among the 14 there are 4 points where age equal to middle-aged and for all of them buys computer equals two years that is they all belong to the positive class.
 
-$$\Large{\color{Purple}\begin{matrix} Cross_Entrophy_{age}(D)&:& (\dfrac{5}{14})(- \dfrac{2}{5} \log_2 \dfrac{2}{5} - \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{age}(D)}&:& (\dfrac{5}{14})(- \dfrac{2}{5} \log_2 \dfrac{2}{5} - \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
 & &+(\dfrac{4}{14})(- \dfrac{4}{4} \log_2 \dfrac{4}{4} - \dfrac{0}{4} \log_2 \dfrac{0}{4})\\
 & &+(\dfrac{5}{14})(-\dfrac{3}{5} \log_2 \dfrac{3}{5} - \dfrac{2}{5} \log_2 \dfrac{2}{5})\\
 & &=0.6935
 \end{matrix}}$$
-
-  ![image](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/ec7a1b36-6da7-4e72-b443-259b6bb776b2)
-
-  ![image](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/d7f7ea6a-f90c-4d6c-b29d-f2e66fe839bc)
-
 
 Cross_Entrophy_{age}(D):
  (5/14)(-2/5 log_2 2/5 - 3/5 log_2 3/5)
