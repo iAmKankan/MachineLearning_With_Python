@@ -77,9 +77,9 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(D)} &:&
 & &=0.7885
 \end{matrix}}$$
 
-### ♠️ $\large{\color{Purple}student}$
+### ♠️ $\large{\color{Purple}credit-rating}$
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(D)} &:& (\dfrac{8}{14})(- \dfrac{6}{8} \log_2 \dfrac{6}{8} - \dfrac{2}{8} \log_2 \dfrac{2}{8}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{credit-rating}(D)} &:& (\dfrac{8}{14})(- \dfrac{6}{8} \log_2 \dfrac{6}{8} - \dfrac{2}{8} \log_2 \dfrac{2}{8}) \\
 & &+(\dfrac{6}{14})(-\dfrac{3}{6} \log_2 \dfrac{3}{6} - \dfrac{3}{6} \log_2 \dfrac{3}{6})\\
 & &=0.8922
 \end{matrix}}$$
