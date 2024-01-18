@@ -35,9 +35,13 @@ To start with let us try and build a tree using **Multi-way splits** and **cross
 
 From the table we observe that the attribute <ins><b>"age"</b></ins> can take on three distinct values which are <ins><b>youth</b></ins>, <ins><b>middle-aged</b></ins> and <ins><b>senior</b></ins>, going back to the formula for <ins><b>Cross Entropy</b></ins>. 
 
-We see that for each node we need the proportion of class k observations in that node in case of a two class problem such as the one we are considering we can use the simpler expression – p x log p – (1- p) x (log 1 – p) where p is the proportion of observations for the positive class. Since, we need to calculate the cross entropy for an attribute with three distinct values we will have three components.
+We see that for each node we need the proportion of class k observations in that node in case of a two class problem (yes, no)such as the one we are considering we can use the simpler expression 
+– p x log p – (1- p) x (log 1 – p) 
+
+where p is the proportion of observations for the positive class. Since, we need to calculate the cross entropy for an attribute with three distinct values we will have three components.
 
 ### $\large{\color{Purple}age \rightarrow youth}$
+Let us first consider the value youth this is highlighted in the table we observe that out of the 14 different data points five observations have aged equals to youth among them two are belonging to the positive class and three belong to the negative class
    
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/bacc1bd7-4759-4614-a639-9999e54f1dd1" width=50%/>
