@@ -72,17 +72,14 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(D)} &:& 
 
 ### ♠️ $\large{\color{Purple}student}$
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(D)} &:& (\dfrac{7}{14})(- \dfrac{3}{7} \log_2 \dfrac{3}{7} - \dfrac{4}{7} \log_2 \dfrac{4}{7}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(D)} &:& (\dfrac{7}{14})(- \dfrac{3}{7} \log_2 \dfrac{3}{7} - \dfrac{4}{7} \log_2 \dfrac{4}{7}) \\
 & &+(\dfrac{7}{14})(-\dfrac{6}{7} \log_2 \dfrac{6}{7} - \dfrac{1}{7} \log_2 \dfrac{1}{7})\\
 & &=0.7885
 \end{matrix}}$$
 
-Cross_Entrophy_{student}(D):
- (7/14)(-3/7 log_2 3/7 - 4/7 log_2 4/7)
-+(7/14)(-6/7 log_2 6/7 - 1/7 log_2 1/7)
-=0.7885
+### ♠️ $\large{\color{Purple}student}$
 
-Cross_Entrophy_{credit-rating}(D):
- (8/14)(-6/8 log_2 6/8 - 2/8 log_2 2/8)
-+(6/14)(-3/6 log_2 3/6 - 3/6 log_2 3/6)
-=0.8922
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(D)} &:& (\dfrac{8}{14})(- \dfrac{6}{8} \log_2 \dfrac{6}{8} - \dfrac{2}{8} \log_2 \dfrac{2}{8}) \\
+& &+(\dfrac{6}{14})(-\dfrac{3}{6} \log_2 \dfrac{3}{6} - \dfrac{3}{6} \log_2 \dfrac{3}{6})\\
+& &=0.8922
+\end{matrix}}$$
