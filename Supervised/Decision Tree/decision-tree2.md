@@ -84,6 +84,8 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{credit-rating}(D
 & &=0.8922
 \end{matrix}}$$
 
+### The final result of Cross-entrophy:
+Finally we compare each of the cross entropy values and in this case observed that the attribute age gives the lowest cross entropy value and hence is the optimal attribute to use as the root of the our decision tree.
 
 $$\Large{\color{Purple}
 \begin{matrix*}[l] 
