@@ -1,8 +1,4 @@
 ### ⬛ $\Large{\color{Blue}\underline{\mathcal{Decision\ Tree\ Practical}}}$
-
-
-
-
 In the theory lectures we have already seen the different options available to us when building binary trees for example the 
 * first thing we have to consider is the **type of tree** which we want to build we can either have **binary trees** or **multi way trees** depending upon the **branching factor** at each node
 * another option available to us is the **impurity measure** used in this tutorial we will be looking at two different impurity measures which are **cross entropy** and the **Gini index**.
@@ -85,7 +81,7 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{credit-rating}(D
 \end{matrix}}$$
 
 ### The final Cross-entrophy results for each features:
-Finally we compare each of the cross entropy values and in this case observed that the attribute age gives the lowest cross entropy value and hence is the optimal attribute to use as the root of the our decision tree.
+Finally we compare each of the cross entropy values and in this case observed that the attribute age gives the lowest cross entropy value and hence is the optimal attribute to use as the **root** of the our decision tree.
 
 $$\Large{\color{Purple}
 \begin{matrix*}[l] 
@@ -97,3 +93,9 @@ Cross-Entrophy_{credit-rating}(D) = 0.8922\\
 
 
 
+### 🔲 $\large{\color{Purple}\underline{\textrm{Drawing the Tree}}}$
+Thus we obtain the partial decision tree with age as the root attribute and three branches corresponding to the three distinct values that the attribute age can take note that the middle-aged that is the branch where a age equals two middle-aged has been labeled with yes indicating that this is a leaf node where any observation following along this branch will be labeled yes this is because if we go back to the table we observe that when age equals to middle-aged buys computer equals to yes.
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/1ee906f0-62d8-4483-85a7-d2d4f4e29472" width=50%/>
+</p>
