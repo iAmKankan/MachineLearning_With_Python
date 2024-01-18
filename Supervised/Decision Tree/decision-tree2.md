@@ -53,3 +53,32 @@ Let us first consider the value youth this is highlighted in the table we observ
   ![image](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/d7f7ea6a-f90c-4d6c-b29d-f2e66fe839bc)
 
 
+Cross_Entrophy_{age}(D):
+ (5/14)(-2/5 log_2 2/5 - 3/5 log_2 3/5)
++(4/14)(-4/4 log_2 4/4 - 0/4 log_2 0/4)
++(5/14)(-3/5 log_2 3/5 - 2/5 log_2 2/5)
+=0.6935
+
+
+Cross_Entrophy_{age}(D):
+ (5/14)(-2/5 log_2 2/5 - 3/5 log_2 3/5)
++(4/14)(-4/4 log_2 4/4 - 0/4 log_2 0/4)
++(5/14)(-3/5 log_2 3/5 - 2/5 log_2 2/5)
+=0.6935 
+
+
+Cross_Entrophy_{income}(D):
+ (4/14)(-3/4 log_2 3/4 - 1/4 log_2 1/4)
++(6/14)(-4/6 log_2 4/6 - 2/6 log_2 2/6)
++(4/14)(-2/4 log_2 2/4 - 2/4 log_2 2/4)
+=0.9111
+
+Cross_Entrophy_{student}(D):
+ (7/14)(-3/7 log_2 3/7 - 4/7 log_2 4/7)
++(7/14)(-6/7 log_2 6/7 - 1/7 log_2 1/7)
+=0.7885
+
+Cross_Entrophy_{credit-rating}(D):
+ (8/14)(-6/8 log_2 6/8 - 2/8 log_2 2/8)
++(6/14)(-3/6 log_2 3/6 - 3/6 log_2 3/6)
+=0.8922
