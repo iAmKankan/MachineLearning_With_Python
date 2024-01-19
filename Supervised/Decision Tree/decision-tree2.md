@@ -95,7 +95,7 @@ Cross-Entrophy_{credit-rating}(D) = 0.8922\\
 
 
 
-### 🔲 $\large{\color{Purple}\underline{\textrm{Drawing the Tree}}}$
+### $\large{\color{Purple}\underline{\textrm{Drawing the Tree}}}$
 Thus we obtain the partial decision tree with age as the root attribute and three branches corresponding to the three distinct values that the attribute age can take note that the middle-aged that is the branch where a age equals two middle-aged has been labeled with yes indicating that this is a leaf node where any observation following along this branch will be labeled yes this is because if we go back to the table we observe that when age equals to middle-aged buys computer equals to yes.
 
 <p align="center">
