@@ -104,3 +104,11 @@ Thus we obtain the partial decision tree with age as the root attribute and thre
 
 Thus along this branch of the tree there is no need to further grow the tree since from the training data given to us we can directly conclude that if we observe age to be middle-aged then we can label the class and the observation as positive that is the person will buy a computer. Now we have created this partial decision tree so how do we proceed? Essentially it is a recursive process we started at the root node we were able to find the root node to be the attribute age. Now along each of the remaining branches where we have not found the note to be a leaf node we have to repeat the same process. So let us first look at the branch is equals to youth we have already considered the attribute age, so there are three attributes left to us using a process similar to what we have just seen we try to identify the best attribute to use at this position.
 
+### $\large{\color{Purple}Step \\# 2 }$
+
+
+### $\Large{\color{Purple}Example \\# 2 }$
+### $\large{\color{Purple}\underline{\textrm{Binary Split Using Gini index}}}$
+For binary splits, for the same attribute, we have to compute impurity multiple times for the different subsets of the attributes value
+
+As mentioned previously, for a binary outcome, to reduce the number of partitions to be considered, we order the values according to the proportion belonging to the positive class.
