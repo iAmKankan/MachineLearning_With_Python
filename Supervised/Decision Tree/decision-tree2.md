@@ -144,10 +144,37 @@ As you can see we have labeled the branches $\large{\color{purple}yes}$ and $\la
 
 
 
-![senior-income](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/b73c2de3-ccf6-41c0-a49c-25eec95387bc)
-![senior-student](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/aa3515f0-b4af-48db-a4a9-1868622c76ea)
-![senior-credit_rating](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6cef56a1-808e-4a8e-8222-a8367a38d0c9)
 
+
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/b73c2de3-ccf6-41c0-a49c-25eec95387bc" width=60%/>
+</p>
+
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(age=senior)}&:& (\dfrac{2}{5})(- \dfrac{1}{2} \log_2 \dfrac{1}{2} - \dfrac{1}{2} \log_2 \dfrac{1}{2}) \\
+& &+(\dfrac{3}{5})(- \dfrac{2}{3} \log_2 \dfrac{2}{3} - \dfrac{1}{3} \log_2 \dfrac{1}{3})\\
+& &=0.9510
+\end{matrix}}$$
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/aa3515f0-b4af-48db-a4a9-1868622c76ea" width=60%/>
+</p>
+
+
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(age=senior)}&:& (\dfrac{2}{5})(- \dfrac{1}{2} \log_2 \dfrac{1}{2} - \dfrac{1}{2} \log_2 \dfrac{1}{2}) \\
+& &+(\dfrac{3}{5})(- \dfrac{2}{3} \log_2 \dfrac{2}{3} - \dfrac{1}{3} \log_2 \dfrac{1}{3})\\
+& &=0.9510
+\end{matrix}}$$
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6cef56a1-808e-4a8e-8222-a8367a38d0c9" width=60%/>
+</p>
+
+
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{credit-rating}(age=senior)}&:& (\dfrac{3}{5})(- \dfrac{3}{3} \log_2 \dfrac{0}{3} - \dfrac{}{3} \log_2 \dfrac{0}{3}) \\
+& &+(\dfrac{2}{5})(- \dfrac{0}{2} \log_2 \dfrac{0}{2} - \dfrac{2}{2} \log_2 \dfrac{2}{2})\\
+& &=0.0
+\end{matrix}}$$
 
 ### $\Large{\color{Purple}Example \\# 2 }$
 ### $\large{\color{Purple}\underline{\textrm{Binary Split Using Gini index}}}$
