@@ -112,6 +112,13 @@ Essentially it is a **recursive process** we started at the **root node** we wer
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/319865bb-7502-4c3e-a9cc-2ba156dd2ce9" width=60%/>
 </p>
 
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(age=youth)}&:& (\dfrac{1}{5})(- \dfrac{1}{1} \log_2 \dfrac{1}{1} - \dfrac{0}{1} \log_2 \dfrac{0}{1}) \\
+& &+(\dfrac{2}{5})(- \dfrac{1}{2} \log_2 \dfrac{1}{2} - \dfrac{1}{2} \log_2 \dfrac{1}{2})\\
+& &+(\dfrac{2}{5})(-\dfrac{0}{2} \log_2 \dfrac{0}{2} - \dfrac{2}{2} \log_2 \dfrac{2}{2})\\
+& &=0.4
+\end{matrix}}$$
+
+
 So we consider the cross entropy of income where age equals to youth, now we are not now we will not be considering the entire data set but will consider the restricted data set where age equals to youth. This is illustrated in this table where we have crossed out all observations where age is not youth so essentially we repeat the same entire process with this restricted data set note that the attribute age has already been considered so we are left with the remain three attributes and these are the values that are to be considered.
 
 
