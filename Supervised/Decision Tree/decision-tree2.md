@@ -43,12 +43,6 @@ Where p is the proportion of observations for the positive class. Since, we need
 Let us first consider the value youth this is highlighted in the table we observe that out of the 14 different data points five observations have aged equals to youth among them two are belonging to the positive class and three belong to the negative class
    
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/bacc1bd7-4759-4614-a639-9999e54f1dd1" width=30%/>
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/ec7a1b36-6da7-4e72-b443-259b6bb776b2" width=30%/>
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/d7f7ea6a-f90c-4d6c-b29d-f2e66fe839bc" width=30%/>
-</p>
-
-<p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2ab55b6e-bec0-4ddd-bb1a-370efbe0e6d2" width=30%/>
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6b6cabc2-d78d-403e-9866-9da4648072ac" width=30%/>
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/35b4061c-17f8-495b-b66b-8390c410e728" width=30%/>
