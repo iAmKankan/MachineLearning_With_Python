@@ -137,6 +137,8 @@ Thus we have cross entropy of income when age equals to youth you can go back an
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/a1d5b40e-a2d4-44b7-81a8-232e49570590" width=60%/>
 </p>
 
+As you can see we have labeled the branches $\large{\color{purple}yes}$ and $\large{\color{purple}no}$ because these are $\large{\color{green}leaf nodes}$ which are **pure** there is $\large{\color{purple}no}$ mixture, now as you can see we have this branch this branch in this branch are all \large{\color{green}leaf nodes}$ so last the remaining at branch to consider is when age is equals to senior again we look at the table where we discard all observations where it is not senior and follow the same calculations.
+
 ### $\Large{\color{Purple}Example \\# 2 }$
 ### $\large{\color{Purple}\underline{\textrm{Binary Split Using Gini index}}}$
 For binary splits, for the same attribute, we have to compute impurity multiple times for the different subsets of the attributes value
