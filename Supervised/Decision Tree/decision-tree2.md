@@ -108,6 +108,10 @@ Thus along this branch of the tree there is no need to further grow the tree sin
 ##### Now we have created this partial decision tree so how do we proceed? 
 Essentially it is a **recursive process** we started at the **root node** we were able to find the root node to be the attribute **age**. Now along each of the remaining branches where we have not found the note to be a leaf node we have to repeat the same process. So let us first look at the branch is equals to youth we have already considered the attribute age, so there are three attributes left to us using a process similar to what we have just seen we try to identify the best attribute to use at this position.
 
+
+So we consider the cross entropy of income where age equals to youth, now we are not now we will not be considering the entire data set but will consider the restricted data set where age equals to youth. This is illustrated in this table where we have crossed out all observations where age is not youth so essentially we repeat the same entire process with this restricted data set note that the attribute age has already been considered so we are left with the remain three attributes and these are the values that are to be considered.
+
+
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/319865bb-7502-4c3e-a9cc-2ba156dd2ce9" width=60%/>
 </p>
@@ -127,8 +131,11 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(age=you
 & &=0.0
 \end{matrix}}$$
 
-So we consider the cross entropy of income where age equals to youth, now we are not now we will not be considering the entire data set but will consider the restricted data set where age equals to youth. This is illustrated in this table where we have crossed out all observations where age is not youth so essentially we repeat the same entire process with this restricted data set note that the attribute age has already been considered so we are left with the remain three attributes and these are the values that are to be considered.
+Thus we have cross entropy of income when age equals to youth you can go back and verify that these are the values you will obtain next we have cross entropy of student when they is equal to youth here we observe that the cross entropy is actually 0 going back to the table we see that in a equals to youth and student is no bias computer is no and when student is yes buy computers yes so this leads us to a pure leaf we can go ahead and calculate the cross entropy for credit rating as well when age is equals to youth but since we will not get a value less than 0. We can stop the process here and get the partial tree where we have selected the attribute student with the least value of cross entropy
 
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/e39549bc-3fab-43d4-aee8-f8f0976aaa81" width=60%/>
+</p>
 
 ### $\Large{\color{Purple}Example \\# 2 }$
 ### $\large{\color{Purple}\underline{\textrm{Binary Split Using Gini index}}}$
