@@ -133,6 +133,14 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(age=you
 
 Thus we have cross entropy of income when age equals to youth you can go back and verify that these are the values you will obtain next we have cross entropy of student when they is equal to youth here we observe that the cross entropy is actually 0 going back to the table we see that in a equals to youth and student is no bias computer is no and when student is yes buy computers yes so this leads us to a pure leaf we can go ahead and calculate the cross entropy for credit rating as well when age is equals to youth but since we will not get a value less than 0. We can stop the process here and get the partial tree where we have selected the attribute student with the least value of cross entropy
 
+###  The final result of "age" = "youth"
+
+$$\Large{\color{Purple}\begin{matrix}
+Cross-Entrophy_{income}(age=youth) & = & 0.4 \\
+Cross-Entrophy_{student}(age=youth) & = & 0.0 \\
+\end{matrix}}$$
+
+
 
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/3974cd45-5d10-446d-9199-dda9197a4801" width=60%/>
