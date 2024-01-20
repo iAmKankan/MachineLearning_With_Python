@@ -109,7 +109,7 @@ Thus along this branch of the tree there is no need to further grow the tree sin
 Essentially it is a **recursive process** we started at the **root node** we were able to find the root node to be the attribute **age**. Now along each of the remaining branches where we have not found the note to be a leaf node we have to repeat the same process. So let us first look at the branch is equals to youth we have already considered the attribute age, so there are three attributes left to us using a process similar to what we have just seen we try to identify the best attribute to use at this position.
 
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/319865bb-7502-4c3e-a9cc-2ba156dd2ce9" width=30%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/319865bb-7502-4c3e-a9cc-2ba156dd2ce9" width=60%/>
 </p>
 
 So we consider the cross entropy of income where age equals to youth, now we are not now we will not be considering the entire data set but will consider the restricted data set where age equals to youth. This is illustrated in this table where we have crossed out all observations where age is not youth so essentially we repeat the same entire process with this restricted data set note that the attribute age has already been considered so we are left with the remain three attributes and these are the values that are to be considered.
