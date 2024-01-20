@@ -118,6 +118,14 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(age=yout
 & &=0.4
 \end{matrix}}$$
 
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/ff7bc330-8f76-4d89-ad03-0bae110b505e" width=60%/>
+</p>
+
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(age=youth)}&:& (\dfrac{3}{5})(- \dfrac{0}{3} \log_2 \dfrac{0}{3} - \dfrac{3}{3} \log_2 \dfrac{3}{3}) \\
+& &+(\dfrac{2}{5})(- \dfrac{2}{2} \log_2 \dfrac{2}{2} - \dfrac{0}{2} \log_2 \dfrac{0}{2})\\
+& &=0.0
+\end{matrix}}$$
 
 So we consider the cross entropy of income where age equals to youth, now we are not now we will not be considering the entire data set but will consider the restricted data set where age equals to youth. This is illustrated in this table where we have crossed out all observations where age is not youth so essentially we repeat the same entire process with this restricted data set note that the attribute age has already been considered so we are left with the remain three attributes and these are the values that are to be considered.
 
