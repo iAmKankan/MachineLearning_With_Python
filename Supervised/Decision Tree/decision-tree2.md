@@ -140,7 +140,7 @@ Cross-Entrophy_{income}(age=youth) & = & 0.4 \\
 Cross-Entrophy_{student}(age=youth) & = & 0.0 \\
 \end{matrix}}$$
 
-
+### Drawing the subtree
 
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/3974cd45-5d10-446d-9199-dda9197a4801" width=60%/>
