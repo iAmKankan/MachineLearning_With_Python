@@ -143,6 +143,12 @@ As you can see we have labeled the branches $\large{\color{purple}yes}$ and $\la
 ### $\large{\color{Purple}\textrm{age=senior} }$
 
 
+
+![senior-income](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/b73c2de3-ccf6-41c0-a49c-25eec95387bc)
+![senior-student](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/aa3515f0-b4af-48db-a4a9-1868622c76ea)
+![senior-credit_rating](https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6cef56a1-808e-4a8e-8222-a8367a38d0c9)
+
+
 ### $\Large{\color{Purple}Example \\# 2 }$
 ### $\large{\color{Purple}\underline{\textrm{Binary Split Using Gini index}}}$
 For binary splits, for the same attribute, we have to compute impurity multiple times for the different subsets of the attributes value
