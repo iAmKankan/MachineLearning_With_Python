@@ -187,3 +187,12 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{credit-rating}(a
 For binary splits, for the same attribute, we have to compute impurity multiple times for the different subsets of the attributes value
 
 As mentioned previously, for a binary outcome, to reduce the number of partitions to be considered, we order the values according to the proportion belonging to the positive class.
+
+
+
+
+### Binary Split using Gini index
+For binary splits, for the same attribute, we have to compute impurity multiple times for the different subsets of the attributes value
+
+As mentioned previously, for a binary outcome, to reduce the number of partitions to be considered, we order the values according to the proportion belonging to the positive class.
+
