@@ -4,7 +4,7 @@ In the theory lectures we have already seen the different options available to u
 * another option available to us is the **impurity measure** used in this tutorial we will be looking at two different impurity measures which are **cross entropy** and the **Gini index**.
 * Another option which we do not consider here is the **pruning technique** used.
 
-### $\large{\color{Purple}iunderline{\textrm{Cross Entrophy}}}$
+### $\large{\color{Purple}\underline{\textrm{Cross Entrophy}}}$
 
 $$\Large{\color{Purple} \mathrm{Cross\ Entropy} = - \sum_{k=1}^{K} \hat{p}\_{mk} \log \hat{p}\_{mk}}$$
 
@@ -13,7 +13,7 @@ $$\Large{\color{Purple} \mathrm{Cross\ Entropy} = - \sum_{k=1}^{K} \hat{p}\_{mk}
 * $\large{\color{Purple}c}$ represents the **classes** in set $\large{\color{Purple}S}$
 * $\large{\color{Purple}p(c)}$ represents the **proportion of data points** that belong to **class** $\large{\color{Purple}c}$ to the number of total data points in the set $\large{\color{Purple}S}$
 
-### $\large{\color{Purple}iunderline{\textrm{Gini Index}}}$
+### $\large{\color{Purple}\underline{\textrm{Gini Index}}}$
 
 $$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_{mk} \ \hat{p}\_{mk^{\prime}} = \sum_{k=1}^{K}  \hat{p}\_{mk} ( 1 - \hat{p}\_{mk})}$$
 
