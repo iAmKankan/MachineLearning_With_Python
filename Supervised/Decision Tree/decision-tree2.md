@@ -80,7 +80,7 @@ Let us consider the value youth this is highlighted in the table we observe that
 
 ### $\Large{\color{Purple}\underline{Cross-Entrophy_{(age)}(D)}:}$
 $$\Large{\color{Purple}\begin{matrix}
-\textrm{'youth'}&= &(\dfrac{5}{14})(- \dfrac{2}{5} \log_2 \dfrac{2}{5} - \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
+\textrm{'youth'}&= &\underbrace{(\dfrac{5}{14})}\_{\textrm{'youth' in data}}(- \dfrac{2}{5} \log_2 \dfrac{2}{5} - \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
 \textrm{'middle\\_aged'}&= &(\dfrac{4}{14})(- \dfrac{4}{4} \log_2 \dfrac{4}{4} - \dfrac{0}{4} \log_2 \dfrac{0}{4})\\
 \textrm{'senior'}& =&(\dfrac{5}{14})(-\dfrac{3}{5} \log_2 \dfrac{3}{5} - \dfrac{2}{5} \log_2 \dfrac{2}{5})\\
 \end{matrix}}$$
