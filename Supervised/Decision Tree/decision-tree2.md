@@ -38,15 +38,15 @@ $$\Large{\color{Purple}– p \log p (-(1- p) \log (1 – p)) }$$
 
 Where p is the proportion of observations for the positive class. Since, we need to calculate the cross entropy for an attribute with three distinct values we will have three components.
 
-### ♠️ $\large{\color{Purple}\underline{\textrm{age}} \Rightarrow \textrm{youth, middle-aged, senor}}$
+### ♠️ $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{youth, middle-aged, senor}}}$
 
-### $\large{\color{Purple}\underline{\textrm{youth}}}$
+### $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{youth}}}$
 
 From the table we observe that the attribute <ins><b>"age"</b></ins> can take on three distinct values which are <ins><b>youth</b></ins>, <ins><b>middle-aged</b></ins> and <ins><b>senior</b></ins>,
 
 Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5 observations** have **aged equals to youth** among them **2 observations** are belonging to the **5 observations** and **3 observations** belong to the **negative class**
 
-### Total $\large{\color{purple}5}$ observations are  $\large{\color{purple}\textrm{"age" = "youth"}}$
+### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "youth"}}$
 * $\large{\color{purple}2}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
 * $\large{\color{purple}3}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
    
