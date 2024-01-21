@@ -54,8 +54,8 @@ Let us first consider the value youth this is highlighted in the table we observ
 * $\large{\color{purple}3}$ of the observations are in $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
    
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "age" = "youth":}}$
-* $\large{\color{Purple}-(2 / 5) * log (2 / 5)}$ that is the **proportion of observation** belonging to the **positive class** and
-* $\large{\color{Purple}- (3 / 5) * (log 3 / 5)}$ that is the **proportion of observation** belonging to the **negative class**
+* $\large{\color{Purple}-(2 / 5) * \log (2 / 5)}$ that is the **proportion of observation** belonging to the **positive class** and
+* $\large{\color{Purple}- (3 / 5) * \log (3 / 5)}$ that is the **proportion of observation** belonging to the **negative class**
 * Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(5 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **5** out of the **14** data points had **'aged' = 'youth'** continuing with this manner.
 
 $$\Large{\color{Purple} \textrm{'youth'} = (\underbrace{\dfrac{5}{14}}\_{\textrm{'youth' in dataset}})(- \underbrace{\dfrac{2}{5} \log_2 \dfrac{2}{5}}\_{\textrm{+ve class in 'youth'}} - \underbrace{\dfrac{3}{5} \log_2 \dfrac{3}{5}}\_{\textrm{-ve class in 'youth'}})
@@ -75,8 +75,8 @@ Let us first consider the value youth this is highlighted in the table we observ
 * $\large{\color{purple}0}$ of the observations are in  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
   
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "age" = "middle-aged":}}$
-* $\large{\color{Purple}-(4 / 4) * log (4 / 4)}$ that is the **proportion of observation** belonging to the **positive class** and
-* $\large{\color{Purple}- (0 / 4) * (log 0 / 4)}$ that is the **proportion of observation** belonging to the **negative class**
+* $\large{\color{Purple}-(4 / 4) * \log (4 / 4)}$ that is the **proportion of observation** belonging to the **positive class** and
+* $\large{\color{Purple}- (0 / 4) * \log (0 / 4)}$ that is the **proportion of observation** belonging to the **negative class**
 * Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(4 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **4** out of the **14** data points had **'aged' = 'middle-aged'** continuing with this manner.
 
 $$\Large{\color{Purple} \textrm{'middle\\_aged'}=(\underbrace{\dfrac{4}{14}}\_{\textrm{'middle\\_aged' in dataset}})(- \underbrace{\dfrac{4}{4} \log_2 \dfrac{4}{4}}\_{\textrm{+ve class in 'middle\\_aged'}} - \underbrace{\dfrac{0}{4} \log_2 \dfrac{0}{4}}\_{\textrm{-ve class in 'middle\\_aged'}})
