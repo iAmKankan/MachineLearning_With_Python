@@ -38,23 +38,42 @@ $$\Large{\color{Purple}– p \log p (-(1- p) \log (1 – p)) }$$
 
 Where p is the proportion of observations for the positive class. Since, we need to calculate the cross entropy for an attribute with three distinct values we will have three components.
 
-### ♠️ $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{youth, middle-aged, senor}}}$
-
-### $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{youth}}}$
-
+### ♠️ $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{youth, middle-aged, senior}}}$
 From the table we observe that the attribute <ins><b>"age"</b></ins> can take on three distinct values which are <ins><b>youth</b></ins>, <ins><b>middle-aged</b></ins> and <ins><b>senior</b></ins>,
 
-Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5 observations** have **aged equals to youth** among them **2 observations** are belonging to the **5 observations** and **3 observations** belong to the **negative class**
+### $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{youth}}}$
+Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5 observations** have **aged equals to youth** among them **2 observations** are belonging to the **positive class** and **3 observations** belong to the **negative class**
 
 ### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "youth"}}$
 * $\large{\color{purple}2}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
 * $\large{\color{purple}3}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
    
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2ab55b6e-bec0-4ddd-bb1a-370efbe0e6d2" width=50%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2ab55b6e-bec0-4ddd-bb1a-370efbe0e6d2" width=65%/>
   <br>
 </p>
 
+### $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{middle-aged}}}$
+Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **4 observations** have **aged equals to middle-aged** among them all **4 observations** are belonging to the **positive class**.
+
+### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "middle-aged"}}$
+* All $\large{\color{purple}4}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
+   
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6b6cabc2-d78d-403e-9866-9da4648072ac" width=65%/>
+  <br>
+</p>
+
+### $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{senior}}}$
+Let us consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5 observations** have **aged equals to senior** among them  **3 observations** are belonging to the **positive class** and **2 observations** are belonging to the **negetive class**.
+
+### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "senior"}}$
+* All $\large{\color{purple}4}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
+   
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/35b4061c-17f8-495b-b66b-8390c410e728" width=65%/>
+  <br>
+</p>
 
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2ab55b6e-bec0-4ddd-bb1a-370efbe0e6d2" width=30%/>
