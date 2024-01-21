@@ -181,7 +181,7 @@ So we consider the cross entropy of income where age equals to youth, now we are
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/319865bb-7502-4c3e-a9cc-2ba156dd2ce9" width=60%/>
 </p>
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(age=youth)}&:& (\dfrac{1}{5})(- \dfrac{1}{1} \log_2 \dfrac{1}{1} - \dfrac{0}{1} \log_2 \dfrac{0}{1}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(age=youth)}&:& (\dfrac{1}{5})(- \dfrac{1}{1} \log_2 \dfrac{1}{1} - \dfrac{0}{1} \log_2 \dfrac{0}{1}) \\
 & &+(\dfrac{2}{5})(- \dfrac{1}{2} \log_2 \dfrac{1}{2} - \dfrac{1}{2} \log_2 \dfrac{1}{2})\\
 & &+(\dfrac{2}{5})(-\dfrac{0}{2} \log_2 \dfrac{0}{2} - \dfrac{2}{2} \log_2 \dfrac{2}{2})\\
 & &=0.4
@@ -191,7 +191,7 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(age=yout
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/ff7bc330-8f76-4d89-ad03-0bae110b505e" width=60%/>
 </p>
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(age=youth)}&:& (\dfrac{3}{5})(- \dfrac{0}{3} \log_2 \dfrac{0}{3} - \dfrac{3}{3} \log_2 \dfrac{3}{3}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(age=youth)}&:& (\dfrac{3}{5})(- \dfrac{0}{3} \log_2 \dfrac{0}{3} - \dfrac{3}{3} \log_2 \dfrac{3}{3}) \\
 & &+(\dfrac{2}{5})(- \dfrac{2}{2} \log_2 \dfrac{2}{2} - \dfrac{0}{2} \log_2 \dfrac{0}{2})\\
 & &=0.0
 \end{matrix}}$$
@@ -225,7 +225,7 @@ As you can see we have labeled the branches $\large{\color{purple}yes}$ and $\la
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/b73c2de3-ccf6-41c0-a49c-25eec95387bc" width=60%/>
 </p>
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(age=senior)}&:& (\dfrac{2}{5})(- \dfrac{1}{2} \log_2 \dfrac{1}{2} - \dfrac{1}{2} \log_2 \dfrac{1}{2}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(age=senior)}&:& (\dfrac{2}{5})(- \dfrac{1}{2} \log_2 \dfrac{1}{2} - \dfrac{1}{2} \log_2 \dfrac{1}{2}) \\
 & &+(\dfrac{3}{5})(- \dfrac{2}{3} \log_2 \dfrac{2}{3} - \dfrac{1}{3} \log_2 \dfrac{1}{3})\\
 & &=0.9510
 \end{matrix}}$$
@@ -235,7 +235,7 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(age=seni
 </p>
 
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(age=senior)}&:& (\dfrac{2}{5})(- \dfrac{1}{2} \log_2 \dfrac{1}{2} - \dfrac{1}{2} \log_2 \dfrac{1}{2}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(age=senior)}&:& (\dfrac{2}{5})(- \dfrac{1}{2} \log_2 \dfrac{1}{2} - \dfrac{1}{2} \log_2 \dfrac{1}{2}) \\
 & &+(\dfrac{3}{5})(- \dfrac{2}{3} \log_2 \dfrac{2}{3} - \dfrac{1}{3} \log_2 \dfrac{1}{3})\\
 & &=0.9510
 \end{matrix}}$$
@@ -245,7 +245,7 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(age=sen
 </p>
 
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{credit-rating}(age=senior)}&:& (\dfrac{3}{5})(- \dfrac{3}{3} \log_2 \dfrac{0}{3} - \dfrac{}{3} \log_2 \dfrac{0}{3}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(credit-rating)}(age=senior)}&:& (\dfrac{3}{5})(- \dfrac{3}{3} \log_2 \dfrac{0}{3} - \dfrac{}{3} \log_2 \dfrac{0}{3}) \\
 & &+(\dfrac{2}{5})(- \dfrac{0}{2} \log_2 \dfrac{0}{2} - \dfrac{2}{2} \log_2 \dfrac{2}{2})\\
 & &=0.0
 \end{matrix}}$$
