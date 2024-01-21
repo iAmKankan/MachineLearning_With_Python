@@ -34,7 +34,7 @@ Let's build a tree using <ins><b>Multi-way splits</b></ins> using <ins><b>cross 
 
 We see that for each node we need the proportion of class k observations in that node in case of a two class problem (yes, no)such as the one we are considering we can use the simpler expression 
 
-$$\Large{\color{Purple}– p_{+ve} \log_2 p_{+ve} – p_{-ve} \log_2 p_{-ve} }$$
+$$\Large{\color{Purple}– p_{(+ve)} \log_2 p_{(+ve)} – p_{(-ve)} \log_2 p_{(-ve)} }$$
 
 Where p is the proportion of observations for the positive class. Since, we need to calculate the cross entropy for an attribute with three distinct values we will have three components.
 
