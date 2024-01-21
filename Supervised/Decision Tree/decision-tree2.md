@@ -78,7 +78,6 @@ Let us consider the value youth this is highlighted in the table we observe that
 
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "age":}}$
 
-#### $\large{\color{Purple}\underline{Cross-Entrophy_{(age)}(D)}:}$
 $$\Large{\color{Purple}\begin{matrix*}[c]
 \textrm{'youth'}&= &(\underbrace{\dfrac{5}{14}}\_{\textrm{'youth' in dataset}})(- \underbrace{\dfrac{2}{5} \log_2 \dfrac{2}{5}}\_{\textrm{+ve class in 'youth'}} - \underbrace{\dfrac{3}{5} \log_2 \dfrac{3}{5}}\_{\textrm{-ve class in 'youth'}}) \\
 \textrm{'middle\\_aged'}&= &(\underbrace{\dfrac{4}{14}}\_{\textrm{'middle\\_aged' in dataset}})(- \underbrace{\dfrac{4}{4} \log_2 \dfrac{4}{4}}\_{\textrm{+ve class in 'middle\\_aged'}} - \underbrace{\dfrac{0}{4} \log_2 \dfrac{0}{4}}\_{\textrm{-ve class in 'middle\\_aged'}})\\
@@ -93,7 +92,13 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(age)}(D)}&:& (\
 & &=0.6935
 \end{matrix}}$$
 
-Using this information we have  $\large{\color{Purple}-(2 / 5) * log (2 / 5)}$ that is the proportion of observation belonging to the positive class and  $\large{\color{Purple}- (3 / 5) * (log 3 / 5)}$ for the negative class this expression is multiplied by the ratio 5 :14 which indicates which is a weight on the which is a normalizing factor since five out of the 14 data points had aged equals to youth continuing with this manner we take up the next value that is age equals two middle-aged and observe that among the 14 there are 4 points where age equal to middle-aged and for all of them buys computer equals two years that is they all belong to the positive class.
+#### For 'age'= 'youth' we have -
+* $\large{\color{Purple}-(2 / 5) * log (2 / 5)}$ that is the **proportion of observation** belonging to the **positive class** and
+* $\large{\color{Purple}- (3 / 5) * (log 3 / 5)}$ that is the **proportion of observation** belonging to the **negative class**
+* Those two expressions is multiplied by the ratio $\large{\color{Purple}(5 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since 5 out of the 14 data points had aged = youth continuing with this manner.
+
+#### For 'age'= 'youth' we have -
+ we take up the next value that is 'age' = 'middle-aged' and observe that among the 14 there are 4 points where age equal to middle-aged and for all of them buys computer equals two years that is they all belong to the positive class.
 
 This gives us the second component as you can see we do not necessarily need to calculate this but we have put it there just for your reference the final component comes when we consider age is equals to senior again there are 5 points with age is equals to senior of them we observe that three belong to the positive class and to belong 2 the negative class putting it all together we get a value of cross entropy. that all logarithms used here are using the base 2.
 
