@@ -132,7 +132,7 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(D)} &:
 \end{matrix}}$$
 
 ### ♠️ $\large{\color{Purple}\underline{\textrm{student} \Rightarrow \textrm{yes, no}}}$
-From the table we observe that the attribute <ins><b>"student"</b></ins> can take on three distinct values which are <ins><b>high</b></ins>, <ins><b>medium</b></ins> and <ins><b>low</b></ins>,
+From the table we observe that the attribute <ins><b>"student"</b></ins> can take on three distinct values which are <ins><b>yes</b></ins> and <ins><b>no</b></ins> .
 
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(D)} &:& (\dfrac{7}{14})(- \dfrac{3}{7} \log_2 \dfrac{3}{7} - \dfrac{4}{7} \log_2 \dfrac{4}{7}) \\
 & &+(\dfrac{7}{14})(-\dfrac{6}{7} \log_2 \dfrac{6}{7} - \dfrac{1}{7} \log_2 \dfrac{1}{7})\\
