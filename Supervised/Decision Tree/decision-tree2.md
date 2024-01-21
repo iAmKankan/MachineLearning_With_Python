@@ -19,8 +19,9 @@ $$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_
 
 ### $\Large{\color{Purple}Example \\# 1 }$
 ### $\large{\color{Purple}\underline{\textrm{Multiway Split Using Cross-entrophy}}}$
-To start with let us try and build a tree using **Multi-way splits** and **cross entropy** as the **impurity measure**, the first thing that we have to do is to identify the **root node** this is done by considering each **attribute** in turn calculating the **cross entropy value** for that **attribute** and **identifying the attribute** which uses the **lowest** value let us start by considering the attribute <ins><b>"age"</b></ins>. 
-
+Let's build a tree using <ins><b>Multi-way splits</b></ins> using <ins><b>cross entropy</b></ins> as the <ins><b>impurity measure</b></ins>-
+* The first thing that we have to do is to identify the <ins><b>root node</b></ins> this is done by findout the <ins><b>lowest cross entropy value</b></ins> with in all <ins><b>attributes</b></ins>.
+* The <ins><b>attribute</b></ins> with the <ins><b>lowest cross entropy</b></ins> value would be the <ins><b>root</b></ins>.
 
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/f0884d38-f84d-45c0-a850-3b09a8dc0312" width=90%/>
