@@ -26,7 +26,7 @@ Let's build a tree using <ins><b>Multi-way splits</b></ins> using <ins><b>cross 
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/f0884d38-f84d-45c0-a850-3b09a8dc0312" width=90%/>
   <br>
-  <ins><b><i>The Data</i></b></ins>
+  <ins><b><i>"Buying Computer" Data</i></b></ins>
 </p>
 
 ### $\large{\color{Purple}Step \\# 1 }$
