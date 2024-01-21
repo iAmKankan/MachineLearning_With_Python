@@ -45,9 +45,9 @@ From the table we observe that the attribute <ins><b>"age"</b></ins> can take on
 ### $\large{\color{Purple}\textrm{age} \rightarrow \textrm{youth, middle-aged, senor}}$
 Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5** observations have aged equals to youth among them two are belonging to the positive class and three belong to the negative class
 
-Total 5 observations are  $\large{\color{purple}\textrm{"age" = "youth"}}$
-* 2 of them  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
-* 3 of them  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
+### Total $\large{\color{purple}5}$ observations are  $\large{\color{purple}\textrm{"age" = "youth"}}$
+* $\large{\color{purple}2}$ of them  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
+* $\large{\color{purple}3}$ of them  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
    
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2ab55b6e-bec0-4ddd-bb1a-370efbe0e6d2" width=30%/>
