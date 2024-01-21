@@ -119,8 +119,9 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(age)}(D)}&:& (\
 
 This gives us the second component as you can see we do not necessarily need to calculate this but we have put it there just for your reference the final component comes when we consider age is equals to senior again there are 5 points with age is equals to senior of them we observe that three belong to the positive class and to belong 2 the negative class putting it all together we get a value of cross entropy. that all logarithms used here are using the base 2.
 
+### ♠️ $\large{\color{Purple}\underline{\textrm{income} \Rightarrow \textrm{high, medium, low}}}$
+From the table we observe that the attribute <ins><b>"income"</b></ins> can take on three distinct values which are <ins><b>high</b></ins>, <ins><b>medium</b></ins> and <ins><b>low</b></ins>,
 
-### ♠️ $\large{\color{Purple}income}$
 We now consider the attribute income and find the cross entropy width next we find the cross entropy for the attribute student and a cross and trouble for the credit rating note that here we have only two components because both of these are binary valued.
 
 
@@ -130,13 +131,16 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(D)} &:
 & &=0.9111
 \end{matrix}}$$
 
-### ♠️ $\large{\color{Purple}student}$
+### ♠️ $\large{\color{Purple}\underline{\textrm{student} \Rightarrow \textrm{yes, no}}}$
+From the table we observe that the attribute <ins><b>"student"</b></ins> can take on three distinct values which are <ins><b>high</b></ins>, <ins><b>medium</b></ins> and <ins><b>low</b></ins>,
 
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(D)} &:& (\dfrac{7}{14})(- \dfrac{3}{7} \log_2 \dfrac{3}{7} - \dfrac{4}{7} \log_2 \dfrac{4}{7}) \\
 & &+(\dfrac{7}{14})(-\dfrac{6}{7} \log_2 \dfrac{6}{7} - \dfrac{1}{7} \log_2 \dfrac{1}{7})\\
 & &=0.7885
 \end{matrix}}$$
 
+### ♠️ $\large{\color{Purple}\underline{\textrm{credit-rating} \Rightarrow \textrm{fair, excellent}}}$
+From the table we observe that the attribute <ins><b>"income"</b></ins> can take on three distinct values which are <ins><b>fair</b></ins>, <ins><b>excellent</b></ins> .
 ### ♠️ $\large{\color{Purple}credit-rating}$
 
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(credit-rating)}(D)} &:& (\dfrac{8}{14})(- \dfrac{6}{8} \log_2 \dfrac{6}{8} - \dfrac{2}{8} \log_2 \dfrac{2}{8}) \\
@@ -144,7 +148,7 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(credit-rating)}
 & &=0.8922
 \end{matrix}}$$
 
-### The final Cross-entrophy results for each features:
+### The final Cross-entrophy results for each Attributes:
 Finally we compare each of the cross entropy values and in this case observed that the attribute age gives the lowest cross entropy value and hence is the optimal attribute to use as the **root** of the our decision tree.
 
 $$\Large{\color{Purple}
