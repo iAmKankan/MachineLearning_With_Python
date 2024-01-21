@@ -141,7 +141,6 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(D)} &
 
 ### ♠️ $\large{\color{Purple}\underline{\textrm{credit-rating} \Rightarrow \textrm{fair, excellent}}}$
 From the table we observe that the attribute <ins><b>"income"</b></ins> can take on three distinct values which are <ins><b>fair</b></ins>, <ins><b>excellent</b></ins> .
-### ♠️ $\large{\color{Purple}credit-rating}$
 
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(credit-rating)}(D)} &:& (\dfrac{8}{14})(- \dfrac{6}{8} \log_2 \dfrac{6}{8} - \dfrac{2}{8} \log_2 \dfrac{2}{8}) \\
 & &+(\dfrac{6}{14})(-\dfrac{3}{6} \log_2 \dfrac{3}{6} - \dfrac{3}{6} \log_2 \dfrac{3}{6})\\
