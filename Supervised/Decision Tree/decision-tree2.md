@@ -50,11 +50,10 @@ Let us first consider the value youth this is highlighted in the table we observ
 </p>
 
 ### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "youth"}}$
-* $\large{\color{purple}2}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
-* $\large{\color{purple}3}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
+* $\large{\color{purple}2}$ of the observations are in  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
+* $\large{\color{purple}3}$ of the observations are in $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
    
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "age" = "youth":}}$
-#### For 'age'= 'youth' we have -
 * $\large{\color{Purple}-(2 / 5) * log (2 / 5)}$ that is the **proportion of observation** belonging to the **positive class** and
 * $\large{\color{Purple}- (3 / 5) * (log 3 / 5)}$ that is the **proportion of observation** belonging to the **negative class**
 * Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(5 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **5** out of the **14** data points had **'aged' = 'youth'** continuing with this manner.
@@ -66,25 +65,36 @@ $$\Large{\color{Purple} \textrm{'youth'} = (\underbrace{\dfrac{5}{14}}\_{\textrm
 ### $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{middle-aged}}}$
 Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **4 observations** have **aged equals to middle-aged** among them all **4 observations** are belonging to the **positive class**.
 
-### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "middle-aged"}}$
-* All $\large{\color{purple}4}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
-   
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6b6cabc2-d78d-403e-9866-9da4648072ac" width=65%/>
   <br>
 </p>
 
+### Total $\large{\color{purple}4}$ observations are in $\large{\color{purple}\textrm{"age" = "middle-aged"}}$
+* $\large{\color{purple}4}$ of the observations are in  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
+* $\large{\color{purple}0}$ of the observations are in  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
+  
+### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "age" = "middle-aged":}}$
+* $\large{\color{Purple}-(4 / 4) * log (4 / 4)}$ that is the **proportion of observation** belonging to the **positive class** and
+* $\large{\color{Purple}- (0 / 4) * (log 0 / 4)}$ that is the **proportion of observation** belonging to the **negative class**
+* Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(4 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **4** out of the **14** data points had **'aged' = 'middle-aged'** continuing with this manner.
+
+$$\Large{\color{Purple} \textrm{'middle\\_aged'}=(\underbrace{\dfrac{4}{14}}\_{\textrm{'middle\\_aged' in dataset}})(- \underbrace{\dfrac{4}{4} \log_2 \dfrac{4}{4}}\_{\textrm{+ve class in 'middle\\_aged'}} - \underbrace{\dfrac{0}{4} \log_2 \dfrac{0}{4}}\_{\textrm{-ve class in 'middle\\_aged'}})
+}$$ 
+
+
 ### $\large{\color{Purple}\underline{\textrm{age} \Rightarrow \textrm{senior}}}$
 Let us consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5 observations** have **aged equals to senior** among them  **3 observations** are belonging to the **positive class** and **2 observations** are belonging to the **negetive class**.
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/35b4061c-17f8-495b-b66b-8390c410e728" width=65%/>
+  <br>
+</p>
 
 ### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "senior"}}$
 * $\large{\color{purple}3}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
 * $\large{\color{purple}2}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
    
-<p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/35b4061c-17f8-495b-b66b-8390c410e728" width=65%/>
-  <br>
-</p>
 
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "age":}}$
 
