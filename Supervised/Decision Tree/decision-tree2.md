@@ -68,20 +68,30 @@ Let us first consider the value youth this is highlighted in the table we observ
 Let us consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5 observations** have **aged equals to senior** among them  **3 observations** are belonging to the **positive class** and **2 observations** are belonging to the **negetive class**.
 
 ### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "senior"}}$
-* All $\large{\color{purple}4}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
+* $\large{\color{purple}3}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
+* $\large{\color{purple}2}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
    
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/35b4061c-17f8-495b-b66b-8390c410e728" width=65%/>
   <br>
 </p>
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{age}(D)}&:& (\dfrac{5}{14})(- \dfrac{2}{5} \log_2 \dfrac{2}{5} - \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
+### Cross-Entrophy calculation for attribute "age":
+
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(age)}(D)}&:& (<\textrm{'youth' proportion in total observation}>)(- <\textrm{(+)ve class proportion in 'youth}> \log_2 <\textrm{(+)ve class proportion in 'youth}> - <\textrm{(-)ve class proportion in 'youth}> \log_2 <\textrm{(-)ve class proportion in 'youth}>) \\
 & &+(\dfrac{4}{14})(- \dfrac{4}{4} \log_2 \dfrac{4}{4} - \dfrac{0}{4} \log_2 \dfrac{0}{4})\\
 & &+(\dfrac{5}{14})(-\dfrac{3}{5} \log_2 \dfrac{3}{5} - \dfrac{2}{5} \log_2 \dfrac{2}{5})\\
 & &=0.6935
 \end{matrix}}$$
 
-Using this information we have  $\large{\color{Purple}-(2 / 5) * log (2 / 5)}$ that is the proportion of observation belonging to the positive class and  $\large{\color{Purple}- (3 / 5) * (log 3 / 5)}$ for the negative class this expression is multiplied by the ratio 5 :14 which indicates which is a weight on the which is a normalizing factor since five out of the14 data points had aged equals to youth continuing with this manner we take up the next value that is age equals two middle-aged and observe that among the 14 there are 4 points where age equal to middle-aged and for all of them buys computer equals two years that is they all belong to the positive class.
+
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(age)}(D)}&:& (\dfrac{5}{14})(- \dfrac{2}{5} \log_2 \dfrac{2}{5} - \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
+& &+(\dfrac{4}{14})(- \dfrac{4}{4} \log_2 \dfrac{4}{4} - \dfrac{0}{4} \log_2 \dfrac{0}{4})\\
+& &+(\dfrac{5}{14})(-\dfrac{3}{5} \log_2 \dfrac{3}{5} - \dfrac{2}{5} \log_2 \dfrac{2}{5})\\
+& &=0.6935
+\end{matrix}}$$
+
+Using this information we have  $\large{\color{Purple}-(2 / 5) * log (2 / 5)}$ that is the proportion of observation belonging to the positive class and  $\large{\color{Purple}- (3 / 5) * (log 3 / 5)}$ for the negative class this expression is multiplied by the ratio 5 :14 which indicates which is a weight on the which is a normalizing factor since five out of the 14 data points had aged equals to youth continuing with this manner we take up the next value that is age equals two middle-aged and observe that among the 14 there are 4 points where age equal to middle-aged and for all of them buys computer equals two years that is they all belong to the positive class.
 
 This gives us the second component as you can see we do not necessarily need to calculate this but we have put it there just for your reference the final component comes when we consider age is equals to senior again there are 5 points with age is equals to senior of them we observe that three belong to the positive class and to belong 2 the negative class putting it all together we get a value of cross entropy. that all logarithms used here are using the base 2.
 
@@ -90,7 +100,7 @@ This gives us the second component as you can see we do not necessarily need to 
 We now consider the attribute income and find the cross entropy width next we find the cross entropy for the attribute student and a cross and trouble for the credit rating note that here we have only two components because both of these are binary valued.
 
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(D)} &:& (\dfrac{4}{14})(- \dfrac{3}{4} \log_2 \dfrac{3}{4} - \dfrac{1}{4} \log_2 \dfrac{1}{4}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(D)} &:& (\dfrac{4}{14})(- \dfrac{3}{4} \log_2 \dfrac{3}{4} - \dfrac{1}{4} \log_2 \dfrac{1}{4}) \\
 & &+(\dfrac{6}{14})(- \dfrac{4}{6} \log_2 \dfrac{4}{6} - \dfrac{2}{6} \log_2 \dfrac{2}{6})\\
 & &+(\dfrac{4}{14})(-\dfrac{2}{4} \log_2 \dfrac{2}{4} - \dfrac{2}{4} \log_2 \dfrac{2}{4})\\
 & &=0.9111
@@ -98,14 +108,14 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{income}(D)} &:& 
 
 ### ♠️ $\large{\color{Purple}student}$
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{student}(D)} &:& (\dfrac{7}{14})(- \dfrac{3}{7} \log_2 \dfrac{3}{7} - \dfrac{4}{7} \log_2 \dfrac{4}{7}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(D)} &:& (\dfrac{7}{14})(- \dfrac{3}{7} \log_2 \dfrac{3}{7} - \dfrac{4}{7} \log_2 \dfrac{4}{7}) \\
 & &+(\dfrac{7}{14})(-\dfrac{6}{7} \log_2 \dfrac{6}{7} - \dfrac{1}{7} \log_2 \dfrac{1}{7})\\
 & &=0.7885
 \end{matrix}}$$
 
 ### ♠️ $\large{\color{Purple}credit-rating}$
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{credit-rating}(D)} &:& (\dfrac{8}{14})(- \dfrac{6}{8} \log_2 \dfrac{6}{8} - \dfrac{2}{8} \log_2 \dfrac{2}{8}) \\
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(credit-rating)}(D)} &:& (\dfrac{8}{14})(- \dfrac{6}{8} \log_2 \dfrac{6}{8} - \dfrac{2}{8} \log_2 \dfrac{2}{8}) \\
 & &+(\dfrac{6}{14})(-\dfrac{3}{6} \log_2 \dfrac{3}{6} - \dfrac{3}{6} \log_2 \dfrac{3}{6})\\
 & &=0.8922
 \end{matrix}}$$
