@@ -78,10 +78,11 @@ Let us consider the value youth this is highlighted in the table we observe that
 
 ### Cross-Entrophy calculation for attribute "age":
 
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(age)}(D)}&:& (<\textrm{'youth' proportion in total observation}>)(- <\textrm{(+)ve class proportion in 'youth}> \log_2 <\textrm{(+)ve class proportion in 'youth}> - <\textrm{(-)ve class proportion in 'youth}> \log_2 <\textrm{(-)ve class proportion in 'youth}>) \\
-& &+(\dfrac{4}{14})(- \dfrac{4}{4} \log_2 \dfrac{4}{4} - \dfrac{0}{4} \log_2 \dfrac{0}{4})\\
-& &+(\dfrac{5}{14})(-\dfrac{3}{5} \log_2 \dfrac{3}{5} - \dfrac{2}{5} \log_2 \dfrac{2}{5})\\
-& &=0.6935
+### $\Large{\color{Purple}\underline{Cross-Entrophy_{(age)}(D)}:}$
+$$\Large{\color{Purple}\begin{matrix}
+&= &(\dfrac{5}{14})(- \dfrac{2}{5} \log_2 \dfrac{2}{5} - \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
+&= &(\dfrac{4}{14})(- \dfrac{4}{4} \log_2 \dfrac{4}{4} - \dfrac{0}{4} \log_2 \dfrac{0}{4})\\
+& =&(\dfrac{5}{14})(-\dfrac{3}{5} \log_2 \dfrac{3}{5} - \dfrac{2}{5} \log_2 \dfrac{2}{5})\\
 \end{matrix}}$$
 
 
