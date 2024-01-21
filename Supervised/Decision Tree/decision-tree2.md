@@ -1,6 +1,6 @@
 ### ⬛ $\Large{\color{Blue}\underline{\mathcal{Decision\ Tree\ Practical}}}$
 In the theory lectures we have already seen the different options available to us when building binary trees for example the 
-* first thing we have to consider is the **type of tree** which we want to build we can either have **binary trees** or **multi way trees** depending upon the **branching factor** at each node
+* First thing we have to consider is the **type of tree** which we want to build we can either have **binary trees** or **multi way trees** depending upon the **branching factor** at each node
 * another option available to us is the **impurity measure** used in this tutorial we will be looking at two different impurity measures which are **cross entropy** and the **Gini index**.
 * Another option which we do not consider here is the **pruning technique** used.
 
@@ -38,17 +38,24 @@ $$\Large{\color{Purple}– p \log p (-(1- p) \log (1 – p)) }$$
 
 Where p is the proportion of observations for the positive class. Since, we need to calculate the cross entropy for an attribute with three distinct values we will have three components.
 
-### ♠️ $\large{\color{Purple}age}$
+### ♠️ $\large{\color{Purple}\underline{\textrm{age}} \Rightarrow \textrm{youth, middle-aged, senor}}$
+
+### $\large{\color{Purple}\underline{\textrm{youth}}}$
 
 From the table we observe that the attribute <ins><b>"age"</b></ins> can take on three distinct values which are <ins><b>youth</b></ins>, <ins><b>middle-aged</b></ins> and <ins><b>senior</b></ins>,
 
-### $\large{\color{Purple}\textrm{age} \rightarrow \textrm{youth, middle-aged, senor}}$
-Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5** observations have aged equals to youth among them two are belonging to the positive class and three belong to the negative class
+Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5 observations** have **aged equals to youth** among them **2 observations** are belonging to the **5 observations** and **3 observations** belong to the **negative class**
 
 ### Total $\large{\color{purple}5}$ observations are  $\large{\color{purple}\textrm{"age" = "youth"}}$
-* $\large{\color{purple}2}$ of them  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
-* $\large{\color{purple}3}$ of them  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
+* $\large{\color{purple}2}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
+* $\large{\color{purple}3}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
    
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2ab55b6e-bec0-4ddd-bb1a-370efbe0e6d2" width=50%/>
+  <br>
+</p>
+
+
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2ab55b6e-bec0-4ddd-bb1a-370efbe0e6d2" width=30%/>
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6b6cabc2-d78d-403e-9866-9da4648072ac" width=30%/>
