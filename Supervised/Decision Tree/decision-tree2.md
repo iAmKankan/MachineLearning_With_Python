@@ -103,15 +103,8 @@ Let us consider the value youth this is highlighted in the table we observe that
 $$\Large{\color{Purple} \textrm{'senior'}=(\underbrace{\dfrac{5}{14}}\_{\textrm{'senior' in dataset}})(-\underbrace{\dfrac{3}{5} \log_2 \dfrac{3}{5}}\_{\textrm{+ve class in 'senior'}} - \underbrace{\dfrac{2}{5} \log_2 \dfrac{2}{5}}\_{\textrm{-ve class in 'senior'}})
 }$$ 
 
-### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "age":}}$
 
-$$\Large{\color{Purple}\begin{matrix*}[c]
-\textrm{'youth'}&= &(\underbrace{\dfrac{5}{14}}\_{\textrm{'youth' in dataset}})(- \underbrace{\dfrac{2}{5} \log_2 \dfrac{2}{5}}\_{\textrm{+ve class in 'youth'}} - \underbrace{\dfrac{3}{5} \log_2 \dfrac{3}{5}}\_{\textrm{-ve class in 'youth'}}) \\
-\textrm{'middle\\_aged'}&= &(\underbrace{\dfrac{4}{14}}\_{\textrm{'middle\\_aged' in dataset}})(- \underbrace{\dfrac{4}{4} \log_2 \dfrac{4}{4}}\_{\textrm{+ve class in 'middle\\_aged'}} - \underbrace{\dfrac{0}{4} \log_2 \dfrac{0}{4}}\_{\textrm{-ve class in 'middle\\_aged'}})\\
-\textrm{'senior'}& =&(\underbrace{\dfrac{5}{14}}\_{\textrm{'senior' in dataset}})(-\underbrace{\dfrac{3}{5} \log_2 \dfrac{3}{5}}\_{\textrm{+ve class in 'senior'}} - \underbrace{\dfrac{2}{5} \log_2 \dfrac{2}{5}}\_{\textrm{-ve class in 'senior'}})\\
-\end{matrix*}}$$
-
-### $\large{\color{Purple}\textrm{Cross-Entrophy result for attribute "age":}}$
+### By adding up all three Cross entrophy values of the attribute "age" we get the following-
 
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(age)}(D)}&:& (\dfrac{5}{14})(- \dfrac{2}{5} \log_2 \dfrac{2}{5} - \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
 & &+(\dfrac{4}{14})(- \dfrac{4}{4} \log_2 \dfrac{4}{4} - \dfrac{0}{4} \log_2 \dfrac{0}{4})\\
