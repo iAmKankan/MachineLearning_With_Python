@@ -94,7 +94,14 @@ Let us consider the value youth this is highlighted in the table we observe that
 ### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "senior"}}$
 * $\large{\color{purple}3}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "yes"}}$
 * $\large{\color{purple}2}$ of the observations  $\large{\color{purple}\textrm{"buys\\_computer" = "no"}}$
-   
+  
+### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "age" = "senior":}}$
+* $\large{\color{Purple}-(3 / 5) * \log (3 / 5)}$ that is the **proportion of observation** belonging to the **positive class** and
+* $\large{\color{Purple}- (2 / 5) * \log (2 / 5)}$ that is the **proportion of observation** belonging to the **negative class**
+* Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(5 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **5** out of the **14** data points had **'aged' = 'senior'** continuing with this manner.
+
+$$\Large{\color{Purple} \textrm{'senior'}=(\underbrace{\dfrac{5}{14}}\_{\textrm{'senior' in dataset}})(-\underbrace{\dfrac{3}{5} \log_2 \dfrac{3}{5}}\_{\textrm{+ve class in 'senior'}} - \underbrace{\dfrac{2}{5} \log_2 \dfrac{2}{5}}\_{\textrm{-ve class in 'senior'}})
+}$$ 
 
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "age":}}$
 
