@@ -159,7 +159,7 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(D)} &:
 ### ♠️ $\large{\color{Purple}\underline{\textrm{student} \Rightarrow \textrm{no, yes}}}$
 From the table we observe that the attribute <ins><b>"student"</b></ins> can take on 2 distinct values which are <ins><b>yes</b></ins> and <ins><b>no</b></ins>.
 
-<p align="center"
+<p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/311e747d-a64a-4b95-b9b7-2457ba95627d" width=35%/>
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/d3573e14-4581-4cf9-acb6-0d3f43554641" width=35%/>
 </p>
