@@ -130,7 +130,7 @@ From the table we observe that the attribute <ins><b>"income"</b></ins> can take
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/1c0579b3-c01c-4d37-9d6a-da64766b7a47" width=33%/>
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/7a1ad399-a280-4fac-a0d9-e0bdbc86ab33" width=33%/>
   <br>
-  <ins><b><i>"income" = "high", "income" = "medium" ,"income" = "low"</i></b></ins>
+  <ins><b><i>"income" = "high"</i></b></ins>, <ins><b><i>"income" = "medium"</i></b></ins>, <ins><b><i>"income" = "low"</i></b></ins>
 </p>
 
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "income" = "high":}}$
