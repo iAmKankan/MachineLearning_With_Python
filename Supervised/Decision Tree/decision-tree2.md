@@ -184,6 +184,16 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(D)} &
 ### ♠️ $\large{\color{Purple}\underline{\textrm{credit-rating} \Rightarrow \textrm{fair, excellent}}}$
 From the table we observe that the attribute <ins><b>"credit-rating"</b></ins> can take on three distinct values which are <ins><b>fair</b></ins>, <ins><b>excellent</b></ins> .
 
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/28ce1f19-da4a-4509-9fe5-6c0e4dbe3b18" width=35%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/598bd61e-dea7-4b5b-b815-82b161f81a0a" width=35%/>
+  <br>
+  <ins><b><i>"student" = "no"</i></b></ins> , <ins><b><i>"student" = "yes"</i></b></ins>,
+</p>
+
+
+
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "credit-rating" = "fair":}}$
 * $\large{\color{Purple}-(6 / 8) * \log (6/ 8)}$ that is the **proportion of observation** belonging to the **positive class** and
 * $\large{\color{Purple}- (2 / 8) * \log (2 / 8)}$ that is the **proportion of observation** belonging to the **negative class**
