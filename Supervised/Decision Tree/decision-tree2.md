@@ -174,7 +174,7 @@ From the table we observe that the attribute <ins><b>"student"</b></ins> can tak
 * $\large{\color{Purple}- (1 / 7) * \log (1 / 7)}$ that is the **proportion of observation** belonging to the **negative class**
 * Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(7 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **7** out of the **14** data points had **"student" = "yes"** continuing with this manner.
 
-### ⚛️ By adding up all three Cross entrophy values of the attribute "student" we get the following-
+### ⚛️ By adding up all two Cross entrophy values of the attribute "student" we get the following-
     
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(D)} &:& (\dfrac{7}{14})(- \dfrac{3}{7} \log_2 \dfrac{3}{7} - \dfrac{4}{7} \log_2 \dfrac{4}{7}) \\
 & &+(\dfrac{7}{14})(-\dfrac{6}{7} \log_2 \dfrac{6}{7} - \dfrac{1}{7} \log_2 \dfrac{1}{7})\\
@@ -183,11 +183,6 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(D)} &
 
 ### ♠️ $\large{\color{Purple}\underline{\textrm{credit-rating} \Rightarrow \textrm{fair, excellent}}}$
 From the table we observe that the attribute <ins><b>"credit-rating"</b></ins> can take on three distinct values which are <ins><b>fair</b></ins>, <ins><b>excellent</b></ins> .
-
-$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(credit-rating)}(D)} &:& (\dfrac{8}{14})(- \dfrac{6}{8} \log_2 \dfrac{6}{8} - \dfrac{2}{8} \log_2 \dfrac{2}{8}) \\
-& &+(\dfrac{6}{14})(-\dfrac{3}{6} \log_2 \dfrac{3}{6} - \dfrac{3}{6} \log_2 \dfrac{3}{6})\\
-& &=0.8922
-\end{matrix}}$$
 
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "credit-rating" = "fair":}}$
 * $\large{\color{Purple}-(6 / 8) * \log (6/ 8)}$ that is the **proportion of observation** belonging to the **positive class** and
@@ -198,8 +193,15 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(credit-rating)}
 * $\large{\color{Purple}-(3 / 6) * \log (3/ 6)}$ that is the **proportion of observation** belonging to the **positive class** and
 * $\large{\color{Purple}- (3 / 6) * \log (3 / 6)}$ that is the **proportion of observation** belonging to the **negative class**
 * Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(6 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **6** out of the **14** data points had **"credit-rating" = "excellent"** continuing with this manner.
-  
-### The final Cross-entrophy results for each Attributes:
+
+### ⚛️ By adding up all two Cross entrophy values of the attribute "credit-rating" we get the following-
+
+$$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(credit-rating)}(D)} &:& (\dfrac{8}{14})(- \dfrac{6}{8} \log_2 \dfrac{6}{8} - \dfrac{2}{8} \log_2 \dfrac{2}{8}) \\
+& &+(\dfrac{6}{14})(-\dfrac{3}{6} \log_2 \dfrac{3}{6} - \dfrac{3}{6} \log_2 \dfrac{3}{6})\\
+& &=0.8922
+\end{matrix}}$$
+
+### ❇️  The final Cross-entrophy results for each Attributes:
 Finally we compare each of the cross entropy values and in this case observed that the attribute age gives the lowest cross entropy value and hence is the optimal attribute to use as the **root** of the our decision tree.
 
 $$\Large{\color{Purple}
