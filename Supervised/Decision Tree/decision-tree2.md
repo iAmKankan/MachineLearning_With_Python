@@ -158,8 +158,8 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(D)} &:
 From the table we observe that the attribute <ins><b>"student"</b></ins> can take on 2 distinct values which are <ins><b>yes</b></ins> and <ins><b>no</b></ins>.
 
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/311e747d-a64a-4b95-b9b7-2457ba95627d" width=35%/>
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/d3573e14-4581-4cf9-acb6-0d3f43554641" width=35%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/311e747d-a64a-4b95-b9b7-2457ba95627d" width=40%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/d3573e14-4581-4cf9-acb6-0d3f43554641" width=40%/>
   <br>
   <ins><b><i>"student" = "no"</i></b></ins> , <ins><b><i>"student" = "yes"</i></b></ins>,
 </p>
@@ -186,10 +186,10 @@ From the table we observe that the attribute <ins><b>"credit-rating"</b></ins> c
 
 
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/28ce1f19-da4a-4509-9fe5-6c0e4dbe3b18" width=35%/>
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/598bd61e-dea7-4b5b-b815-82b161f81a0a" width=35%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/28ce1f19-da4a-4509-9fe5-6c0e4dbe3b18" width=40%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/598bd61e-dea7-4b5b-b815-82b161f81a0a" width=40%/>
   <br>
-  <ins><b><i>"student" = "no"</i></b></ins> , <ins><b><i>"student" = "yes"</i></b></ins>,
+  <ins><b><i>"credit-rating" = "fair"</i></b></ins> , <ins><b><i>"credit-rating" = "excellent"</i></b></ins>,
 </p>
 
 
