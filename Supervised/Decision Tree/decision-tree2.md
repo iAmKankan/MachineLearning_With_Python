@@ -119,11 +119,17 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(age)}(D)}&:& (\
 
 This gives us the second component as you can see we do not necessarily need to calculate this but we have put it there just for your reference the final component comes when we consider age is equals to senior again there are 5 points with age is equals to senior of them we observe that three belong to the positive class and to belong 2 the negative class putting it all together we get a value of cross entropy. that all logarithms used here are using the base 2.
 
+We now consider the attribute income and find the cross entropy width next we find the cross entropy for the attribute student and a cross and trouble for the credit rating note that here we have only two components because both of these are binary valued.
+
 ### ♠️ $\large{\color{Purple}\underline{\textrm{income} \Rightarrow \textrm{high, medium, low}}}$
 From the table we observe that the attribute <ins><b>"income"</b></ins> can take on three distinct values which are <ins><b>high</b></ins>, <ins><b>medium</b></ins> and <ins><b>low</b></ins>,
 
-We now consider the attribute income and find the cross entropy width next we find the cross entropy for the attribute student and a cross and trouble for the credit rating note that here we have only two components because both of these are binary valued.
 
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/9e2f95f1-8525-4b45-9362-d72aa85c507e" width=30%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/1c0579b3-c01c-4d37-9d6a-da64766b7a47" width=30%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/7a1ad399-a280-4fac-a0d9-e0bdbc86ab33" width=30%/>
+</p>
 
 ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "income" = "high":}}$
 * $\large{\color{Purple}-(2 / 4) * \log (2 / 4)}$ that is the **proportion of observation** belonging to the **positive class** and
