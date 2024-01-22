@@ -135,6 +135,12 @@ We now consider the attribute income and find the cross entropy width next we fi
 * $\large{\color{Purple}- (2 / 6) * \log (2 / 6)}$ that is the **proportion of observation** belonging to the **negative class**
 * Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(6 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **6** out of the **14** data points had **"income" = "medium"** continuing with this manner.
 
+  ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "income" = "low":}}$
+* $\large{\color{Purple}-(3 / 4) * \log (3/ 4)}$ that is the **proportion of observation** belonging to the **positive class** and
+* $\large{\color{Purple}- (1 / 4) * \log (1 / 4)}$ that is the **proportion of observation** belonging to the **negative class**
+* Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(4 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **4** out of the **14** data points had **"income" = "low"** continuing with this manner.
+
+  
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(D)} &:& (\dfrac{4}{14})(- \dfrac{3}{4} \log_2 \dfrac{3}{4} - \dfrac{1}{4} \log_2 \dfrac{1}{4}) \\
 & &+(\dfrac{6}{14})(- \dfrac{4}{6} \log_2 \dfrac{4}{6} - \dfrac{2}{6} \log_2 \dfrac{2}{6})\\
 & &+(\dfrac{4}{14})(-\dfrac{2}{4} \log_2 \dfrac{2}{4} - \dfrac{2}{4} \log_2 \dfrac{2}{4})\\
