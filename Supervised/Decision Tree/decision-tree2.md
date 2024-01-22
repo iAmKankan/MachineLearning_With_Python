@@ -47,6 +47,7 @@ Let us first consider the value youth this is highlighted in the table we observ
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6de873aa-1bb2-464e-a3b2-fa9a25151db4" width=65%/>
   <br>
+  <ins><b><i>"age" = "youth"</i></b></ins>
 </p>
 
 ### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "youth"}}$
@@ -68,6 +69,7 @@ Let us first consider the value youth this is highlighted in the table we observ
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6070307a-e410-435a-8a27-b10d3b4c86df" width=65%/>
   <br>
+  <ins><b><i>"age" = "middle-aged"</i></b></ins>
 </p>
 
 ### Total $\large{\color{purple}4}$ observations are in $\large{\color{purple}\textrm{"age" = "middle-aged"}}$
@@ -89,6 +91,7 @@ Let us consider the value youth this is highlighted in the table we observe that
 <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/73c7cf6b-18ac-4f4b-b25e-44bf4d325247" width=65%/>
   <br>
+  <ins><b><i>"age" = "senior"</i></b></ins>
 </p>
 
 ### Total $\large{\color{purple}5}$ observations are in $\large{\color{purple}\textrm{"age" = "senior"}}$
@@ -124,9 +127,9 @@ We now consider the attribute income and find the cross entropy width next we fi
 From the table we observe that the attribute <ins><b>"income"</b></ins> can take on three distinct values which are <ins><b>high</b></ins>, <ins><b>medium</b></ins> and <ins><b>low</b></ins>,
 
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/9e2f95f1-8525-4b45-9362-d72aa85c507e" width=33%/>
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/1c0579b3-c01c-4d37-9d6a-da64766b7a47" width=33%/>
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/7a1ad399-a280-4fac-a0d9-e0bdbc86ab33" width=33%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6edacd46-1834-4d67-9977-561d4854b9af" width=33%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/c1827ea5-ef06-4c47-84b6-2eaeacc5badb" width=33%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/a1c4a929-3b31-4011-bf9f-128b6350f6f3" width=33%/>
   <br>
   <ins><b><i>"income" = "high"</i></b></ins>, <ins><b><i>"income" = "medium"</i></b></ins>, <ins><b><i>"income" = "low"</i></b></ins>
 </p>
