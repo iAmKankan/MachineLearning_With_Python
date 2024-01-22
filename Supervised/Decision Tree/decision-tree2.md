@@ -104,7 +104,7 @@ $$\Large{\color{Purple} \textrm{'senior'}=(\underbrace{\dfrac{5}{14}}\_{\textrm{
 }$$ 
 
 
-### By adding up all three Cross entrophy values of the attribute "age" we get the following-
+### ⚫ By adding up all three Cross entrophy values of the attribute "age" we get the following-
 
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(age)}(D)}&:& (\dfrac{5}{14})(- \dfrac{2}{5} \log_2 \dfrac{2}{5} - \dfrac{3}{5} \log_2 \dfrac{3}{5}) \\
 & &+(\dfrac{4}{14})(- \dfrac{4}{4} \log_2 \dfrac{4}{4} - \dfrac{0}{4} \log_2 \dfrac{0}{4})\\
@@ -148,6 +148,7 @@ From the table we observe that the attribute <ins><b>"income"</b></ins> can take
 * $\large{\color{Purple}- (1 / 4) * \log (1 / 4)}$ that is the **proportion of observation** belonging to the **negative class**
 * Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(4 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **4** out of the **14** data points had **"income" = "low"** continuing with this manner.
 
+### ⚫ By adding up all three Cross entrophy values of the attribute "income" we get the following-
   
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(D)} &:& (\dfrac{4}{14})(- \dfrac{3}{4} \log_2 \dfrac{3}{4} - \dfrac{1}{4} \log_2 \dfrac{1}{4}) \\
 & &+(\dfrac{6}{14})(- \dfrac{4}{6} \log_2 \dfrac{4}{6} - \dfrac{2}{6} \log_2 \dfrac{2}{6})\\
@@ -155,9 +156,26 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(income)}(D)} &:
 & &=0.9111
 \end{matrix}}$$
 
-### ♠️ $\large{\color{Purple}\underline{\textrm{student} \Rightarrow \textrm{yes, no}}}$
-From the table we observe that the attribute <ins><b>"student"</b></ins> can take on three distinct values which are <ins><b>yes</b></ins> and <ins><b>no</b></ins> .
+### ♠️ $\large{\color{Purple}\underline{\textrm{student} \Rightarrow \textrm{no, yes}}}$
+From the table we observe that the attribute <ins><b>"student"</b></ins> can take on 2 distinct values which are <ins><b>yes</b></ins> and <ins><b>no</b></ins>.
 
+<p align="center"
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/311e747d-a64a-4b95-b9b7-2457ba95627d" width=35%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/d3573e14-4581-4cf9-acb6-0d3f43554641" width=35%/>
+</p>
+
+ ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "student" = "no":}}$
+* $\large{\color{Purple}-(3 / 7) * \log (3/ 7)}$ that is the **proportion of observation** belonging to the **positive class** and
+* $\large{\color{Purple}- (4 / 7) * \log (4 / 7)}$ that is the **proportion of observation** belonging to the **negative class**
+* Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(7 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **7** out of the **14** data points had **"student" = "no"** continuing with this manner.
+  
+ ### $\large{\color{Purple}\textrm{Cross-Entrophy calculation for attribute "student" = "yes":}}$
+* $\large{\color{Purple}-(6 / 7) * \log (6/ 7)}$ that is the **proportion of observation** belonging to the **positive class** and
+* $\large{\color{Purple}- (1 / 7) * \log (1 / 7)}$ that is the **proportion of observation** belonging to the **negative class**
+* Above two expressions need to **multiplied** by the **ratio** $\large{\color{Purple}(7 /14) }$ which indicates which is a **weight** on the which is a **normalizing factor** since **7** out of the **14** data points had **"student" = "yes"** continuing with this manner.
+
+### ⚫ By adding up all three Cross entrophy values of the attribute "student" we get the following-
+    
 $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(student)}(D)} &:& (\dfrac{7}{14})(- \dfrac{3}{7} \log_2 \dfrac{3}{7} - \dfrac{4}{7} \log_2 \dfrac{4}{7}) \\
 & &+(\dfrac{7}{14})(-\dfrac{6}{7} \log_2 \dfrac{6}{7} - \dfrac{1}{7} \log_2 \dfrac{1}{7})\\
 & &=0.7885
