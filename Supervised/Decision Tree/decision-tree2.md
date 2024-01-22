@@ -45,7 +45,7 @@ From the table we observe that the attribute <ins><b>"age"</b></ins> can take on
 Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5 observations** have **aged equals to youth** among them **2 observations** are belonging to the **positive class** and **3 observations** belong to the **negative class**
 
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/2ab55b6e-bec0-4ddd-bb1a-370efbe0e6d2" width=65%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6de873aa-1bb2-464e-a3b2-fa9a25151db4" width=65%/>
   <br>
 </p>
 
@@ -66,7 +66,7 @@ $$\Large{\color{Purple} \textrm{'youth'} = (\underbrace{\dfrac{5}{14}}\_{\textrm
 Let us first consider the value youth this is highlighted in the table we observe that out of the **14** different data points **4 observations** have **aged equals to middle-aged** among them all **4 observations** are belonging to the **positive class**.
 
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6b6cabc2-d78d-403e-9866-9da4648072ac" width=65%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6070307a-e410-435a-8a27-b10d3b4c86df" width=65%/>
   <br>
 </p>
 
@@ -87,7 +87,7 @@ $$\Large{\color{Purple} \textrm{'middle\\_aged'}=(\underbrace{\dfrac{4}{14}}\_{\
 Let us consider the value youth this is highlighted in the table we observe that out of the **14** different data points **5 observations** have **aged equals to senior** among them  **3 observations** are belonging to the **positive class** and **2 observations** are belonging to the **negetive class**.
 
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/35b4061c-17f8-495b-b66b-8390c410e728" width=65%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/73c7cf6b-18ac-4f4b-b25e-44bf4d325247" width=65%/>
   <br>
 </p>
 
