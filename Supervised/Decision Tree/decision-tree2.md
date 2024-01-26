@@ -350,7 +350,10 @@ $$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_
 * "youth" = 2/5
 * "middle_aged" = 1
 * "senior" = 3/5
-
+  
+### Ordering of age
+* $\large{\color{purple} youth = 2/5, senior = 3/5, middle_aged = 1}}$
+  
 ### Possible Split points:
  * $\large{\color{purple}\\{youth\\}, \\{senior, middleaged\\}}$
  * $\large{\color{purple}\\{youth, senior\\}, \\{middleaged\\}}$
