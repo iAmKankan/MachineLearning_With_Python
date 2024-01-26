@@ -322,6 +322,13 @@ $$\Large{\color{Purple}\begin{matrix}\underline{Cross-Entrophy_{(credit-rating)}
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/ccdc236b-8026-4d3f-809f-f32fd2bcef86" width=60%/>
 </p>
 
+
+
+Here each of the leaf node is a **pure nod** in case we did not get a **cross entropy** value of **0** let us say we have a different value cross entropy here we would again continue the process and the last situation is when we have exhausted all attributes available to us and we still do not have a pure leaf what do we do then essentially let us say when we follow this branch there were five points of which three were positive and two were negative then this would have been labeled yes. 
+
+Because the majority of the data points have a positive Cubs have a positive belong to the positive class fortunately for us in this example we have obtained all leaf nodes as pure but this will always this will not always be the case.
+
+
 ### $\Large{\color{Purple}Example \\# 2 }$
 ### $\large{\color{Purple}\underline{\textrm{Binary Split Using Gini index}}}$
 For binary splits, for the same attribute, we have to compute impurity multiple times for the different subsets of the attributes value
