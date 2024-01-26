@@ -351,7 +351,7 @@ $$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_
 * "middle_aged" = 1
 * "senior" = 3/5
   
-###  $\large{\color{Purple}\textrm{Ordering of age:}}$
+###  $\large{\color{Purple}\textrm{Ordering of \'age\':}}$
 * $\large{\color{purple} youth = 2/5, senior = 3/5, middle_aged = 1}$
   
 ### $\large{\color{Purple}\textrm{Possible Split points:}}$
