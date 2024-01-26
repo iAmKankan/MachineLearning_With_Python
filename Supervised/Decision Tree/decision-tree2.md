@@ -335,8 +335,14 @@ For binary splits, for the same attribute, we have to compute impurity multiple 
 
 As mentioned previously, for a binary outcome, to reduce the number of partitions to be considered, we order the values according to the proportion belonging to the positive class.
 
-### Binary Split using Gini index
-For binary splits, for the same attribute, we have to compute impurity multiple times for the different subsets of the attributes value
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/f0884d38-f84d-45c0-a850-3b09a8dc0312" width=90%/>
+  <br>
+  <ins><b><i>"Buying Computer" Data</i></b></ins>
+</p>
 
-As mentioned previously, for a binary outcome, to reduce the number of partitions to be considered, we order the values according to the proportion belonging to the positive class.
+### $\large{\color{Purple}\underline{\textrm{Gini Index}}}$
+
+$$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_{mk} \ \hat{p}\_{mk^{\prime}} = \sum_{k=1}^{K}  \hat{p}\_{mk} ( 1 - \hat{p}\_{mk})}$$
+
 
