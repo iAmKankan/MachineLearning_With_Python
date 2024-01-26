@@ -346,3 +346,12 @@ As mentioned previously, for a binary outcome, to reduce the number of partition
 $$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_{mk} \ \hat{p}\_{mk^{\prime}} = \sum_{k=1}^{K}  \hat{p}\_{mk} ( 1 - \hat{p}\_{mk})}$$
 
 
+### Positive class proportion for "age" attribute:
+* "youth" = 2/5
+* "middle_aged" = 1
+* "senior" = 3/5
+
+### Possible Split points:
+ * $\large{\color{purple}\\{youth\\}, \\{senior, middleaged\\}}$
+ * $\large{\color{purple}\\{youth, senior\\}, \\{middleaged\\}}$
+ 
