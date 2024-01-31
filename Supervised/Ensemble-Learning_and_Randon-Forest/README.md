@@ -29,9 +29,10 @@ More generally, ensemble models can be applied to **any base learner** beyond tr
 There are various types of ensemble learning methods, including:
 
 1. **Bagging (Bootstrap Aggregating):** This method involves training multiple models on random subsets of the training data. The predictions from the individual models are then combined, typically by averaging.
-2. **Boosting:** This method involves training a sequence of models, where each subsequent model focuses on the errors made by the previous model. The predictions are combined using a weighted voting scheme.
+2. **Committe Machine:**
 3. **Stacking:** This method involves using the predictions from one set of models as input features for another model. The final prediction is made by the second-level model.
-4. Voting
+4. **Boosting:** This method involves training a sequence of models, where each subsequent model focuses on the errors made by the previous model. The predictions are combined using a weighted voting scheme.
+
 
 ### $\large {\color{Purple}\underline{\textrm{Bagging}}}$
 Bootstrap Aggregating, also known as bagging, is a machine learning ensemble meta-algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It decreases the variance and helps to avoid overfitting. It is usually applied to decision tree methods. Bagging is a special case of the model averaging approach. 
