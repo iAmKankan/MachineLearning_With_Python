@@ -4,7 +4,7 @@
 * [Ensemble Learning and Random Forests](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/RandomForest.md)
 
 ### ⬛ $\Large {\color{Blue}\underline{\mathcal{Ensemble\ Learning\ and\ Random\ Forests:}}}$
-### $\large {\color{Purple}\underline{\textrm{Wisdom of the Crowd:}}}$
+### 🔲 $\large {\color{Purple}\underline{\textrm{Wisdom of the Crowd:}}}$
 Suppose you pose a complex question to thousands of **random people**, then **aggregate** their answers. In many cases you will find that this **aggregated answer** is better than an expert’s answer. This is called the **wisdom of the crowd**. 
 
 Similarly, if you **aggregate** the predictions of **a group of predictors** (such as **classifiers** or **regressors**), you will often get better **predictions** than with the best **individual predictor**. 
@@ -12,7 +12,7 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 * Thus, this technique is called _**Ensemble Learning**_, and
 * **An Ensemble Learning algorithm** is called an **_Ensemble method_**.
   
-### $\large {\color{Purple}\underline{\textrm{Ensemble Learning:}}}$
+### 🔲 $\large {\color{Purple}\underline{\textrm{Ensemble Learning:}}}$
 
 **Ensemble methods** combine the predictions of <ins>several base estimators</ins> **built with a given learning algorithm** in order to improve <ins>generalizability</ins> / <ins>robustness</ins> over a **single estimator**.
 
@@ -34,12 +34,12 @@ There are various types of ensemble learning methods, including:
 4. **Boosting:** This method involves training a sequence of models, where each subsequent model focuses on the errors made by the previous model. The predictions are combined using a weighted voting scheme.
 
 
-### $\large {\color{purple}\underline{\textrm{Bagging}}}$
+### ♠️  $\large {\color{purple}1.\underline{\textrm{Bagging}}}$
 Bootstrap Aggregating, also known as bagging, is a machine learning ensemble meta-algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It decreases the variance and helps to avoid overfitting. It is usually applied to decision tree methods. Bagging is a special case of the model averaging approach. 
 
 
 
-### 🔲 $\large{\color{purple}\underline{\textrm{Boosting:}}}$
+### ♠️ $\large{\color{purple}4.\underline{\textrm{Boosting:}}}$
 Boosting is a method used in machine learning <ins><b>to reduce errors</b></ins> in <ins>predictive data analysis</ins>. 
 
 A single machine learning model might make prediction errors depending on the accuracy of the training dataset. For example, if a cat-identifying model has been trained only on images of white cats, it may occasionally misidentify a black cat. Boosting tries to overcome this issue by training multiple models sequentially to improve the accuracy of the overall system.
