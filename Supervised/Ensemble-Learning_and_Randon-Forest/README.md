@@ -42,9 +42,9 @@ Bootstrap Aggregating, also known as bagging, is a machine learning ensemble met
 ### ♠️ $\large{\color{purple}4.\underline{\textrm{Boosting:}}}$
 Boosting is a method used in machine learning <ins><b>to reduce errors</b></ins> in <ins>predictive data analysis</ins>. 
 
-A single machine learning model might make prediction errors depending on the accuracy of the training dataset. For example, if a cat-identifying model has been trained only on images of white cats, it may occasionally misidentify a black cat. Boosting tries to overcome this issue by training multiple models sequentially to improve the accuracy of the overall system.
+Boosting is an **ensemble** modeling technique that attempts to build a strong classifier from the **number of weak classifiers**. It is done by building a model by using weak models in series. 
 
-
+**Firstly**, a model is built from the training data. Then the second model is built which tries to correct the errors present in the first model. This procedure is continued and models are added until either the complete training data set is predicted correctly or the maximum number of models are added. 
 
 
 
