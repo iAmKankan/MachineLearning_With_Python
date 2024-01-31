@@ -44,7 +44,24 @@ Boosting is a method used in machine learning <ins><b>to reduce errors</b></ins>
 
 Boosting is an **ensemble** modeling technique that attempts to build a strong classifier from the **number of weak classifiers**. It is done by building a model by using weak models in series. 
 
-**Firstly**, a model is built from the training data. Then the second model is built which tries to correct the errors present in the first model. This procedure is continued and models are added <ins><b>until either the complete training data set is predicted correctly</b></ins> or <ins><b>the maximum number of models are added</b></ins>. 
+**Firstly**, a model is built from the training data. Then the second model is built which tries to correct the errors present in the first model. This procedure is continued and models are added until either <ins><b>the complete training data set is predicted correctly</b></ins> or <ins><b>the maximum number of models are added</b></ins>. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
