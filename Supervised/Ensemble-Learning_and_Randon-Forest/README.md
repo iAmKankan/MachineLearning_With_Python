@@ -43,6 +43,8 @@ Boosting is a method used in machine learning to <ins><b>reduce errors</b></ins>
 
 Boosting is an **ensemble** modeling technique that attempts to build a strong classifier from the **number of weak classifiers**. It is done by building a model by using weak models in series. 
 
+### $\large{\color{purple}\underline{\textrm{ADA Boost}}}$
+
 1. **Firstly**, a model is built from the training data.
 2. Then the **second model** is built which tries to **correct the errors** present in the **first model**.
 3. This procedure is continued and <ins>models are added</ins> until either <ins><b>the complete training data set is predicted correctly</b></ins> or <ins><b>the maximum number of models are added</b></ins>. 
