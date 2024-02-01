@@ -64,7 +64,7 @@ Now, one of the most obvious ways of doing this is to say that okay I am going t
 $$\Large{\color{Purple}C_{(m)}(x)= C_{(m-1)}(x) + \alpha_{m}k_{m}(x)}$$
 
 
-So what will be $\large{\color{purple}alpha_m}$ ? 
+#### So what will be $\large{\color{purple}alpha_m}$ ? 
 $\Large Answer:$ Its just selecting classifiers.
 
 * So I can just take the **residual error** of $\large{\color{purple}c_{m-1}}$ and then use that to train $\large{\color{purple} k_{m}(x)} and then add it here.
