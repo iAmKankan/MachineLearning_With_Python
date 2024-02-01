@@ -81,7 +81,24 @@ $$\Huge{\color{Purple}e^{-y_{i}f(x_i)}}$$
 
 ### <ins>Exponential Loss on our equation</ins>:
 
-$$\Huge{\color{Purple}E = \sum_{i=1}^{N} e^{-y_{i}(C_{(m-1)}(x) + \alpha_{m}k_{m}(x))}}$$
+$$\Large{\color{Purple}E = \sum_{i=1}^{N} e^{-y_{i}(C_{(m-1)}(x) + \alpha_{m}k_{m}(x))}}$$
+
+$$\Large{\color{purple}\normalsize{\textrm{ We got the above by expanded- }} \large \sum_{i=1}^{N} e^{-y_{i}f(x_i)}}$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
