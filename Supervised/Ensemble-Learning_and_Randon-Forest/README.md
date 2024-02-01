@@ -149,3 +149,4 @@ Suppose a set D of d tuples, at each iteration i, a training set Di of d tuples 
 
 * Hands-On Machine Learning with Scikit-Learn Keras and TensorFlow Concepts Tools and Techniques to Build Intelligent Systems by Aurélien Géron, 2nd Edition
 * [Scikit Learn](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier)
+* IITM - Bala
