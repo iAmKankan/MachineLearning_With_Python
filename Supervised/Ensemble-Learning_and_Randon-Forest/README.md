@@ -52,7 +52,9 @@ $$\Large{\color{Purple}C_{(m-1)}(x)= \alpha_{1}k_{1}(x)+\alpha_{2}k_{2}(x)+\cdot
 * I am going to denote by $\large{\color{purple}C}$ of $\large{\color{purple}x}$ of $\large{\color{purple}(m-1)^{th}}$ stage classifier,
 * That is obtained by basically adding the outputs of all this individual classifies. E.g $\large{\color{purple}k_1, k_2 ,\cdots, k_{m-1}}$
 * $\large{\color{purple}\alpha_1, \alpha_2 ,\cdots, \alpha_{m-1}}$ these are the weights.
-* $\large{\color{purple}k_1}$ is a classifier that I added in the first stage
+* $\large{\color{purple}k_1}$ is a classifier that I added in the <ins><b>first stage</b></ins>.
+* $\large{\color{purple}k_2}$ is the classifier added in the <ins><b>second stage</b></ins> and so on so forth .
+*  $\large{\color{purple}k_{m-1}}$ is a classifier added in the <ins><b>m-1 stage</b></ins> okay.
 
 
 
