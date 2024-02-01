@@ -77,6 +77,13 @@ So, I can actually do this, so you can get a boosting like algorithm for regress
 
 ### <ins>Exponential Loss</ins>:
 
+$$\Large{\color{Purple}\e^{-y_{i}f(x_i)}}$$
+
+
+
+
+
+
 
 
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
