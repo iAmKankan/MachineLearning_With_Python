@@ -66,10 +66,10 @@ Now, one of the most obvious ways of doing this is to say that okay I am going t
 $$\Large{\color{Purple}C_{(m)}(x)= C_{(m-1)}(x) + \alpha_{m}k_{m}(x)}$$
 
 
-#### So what will be $\large{\color{purple}alpha_m}$ ? 
+#### So what will be $\large{\color{purple}\alpha_m}$ ? 
 $\Large Answer:$ Its just selecting classifiers.
 
-* So I can just take the **residual error** of $\large{\color{purple}c_{m-1}}$ and then use that to train $\large{\color{purple} k_{m}(x)} and then add it here.
+* So I can just take the **residual error** of $\large{\color{purple}c_{m-1}}$ and then use that to train $\large{\color{purple} k_{m}(x)}$ and then add it here.
 * In fact $\large{\color{purple}\alpha_{m} }$ can be 1. it can be one does not matter because the $\large{\color{purple}k_m(x)}$ will actually align itself in the direction of the residual so I can just add it here so it is fine.
 * And it is actually a good way to do it if you are doing regression let that make sense and I can take this as they can take the residual error and then train my $\large{\color{purple}k_m}$ to actually go in the direction of the residual.
 
