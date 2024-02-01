@@ -100,6 +100,11 @@ E &=& \sum\limits_{i=1}^{N} e^{-y_{i}(C_{(m-1)}(x) + \alpha_{m}k_{m}(x))} \\
 * The weight $\large{\color{purple}w}$ of the $\large{\color{purple}i^{th}}$ data point, at the $\large{\color{purple}m^{th}}$ stage is essentially e power minus y sub i C sub m minus one of x sub i or $\large{\color{purple}e^{-y_i C_{m-1}(x_i)}}$ .
 * So what is this  $\large{\color{purple}e^{-y_i C_{m-1}(x_i)}}$ ? It is a loss I have incurred on that point $\large{\color{purple}x_i}$ up till the $\large{\color{purple}m-1}$ stage.
 
+I am going to break that sum up into two components
+
+
+$$\Large{\color{Purple}E = \sum w_i^{m} e^{-\alpha_m} + \sum w_i^{m} e^{\alpha_m} }$$
+
 
 
 
