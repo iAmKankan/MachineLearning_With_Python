@@ -105,8 +105,8 @@ I am going to break that sum up into two components
 
 $$\Large{\color{Purple}E = \sum w_i^{(m)} e^{-\alpha_m} + \sum w_i^{(m)} e^{\alpha_m} }$$
 
-* $\Large{\color{purple} \sum w_i^{(m)} e^{-\alpha_m}}$ ; When i correctly classified.
-* $\Large{\color{purple} \sum w_i^{(m)} e^{\alpha_m}}$ ; When i wrongly classified.
+* $\large{\color{purple} \sum w_i^{(m)} e^{-\alpha_m}}$ ; When i correctly classified.
+* $\large{\color{purple} \sum w_i^{(m)} e^{\alpha_m}}$ ; When i wrongly classified.
  
 
 
