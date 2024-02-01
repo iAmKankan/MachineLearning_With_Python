@@ -56,11 +56,12 @@ $$\Large{\color{Purple}C_{(m-1)}(x)= \alpha_{1}k_{1}(x)+\alpha_{2}k_{2}(x)+\cdot
 * $\large{\color{purple}\alpha_1, \alpha_2 ,\cdots, \alpha_{m-1}}$ these are the weights.
 * $\large{\color{purple}k_1}$ is a classifier that I added in the <ins><b>first stage</b></ins>.
 * $\large{\color{purple}k_2}$ is the classifier added in the <ins><b>second stage</b></ins> and so on so forth .
-*  $\large{\color{purple}k_{m-1}}$ is a classifier added in the <ins><b>m-1 stage</b></ins> okay.
+* $\large{\color{purple}k_{m-1}}$ is a classifier added in the <ins><b>m-1 stage</b></ins> okay.
 
 
+Now, one of the most obvious ways of doing this is to say that okay I am going to take this above equation and look at the residual error you know I can think of this as a prediction problem right, and look at the residual error of the predictor right, and then train the below classifier $\large{\color{purple}k_{m}}$ to minimize the **residual error**, right.
 
-
+$$\Large{\color{Purple}C_{(m)}(x)= C_{(m-1)}(x) + \alpha_{m}k_{m}(x)}$$
 
 
 
