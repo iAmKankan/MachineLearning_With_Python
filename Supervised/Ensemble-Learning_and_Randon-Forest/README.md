@@ -90,6 +90,12 @@ $$\Large{\color{purple}\normalsize{\textrm{ We got the above by expanded- }} \la
 
 This was not the way **ADA BOOST** was originally derived, **ADA BOOST** was derived in a completely different way and later on about five years after they publish **ADA BOOST** they kind of discovered the connection between this kind of <ins><b>forward stage ways modeling</b></ins> or <ins><b>additive modeling</b></ins> and <ins><b>exponential loss</b></ins> they said okay, I can do forward stage wise modeling with and **exponential loss** function I end up with **ADA BOOST** that connection was discovered five years later. But now almost always people except in the theory community, in the machine learning community is always introduced like this.
 
+Lets  re write
+
+$$\Large{\color{Purple}\begin{matrix}
+E &=& \sum_{i=1}^{N} e^{-y_{i}(C_{(m-1)}(x) + \alpha_{m}k_{m}(x))} \\
+&=& \sum_{i=1}^{N} e^{-y_{i} \alpha_m k_m (x_i)}; \normalsize\textrm{ Where } w_i^{(m)} = e^{-y_i C_{m-1}(x_i)}\\
+\end{matrix}}$$
 
 
 
