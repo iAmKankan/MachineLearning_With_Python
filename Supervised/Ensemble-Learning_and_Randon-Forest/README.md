@@ -77,7 +77,7 @@ So, I can actually do this, so you can get a boosting like algorithm for regress
 
 ### <ins>Exponential Loss</ins>:
 
-$$\Large{\color{Purple}\e^{-y_{i}f(x_i)}}$$
+$$\Huge{\color{Purple}e^{-y_{i}f(x_i)}}$$
 
 
 
