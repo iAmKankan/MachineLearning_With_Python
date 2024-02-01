@@ -38,7 +38,6 @@ There are various types of ensemble learning methods, including:
 Bootstrap Aggregating, also known as bagging, is a machine learning ensemble meta-algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It decreases the variance and helps to avoid overfitting. It is usually applied to decision tree methods. Bagging is a special case of the model averaging approach. 
 
 
-
 ### ♠️ $\large{\color{purple}4.\underline{\textrm{Boosting:}}}$
 Boosting is a method used in machine learning to <ins><b>reduce errors</b></ins> in <ins>predictive data analysis</ins>. 
 
