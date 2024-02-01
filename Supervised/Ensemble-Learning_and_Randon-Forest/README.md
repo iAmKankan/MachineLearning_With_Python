@@ -103,9 +103,11 @@ E &=& \sum\limits_{i=1}^{N} e^{-y_{i}(C_{(m-1)}(x) + \alpha_{m}k_{m}(x))} \\
 I am going to break that sum up into two components
 
 
-$$\Large{\color{Purple}E = \sum w_i^{m} e^{-\alpha_m} + \sum w_i^{m} e^{\alpha_m} }$$
+$$\Large{\color{Purple}E = \sum w_i^{(m)} e^{-\alpha_m} + \sum w_i^{(m)} e^{\alpha_m} }$$
 
-
+* $\Large{\color{Purple} \sum w_i^{(m)} e^{-\alpha_m}}$ When i correctly classified it.
+* $\Large{\color{Purple} \sum w_i^{(m)} e^{\alpha_m}}$ When i wrongly classified it.
+ 
 
 
 
