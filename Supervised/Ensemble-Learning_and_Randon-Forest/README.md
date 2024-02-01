@@ -48,7 +48,7 @@ Boosting is an **ensemble** modeling technique that attempts to build a strong c
 2. Then the **second model** is built which tries to **correct the errors** present in the **first model**.
 3. This procedure is continued and <ins>models are added</ins> until either <ins><b>the complete training data set is predicted correctly</b></ins> or <ins><b>the maximum number of models are added</b></ins>. 
 
-
+$$\Large{\color{Purple}C_{m-1}(x)= \alpha_{1}k_{1}(x)+\alpha_{2}k_{2}(x)+\cdots+\alpha_{m-1}k_{m-1}(x) }$$
 
 
 
