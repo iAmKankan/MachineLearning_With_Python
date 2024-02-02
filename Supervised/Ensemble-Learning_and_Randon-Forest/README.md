@@ -120,8 +120,18 @@ $\Large Answer:$ Well, the best classifier can find the one for which this side 
 * But, remember our classifiers are **all weak classifiers** and exactly that was the <b><ins>basic assumption</b></ins> we were starting with.
 * The classifiers are all weak classifiers I can do only **slightly better than random**, so I have to get nearly **half the data points incorrect**.
 
-<b><ins>So which half should go here at the left which half should come here at the right?</b></ins> and then we can move one data point from to here that here to make it better than half, so which half should go here which half should come here intuitively you tell me, which will incur less penalty, what is small half, it is half man what is small half that will be what clear me, can be more clear as to what is small means, no that is a valid way of interpreting small half tell me, wm ‘s right, so all the w's that have a large value should come here because they get e-α.
+<b><ins>So which half should go here at the left which half should come here at the right?</b></ins> and then we can move one data point from to here that here to make it better than half, 
+* So which half should go here which half should come here?
+* Which will incur less penalty?
 
+$\Large Answer:$ All $\large{\color{purple}w^m }$  , so all the $\large{\color{purple}w}$ s that have a <b><ins>large value</b></ins> should come at the **left hand side** because they get multiplied by $\large{\color{purple}e^{-\alpha}}$ ( so they will besome small). 
+
+So what are **w**’s is a small values- the ones that I have correctly classified up till the previous point. **w** is the large value - that are the ones that I have incorrectly classified up to the previous point.
+
+At the <b>m<sup>th</sup></b> stage what I should be looking at is <b><ins>to get the data points which I misclassified from the previous stage, try to get them correctly as many as possible</b></ins>. 
+
+
+So that is essentially the intuition behind ADABOOST, so at every stage what you do is you try to look at the previous stage see which are the data points you misclassified it tries to get them correctly in this stage, right. It is okay if you make mistakes on data points that you have correctly classified till the previous stage why is it, okay. And because those classifiers can adjust for it okay, then we will look at how we will do this again right.
 
 
 
