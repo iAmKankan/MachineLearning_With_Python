@@ -131,13 +131,17 @@ So what are **w**’s is a small values- the ones that I have correctly classifi
 At the <b>m<sup>th</sup></b> stage what I should be looking at is <b><ins>to get the data points which I misclassified from the previous stage, try to get them correctly as many as possible</b></ins>. 
 
 
-So that is essentially the intuition behind ADABOOST, so at every stage what you do is you try to look at the previous stage see which are the data points you misclassified it tries to get them correctly in this stage, right. It is okay if you make mistakes on data points that you have correctly classified till the previous stage why is it, okay. And because those classifiers can adjust for it okay, then we will look at how we will do this again right.
+So that is essentially the intuition behind ADABOOST, so at every stage what you do is you try to look at the previous stage see which are the data points you misclassified it tries to get them correctly in this stage, right. It is okay if you make mistakes on data points that you have correctly classified till the previous stage why is it okay?. Because those classifiers can adjust for it, then we will look at how we will do this again.
 
 
+$$\Large{\color{Purple}\sum\limits_{y_i= k_m(x_i)} w_i^{(m)} = W_c \ \ ; \ \  \sum\limits_{y_i \neq k_m(x_i)} w_i^{(m)} = W_e }$$
 
 
+So, I am going to call, so it is all the weights of all the data points I got correct at <b>m<sup>th</sup></b> stage, likewise weight of all the data points I made a mistake on at the <b>m<sup>th</sup></b> stage
 
+Then I can write my e’s simply as
 
+$$\Large{\color{Purple}E = W_c e^{-\alpha_m} + W_e e^{\alpha_m}}$$
 
 
 
