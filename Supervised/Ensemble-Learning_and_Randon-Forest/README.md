@@ -114,7 +114,7 @@ $$\Large{\color{Purple}E = \underbrace{\sum w_i^{(m)} e^{-\alpha_m}}_{y_i=k_m(x_
 * $\large{\color{purple} \sum w_i^{(m)} e^{-\alpha_m}}$ ; all the correctly Classified datapoints.
 * $\large{\color{purple} \sum w_i^{(m)} e^{\alpha_m}}$ ; all the wrongly Classified datapoints.
  
-#### What is the best classifier that I can find at the mth stage?
+#### What is the best classifier that I can find at the m<sup>th</sup> stage?
 $\Large Answer:$ Well, the best classifier can find the one for which this side ($\large{\color{purple} \sum w_i^{(m)} e^{\alpha_m}}$ ) is empty, Which means everything has been classified correctly, so that is the best classifier.
 
 * But, remember our classifiers are all weak classifiers and exactly that is the basic assumption we are starting with.
