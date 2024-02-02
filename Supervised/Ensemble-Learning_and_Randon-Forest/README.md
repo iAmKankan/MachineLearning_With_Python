@@ -117,8 +117,19 @@ $$\Large{\color{Purple}E = \underbrace{\sum w_i^{(m)} e^{-\alpha_m}}_{y_i=k_m(x_
 #### What is the best classifier that I can find at the m<sup>th</sup> stage?
 $\Large Answer:$ Well, the best classifier can find the one for which this side ($\large{\color{purple} \sum w_i^{(m)} e^{\alpha_m}}$ ) is empty, Which means everything has been classified correctly, so that is the best classifier.
 
-* But, remember our classifiers are all weak classifiers and exactly that is the basic assumption we are starting with.
-* The classifiers are all weak classifiers I can do only slightly better than random, so I have to get nearly half the data points incorrect, right. So which half should go here which half should come here, and then we can move one data point from to here that here to make it better than half, so which half should go here which half should come here intuitively you tell me, which will incur less penalty, what is small half, it is half man what is small half that will be what clear me, can be more clear as to what is small means, no that is a valid way of interpreting small half tell me, wm ‘s right, so all the w's that have a large value should come here because they get e-α.
+* But, remember our classifiers are **all weak classifiers** and exactly that was the <b><ins>basic assumption</b></ins> we were starting with.
+* The classifiers are all weak classifiers I can do only **slightly better than random**, so I have to get nearly **half the data points incorrect**.
+* <b><ins>So which half should go here which half should come here?</b></ins> and then we can move one data point from to here that here to make it better than half, so which half should go here which half should come here intuitively you tell me, which will incur less penalty, what is small half, it is half man what is small half that will be what clear me, can be more clear as to what is small means, no that is a valid way of interpreting small half tell me, wm ‘s right, so all the w's that have a large value should come here because they get e-α.
+
+
+
+
+
+
+
+
+
+
 
 
 
