@@ -62,7 +62,7 @@ $$\Large{\color{Purple}C_{(m-1)}(x)= \alpha_{1}k_{1}(x)+\alpha_{2}k_{2}(x)+\cdot
 
 ### $\large{\color{purple}\underline{\textrm{Error or Loss}}}$
 
-Now, I am going to take this above equation and look at the **residual error**, as I can consider this as a **prediction problem**. Look at the **residual error** of the predictor and then <ins><b>train the below classifier</b></ins> $\large{\color{purple}k_{m}}$ to **minimize** the **residual error**, right.
+Now, I am going to take this above equation and look at the **residual error**, as I can consider this as a **prediction problem**. Look at the **residual error** of the predictor and then <ins><b>train the below classifier</b></ins> $\large{\color{purple}k_{m}}$ to **minimize** the **residual error**.
 
 $$\Large{\color{Purple}C_{(m)}(x)= C_{(m-1)}(x) + \alpha_{m}k_{m}(x)}$$
 
