@@ -98,10 +98,10 @@ This was not the way **ADA BOOST** was originally derived, **ADA BOOST** was der
 
 Lets  re write
 
-$$\Large{\color{Purple}\begin{matrix}
+$$\Large{\color{Purple}\begin{matrix*}[l]
 E &=& \sum\limits_{i=1}^{N} e^{-y_{i}(C_{(m-1)}(x) + \alpha_{m}k_{m}(x))} \\
-&=& \sum\limits_{i=1}^{N} e^{-y_{i} \alpha_m k_m (x_i)} \ \ ; \normalsize\textrm{ Where } \Large w_i^{(m)} = e^{-y_i C_{m-1}(x_i)}\\
-\end{matrix}}$$
+&=& \sum\limits_{i=1}^{N} e^{-y_{i} \alpha_m k_m (x_i)}  \normalsize{;} \Large \Big\[ \normalsize{ \textrm{ Where }  w_i^{(m)} = e^{-y_i C_{m-1}(x_i)}} \Large \Big \] \\
+\end{matrix*}}$$
 
 * The weight $\large{\color{purple}w}$ of the $\large{\color{purple}i^{th}}$ data point, at the $\large{\color{purple}m^{th}}$ stage is essentially e power minus y sub i C sub m minus one of x sub i or $\large{\color{purple}e^{-y_i C_{m-1}(x_i)}}$ .
 * So what is this  $\large{\color{purple}e^{-y_i C_{m-1}(x_i)}}$ ? It is a loss I have incurred on that point $\large{\color{purple}x_i}$ up till the $\large{\color{purple}m-1}$ stage.
