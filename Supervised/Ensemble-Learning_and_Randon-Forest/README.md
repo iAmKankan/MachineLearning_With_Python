@@ -96,7 +96,7 @@ $$\Large{\color{purple}\normalsize{\textrm{ We got the above by expanding- }} \l
 
 This was not the way **ADA BOOST** was originally derived, **ADA BOOST** was derived in a completely different way and later on about five years after they publish **ADA BOOST** they kind of discovered the connection between this kind of <ins><b>forward stage ways modeling</b></ins> or <ins><b>additive modeling</b></ins> and <ins><b>exponential loss</b></ins> they said okay, I can do forward stage wise modeling with and **exponential loss** function I end up with **ADA BOOST** that connection was discovered five years later. But now almost always people except in the theory community, in the machine learning community is always introduced like this.
 
-Lets  re write
+#### Lets  re-write
 
 $$\Large{\color{Purple}\begin{matrix*}[l]
 E &=& \sum\limits_{i=1}^{N} e^{-y_{i}(C_{(m-1)}(x) + \alpha_{m}k_{m}(x))} \\
@@ -106,17 +106,19 @@ E &=& \sum\limits_{i=1}^{N} e^{-y_{i}(C_{(m-1)}(x) + \alpha_{m}k_{m}(x))} \\
 * The weight $\large{\color{purple}w}$ of the $\large{\color{purple}i^{th}}$ data point, at the $\large{\color{purple}m^{th}}$ stage is essentially e power minus y sub i C sub m minus one of x sub i or $\large{\color{purple}e^{-y_i C_{m-1}(x_i)}}$ .
 * So what is this  $\large{\color{purple}e^{-y_i C_{m-1}(x_i)}}$ ? It is a loss I have incurred on that point $\large{\color{purple}x_i}$ up till the $\large{\color{purple}m-1}$ stage.
 
-I am going to break that sum up into two components
+#### I am going to break that sum up into two components
 
 
 $$\Large{\color{Purple}E = \underbrace{\sum w_i^{(m)} e^{-\alpha_m}}_{y_i=k_m(x_i)} + \underbrace{\sum w_i^{(m)} e^{\alpha_m}}\_{y_i \neq k_m(x_i)} }$$
 
-* $\large{\color{purple} \sum w_i^{(m)} e^{-\alpha_m}}$ ; When it is correctly classified.
-* $\large{\color{purple} \sum w_i^{(m)} e^{\alpha_m}}$ ; When it is wrongly classified.
+* $\large{\color{purple} \sum w_i^{(m)} e^{-\alpha_m}}$ ; all the correctly Classified datapoints.
+* $\large{\color{purple} \sum w_i^{(m)} e^{\alpha_m}}$ ; all the wrongly Classified datapoints.
  
+#### What is the best classifier that I can find at the mth stage?
+$\Large Answer:$ Well, the best classifier can find the one for which this side ($\large{\color{purple} \sum w_i^{(m)} e^{\alpha_m}}$ ) is empty, Which means everything has been classified correctly, so that is the best classifier.
 
-
-
+* But, remember our classifiers are all weak classifiers and exactly that is the basic assumption we are starting with.
+* The classifiers are all weak classifiers I can do only slightly better than random, so I have to get nearly half the data points incorrect, right. So which half should go here which half should come here, and then we can move one data point from to here that here to make it better than half, so which half should go here which half should come here intuitively you tell me, which will incur less penalty, what is small half, it is half man what is small half that will be what clear me, can be more clear as to what is small means, no that is a valid way of interpreting small half tell me, wm ‘s right, so all the w's that have a large value should come here because they get e-α.
 
 
 
