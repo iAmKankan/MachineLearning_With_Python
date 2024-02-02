@@ -77,7 +77,7 @@ $\Large Answer:$ Its just selecting classifiers.
 
 ⚛️ I can actually do this and get a **boosting** like algorithm for <ins><b>Regression</b></ins> just <ins><b>by training it along the direction of a residual</b></ins>.
 
-⚛️ But when I am doing <ins><b>Classification</ins></b> that is not necessarily the right thing to do. So, people come up with **different kinds of loss functions** and then they try to improve the **classification**, so the **loss function** we look at is the **exponential loss**.
+⚛️ But when I am doing <ins><b>Classification</ins></b> that is not necessarily the right thing to do. So, people come up with **different kinds of loss functions** and then they try to improve the error in **classification**, so the **loss function** we look at is the **exponential loss**.
 
 
 ### <ins>Exponential Loss</ins>:
@@ -90,6 +90,9 @@ $$\Large{\color{Purple}E = \sum_{i=1}^{N} e^{-y_{i}(C_{(m-1)}(x) + \alpha_{m}k_{
 
 $$\Large{\color{purple}\normalsize{\textrm{ We got the above by expanded- }} \large \sum_{i=1}^{N} e^{-y_{i}f(x_i)}}$$
 
+<p align="center">
+  <ins><b><i> Exponential Loss on m<sup>th</sup> Classifier</i></b></ins> 
+</p>
 
 This was not the way **ADA BOOST** was originally derived, **ADA BOOST** was derived in a completely different way and later on about five years after they publish **ADA BOOST** they kind of discovered the connection between this kind of <ins><b>forward stage ways modeling</b></ins> or <ins><b>additive modeling</b></ins> and <ins><b>exponential loss</b></ins> they said okay, I can do forward stage wise modeling with and **exponential loss** function I end up with **ADA BOOST** that connection was discovered five years later. But now almost always people except in the theory community, in the machine learning community is always introduced like this.
 
