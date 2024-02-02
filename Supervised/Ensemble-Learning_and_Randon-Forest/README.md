@@ -60,17 +60,18 @@ $$\Large{\color{Purple}C_{(m-1)}(x)= \alpha_{1}k_{1}(x)+\alpha_{2}k_{2}(x)+\cdot
 * $\large{\color{purple}k_2}$ is the classifier added in the <ins><b>second stage</b></ins> and so on so forth .
 * $\large{\color{purple}k_{m-1}}$ is a classifier added in the <ins><b>m-1 stage</b></ins> okay.
 
+### $\large{\color{purple}\underline{\textrm{Error or Loss}}}$
 
-Now, one of the most obvious ways of doing this is to say that okay I am going to take this above equation and look at the residual error you know I can think of this as a prediction problem right, and look at the residual error of the predictor right, and then train the below classifier $\large{\color{purple}k_{m}}$ to minimize the **residual error**, right.
+Now, I am going to take this above equation and look at the **residual error**, as I can consider this as a **prediction problem**. Look at the **residual error** of the predictor and then <ins><b>train the below classifier</b></ins> $\large{\color{purple}k_{m}}$ to **minimize** the **residual error**, right.
 
 $$\Large{\color{Purple}C_{(m)}(x)= C_{(m-1)}(x) + \alpha_{m}k_{m}(x)}$$
 
 
-#### So what will be $\large{\color{purple}\alpha_m}$ ? 
+#### So what will be $\large{\color{purple}\alpha_m}$ here? 
 $\Large Answer:$ Its just selecting classifiers.
 
 * So I can just take the **residual error** of $\large{\color{purple}c_{m-1}}$ and then use that to train $\large{\color{purple} k_{m}(x)}$ and then add it here.
-* In fact $\large{\color{purple}\alpha_{m} }$ can be 1. it can be one does not matter because the $\large{\color{purple}k_m(x)}$ will actually align itself in the direction of the residual so I can just add it here so it is fine.
+* In fact $\large{\color{purple}\alpha_{m} }$ can be **1**. it can be one does not matter because the $\large{\color{purple}k_m(x)}$ will actually align itself in the direction of the residual so I can just add it here so it is fine.
 * And it is actually a good way to do it if you are doing regression let that make sense and I can take this as they can take the residual error and then train my $\large{\color{purple}k_m}$ to actually go in the direction of the residual.
 
 
