@@ -75,9 +75,9 @@ $\Large Answer:$ Its just selecting classifiers.
 * And it is actually a good way to do it if you are doing **regression**. I can take this as they can take the **residual error** and then train my $\large{\color{purple}k_m}$ to actually go in the **direction of the residual**.
 
 
-I can actually do this and get a **boosting** like algorithm for **regression** just <ins><b>by training it along the direction of a residual</b></ins>.
+⚛️ I can actually do this and get a **boosting** like algorithm for <ins><b>Regression</b></ins> just <ins><b>by training it along the direction of a residual</b></ins>.
 
-but when I am doing classification that is not necessarily the right thing to do so people come up with different kinds of loss functions and then they try to improve the classification, so the **loss function** we look at is the **exponential loss**.
+⚛️ But when I am doing <ins><b>Classification</ins></b> that is not necessarily the right thing to do. So, people come up with **different kinds of loss functions** and then they try to improve the **classification**, so the **loss function** we look at is the **exponential loss**.
 
 
 ### <ins>Exponential Loss</ins>:
