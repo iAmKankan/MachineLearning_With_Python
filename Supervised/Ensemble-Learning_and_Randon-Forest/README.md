@@ -139,10 +139,11 @@ $$\Large{\color{Purple}\sum\limits_{y_i= k_m(x_i)} w_i^{(m)} = W_c \ \ ; \ \  \s
 
 So, I am going to call, so it is all the weights of all the data points I got correct at <b>m<sup>th</sup></b> stage, likewise weight of all the data points I made a mistake on at the <b>m<sup>th</sup></b> stage
 
-Then I can write my e’s simply as
+Then I can write my $\large{\color{purple}e}$’s simply as
 
 $$\Large{\color{Purple}E = W_c e^{-\alpha_m} + W_e e^{\alpha_m}}$$
 
+the value of α really does not matter in my choice of km right, regardless of the value of α right, regardless of value of αm whatever argument I gave you this no holes right, the idea is to see how much of the weight, the weight you can push to Wc right, and how less of the weight you keep in We. I mean there is total of weight right, there is some total W right, W is a constant okay, Wc + We is a constant, the goal is now to see how much weight you can push into Wc as posted, km will be the classifier that rise as to my WC, so how we do this well you can use you can classifier they images that can assign based data point, we discussed very briefly in session the case right, we can assign ways to data points and you can essentially multiply the error that you make on a data point by the corresponding weight, right.
 
 
 
