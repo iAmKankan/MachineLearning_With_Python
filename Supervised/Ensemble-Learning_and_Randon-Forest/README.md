@@ -166,6 +166,15 @@ But people just tend to think of boosting as bagging with the different sampling
 
 Regardless of what value of $\large {\color{Purple}\alpha_m}$ you choose the minimizer for $\large {\color{Purple}k_m}$ is the one that gives you maximum weight into $\large {\color{Purple}W_c}$. But then having chosen a $\large {\color{Purple}k_m}$ I know have to choose an $\large {\color{Purple}\alpha_m}$ that gives me the error detection, so how do you go about doing that.
 
+$$\Large{\color{Purple}\begin{matrix*}[l]
+\dfrac{\partial E}{\partial \alpha_m} &=& - W_c e^{-\alpha_m} + W_e e^{\alpha_m} = 0 \\
+-W_c + W_e^{2 \alpha_m}  &=& 0 \\
+\alpha_m &=& \dfrac{1}{2} \ln \left \( \dfrac{W_c}{W_e} \right \)\\
+ &=& \dfrac{1}{2} \ln \left \( \dfrac{W - W_e}{W_e} \right \)\\
+ &=& \dfrac{1}{2} \ln \left \( \dfrac{1 - err_m}{err_m} \right \)\\
+ err_m &=& \dfrac{W_e}{W} \\
+\end{matrix*}}$$
+
 
 
 
