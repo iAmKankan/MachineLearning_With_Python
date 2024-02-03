@@ -189,11 +189,17 @@ I have to change my $\large {\color{purple}W}$ ’s now for the next stage,
 
 After you have done $\large{\color{purple} err_m = \dfrac{W_e}{W}}$ you come here 
 
-$$\Large{\color{Purple}W_i^{m+1} = W_i^m e^{-y_i \alpha_m k_m (x_i)}$$
+$$\Large{\color{Purple}W_i^{m+1} = W_{i}^{m} e^{-y_i \alpha_m k_m (x_i)}}$$
 
 
-I do not erase that part right. So because you need the αm here for your update, so once you find the αm you come back here and change the weights of
+* You need the  $\large{\color{purple}\alpha_m}$ here for your update, so once you find the $\large{\color{purple}\alpha_m}$ you come back here and change the weights of all the data points by this amount.
 
+That was a plain simple version of **ADA BOOST**.
+
+
+So in fact we could show that the **exponential loss** function is closely related to the **deviance**. An equally popular version of boosting called **Logit boost** exists, where we use the deviance the logistic function , the log odds function that we used for logistic regression you can use the same error function and then derive all the update rules that we just did for the exponential loss function you can do the same thing for the logit function the log odds function also. You can come up with similar update rules okay.
+
+So the recent ADABOOST is so popular is because it deals such very simple updates right, if you think about it all the computation you do is, you find a classifier that minimizes this weighted the error , then you come back and compute this $\large{\color{purple}\alpha_m}$ and then you go back and change the weights and then repeat until you are happy with the performance of the total classifier and both **bagging** and **boosting** , you do both decision trees are very popular classifiers for this.
 
 
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
