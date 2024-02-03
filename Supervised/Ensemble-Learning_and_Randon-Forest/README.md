@@ -4,7 +4,7 @@
 * [Ensemble Learning and Random Forests](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/RandomForest.md)
 
 $\large{\color{Purple} Note\ Books:}$
-* [ADABoost Classicier Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised//Ensemble-Learning_and_Randon-Forest/ADA_Boost001.ipyn)
+* [ADABoost Classicier Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised//Ensemble-Learning_and_Randon-Forest/ADA_Boost001.ipynb)
 
 ### ⬛ $\Large {\color{blue}\underline{\mathcal{Ensemble\ Learning\ and\ Random\ Forests:}}}$
 ### 🔲 $\large {\color{Purple}\underline{\textrm{Wisdom of the Crowd:}}}$
