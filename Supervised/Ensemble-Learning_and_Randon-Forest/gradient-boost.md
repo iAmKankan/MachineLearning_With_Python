@@ -21,7 +21,15 @@ $$\Large{\color{Purple}T(x; \theta)= \sum_{j=1}^{J} \gamma_j I (x \in R_j)}$$
 $$\Large{\color{Purple}\hat{\theta} = argument_{\theta}= \sum_{j=1}^{J} \sum_{x_i \in R_i} L(y_i,\gamma_j)}$$
 
 
-I look at the loss incurred when the actual output is $\large{\color{purple}y_i}$. The output I am giving you is $\large{\color{purple}\gamma_j}$ , so for all data points $\large{\color{purple}x}$ that belongs to a region $\large{\color{purple}R_j}$ the output will be $\large{\color{purple}\gamma_j}$, so this is essentially the loss, and sum this over all regions, and this is the rectum just recapping the decision trees for you right. And then we looked at greedy methods for finding $\large{\color{purple}R_j}$ right, and given an $\large{\color{purple}R_j}$; we knew how to fit $\large{\color{purple}\gamma_j}$ right, so given that we looked at some greedy search methods right.
+I look at the loss incurred when 
+* the actual output is $\large{\color{purple}y_i}$.
+* The output I am giving you is $\large{\color{purple}\gamma_j}$ ,
+* so for all data points $\large{\color{purple}x}$ that belongs to a region $\large{\color{purple}R_j}$ the output will be $\large{\color{purple}\gamma_j}$, so this is essentially the loss there.
+*  $\large{\color{purple}\sum_{j=1}^{J}}} this is the sum over all regions. This is just recapping the decision trees for you right.
+*  And then we looked at greedy methods for finding $\large{\color{purple}R_j}$ right, and given an $\large{\color{purple}R_j}$; we knew how to fit $\large{\color{purple}\gamma_j}$ right, so given that we looked at some greedy search methods right.
+
+### Boosted Tree
+So you can do, you can do boosting with trees also just like you did boost with other classifiers you can do boosting with trees right. So I have M trees so essentially it is taken some of the output of all the M trees that gives me my boosted tree right, remember that I mean this is not a single tree okay it is now a forest, then I have a correction of trees a collection of trees is a forest right.
 
 
   
