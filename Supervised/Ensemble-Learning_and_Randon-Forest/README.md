@@ -147,7 +147,21 @@ $$\Large{\color{Purple}E = W_c e^{-\alpha_m} + W_e e^{\alpha_m}}$$
 * Regardless of value of $\large{\color{purple}\alpha_m}$ whatever argument I gave you this no holes, the idea is to see how much of the **weight** you can push to  $\large{\color{purple}W_c}$ and how less of the weight you keep in  $\large{\color{purple}W_e}$ means total of weight or total of  $\large{\color{purple}W}$
 *  $\large{\color{purple} W}$ is a **constant**.  $\large{\color{purple}W_c + W_e }$ are **constants**
 *  The goal is now to see how much weight you can push into  $\large{\color{purple}W_c}$ as **posted**,
-*   $\large{\color{purple}k_m}$ will be the classifier that rise as to my  $\large{\color{purple}W_c}$, so how we do this well you can use you can classifier they images that can assign based data point, we discussed very briefly in session the case right, we can assign ways to data points and you can essentially multiply the error that you make on a data point by the corresponding weight, right.
+*   $\large{\color{purple}k_m}$ will be the classifier that rise as to my  $\large{\color{purple}W_c}$, so how we do this well you can use you can classifier they images that can assign based data point, we discussed very briefly in session the case, we can assign ways to data points and you can essentially multiply the error that you make on a data point by the corresponding weight.
+
+* So the error that you make you multiplied by the corresponding weight so that you can use weighted minimize other ways of doing this, so one way people see what I am saying over km , you see what you are supposed to do to get your k, the km is such that maximum weight goes into Wc they are splitting your W into two parts and depending on what data points are making mistakes on right, the data points you do not make mistakes on contributed Wc the data points you make mistakes on contribute of e. If you want to see how much larger you can Wc. We basic that is the classifier you have to find, before that you use some kind of a payment method, so one way of achieving this is do the following you are saying weights to all the data points now what you do, if you go and sample some of these data points according to their weights, create a new training set by sampling from 582 this data points are given things according to the weights, so what does this mean points for which the weight is higher you get to sample more often into this data sets, points for which the weights are very low I do not even appear in the data set, right. So the points appears multiple times in the data set then when you are trying to minimize the training error you are likely to get a point correct, so instead of using a directly using a weighted training algorithm people simulate that by sampling from the data weights okay, so what has happened unfortunately because of this I change of tends to compact by bagging and boosting in the minds of people and if you look at some of the data mining text books especially some of the earlier data mining textbooks exciting and boosting we needed will described in a very similar fashion right, what do you do in bagging whenever you add a new classified.
+
+### <ins>Bagging Vs Boosting</ins>
+
+So in the older textbooks how they describe is that what you do in 
+* **Bagging** <ins><b>is every time you generate a new sample you generate it uniformly, with a replacement</ins></b>.
+* **Boosting** the differences is - <ins><b>every time we generate a new sample you use the prediction error from the previous stage</ins></b>
+* There is the only difference between **bagging** and **boosting**. But operationally if you think about it, **boosting** is <ins><b>inherently serial</ins></b> and then <ins><b>there is this error minimization property </ins></b>.
+
+But people just tend to think of boosting as bagging with the different sampling distribution, which is incorrect. At the fundamental principles of the two things are very different.
+
+
+### Find $\Large \alpha$
 
 
 
