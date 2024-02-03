@@ -182,8 +182,8 @@ $$\Large{\color{Purple}\begin{matrix*}[l]
 * But then suppose it has a very high error, error close to 1, Then the weight will be 0. so depending on how good the classifier is this way it will vary.
 
 
-### $\large {\color{Purple}\underline{\textrm{Finding -}\Large W}}$
-
+### $\large {\color{Purple}\underline{\textrm{Change -}\Large W}}$
+I have to change my W’s now for the next stage right, so what is my Wi is $\large {\color{purple}e^{-y_i C_{m-1}(x_i)}}$, so now it has to become $\large {\color{purple}e^{-y_i C_m(x_i)}}$ so what is the right best way to do that, this multiply the existing W by e-yi.kmxi right, does it make sense after you have done that you come here okay, I do not erase that part right. So because you need the αm here for your update, so once you find the αm you come back here and change the weights of
 
 
 
