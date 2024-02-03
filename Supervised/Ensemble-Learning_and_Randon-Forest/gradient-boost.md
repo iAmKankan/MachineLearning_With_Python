@@ -14,3 +14,13 @@ $$\Large{\color{Purple}T(x; \theta)= \sum_{j=1}^{J} \gamma_j I (x \in R_j)}$$
 * This is summing over all regions, $\large{\color{purple}R_1,R_2, \cdots,R_j}$
 * Gamma sub j $\large{\color{purple}\gamma_j}$ is essentially the output I am going if to produce if $\large{\color{purple}x}$ lies in $\large{\color{purple}R_j}$.
 * What is the theta here: It is all the specification of the $\large{\color{purple}R_j}$ 's and the $\large{\color{purple}\gamma_j}$ 's for each of those regions, $\large{\color{purple}\theta = \\{ R_j, \gamma_j\\}_{j=1}^J}$.
+* Typically, we pick some **loss function** if it is **regression** it is going to be **squared loss**
+
+
+$$\Large{\color{Purple}\hat{\theta} argument_{\theta}= \sum_{j=1}^{J} \sum_{x_i \in R_i} L(y_i,\gamma_j)}$$
+
+
+
+
+
+  
