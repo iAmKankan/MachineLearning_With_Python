@@ -6,6 +6,9 @@
 $\large{\color{Purple} Note\ Books:}$
 * [ADABoost Classicier Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised//Ensemble-Learning_and_Randon-Forest/ADA_Boost001.ipynb)
 
+ [Decission Tree Regression Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/ADA_Boost001.ipynb)
+
+
 ### ⬛ $\Large {\color{blue}\underline{\mathcal{Ensemble\ Learning\ and\ Random\ Forests:}}}$
 ### 🔲 $\large {\color{Purple}\underline{\textrm{Wisdom of the Crowd:}}}$
 Suppose you pose a complex question to thousands of **random people**, then **aggregate** their answers. In many cases you will find that this **aggregated answer** is better than an expert’s answer. This is called the **wisdom of the crowd**. 
