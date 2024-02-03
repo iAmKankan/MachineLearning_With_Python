@@ -6,3 +6,7 @@ I then told you that AdaBoost uses exponential loss and that it is related to th
 But it is very similar properties to AdaBoost. However, AdaBoost is more popular, especially from an analysis point of view and things like this because it is not nice properties, okay. 
 
 There is yet another approach to boosting that is gaining a lot of currency recently. It is called a **gradient boosting**.
+
+$$\Large{\color{Purple}T(x; \theta)= \sum_{j=1}^{J} \gamma_j I (x \in R_j)}$$
+
+* $\large{\color{purple}I}$ is an **identity function**, which is $\large{\color{purple}1}$ if $\large{\color{purple}x}$ belongs to $\large{\color{purple}R_j}$ is $\large{\color{purple}0}$ otherwise.
