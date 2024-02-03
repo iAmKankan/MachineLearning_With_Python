@@ -18,7 +18,7 @@ $$\Large{\color{Purple}T(x; \theta)= \sum_{j=1}^{J} \gamma_j I (x \in R_j)}$$
 
 ### Loss
 
-$$\Large{\color{Purple}\hat{\theta} = avgmin__{\theta}= \sum_{j=1}^{J} \sum_{x_i \in R_i} L(y_i,\gamma_j)}$$
+$$\Large{\color{Purple}\hat{\theta} = avgmin_{\theta}= \sum_{j=1}^{J} \sum_{x_i \in R_i} L(y_i,\gamma_j)}$$
 
 
 I look at the loss incurred when 
