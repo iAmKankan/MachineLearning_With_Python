@@ -165,7 +165,7 @@ But people just tend to think of boosting as bagging with the different sampling
 So we have found $\large {\color{Purple}k_m}$ , so we all know how to find $\large {\color{Purple}k_m}$ you do some kind of **weighted error minimization** you find $\large {\color{Purple}k_m}$.
 
 
-
+Regardless of what value of $\large {\color{Purple}\alpha_m}$ you choose the minimizer for $\large {\color{Purple}k_m}$ is the one that gives you maximum weight into $\large {\color{Purple}W_c}$. But then having chosen a $\large {\color{Purple}k_m}$ I now have to choose an $\large {\color{Purple}\alpha_m}$ that gives me the error detection, so how do you go about doing that.
 
 
 
