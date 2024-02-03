@@ -32,4 +32,5 @@ I look at the loss incurred when
 So you can do, you can do boosting with trees also just like you did boost with other classifiers you can do boosting with trees right. So I have M trees so essentially it is taken some of the output of all the M trees that gives me my boosted tree right, remember that I mean this is not a single tree okay it is now a forest, then I have a correction of trees a collection of trees is a forest right.
 
 
-  
+  $$\Large{\color{Purple}f_M(x) = \sum_{M=1}^{M} T (x;\theta_m)}$$
+
