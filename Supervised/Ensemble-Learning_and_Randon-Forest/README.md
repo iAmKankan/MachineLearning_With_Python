@@ -161,7 +161,7 @@ So in the older textbooks how they describe is that what you do in
 But people just tend to think of boosting as bagging with the different sampling distribution, which is incorrect. At the fundamental principles of the two things are very different.
 
 
-### $\large {\color{Purple}\textrm{Finding: }\alpha_m}$
+### $\large {\color{Purple}\textrm{Finding -}\Large \alpha_m}$
 
 
 
