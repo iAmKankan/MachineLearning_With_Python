@@ -175,7 +175,7 @@ $$\Large{\color{Purple}\begin{matrix*}[l]
  err_m &=& \dfrac{W_e}{W} \\
 \end{matrix*}}$$
 
-
+So, $\large {\color{Purple}\alpha_m}$ is essentially 1/2 ln 1- the error rate it is error rate $\Big \[ \large{\color{purple}\dfrac{1}{2} \ln \left \( \dfrac{1 - err_m}{err_m} \right \)} \Big \]$ is essentially the weight of the data points on which you are making a mistake divided by the total weight right, so this is for the km classifier alone right, We is the data points on which the mth classifier alone makes the error not Cm but km correct, so that is what we divided these things into right, so this is the thing where km makes error, so essentially that so the data points on. So essentially, it tells you how good the classifier if the classifier is really good right not just on the data points that you are interested in but on the entire data set. If the classifier is very good then the weight will be high that is the classifier has an error of 0 what will happen rate will be infinity because the only classifier you will need right you have a header of 0 on all the data points why do you need other classify just that one is enough right. But then suppose it has a very high error, error close to 1 where it will be 0 okay, so depending on how good the classifier is this way it will vary
 
 
 
