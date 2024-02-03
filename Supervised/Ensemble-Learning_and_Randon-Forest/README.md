@@ -9,7 +9,7 @@ $\large{\color{Purple} Note\ Books:}$
 
 
 ### ⬛ $\Large {\color{blue}\underline{\mathcal{Ensemble\ Learning\ and\ Random\ Forests:}}}$
-### 🔲 $\large {\color{Purple}\underline{\textrm{Wisdom of the Crowd:}}}$
+### ♠️ $\large {\color{Purple}\underline{\textrm{Wisdom of the Crowd:}}}$
 Suppose you pose a complex question to thousands of **random people**, then **aggregate** their answers. In many cases you will find that this **aggregated answer** is better than an expert’s answer. This is called the **wisdom of the crowd**. 
 
 Similarly, if you **aggregate** the predictions of **a group of predictors** (such as **classifiers** or **regressors**), you will often get better **predictions** than with the best **individual predictor**. 
@@ -17,7 +17,7 @@ Similarly, if you **aggregate** the predictions of **a group of predictors** (su
 * Thus, this technique is called _**Ensemble Learning**_, and
 * **An Ensemble Learning algorithm** is called an **_Ensemble method_**.
   
-### 🔲 $\large {\color{Purple}\underline{\textrm{Ensemble Learning:}}}$
+### ♠️ $\large {\color{Purple}\underline{\textrm{Ensemble Learning:}}}$
 
 **Ensemble methods** combine the predictions of <ins>several base estimators</ins> **built with a given learning algorithm** in order to improve <ins>generalizability</ins> / <ins>robustness</ins> over a **single estimator**.
 
@@ -39,16 +39,16 @@ There are various types of ensemble learning methods, including:
 4. **Boosting:** This method involves training a sequence of models, where each subsequent model focuses on the errors made by the previous model. The predictions are combined using a weighted voting scheme.
 
 
-### ♠️  $\large {\color{purple}1.\underline{\textrm{Bagging}}}$
+### ⬛  $\large {\color{purple}1.\underline{\textrm{Bagging}}}$
 Bootstrap Aggregating, also known as bagging, is a machine learning ensemble meta-algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It decreases the variance and helps to avoid overfitting. It is usually applied to decision tree methods. Bagging is a special case of the model averaging approach. 
 
 
-### ♠️ $\large{\color{purple}4.\underline{\textrm{Boosting:}}}$
+### ⬛ $\large{\color{purple}4.\underline{\textrm{Boosting:}}}$
 Boosting is a method used in machine learning to <ins><b>reduce errors</b></ins> in <ins>predictive data analysis</ins>. 
 
 Boosting is an **ensemble** modeling technique that attempts to build a strong classifier from the **number of weak classifiers**. It is done by building a model by using weak models in series. 
 
-### $\large{\color{purple}\underline{\textrm{ADA Boost}}}$
+### 🔲 $\large{\color{purple}\underline{\textrm{ADA Boost}}}$
 
 1. **Firstly**, a model is built from the training data.
 2. Then the **second model** is built which tries to **correct the errors** present in the **first model**.
@@ -156,15 +156,6 @@ $$\Large{\color{Purple}E = W_c e^{-\alpha_m} + W_e e^{\alpha_m}}$$
 
 * So the error that you make you multiplied by the corresponding weight so that you can use weighted minimize other ways of doing this, so one way people see what I am saying over km , you see what you are supposed to do to get your k, the km is such that maximum weight goes into Wc they are splitting your W into two parts and depending on what data points are making mistakes on right, the data points you do not make mistakes on contributed Wc the data points you make mistakes on contribute of e. If you want to see how much larger you can Wc. We basic that is the classifier you have to find, before that you use some kind of a payment method, so one way of achieving this is do the following you are saying weights to all the data points now what you do, if you go and sample some of these data points according to their weights, create a new training set by sampling from 582 this data points are given things according to the weights, so what does this mean points for which the weight is higher you get to sample more often into this data sets, points for which the weights are very low I do not even appear in the data set, right. So the points appears multiple times in the data set then when you are trying to minimize the training error you are likely to get a point correct, so instead of using a directly using a weighted training algorithm people simulate that by sampling from the data weights okay, so what has happened unfortunately because of this I change of tends to compact by bagging and boosting in the minds of people and if you look at some of the data mining text books especially some of the earlier data mining textbooks exciting and boosting we needed will described in a very similar fashion right, what do you do in bagging whenever you add a new classified.
 
-### $\large {\color{Purple}\underline{\textrm{Bagging Vs Boosting}}}$
-
-So in the older textbooks how they describe is that what you do in 
-* **Bagging** <ins><b>is every time you generate a new sample you generate it uniformly, with a replacement</ins></b>.
-* **Boosting** the differences is - <ins><b>every time we generate a new sample you use the prediction error from the previous stage</ins></b>
-* There is the only difference between **bagging** and **boosting**. But operationally if you think about it, **boosting** is <ins><b>inherently serial</ins></b> and then <ins><b>there is this error minimization property </ins></b>.
-
-But people just tend to think of boosting as bagging with the different sampling distribution, which is incorrect. At the fundamental principles of the two things are very different.
-
 > #### So we have found $\large {\color{Purple}k_m}$ , so we all know how to find $\large {\color{Purple}k_m}$ you do some kind of **weighted error minimization** and you find $\large {\color{Purple}k_m}$.
 
 ### $\large {\color{Purple}\underline{\textrm{Finding -}\Large \alpha_m}}$
@@ -199,14 +190,28 @@ $$\Large{\color{Purple}W_i^{m+1} = W_{i}^{m} e^{-y_i \alpha_m k_m (x_i)}}$$
 
 * You need the  $\large{\color{purple}\alpha_m}$ here for your update, so once you find the $\large{\color{purple}\alpha_m}$ you come back here and change the weights of all the data points by this amount.
 
-That was a plain simple version of **ADA BOOST**.
+That was a plain simple version of **ADA BOOST**. So the recent **ADABOOST** is so popular is because it deals such very **simple updates**, if you think about it all the computation you do is, you find a **classifier** that minimizes this weighted the error , then you come back and compute this $\large{\color{purple}\alpha_m}$ and then you go back and change the weights and then repeat until you are happy with the performance of the total classifier
+
+### $\large {\color{Purple}\underline{\textrm{Logit Boost:}}}$
+The <ins><b>Exponential Loss</ins></b> function is closely related to the **deviance**. An equally popular version of boosting called <ins><b>Logit boost</ins></b> exists, where we use the **deviance** the **logistic function**. The **log odds function** that we used for **logistic regression** you can use the same **error function** and then derive all the **update rules**. What we have just done above for the **exponential loss function** you can do the same thing for the **logit function** the **log odds function** also. You can come up with similar update rules.
+
+### $\large {\color{Purple}\underline{\textrm{Bagging and Boosting for Decision Tree:}}}$
+
+and both **bagging** and **boosting** , you do both decision trees are very popular classifiers for this.
+
+In bagging it seems to make sense <ins><b>if you want to bag decision trees because they are notoriously unstable</ins></b>. **If you bag decision trees you get more stable estimates**, why do you want to boost decision trees, are they weak classifiers. Exactly, so what do you do with decision trees you can do the most extreme thing you can just have one node, just have the root node right, one node what can you do with one node decision tree. Yeah, that is somewhat like linear right yeah, so somewhat likely linear I agree. However, people call it decision trees right, so one node decision tree because of the way I choose which feature I pick right, I will use information gain or Gini index or one of those things okay, I will at least take 50% classification otherwise I would not even split right on that 50% will I will be better than 50%. I will be better than random even if I split on one node right, so I will split on one node and or maybe if the performance is too weak I can perform I can do a two level tree okay, these are called decision stumps, I do not build a full tree, but it is like chopped off at a very close to the root right, so one not two levels of the trees. However, they are v-classifiers and they take very 585 little time to estimate and I can do many, many, many of these very quickly essentially what I do is, I boost these decision terms okay.
 
 
-So in fact we could show that the **exponential loss** function is closely related to the **deviance**. An equally popular version of boosting called **Logit boost** exists, where we use the deviance the logistic function , the log odds function that we used for logistic regression you can use the same error function and then derive all the update rules that we just did for the exponential loss function you can do the same thing for the logit function the log odds function also. You can come up with similar update rules okay.
 
-So the recent ADABOOST is so popular is because it deals such very simple updates right, if you think about it all the computation you do is, you find a classifier that minimizes this weighted the error , then you come back and compute this $\large{\color{purple}\alpha_m}$ and then you go back and change the weights and then repeat until you are happy with the performance of the total classifier and both **bagging** and **boosting** , you do both decision trees are very popular classifiers for this.
+### $\large {\color{Purple}\underline{\textrm{Bagging Vs Boosting}}}$
 
-In bagging it seems to make sense, why you want to bag decision trees they are notoriously unstable, so if you want to, if you bag decision trees you get more stable estimates, why do you want to boost decision trees, are they weak classifiers. Exactly, so what do you do with decision trees you can do the most extreme thing you can just have one node, just have the root node right, one node what can you do with one node decision tree. Yeah, that is somewhat like linear right yeah, so somewhat likely linear I agree. However, people call it decision trees right, so one node decision tree because of the way I choose which feature I pick right, I will use information gain or Gini index or one of those things okay, I will at least take 50% classification otherwise I would not even split right on that 50% will I will be better than 50%. I will be better than random even if I split on one node right, so I will split on one node and or maybe if the performance is too weak I can perform I can do a two level tree okay, these are called decision stumps, I do not build a full tree, but it is like chopped off at a very close to the root right, so one not two levels of the trees. However, they are v-classifiers and they take very 585 little time to estimate and I can do many, many, many of these very quickly essentially what I do is, I boost these decision terms okay.
+So in the older textbooks how they describe is that what you do in 
+* **Bagging** <ins><b>is every time you generate a new sample you generate it uniformly, with a replacement</ins></b>.
+* **Boosting** the differences is - <ins><b>every time we generate a new sample you use the prediction error from the previous stage</ins></b>
+* There is the only difference between **bagging** and **boosting**. But operationally if you think about it, **boosting** is <ins><b>inherently serial</ins></b> and then <ins><b>there is this error minimization property </ins></b>.
+
+But people just tend to think of boosting as bagging with the different sampling distribution, which is incorrect. At the fundamental principles of the two things are very different.
+
 
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 
