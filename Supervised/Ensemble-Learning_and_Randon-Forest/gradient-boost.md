@@ -18,7 +18,7 @@ $$\Large{\color{Purple}T(x; \theta)= \sum_{j=1}^{J} \gamma_j I (x \in R_j)}$$
 
 ### Loss
 
-$$\Large{\color{Purple}\hat{\theta} = argument_{\theta}= \sum_{j=1}^{J} \sum_{x_i \in R_i} L(y_i,\gamma_j)}$$
+$$\Large{\color{Purple}\hat{\theta} = avgmin__{\theta}= \sum_{j=1}^{J} \sum_{x_i \in R_i} L(y_i,\gamma_j)}$$
 
 
 I look at the loss incurred when 
@@ -33,10 +33,14 @@ So you can do, you can do boosting with trees also just like you did boost with 
 
 $$\Large{\color{Purple}f_M(x) = \sum_{m=1}^{M} T (x;\theta_m)}$$
 
- So I have $\large{\color{purple}M}$ trees so essentially it is taken some of the output of all the $\large{\color{purple}M}$ trees that gives me my **boosted tree**.
- * This is not a single tree okay it is now a **forest**,  a collection of trees is a forest.
+So I have $\large{\color{purple}M}$ trees so essentially it is taken some of the output of all the $\large{\color{purple}M}$ trees that gives me my **boosted tree**.
+* This is not a single tree okay it is now a **forest**,  a collection of trees is a forest. Next-
 
- 
- the difference here is, So this is essentially when I find the parameters for the mth tree right, so I am going to look at the 589 classifier or the predictor that is formed by the first M-1 trees right. And then I am going to find that tree okay, whose output I will add to this predictor right, and you search for computing the loss right.
+$$\Large{\color{Purple}\hat{\theta}\_m = avgmin_{\theta}= \sum_{n=1}^{N} L(y_i, f_{m-1}(x_i)+ T (x_i, \theta_n)}$$
+
+
+So this is essentially when I find the parameters for the $\large{\color{purple}m^{th}}$ tree.
+* I am going to look at the **classifier** or the **predictor** that is formed by the first $\large{\color{purple}M-1}$ **trees** right.
+* And then I am going to find that tree okay, whose output I will add to this **predictor** and you search for computing the loss.
 
  
