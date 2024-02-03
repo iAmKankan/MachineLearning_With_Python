@@ -13,4 +13,4 @@ $$\Large{\color{Purple}T(x; \theta)= \sum_{j=1}^{J} \gamma_j I (x \in R_j)}$$
 * $\large{\color{purple}I}$ is an **identity function**, which is $\large{\color{purple}1}$ if $\large{\color{purple}x}$ belongs to $\large{\color{purple}R_j}$ otherwise $\large{\color{purple}0}$ .
 * This is summing over all regions, $\large{\color{purple}R_1,R_2, \cdots,R_j}$
 * Gamma sub j $\large{\color{purple}\gamma_j}$ is essentially the output I am going if to produce if $\large{\color{purple}x}$ lies in $\large{\color{purple}R_j}$.
-* What is the theta here: $\large{\color{purple}\theta = \\{ R_j, \gamma_j\\}_{j=1}^J}$
+* What is the theta here: $\large{\color{purple}\theta = \\{ R_j, \gamma_j\\}_{j=1}^J}$ It is all the $\large{\color{purple}R_j}$ is the specification of the $\large{\color{purple}R_j}$, and the $\large{\color{purple}\gamma_j}$ is for each of those regions.
