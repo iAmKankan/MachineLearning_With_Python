@@ -178,7 +178,12 @@ $$\Large{\color{Purple}\begin{matrix*}[l]
 * So, $\large {\color{Purple}\alpha_m}$ is essentially $\Big \[ \large{\color{purple}\dfrac{1}{2} \ln \left \( \dfrac{1 - err_m}{err_m} \right \)} \Big \]$
 * The error rate is essentially the weight of the data points on which you are making a mistake divided by the total weight, so this is for the $\large {\color{Purple}k_m^{th}}$ classifier alone.
 * We is the data points on which the $\large {\color{Purple}m^{th}}$ classifier alone makes the error not $\large {\color{Purple}C_m}$ but $\large {\color{Purple}k_m}$ , so that is what we divided these things into , so this is the thing where $\large {\color{Purple}k_m}$ makes error, so essentially that so the data points on.
-* So essentially, $\large {\color{purple}err_m = \dfrac{W_e}{W}}$ it tells you how good the classifier, if the classifier is really good right not just on the data points that you are interested in but on the entire data set. If the classifier is very good then the **weight will be high** that is the classifier has an error  0 what will happen rate will be **infinity** because the only classifier you will need right you have a header of 0 on all the data points why do you need other classify just that one is enough right. But then suppose it has a very high error, error close to 1 where it will be 0 okay, so depending on how good the classifier is this way it will vary.
+* So essentially, $\large {\color{purple}err_m = \dfrac{W_e}{W}}$ it tells you how good the classifier, if the classifier is really good right not just on the data points that you are interested in but on the entire data set. If the classifier is very good then the **weight will be high** that is the classifier has an error  0 what will happen rate will be **infinity** because the only classifier you will need. you have a error of 0 on all the data points why do you need other classify just that one is enough.
+* But then suppose it has a very high error, error close to 1, Then the weight will be 0. so depending on how good the classifier is this way it will vary.
+
+
+### $\large {\color{Purple}\underline{\textrm{Finding -}\Large W}}$
+
 
 
 
