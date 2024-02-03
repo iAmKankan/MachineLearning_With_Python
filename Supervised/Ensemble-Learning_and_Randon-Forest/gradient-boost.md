@@ -29,8 +29,14 @@ I look at the loss incurred when
 *  And then we looked at greedy methods for finding $\large{\color{purple}R_j}$ right, and given an $\large{\color{purple}R_j}$; we knew how to fit $\large{\color{purple}\gamma_j}$ right, so given that we looked at some greedy search methods right.
 
 ### Boosted Tree
-So you can do, you can do boosting with trees also just like you did boost with other classifiers you can do boosting with trees right. So I have M trees so essentially it is taken some of the output of all the M trees that gives me my boosted tree right, remember that I mean this is not a single tree okay it is now a forest, then I have a correction of trees a collection of trees is a forest right.
+So you can do, you can do boosting with trees also just like you did boost with other classifiers you can do boosting with trees right.
 
+$$\Large{\color{Purple}f_M(x) = \sum_{m=1}^{M} T (x;\theta_m)}$$
 
-  $$\Large{\color{Purple}f_M(x) = \sum_{m=1}^{M} T (x;\theta_m)}$$
+ So I have $\large{\color{purple}M}$ trees so essentially it is taken some of the output of all the $\large{\color{purple}M}$ trees that gives me my **boosted tree**.
+ * This is not a single tree okay it is now a **forest**,  a collection of trees is a forest.
 
+ 
+ the difference here is, So this is essentially when I find the parameters for the mth tree right, so I am going to look at the 589 classifier or the predictor that is formed by the first M-1 trees right. And then I am going to find that tree okay, whose output I will add to this predictor right, and you search for computing the loss right.
+
+ 
