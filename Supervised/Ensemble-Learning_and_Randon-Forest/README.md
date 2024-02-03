@@ -183,7 +183,16 @@ $$\Large{\color{Purple}\begin{matrix*}[l]
 
 
 ### $\large {\color{Purple}\underline{\textrm{Change -}\Large W}}$
-I have to change my W’s now for the next stage right, so what is my Wi is $\large {\color{purple}e^{-y_i C_{m-1}(x_i)}}$, so now it has to become $\large {\color{purple}e^{-y_i C_m(x_i)}}$ so what is the right best way to do that, this multiply the existing W by e-yi.kmxi right, does it make sense after you have done that you come here okay, I do not erase that part right. So because you need the αm here for your update, so once you find the αm you come back here and change the weights of
+I have to change my $\large {\color{purple}W}$ ’s now for the next stage, 
+* So, my $\large {\color{purple}W_i}$ is $\large {\color{purple}e^{-y_i C_{m-1}(x_i)}}$, so now it has become $\large {\color{purple}e^{-y_i C_m(x_i)}}$
+* What is the best way to do that, this multiply the existing $\large {\color{purple}W}$ by $\large {\color{purple}e^{-y_i k_{m}(x_i)}}$
+
+After you have done $\large{\color{purple} err_m = \dfrac{W_e}{W}}$ you come here 
+
+$$\Large{\color{Purple}W_i^{m+1} = W_i^m e^{-y_i \alpha_m k_m (x_i)}$$
+
+
+I do not erase that part right. So because you need the αm here for your update, so once you find the αm you come back here and change the weights of
 
 
 
