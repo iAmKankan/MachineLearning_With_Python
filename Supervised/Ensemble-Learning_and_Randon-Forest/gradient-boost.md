@@ -16,11 +16,12 @@ $$\Large{\color{Purple}T(x; \theta)= \sum_{j=1}^{J} \gamma_j I (x \in R_j)}$$
 * What is the theta here: It is all the specification of the $\large{\color{purple}R_j}$ 's and the $\large{\color{purple}\gamma_j}$ 's for each of those regions, $\large{\color{purple}\theta = \\{ R_j, \gamma_j\\}_{j=1}^J}$.
 * Typically, we pick some **loss function** if it is **regression** it is going to be **squared loss**
 
+### Loss
 
-$$\Large{\color{Purple}\hat{\theta} argument_{\theta}= \sum_{j=1}^{J} \sum_{x_i \in R_i} L(y_i,\gamma_j)}$$
+$$\Large{\color{Purple}\hat{\theta} = argument_{\theta}= \sum_{j=1}^{J} \sum_{x_i \in R_i} L(y_i,\gamma_j)}$$
 
 
-
+I look at the loss incurred when the actual output is $\large{\color{purple}y_i}$. The output I am giving you is $\large{\color{purple}\gamma_j}$ , so for all data points $\large{\color{purple}x}$ that belongs to a region $\large{\color{purple}R_j}$ the output will be $\large{\color{purple}\gamma_j}$, so this is essentially the loss, and sum this over all regions, and this is the rectum just recapping the decision trees for you right. And then we looked at greedy methods for finding $\large{\color{purple}R_j}$ right, and given an $\large{\color{purple}R_j}$; we knew how to fit $\large{\color{purple}\gamma_j}$ right, so given that we looked at some greedy search methods right.
 
 
   
