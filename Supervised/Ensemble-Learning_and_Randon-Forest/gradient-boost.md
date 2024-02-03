@@ -36,7 +36,7 @@ $$\Large{\color{Purple}f_M(x) = \sum_{m=1}^{M} T (x;\theta_m)}$$
 So I have $\large{\color{purple}M}$ trees so essentially it is taken some of the output of all the $\large{\color{purple}M}$ trees that gives me my **boosted tree**.
 * This is not a single tree okay it is now a **forest**,  a collection of trees is a forest. Next-
 
-$$\Large{\color{Purple}\hat{\theta}\_m = avgmin_{\theta}= \sum_{n=1}^{N} L(y_i, f_{m-1}(x_i)+ T (x_i, \theta_n)}$$
+$$\Large{\color{Purple}\hat{\theta}\_m = avgmin_{\theta}= \sum_{i=1}^{N} L \big \( y_i, f_{m-1}(x_i)+ T (x_i, \theta_m) \big \) }$$
 
 
 So this is essentially when I find the parameters for the $\large{\color{purple}m^{th}}$ tree.
