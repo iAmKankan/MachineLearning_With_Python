@@ -162,6 +162,8 @@ But people just tend to think of boosting as bagging with the different sampling
 
 
 ### $\large {\color{Purple}\underline{\textrm{Finding -}\Large \alpha_m}}$
+So we have found $\large {\color{Purple}k_m}$ , so we all know how to find $\large {\color{Purple}k_m}$ you do some kind of **weighted error minimization** you find $\large {\color{Purple}k_m}$.
+
 
 
 
