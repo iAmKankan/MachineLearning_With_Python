@@ -48,4 +48,6 @@ So for every data point in my training data  I look at the way $\large{\color{pu
  So when will it be the **residual error**, when it is a regression task, and **squared error is my metric**. So and the loss function is squared error right, and I am so trying to solve the regression problem right, then essentially what I will have to do here is take the residual error. 
  
 * First build one tree to predict your output as best as possible,
-* The predictor function as best as possible will build a tree, then what you will do is okay you will take the residual of that, build another tree that predicts the residual as well as possible and add the output to this okay. And then take the combined thing find the residual of that build the third tree which will predict the residual and add it back to this and so on so forth, you just keep doing this right.
+* The predictor function as best as possible will build a tree, then you will take the residual of that,
+* build another tree that predicts the residual as well as possible and add the output to this.
+* And then take the combined thing find the residual of that build the third tree which will predict the residual and add it back to this and so on so forth, you just keep doing this.
