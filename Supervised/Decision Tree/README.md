@@ -1,7 +1,11 @@
 ### Index
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+$\large{\color{blue} Note\ Books:}$
 * [Decission Tree Classification Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/Decision%20Trees1.ipynb)
 * [Decission Tree Regression Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/DecissionTree2.ipynb)
+$\large{\color{blue} Practical \ Examples:}$
+* [Cross Entrophy - Multiway split](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/decision-tree2.md#-largecolorpurpleunderlinetextrmmultiway-split-using-cross-entrophy)
+* [Gini Impurity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/decision-tree2.md#-largecolorpurpleunderlinetextrmgini-impurity)
   
 ### ⬛ $\Large{\color{Blue}\underline{\mathcal{Decision\ Tree:}}}$
 ### 🔲 $\large{\color{Purple}\textrm{What is a Decision Tree?}}$
@@ -174,4 +178,5 @@ $\Large Answer:$ Decision Trees don’t care whether or not the training data is
 * [Geeks for Geeks](https://www.geeksforgeeks.org/decision-tree/?ref=header_search)
 * [Dhilip Subramanian](https://towardsdatascience.com/decision-tree-in-laymans-terms-part-1-76e1f1a6b672)
 * [SK Learn Docs](https://scikit-learn.org/stable/modules/tree.html#decision-trees)
-* [IBM](https://www.ibm.com/topics/decision-trees)
+* [Mahesh Huddar- Youtube](https://www.youtube.com/watch?v=zNYdkpAcP-g)
+* Balaraman Ravindran - IITM
