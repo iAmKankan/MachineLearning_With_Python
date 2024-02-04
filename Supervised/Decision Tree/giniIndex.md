@@ -173,3 +173,9 @@ $$\Large {\color{purple} Gini(rich) = 1 - \[(1/4) ^ 2 + (1/4) ^ 2 + (2/4) ^ 2 \]
 $$\Large {\color{purple} Gini(poor) = 1 - \[(1/1) ^ 2 \] = 0}$$
 
 $$\Large {\color{purple} Weighted\ Average(parent=no | money) = 0.625 * (4/5)+ 0 * (1/5)= 0.5 }$$
+
+
+### $\large {\color{Purple}\underline{\textrm{Final Gini-Index of }} Step 2 \\# }$ 
+
+- For <ins><b>parent=no | weather</ins></b> - Gini Index: **0.2**
+- For <ins><b>parent=no | money</ins></b> - Gini Index: **0.5**
