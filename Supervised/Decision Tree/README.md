@@ -1,4 +1,4 @@
-### $\Large{\color{Purple}Index}$
+### $\Large{\color{Blue}\textrm{Index}}$
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 $\large{\color{blue} Note\ Books:}$
 * [Decission Tree Classification Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/Decision%20Trees1.ipynb)
