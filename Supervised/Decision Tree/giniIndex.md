@@ -179,3 +179,18 @@ $$\Large {\color{purple} Weighted\ Average(parent=no | money) = 0.625 * (4/5)+ 0
 
 - For <ins><b>parent=no | weather</ins></b> - Gini Index: **0.2**
 - For <ins><b>parent=no | money</ins></b> - Gini Index: **0.5**
+
+### $\large {\color{Purple}\underline{\textrm{Drawing the Tree}}}$ 
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/eb031cb6-5d8a-4f32-9f0d-0c3f7370af25" width=50%/>
+  <br>
+  <ins><b><i>The root</i></b></ins>
+</p>
+
+* As we can clearly see the **Gini Index** of the attribute $\large{\color{purple}parent=no | weather}$ is the lowest, therefore we have no problem to make parent as a **parent node**.
+* As $\large{\color{purple}parent = no| weather}$ having <ins><b>only one kind of  instances</ins></b> where $\large{\color{purple} weather = sunny}$  where $\large{\color{purple}decision = tennis }$ then we can clearly say that this is the **leaf node**.
+* As $\large{\color{purple}parent = no| weather}$ having <ins><b>only one kind of  instances</ins></b> where $\large{\color{purple} weather = rainy}$  where $\large{\color{purple}decision = stay\\_in }$ then we can clearly say that this is the **leaf node**.
+* As $\large{\color{purple}parent = no| weather}$ having <ins><b>only thow different kind ofs  instances</ins></b> where $\large{\color{purple} weather = sunny}$  where $\large{\color{purple}decision = movie }$ and $\large{\color{purple}decision = shopping }$ then we can clearly need to go further.
+
+  
