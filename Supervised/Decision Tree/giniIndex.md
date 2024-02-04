@@ -24,7 +24,7 @@ The **output variable**, **target variable** or $\large{\color{Purple}y}$ as $\l
 
 $$\Large {\color{purple}Gini(S)=1-\[ (6/10) ^ 2 + (2/10) ^ 2 + (1/10) ^ 2 + (1/10) ^ 2 \]=0.58}$$
 
-###  ♠️ $\large{\color{purple}money \rightarrow \\{rich, poor \\} }$
+###  ♠️ $\large{\color{Purple}money \rightarrow \\{rich, poor \\} }$
 Attribute <ins><b>money</b></ins> has two possible values of **7 instances of 'rich'** and **3 instances of 'poor'**.
 * For $\large{\color{purple}money = poor}$, there are **3** examples with $\large{\color{purple}decision = movie}$.
 
@@ -36,7 +36,7 @@ $$\Large {\color{purple} Gini (S) = 1 - \[ (2/7) ^ 2 + (3/7) ^ 2 + (1/7) ^ 2 + (
 
 $$\Large {\color{purple}Weighted\ Average(Money) =0*( 3 10 )+0.69 \dot 4(7/10) = 0.486}$$
 
-###  ♠️ $\large{\color{purple}parents \rightarrow \\{yes, no \\} }$
+###  ♠️ $\large{\color{Purple}parents \rightarrow \\{yes, no \\} }$
 Attribute <ins><b>parents</b></ins> has two possible values of **5 instances of 'yes'** and **5 instances of 'no'**.
 * For $\large{\color{purple}parents = yes}$ there are all **5** examples with $\large{\color{purple}decision = movie}$.
 
@@ -48,7 +48,7 @@ $$\Large {\color{purple}Gini (S) = 1 - \[(2/5) ^ 2 + (1/5) ^ 2 + (1/5) ^ 2 + (1/
 
 $$\Large {\color{purple}Weighted\ Average(Parents) = 0*( 5 10 )+ \[ 0.72(5/10) = 0.36 \]}$$
 
-###  ♠️ $\large{\color{purple}weather \rightarrow \\{sunny, rainy, windy \\} }$
+###  ♠️ $\large{\color{Purple}weather \rightarrow \\{sunny, rainy, windy \\} }$
 Attribute <ins><b>weather</b></ins> has 3 possible values of **3 instances of 'sunny'**, **3 instances of 'rainy'** and **4 instances of 'windy'**.
 
 * For $\large{\color{purple}weather = sunny}$ , there are **2** examples with $\large{\color{purple}decision = movie}$ and **1** with $\large{\color{purple}decision = tennis}$.
