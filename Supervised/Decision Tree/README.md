@@ -65,7 +65,7 @@ There are many specific decision-tree algorithms are available. Notable ones inc
 
 > ### scikit-learn uses an optimized version of the CART algorithm; however, the scikit-learn implementation does not support categorical variables for now.
 
-###  🔲 $\large{\color{Purple}\textrm{Steps of making a Decision Tree}}$
+###  🔲 $\large{\color{Purple}\textrm{Steps of building a Decision Tree}}$
 
 * **Step-1:** Begin the tree with <ins>the root node, says S</ins>, which contains the <ins>complete dataset</ins>.
 * **Step-2:** Find the best attribute in the dataset using **Attribute Selection Measure (ASM)**.
@@ -73,15 +73,6 @@ There are many specific decision-tree algorithms are available. Notable ones inc
 * **Step-4:** Generate the <ins>decision tree node, which contains the best attribute</ins>.
 * **Step-5:** Recursively <ins>make new decision trees using the subsets of the dataset</ins> created in **Step -3**. Continue this process until a stage is reached where you cannot further classify the nodes and  called the <ins>final node as a leaf node</ins>.
 
-
-### 🔲 $\large{\color{Purple}\textrm{Construction of Decision Tree:}}$
-* A tree can be "<ins>learned</ins>" by **splitting** the **source set** into **subsets** based on <ins><b>Attribute Selection Measures</b></ins> . 
-* <ins><b>Attribute selection measure (ASM)</b></ins> is a **criterion** used in **decision tree** algorithms to **evaluate** the **usefulness** of **different attributes** for **splitting** a dataset.
-* The **goal** of **ASM** is to **identify** the attribute that will create the most **homogeneous subsets** of data after the split, **thereby maximizing the information gain**.
-* This process is repeated on each **derived subset** in a **recursive manner** called **recursive partitioning**.
-* The **recursion** is completed when the subset at a node all has the same value of the **target variable** or **when splitting no longer adds value to the predictions**.
-* The construction of a decision tree classifier does not require any **domain knowledge** or parameter setting and therefore is appropriate for **exploratory knowledge discovery**.
-* **Decision trees** can handle **high-dimensional data**.
 
 ### 🔲 $\large{\color{Purple}\textrm{How to choose the best attribute at each node?}}$
 While there are multiple ways to select the best attribute at each node, two methods- $\large{\color{Purple}\textrm{Information gain}}$ and $\large{\color{Purple}\textrm{Gini impurity}}$, act as <b>popular splitting <ins>criterion</ins></b> for decision tree models. They help to evaluate the quality of each test condition and how well it will be able to classify samples into a class.
@@ -117,50 +108,6 @@ $$\Large{\color{Purple} \mathrm{Information\ Gain}(S, \alpha) = \mathrm{Entropy}
 * $\large{\color{Purple}|Sv|/ |S|}$ represents the proportion of the values in $\large{\color{Purple}S_v}$ to the number of values in dataset, $\large{\color{Purple}S}$
 * $\large{\color{Purple}Entropy(S_v)}$ is the entropy of dataset, $\large{\color{Purple}S_v}$
 
-### 🔲 $\large{\color{Purple} Example \\# 1}$
-Let’s walk through an example to solidify these concepts. Imagine that we have the following arbitrary dataset:
-
-<div align="center">
- 
-|  Day |  Outlook | Temp | Humidity | Windy | Tennis |
-|:--:|:--------|:----:|:--------|:-----:|:----:|
-|  1 |   :sunny:  sunny  |  hot |   :droplet: high   |  True |  no  |
-|  2 | :partly_sunny:  overcast  |  hot |   :droplet: high   | False |  yes |
-|  3 |   :cloud_with_rain:  rainy   | mild |  :droplet:  high   | False |  yes |
-|  4 |   :cloud_with_rain:  rainy   | cool |  :droplet: normal  | False |  yes |
-|  5 |   :cloud_with_rain:  rainy   | cool | :droplet: normal  |  True |  no  |
-|  6 | :partly_sunny:  overcast  | cool |  :droplet: normal  |  True |  yes |
-|  7 |   :sunny:  sunny  | mild |  :droplet: high   |  False |  no  |
-|  8 |   :sunny:  sunny  | cool |  :droplet: normal  | False |  yes |
-|  9 |   :cloud_with_rain:  rainy   | mild |  :droplet: normal  | False |  yes |
-| 10 |   :sunny:  sunny  | mild | :droplet: normal  |  True |  yes |
-| 11 | :partly_sunny:  overcast  | mild |  :droplet: high   |  True |  yes |
-| 12 | :partly_sunny:  overcast  |  hot |  :droplet: normal  | False |  yes |
-| 13 |   :cloud_with_rain:  rainy   | mild |   :droplet: high   |  True |  no  |
-| 14|   :sunny:  sunny  |  hot |  :droplet: high   | False |  no  |
-
-</div>
-
-
-For this dataset, the $\large{\color{Purple}Entropy}$ is **0.94**. This can be calculated by finding the proportion of days where “**Play Tennis**” is “**Yes**”, which is **9/14**, and the proportion of days where “**Play Tennis**” is “**No**”, which is **5/14**. 
-
-Then, these values can be plugged into the entropy formula above.
-
-$$\Large{\color{Purple}Entropy (Tennis) = -(9/14) \log_2(9/14) – (5/14) \log_2 (5/14) = 0.94}$$
-
-We can then compute the $\large{\color{Purple}Information\ Gain}$ for each of the attributes individually. For example, the information gain for the attribute, “**Humidity**” would be the following:
-
-$$\Large{\color{Purple} Gain (Tennis, Humidity) = (0.94)-(7/14) \times (0.985) – (7/14)\times (0.592) = 0.151}$$
-
-### As a recap:
-
-- **7/14** represents the proportion of values where **humidity** equals “**high**” to the total number of **humidity values**. In this case, the number of values where **humidity equals “high”** is the same as the number of values where **humidity equals “normal”**.
-
-- **0.985** is the **entropy** when **Humidity = “high”**
-
-- **0.59** is the **entropy** when **Humidity = “normal”**
-
-Then, repeat the calculation for **information gain** for each attribute in the table above, and select the attribute with the highest information gain to be the first split point in the decision tree. In this case, outlook produces the highest information gain. From there, the process is repeated for each subtree. 
 
 ### 🔲 $\large{\color{Purple}\underline{\textrm{Gini Impurity:}}}$ 
 
@@ -221,55 +168,6 @@ $\Large Answer:$  It searches for the pair (**k**,**t<sub>k</sub>** ) that produ
 ### 🔲 $\large{\color{Purple}\underline{\textrm{Computational Complexity}}}$
 In general, the run time cost to construct a balanced binary tree is $\large{\color{Purple}O(n_{samples}n_{features} \log(n_{samples}))}$  and query time $\large{\color{Purple}O( \log(n_{samples}))}$. Although the tree construction algorithm attempts to generate balanced trees, they will not always be balanced. Assuming that the subtrees remain approximately balanced, the cost at each node consists of searching through $\large{\color{Purple}O( \log(n_{features}))}$ to find the feature that offers the largest reduction in the impurity criterion, e.g. log loss (which is equivalent to an information gain). This has a cost of $\large{\color{Purple}O(n_{features}n_{samples} \log(n_{samples}))}$
  at each node, leading to a total cost over the entire trees (by summing the cost at each node) of $\large{\color{Purple}O(n_{features}n_{samples}^2 \log(n_{samples}))}$
-.
-
-### Decision Tree Splitting Methods
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* It’s tough to decide which variables to put at the **root** or at different levels of the tree as internal nodes when the dataset comprises N variables. 
-* Choosing any node as the root at random will not solve the problem. 
-* We can receive disappointing results with limited precision if we use a random technique. 
-* Researchers recommended employing criteria such-
-
-1. Gini Impurity
-2. Information Gain
-3. Chi-Square
-
-### Gini impurity
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* The division is called **pure** if all elements are accurately separated into different classes (_**an ideal scenario**_). 
-* The Gini impurity is used to predict the likelihood that a randomly selected example would be incorrectly classified by a specific node. 
-* **It is called an “impurity” metric because it shows how the model differs from a pure division. **
-* The degree of Gini impurity ranges from **_0 to 1_**, 
-    * **0** indicating that all of the elements belong to a single class 
-    * **1** indicates that only one class exists. 
-* The Gini impurity of value 1 indicates that all of the items are randomly distributed over various classes, whereas a value of 0.5 indicates that the elements are uniformly distributed across some classes. 
-
-> #### A node’s gini attribute measures its impurity:
-> #### A node is “pure” (gini=0) if all training instances it applies to belong to the same class.
-
-<img src="https://latex.codecogs.com/svg.image?\mathrm{G}_i&space;=&space;1-&space;\sum_{n}^{k=1}(p_{i,k})^2" title="\mathrm{G}_i = 1- \sum_{n}^{k=1}(p_{i,k})^2" width=25% />
-
->> * <img src="https://latex.codecogs.com/svg.image?p_{i,k}" title="p_{i,k}" /> is the ratio of class _**k**_ instances among the training instances in the _**i<sup>th</sup>**_ node. 
-
-* Gini index is a metric to measure how often a randomly chosen element would be incorrectly identified. 
-* It means an attribute with lower gini index should be preferred. 
-* Sklearn supports “ Gini ” criteria for gini index and by default, it takes “ Gini ”.
-
-
-### Entropy 
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* The concept of entropy originated in thermodynamics as a measure of molecular disorder: entropy approaches zero when molecules are still and well ordered. 
-* In Machine Learning, entropy is frequently used as an _impurity measure_: **a set’s entropy is zero when it contains instances of only one class**.
- 
-<img src="https://latex.codecogs.com/svg.image?\mathrm{H}_i&space;=&space;-&space;\sum_{k=1,\&space;p_{i,k}\neq&space;0}^{n}p_{i,k}&space;\log_2&space;(p_{i,k})" title="\mathrm{H}_i = - \sum_{k=1,\ p_{i,k}\neq 0}^{n}p_{i,k} \log_2 (p_{i,k})" width=30% />
-
-### Gini Impurity or Entrophy?
-![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
-* The truth is, most of the time it does not make a big difference: they lead to similar trees. 
-* _**Gini impurity**_ is slightly _faster to compute_, so it is a good default. 
-* However, when they differ, 
-    * **`Gini impurity`** **tends to isolate the most frequent class in its own branch of the tree**, 
-    * While **`Entropy`** **tends to produce slightly more balanced trees**.
 
 ## Questions and Answers 
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
