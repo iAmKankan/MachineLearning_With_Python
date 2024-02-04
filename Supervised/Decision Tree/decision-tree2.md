@@ -341,20 +341,3 @@ As mentioned previously, for a binary outcome, to reduce the number of partition
   <ins><b><i>"Buying Computer" Data</i></b></ins>
 </p>
 
-### $\large{\color{Purple}\underline{\textrm{Gini Index}}}$
-
-$$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_{mk} \ \hat{p}\_{mk^{\prime}} = \sum_{k=1}^{K}  \hat{p}\_{mk} ( 1 - \hat{p}\_{mk})}$$
-
-
-### Positive class proportion for "age" attribute:
-* "youth" = 2/5
-* "middle_aged" = 1
-* "senior" = 3/5
-  
-###  $\large{\color{Purple}\textrm{Ordering of \'age\':}}$
-* $\large{\color{purple} youth = 2/5, senior = 3/5, middle_aged = 1}$
-  
-### $\large{\color{Purple}\textrm{Possible Split points:}}$
- * $\large{\color{purple}\\{youth\\}, \\{senior, middleaged\\}}$
- * $\large{\color{purple}\\{youth, senior\\}, \\{middleaged\\}}$
- 
