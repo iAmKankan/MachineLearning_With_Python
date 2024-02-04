@@ -125,9 +125,9 @@ $$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) 
 
 
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6b5a6979-7875-492f-bc4e-d1f0441d1af9" width=50%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6b5a6979-7875-492f-bc4e-d1f0441d1af9" width=70%/>
   <br>
-  <ins><b><i>The root</i></b></ins>
+  <ins><b><i></i></b></ins>
 </p>
 
   
