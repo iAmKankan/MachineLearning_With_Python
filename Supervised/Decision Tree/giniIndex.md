@@ -30,7 +30,7 @@ Attribute <ins><b>money</b></ins> has two possible values of **7 instances of 'r
 
 $$\Large {\color{purple} Gini (S) = 1 - [(3/3) ^ 2] = 0}$$
 
-*  For $\large{\color{purple}money = rich}$ , there are **2** examples with $\large{\color{purple}decision = tennis}$ , **3** examples with $\large{\color{purple}decision = movie}$ , **1** example with $\large{\color{purple}decision = stay_in}$ and  **1** example with $\large{\color{purple}decision = shopping}$ .
+*  For $\large{\color{purple}money = rich}$ , there are **2** examples with $\large{\color{purple}decision = tennis}$ , **3** examples with $\large{\color{purple}decision = movie}$ , **1** example with $\large{\color{purple}decision = stay\\_in}$ and  **1** example with $\large{\color{purple}decision = shopping}$ .
   
 $$\Large {\color{purple} Gini (S) = 1 - \[ (2/7) ^ 2 + (3/7) ^ 2 + (1/7) ^ 2 + (1/7) ^ 2 \] = 0.694}$$
 
@@ -38,7 +38,7 @@ $$\Large {\color{purple}Weighted\ Average(Money) =0*( 3 10 )+0.69 \dot 4(7/10) =
 
 ###  ♠️ $\large{\color{purple}parents \rightarrow \\{yes, no \\} }$
 Attribute <ins><b>parents</b></ins> has two possible values of **5 instances of 'yes'** and **5 instances of 'no'**.
-* For $\large{\color{purple}parents = yes}$ there are all 5 examples with $\large{\color{purple}decision = movie}$.
+* For $\large{\color{purple}parents = yes}$ there are all **5** examples with $\large{\color{purple}decision = movie}$.
 
 $$\Large {\color{purple}Gini (S) = 1 - \[(5/5) ^ 2\] = 0}$$
 
@@ -46,17 +46,24 @@ $$\Large {\color{purple}Gini (S) = 1 - \[(5/5) ^ 2\] = 0}$$
   
 $$\Large {\color{purple}Gini (S) = 1 - \[(2/5) ^ 2 + (1/5) ^ 2 + (1/5) ^ 2 + (1/5) ^ 2\] = 0.72}$$
 
-$$\Large {\color{purple}Weighted\ Average(Parents) = 0*( 5 10 )+ \[ 0.72(5/10) = 0.36 \]}$
+$$\Large {\color{purple}Weighted\ Average(Parents) = 0*( 5 10 )+ \[ 0.72(5/10) = 0.36 \]}$$
 
-Computation of Gini Index for Weather Attribute
-* It has three possible values of Sunny (3 examples), Rainy (3 examples) and Windy (4 examples).
-* For Weather = Sunny, there are 2 examples with "Cinema" and 1 with "Tennis".
-* Gini(Sunny)= 1 - [(2/3) ^ 2 + (1/3) ^ 2] = 0.44
-* For Weather = Rainy, there are 2 examples with "Cinema" and 1 example with "Stay in"
-* Gini(Rainy)= 1 - [(2/3) ^ 2 + (1/3) ^ 2] = 0.44
-* For Weather = Windy, there are 3 examples with "Cinema" and 1 example with "Shopping"
-* Gini(Windy)= 1 - [(3/4) ^ 2 + (1/4) ^ 2] = 0.375
-* Weighted Average(Weather) = 0.444(3/10) + 0.444(3/10) + 0.375(4/10) = 0.416
+###  ♠️ $\large{\color{purple}weather \rightarrow \\{sunny, rainy, windy \\} }$
+Attribute <ins><b>weather</b></ins> has 3 possible values of **3 instances of 'sunny'**, **3 instances of 'rainy'** and **4 instances of 'windy'**.
+
+* For $\large{\color{purple}weather = sunny}$ , there are **2** examples with $\large{\color{purple}decision = movie}$ and **1** with $\large{\color{purple}decision = tennis}$.
+
+$$\Large {\color{purple} Gini(Sunny)= 1 - [(2/3) ^ 2 + (1/3) ^ 2] = 0.44}$$
+
+* For $\large{\color{purple}weather = rainy}$, there are **2** examples with $\large{\color{purple}decision = movie}$ and **1** example with $\large{\color{purple}decision = stay\\_in}$
+
+$$\Large {\color{purple}Gini(Rainy)= 1 - [(2/3) ^ 2 + (1/3) ^ 2] = 0.44 }$$
+
+* For $\large{\color{purple}weather = windy}$ , there are **3** examples with $\large{\color{purple}decision = movie}$ and **1** example with $\large{\color{purple}decision = shopping}$
+
+$$\Large {\color{purple}Gini(Windy)= 1 - \\[(3/4) ^ 2 + (1/4) ^ 2\\] = 0.375}$$
+
+$$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) + 0.375(4/10) = 0.416}$$
 
 - For Weather - Gini Index: 0.416
 - For Parents - Gini Index: 0.36
