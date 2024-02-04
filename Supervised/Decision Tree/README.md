@@ -3,6 +3,7 @@
 $\large{\color{blue} Note\ Books:}$
 * [Decission Tree Classification Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/Decision%20Trees1.ipynb)
 * [Decission Tree Regression Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/DecissionTree2.ipynb)
+
 $\large{\color{blue} Practical \ Examples:}$
 * [Cross Entrophy - Multiway split](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/decision-tree2.md#-largecolorpurpleunderlinetextrmmultiway-split-using-cross-entrophy)
 * [Gini Impurity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Decision%20Tree/decision-tree2.md#-largecolorpurpleunderlinetextrmgini-impurity)
