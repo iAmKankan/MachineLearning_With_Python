@@ -132,3 +132,13 @@ $$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) 
 </p>
 
   
+### $\large {\color{Purple}Step 2 \\# }$ 
+#### Compute the <ins>Gini Index</ins> on the leftover data.
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/df23d2ad-6f51-4156-9ca9-03bd05963347" width=70%/>
+  <br>
+  <ins><b><i>Gini-Index step 2</i></b></ins>
+</p>
+
+ ###  ♠️ $\large{\color{Purple}decision \rightarrow \\{ movie, tennis, stay\\_in , shopping \\} }$
