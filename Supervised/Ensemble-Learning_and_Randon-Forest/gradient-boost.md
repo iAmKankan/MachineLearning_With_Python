@@ -40,7 +40,12 @@ $$\Large{\color{Purple}\hat{\theta}\_m = avgmin_{\theta}= \sum_{i=1}^{N} L \big 
 
 
 So this is essentially when I find the parameters for the $\large{\color{purple}m^{th}}$ tree.
-* I am going to look at the **classifier** or the **predictor** that is formed by the first $\large{\color{purple}M-1}$ **trees** right.
-* And then I am going to find that tree okay, whose output I will add to this **predictor** and you search for computing the loss.
+* I am going to look at the **classifier** or the **predictor** that is formed by the first $\large{\color{purple}m-1}$ **trees** right.
+* And then I am going to find that ($\large{\color{purple} T (x_i, \theta_m}$ ) tree, whose output I will add to this **predictor** (($\large{\color{purple}f_{m-1}(x_i)}$ )and you search for computing the loss.
 
+So for every data point in my training data  I look at the way $\large{\color{purple} y}$, I look at the output produced by the $\large{\color{purple} m-1}$ stage tree, I look at the value that is added by the $\large{\color{purple} m^{th}}$ tree, so this is the output produced by the $\large{\color{purple} m^{th}}$ tree I look at the value added by the $\large{\color{purple} m^{th}}$ tree to that right. And then I will compute the loss function.
+
+ So when will it be the **residual error**, when it is a regression task, and **squared error is my metric**. So and the loss function is squared error right, and I am so trying to solve the regression problem right, then essentially what I will have to do here is take the residual error. 
  
+* First build one tree to predict your output as best as possible,
+* The predictor function as best as possible will build a tree, then what you will do is okay you will take the residual of that, build another tree that predicts the residual as well as possible and add the output to this okay. And then take the combined thing find the residual of that build the third tree which will predict the residual and add it back to this and so on so forth, you just keep doing this right.
