@@ -123,11 +123,12 @@ $$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) 
 * As we can clearly see the **Gini Index** of the attribute $\large{\color{purple}parent}$ is the lowest, therefore we have no problem to make parent as **root node**.
 * As $\large{\color{purple}parent = yes}$ having <ins><b>only one kind of  instances</ins></b> where $\large{\color{purple}decision = movie}$ then we can clearly say that this is the **leaf node**.
 
+### $\large {\color{Purple}\underline{\textrm{Final Tree after }} Step 1 \\# }$ 
 
 <p align="center">
-  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6b5a6979-7875-492f-bc4e-d1f0441d1af9" width=70%/>
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6b5a6979-7875-492f-bc4e-d1f0441d1af9" width=80%/>
   <br>
-  <ins><b><i></i></b></ins>
+  <ins><b><i>The tree after the first step</i></b></ins>
 </p>
 
   
