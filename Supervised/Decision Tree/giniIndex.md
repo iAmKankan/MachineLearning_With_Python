@@ -53,15 +53,15 @@ Attribute <ins><b>weather</b></ins> has 3 possible values of **3 instances of 's
 
 * For $\large{\color{purple}weather = sunny}$ , there are **2** examples with $\large{\color{purple}decision = movie}$ and **1** with $\large{\color{purple}decision = tennis}$.
 
-$$\Large {\color{purple} Gini(Sunny)= 1 - [(2/3) ^ 2 + (1/3) ^ 2] = 0.44}$$
+$$\Large {\color{purple} Gini(Sunny)= 1 - \[(2/3) ^ 2 + (1/3) ^ 2\] = 0.44}$$
 
 * For $\large{\color{purple}weather = rainy}$, there are **2** examples with $\large{\color{purple}decision = movie}$ and **1** example with $\large{\color{purple}decision = stay\\_in}$
 
-$$\Large {\color{purple}Gini(Rainy)= 1 - [(2/3) ^ 2 + (1/3) ^ 2] = 0.44 }$$
+$$\Large {\color{purple}Gini(Rainy)= 1 - \[(2/3) ^ 2 + (1/3) ^ 2\] = 0.44 }$$
 
 * For $\large{\color{purple}weather = windy}$ , there are **3** examples with $\large{\color{purple}decision = movie}$ and **1** example with $\large{\color{purple}decision = shopping}$
 
-$$\Large {\color{purple}Gini(Windy)= 1 - \\[(3/4) ^ 2 + (1/4) ^ 2\\] = 0.375}$$
+$$\Large {\color{purple}Gini(Windy)= 1 - \[(3/4) ^ 2 + (1/4) ^ 2\] = 0.375}$$
 
 $$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) + 0.375(4/10) = 0.416}$$
 
