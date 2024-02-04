@@ -193,5 +193,5 @@ $$\Large {\color{purple} Weighted\ Average(parent=no | money) = 0.625 * (4/5)+ 0
   <p align="center">
   <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/9a1a6910-7900-4c86-9160-ef85fc68c2d3" width=80%/>
   <br>
-  <ins><b><i>The root</i></b></ins>
+  <ins><b><i>The final Decision Tree</i></b></ins>
 </p>
