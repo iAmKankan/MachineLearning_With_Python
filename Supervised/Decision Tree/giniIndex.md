@@ -65,6 +65,8 @@ $$\Large {\color{purple}Gini(Windy)= 1 - \[(3/4) ^ 2 + (1/4) ^ 2\] = 0.375}$$
 
 $$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) + 0.375(4/10) = 0.416}$$
 
-- For Weather - Gini Index: 0.416
-- For Parents - Gini Index: 0.36
-- For Money - Gini Index: 0.486
+### $\large {\color{Purple}\underline{\textrm{Final Gini-Index of}} Step 1 \\# }$ 
+
+- For <ins><b>weather</ins></b> - Gini Index: **0.416**
+- For <ins><b>parents</ins></b> - Gini Index: **0.36**
+- For <ins><b>money</ins></b> - Gini Index: **0.486**
