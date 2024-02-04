@@ -141,4 +141,4 @@ $$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) 
   <ins><b><i>Gini-Index step 2</i></b></ins>
 </p>
 
- ###  ♠️ $\large{\color{Purple}decision \rightarrow \\{ movie, tennis, stay\\_in , shopping \\} }$
+ ###  ♠️ $\large{\color{Purple}\underline{parents = no} \Rightarrow \underline{weather \rightarrow \\{ sunny, rainy, windy \\} }}$
