@@ -74,16 +74,33 @@ $$\Large {\color{purple}Weighted\ Average(Parents) = 0*( 5 10 )+ \[ 0.72(5/10) =
 
 ###  ♠️ $\large{\color{Purple}weather \rightarrow \\{sunny, rainy, windy \\} }$
 Attribute <ins><b>weather</b></ins> has 3 possible values of **3 instances of 'sunny'**, **3 instances of 'rainy'** and **4 instances of 'windy'**.
-
 * For $\large{\color{purple}weather = sunny}$ , there are **2** examples with $\large{\color{purple}decision = movie}$ and **1** with $\large{\color{purple}decision = tennis}$.
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/ed8ddcdc-fea9-4a63-a4ae-8e52b9d01d9e" width=40%/>
+  <br>
+  <ins><b><i></i></b></ins>
+</p>
 
 $$\Large {\color{purple} Gini(Sunny)= 1 - \[(2/3) ^ 2 + (1/3) ^ 2\] = 0.44}$$
 
 * For $\large{\color{purple}weather = rainy}$, there are **2** examples with $\large{\color{purple}decision = movie}$ and **1** example with $\large{\color{purple}decision = stay\\_in}$
 
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/1cd69e54-36c0-4198-b983-83278d69febc" width=40%/>
+  <br>
+  <ins><b><i></i></b></ins>
+</p>
+
 $$\Large {\color{purple}Gini(Rainy)= 1 - \[(2/3) ^ 2 + (1/3) ^ 2\] = 0.44 }$$
 
 * For $\large{\color{purple}weather = windy}$ , there are **3** examples with $\large{\color{purple}decision = movie}$ and **1** example with $\large{\color{purple}decision = shopping}$
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/8486a056-c7cb-4ba1-8242-0ed1365dafe2" width=40%/>
+  <br>
+  <ins><b><i></i></b></ins>
+</p>
 
 $$\Large {\color{purple}Gini(Windy)= 1 - \[(3/4) ^ 2 + (1/4) ^ 2\] = 0.375}$$
 
