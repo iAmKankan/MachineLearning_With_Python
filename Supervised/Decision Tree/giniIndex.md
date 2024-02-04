@@ -141,4 +141,35 @@ $$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) 
   <ins><b><i>Gini-Index step 2</i></b></ins>
 </p>
 
- ###  ♠️ $\large{\color{Purple}\underline{parents = no} \Rightarrow \underline{weather = \\{ sunny, rainy, windy \\} }}$
+###  ♠️ $\large{\color{Purple}\underline{parents = no} \Rightarrow \underline{weather = \\{ sunny, rainy, windy \\} }}$
+
+### $\large{\color{purple}\underline{weather =  sunny}:}$
+* For  $\large{\color{purple}parent=no}$ |  $\large{\color{purple}weather = sunny}$ , there are **2 examples** with  $\large{\color{purple}tennis}$
+
+$$\Large {\color{purple}Gini(sunny)= 1 - \[(2/2) ^ 2 \] = 0}$$
+
+### $\large{\color{purple}\underline{weather =  rainy}:}$
+* For  $\large{\color{purple}parent=no}$ |  $\large{\color{purple}weather = rainy}$ , there is **1 example** with  $\large{\color{purple}stay\\_in}$
+
+$$\Large {\color{purple}Gini(rainy)= 1 - \[(1/1) ^ 2 \] = 0}$$
+
+### $\large{\color{purple}\underline{weather =  windy}:}$
+* For  $\large{\color{purple}parent=no}$ |  $\large{\color{purple}weather = windy}$ , there is **1 example** with  $\large{\color{purple}movie}$, **1 example** with  $\large{\color{purple}shopping}$
+
+$$\Large {\color{purple}Gini(windy)= 1 - \[(1/1) ^ 2 + (1/1) ^ 2 \] = 0.5}$$
+
+$$\Large {\color{purple} Weighted\ Average(parent=no | weather) = 0 * (2/5)+ 0 * (1/5)+ 0.5 * (2/5) = 0.2 }$$
+
+###  ♠️ $\large{\color{Purple}\underline{parents = no} \Rightarrow \underline{money = \\{rich, poor \\} }}$
+### $\large{\color{purple}\underline{money =  rich}:}$
+* For  $\large{\color{purple}parent=no}$ |  $\large{\color{purple}money = rich}$ , there is **1 example** with  $\large{\color{purple}stay\\_in}$, **1 example** with  $\large{\color{purple}shopping}$ and  **2 examples** with  $\large{\color{purple}tennis}$
+
+$$\Large {\color{purple} Gini(rich) = 1 - \[(1/4) ^ 2 + (1/4) ^ 2 + (2/4) ^ 2 \] = 0.625}$$
+
+### $\large{\color{purple}\underline{money =  poor}:}$
+
+* For  $\large{\color{purple}parent=no}$ |  $\large{\color{purple}money = poor}$ , there is **1 example** with  $\large{\color{purple}movie}$ .
+
+$$\Large {\color{purple} Gini(poor) = 1 - \[(1/1) ^ 2 \] = 0}$$
+
+$$\Large {\color{purple} Weighted\ Average(parent=no | money) = 0.625 * (4/5)+ 0 * (1/5)= 0.5 }$$
