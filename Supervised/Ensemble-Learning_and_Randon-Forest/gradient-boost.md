@@ -65,6 +65,7 @@ Pick the tree that best predict the residual.
 * $\large{\color{purple}\hat{\gamma} _{jm}}$- just the average residual error in the j<sup>th</sup> region or $\large{\color{purple}R\_{jm}}$
 
 
-
+### For 2 class problems and exponential loss functions
+It becomes the same as doing **ADA BOOST** with trees.
 
   
