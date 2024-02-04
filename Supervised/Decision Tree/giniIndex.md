@@ -52,10 +52,22 @@ $$\Large {\color{purple}Weighted\ Average(Money) =0*( 3 10 )+0.69 \dot 4(7/10) =
 Attribute <ins><b>parents</b></ins> has two possible values of **5 instances of 'yes'** and **5 instances of 'no'**.
 * For $\large{\color{purple}parents = yes}$ there are all **5** examples with $\large{\color{purple}decision = movie}$.
 
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/dc536428-1399-4383-8fef-8c4c5156c09a" width=40%/>
+  <br>
+  <ins><b><i></i></b></ins>
+</p>
+
 $$\Large {\color{purple}Gini (S) = 1 - \[(5/5) ^ 2\] = 0}$$
 
 * For $\large{\color{purple}parents = no}$ , there are **2** examples with $\large{\color{purple}decision = tennis}$, **1** example with $\large{\color{purple}decision = stay\\_in}$, **1** example with $\large{\color{purple}decision = shopping}$ and **1** example with $\large{\color{purple}decision = movie}$.
-  
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/96b01b21-fa03-4f06-bea7-4c90880d6f1d" width=40%/>
+  <br>
+  <ins><b><i></i></b></ins>
+</p>
+
 $$\Large {\color{purple}Gini (S) = 1 - \[(2/5) ^ 2 + (1/5) ^ 2 + (1/5) ^ 2 + (1/5) ^ 2\] = 0.72}$$
 
 $$\Large {\color{purple}Weighted\ Average(Parents) = 0*( 5 10 )+ \[ 0.72(5/10) = 0.36 \]}$$
