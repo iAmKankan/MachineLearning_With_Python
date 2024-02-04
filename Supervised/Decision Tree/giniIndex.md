@@ -28,10 +28,22 @@ $$\Large {\color{purple}Gini(S)=1-\[ (6/10) ^ 2 + (2/10) ^ 2 + (1/10) ^ 2 + (1/1
 Attribute <ins><b>money</b></ins> has two possible values of **7 instances of 'rich'** and **3 instances of 'poor'**.
 * For $\large{\color{purple}money = poor}$, there are **3** examples with $\large{\color{purple}decision = movie}$.
 
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/ca1fc073-0523-4d14-9b0d-d0d2f3393ee4" width=40%/>
+  <br>
+  <ins><b><i></i></b></ins>
+</p>
+
 $$\Large {\color{purple} Gini (S) = 1 - [(3/3) ^ 2] = 0}$$
 
 *  For $\large{\color{purple}money = rich}$ , there are **2** examples with $\large{\color{purple}decision = tennis}$ , **3** examples with $\large{\color{purple}decision = movie}$ , **1** example with $\large{\color{purple}decision = stay\\_in}$ and  **1** example with $\large{\color{purple}decision = shopping}$ .
-  
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/6f3d1ba2-3d1d-4b32-9d2d-a2e944fb1c5d" width=40%/>
+  <br>
+  <ins><b><i></i></b></ins>
+</p>
+
 $$\Large {\color{purple} Gini (S) = 1 - \[ (2/7) ^ 2 + (3/7) ^ 2 + (1/7) ^ 2 + (1/7) ^ 2 \] = 0.694}$$
 
 $$\Large {\color{purple}Weighted\ Average(Money) =0*( 3 10 )+0.69 \dot 4(7/10) = 0.486}$$
@@ -70,3 +82,7 @@ $$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) 
 - For <ins><b>weather</ins></b> - Gini Index: **0.416**
 - For <ins><b>parents</ins></b> - Gini Index: **0.36**
 - For <ins><b>money</ins></b> - Gini Index: **0.486**
+
+### $\large {\color{Purple}\underline{\textrm{Drawing the root}}}$ 
+
+
