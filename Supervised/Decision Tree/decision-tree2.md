@@ -18,7 +18,7 @@ $$\Large{\color{Purple} \mathrm{Cross\ Entropy} = - \sum_{k=1}^{K} \hat{p}\_{mk}
 $$\Large{\color{Purple} \mathrm{Gini\ Index} = \sum_{k\neq k^{\prime}} \hat{p}\_{mk} \ \hat{p}\_{mk^{\prime}} = \sum_{k=1}^{K}  \hat{p}\_{mk} ( 1 - \hat{p}\_{mk})}$$
 
 ### $\Large{\color{Purple}Example \\# 1 }$
-### $\large{\color{Purple}\underline{\textrm{Multiway Split Using: Cross-entrophy}}}$
+### 🔲 $\large{\color{Purple}\underline{\textrm{Multiway Split Using: Cross-entrophy}}}$
 Let's build a tree using <ins><b>Multi-way splits</b></ins> using <ins><b>cross entropy</b></ins> as the <ins><b>impurity measure</b></ins>-
 * The first thing that we have to do is to identify the <ins><b>root node</b></ins> this is done by findout the <ins><b>lowest cross entropy value</b></ins> with in all <ins><b>attributes</b></ins>.
 * The <ins><b>attribute</b></ins> with the <ins><b>lowest cross entropy</b></ins> value would be the <ins><b>root</b></ins>.
