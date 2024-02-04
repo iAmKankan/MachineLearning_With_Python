@@ -114,4 +114,13 @@ $$\Large {\color{purple} Weighted\ Average(Weather) = 0.444(3/10) + 0.444(3/10) 
 
 ### $\large {\color{Purple}\underline{\textrm{Drawing the root}}}$ 
 
+<p align="center">
+  <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/eb031cb6-5d8a-4f32-9f0d-0c3f7370af25" width=50%/>
+  <br>
+  <ins><b><i>The root</i></b></ins>
+</p>
 
+* As we can clearly see the **Gini Index** of the attribute $\large{\color{purple}parent}$ is the lowest, therefore we have no problem to make parent as **root node**.
+* As $\large{\color{purple}parent = yes}$ having <ins><b>only one kind of  instances</ins></b> where $\large{\color{purple}decision = movie}$ then we can clearly say that this is the **leaf node**.
+
+  
