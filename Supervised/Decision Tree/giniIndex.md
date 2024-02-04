@@ -15,8 +15,10 @@ $$\Large{\color{Purple}\textrm{Gini Impurity} = 1 -\sum_i (p_i)^2}$$
 </p>
 
 
-* Compute the Gini Index for the overall collection of training examples.
-* There are four possible output variables- movie, tennis, stay-in and shopping.
+### $\large {\color{Purple}Step 1 \\# }$ Compute the <ins>Gini Index</ins> for the overall collection of training examples.
+
+ There are four possible **output variable**, **target variable** or $\large{\color{Purple}y}$ as $\large{\color{Purple}decision}$-
+ ###  ♠️ $\large{\color{Purple}decision \rightarrow \\{ movie, tennis, stay\\_in , shopping \\} }$.
 * The data has 6 instances of movie, 2 instances of tennis, 1 instance of Stay In and 1 of shopping.
 * Gini(S)=1-[ (6/10) ^ 2 + (2/10) ^ 2 + (1/10) ^ 2 + (1/10) ^ 2 ]=0.58
 
