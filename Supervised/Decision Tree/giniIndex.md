@@ -15,27 +15,38 @@ $$\Large{\color{Purple}\textrm{Gini Impurity} = 1 -\sum_i (p_i)^2}$$
 </p>
 
 
-### $\large {\color{Purple}Step 1 \\# }$ Compute the <ins>Gini Index</ins> for the overall collection of training examples.
+### $\large {\color{Purple}Step 1 \\# }$ 
+#### Compute the <ins>Gini Index</ins> for the overall collection of training examples.
 
- There are four possible **output variable**, **target variable** or $\large{\color{Purple}y}$ as $\large{\color{Purple}decision}$-
- ###  ♠️ $\large{\color{Purple}decision \rightarrow \\{ movie, tennis, stay\\_in , shopping \\} }$.
-* The data has 6 instances of movie, 2 instances of tennis, 1 instance of Stay In and 1 of shopping.
-* Gini(S)=1-[ (6/10) ^ 2 + (2/10) ^ 2 + (1/10) ^ 2 + (1/10) ^ 2 ]=0.58
+ ###  ♠️ $\large{\color{Purple}decision \rightarrow \\{ movie, tennis, stay\\_in , shopping \\} }$
+The **output variable**, **target variable** or $\large{\color{Purple}y}$ as $\large{\color{Purple}decision}$-
+* The data has **6 instances of 'movie'**, **2 instances of 'tennis'**, **1 instance of 'sta-in'** and **1 of 'shopping'**.
 
-* Computation of Gini Index for Money Attribute It has two possible values of Rich (7 examples) and Poor (3 examples).
-* For Money = Poor, there are 3 examples with "Cinema".
-* Gini (S) = 1 - [(3/3) ^ 2] = 0
-*  For Money = Rich, there are 2 examples with "Tennis", 3 examples with "Cinema" and 1 example with "Stay in", "Shopping" each
-*  Gini (S) = 1 - [(2/7) ^ 2 + (3/7) ^ 2 + (1/7) ^ 2 + (1/7) ^ 2] = 0.694
-*  Weighted Average(Money) =0*( 3 10 )+0.69 dot 4(7/10) = 0.486
+$$\Large {\color{purple}Gini(S)=1-\[ (6/10) ^ 2 + (2/10) ^ 2 + (1/10) ^ 2 + (1/10) ^ 2 \]=0.58}$$
 
- Computation of Gini Index for Parents Attribute
-* It has two possible values of Yes (5 examples) and No (5 examples).
-* For Parents = Yes, there are 5 examples, all with "Cinema".
-* Gini (S) = 1 - [(5/5) ^ 2] = 0
-* For Parents = No, there are 2 examples with "Tennis", 1 example with "Stay in", "Shopping" and "Cinema" each
-* Gini (S) = 1 - [(2/5) ^ 2 + (1/5) ^ 2 + (1/5) ^ 2 + (1/5) ^ 2] = 0.72
-* Weighted Average(Parents) =0*( 5 10 )+[ 0.72(5/10) = 0.36
+###  ♠️ $\large{\color{purple}money \rightarrow \\{rich, poor \\} }$
+Attribute <ins><b>money</b></ins> has two possible values of **7 instances of 'rich'** and **3 instances of 'poor'**.
+* For $\large{\color{purple}money = poor}$, there are **3** examples with $\large{\color{purple}decision = movie}$.
+
+$$\Large {\color{purple} Gini (S) = 1 - [(3/3) ^ 2] = 0}$$
+
+*  For $\large{\color{purple}money = rich}$ , there are **2** examples with $\large{\color{purple}decision = tennis}$ , **3** examples with $\large{\color{purple}decision = movie}$ , **1** example with $\large{\color{purple}decision = stay_in}$ and  **1** example with $\large{\color{purple}decision = shopping}$ .
+  
+$$\Large {\color{purple} Gini (S) = 1 - \[ (2/7) ^ 2 + (3/7) ^ 2 + (1/7) ^ 2 + (1/7) ^ 2 \] = 0.694}$
+
+$$\Large {\color{purple}Weighted\ Average(Money) =0*( 3 10 )+0.69 \dot 4(7/10) = 0.486}$
+
+###  ♠️ $\large{\color{purple}parents \rightarrow \\{yes, no \\} }$
+Attribute <ins><b>parents</b></ins> has two possible values of **5 instances of 'yes'** and **5 instances of 'no'**.
+* For $\large{\color{purple}parents = yes}$ there are all 5 examples with $\large{\color{purple}decision = movie}$.
+
+$$\Large {\color{purple}Gini (S) = 1 - \[(5/5) ^ 2\] = 0}$$
+
+* For $\large{\color{purple}parents = no}$ , there are **2** examples with $\large{\color{purple}decision = tennis}$, **1** example with $\large{\color{purple}decision = stay\\_in}$, **1** example with $\large{\color{purple}decision = shopping}$ and **1** example with $\large{\color{purple}decision = movie}$.
+  
+$$\Large {\color{purple}Gini (S) = 1 - \[(2/5) ^ 2 + (1/5) ^ 2 + (1/5) ^ 2 + (1/5) ^ 2\] = 0.72}$$
+
+$$\Large {\color{purple}Weighted\ Average(Parents) = 0*( 5 10 )+ \[ 0.72(5/10) = 0.36 \]}$
 
 Computation of Gini Index for Weather Attribute
 * It has three possible values of Sunny (3 examples), Rainy (3 examples) and Windy (4 examples).
