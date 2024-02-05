@@ -69,3 +69,22 @@ Pick the tree that best predict the residual.
 It becomes the same as doing **ADA BOOST** with trees.
 
   
+### Differentiable Loss Function
+**Differentiable loss function** some loss function which is which I can take the derivative of.
+
+* If you want to take a numerical approach to optimize this kind of a loss function typically what will I end up doing I will start with some guess for a solution,
+* take the gradient of the loss function with respect to the parameters at that solution point (essentially a gradient descent).
+* Then I will compute the gradient, and then I will move in the opposite direction of the gradient
+* and I will move a small step in the opposite direction of the gradient go to a new place and compute the gradient again and then move again and so on so forth until I converge to the right answer.
+
+So, It means- at every point, I give you a parameter vector, but the parameter vector itself is composed of a sequence of additions. So I can think of it as first starting with initial guess for my parameters, then adding something more to it, then adding something more to it, then adding something more to it, and adding something more to it, till I come to the final answer.
+
+#### Let us try and write this down a little formally
+  
+$$\Large{\color{Purple}L(f) = \sum_{i=1}^{N} L(y_i, f(x_i)) }$$
+
+$$\Large{\color{Purple}\hat{f} =avgmin_f L(f) }$$
+
+Here $\large{\color{purple}f}$ is a $\large{\color{purple}N}$ diamentianal vector $\large{\color{purple}f= \big \( f(x_1),\cdots,f(x_N) \big \)}$
+
+
