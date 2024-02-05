@@ -113,6 +113,4 @@ $$\Large{\color{Purple}h_m = x_m g_m}$$
 
 $$\Large{\color{Purple}g_{im}= \left \[ \dfrac{\partial L (y_i,f(x_i)}{\partial f(x_i)} \right \]_{f(x_i) f\_{m-1}(x_i)}}$$
 
-
-
-Since I have not chosen any arbitrary parameterizations to form a θ right for the F, I have not chosen any parameterization θ or anything right. So the parameters of F are the output set each one of the input points to see the way I characterize my function F is looking at okay, what will be the value of F at X1, what will be the value of F at X2 and so on so forthright, I do not have any other parameterization for it. So instead of finding your δL/δθ you find that I am writing it as δL/δF okay. So F(xi) is essentially the output of F at Xi and what is F here, it is Fm-1 because I am determining the M stage I am looking at the m-1 guess for my function right.
+Since I have not chosen any arbitrary parameterizations for  any  $\large{\color{purple}\theta}$, for f, I have not chosen any parameterization  $\large{\color{purple}\theta}$ or anything. So the parameters of F are the output set each one of the input points to see the way I characterize my function F is looking at okay, what will be the value of F at X1, what will be the value of F at X2 and so on so forthright, I do not have any other parameterization for it. So instead of finding your δL/δθ you find that I am writing it as δL/δF okay. So F(xi) is essentially the output of F at Xi and what is F here, it is Fm-1 because I am determining the M stage I am looking at the m-1 guess for my function right.
