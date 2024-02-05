@@ -94,7 +94,7 @@ $$\Large{\color{Purple} f_0 = h_0 }$$
 $$\Large{\color{Purple}f_M = \sum_{m=0}^{M}h_M  \ \; \  \ h_M  \in \mathbb{R}^N}$$
 
 <p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/a537f7a6-98b4-4a26-aa53-535cbbceed46" width=40%/>
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/a537f7a6-98b4-4a26-aa53-535cbbceed46" width=30%/>
 </p>
 
 
