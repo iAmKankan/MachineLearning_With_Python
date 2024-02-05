@@ -87,10 +87,18 @@ $$\Large{\color{Purple}\hat{f} =avgmin_f L(f) }$$
 
 Here $\large{\color{purple}f}$ is a $\large{\color{purple}N}$ diamentianal vector $\large{\color{purple}f= \big \( f(x_1),\cdots,f(x_N) \big \)}$ , So you can think of it as a point in n-dimensional space.
 
+Typically you start with some solution, $\large{\color{purple}f_0}$ you start with some solution let us call it $\large{\color{purple}h_0}$. 
 
 $$\Large{\color{Purple} f_0 = h_0 }$$
 
 $$\Large{\color{Purple}f_M = \sum_{m=0}^{M}h_M  \ \; \  \ h_M  \in \mathbb{R}^N}$$
 
-Typically you start with some solution, $\large{\color{purple}f_0}$ you start with some solution let us call it $\large{\color{purple}h_0}$. So you can think of it like this I start somewhere here that is my F0 right. And then, I compute the gradient and move in the opposite direction right, so I take a small step in this direction, so I come here that gives me a new set of parameters right. So this is 1 θ, this is another set of θ, and this will give me another F.
+So you can think of it like this I start somewhere here that is my $\large{\color{purple}f_0}$ right. And then, I compute the gradient and move in the opposite direction, so I take a small step in the opposite direction, so I come down that gives me a new set of parameters right. So this is one $\large{\color{purple}\theta}$, below this is another set of $\large{\color{purple}\theta}$, and this will give me another $\large{\color{purple}f}$.
+
+But instead of saying that this will give me another $\large{\color{purple}f}$, so I am going to say that okay -
+* This is one $\large{\color{purple}f}$.
+* I add something to it , so that gives me the second $\large{\color{purple}f}$.
+* So what I am computing in every step is the amount that I add to the previous solution to derive my new solution okay.
+
+So I am calculating θ and $\large{\color{purple}f}$ here, so what I have here is $\large{\color{purple}\theta}$ corresponding to every $\large{\color{purple}\theta}$ I have here there will be an $\large{\color{purple}f}$ corresponding to every parameter setting I will have that will be output vector $\large{\color{purple}f}$ when I change $\large{\color{purple}\theta}$ this values will change right.
 
