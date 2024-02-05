@@ -88,7 +88,7 @@ $$\Large{\color{Purple}\hat{f} =avgmin_f L(f) }$$
 Here $\large{\color{purple}f}$ is a $\large{\color{purple}N}$ diamentianal vector $\large{\color{purple}f= \big \( f(x_1),\cdots,f(x_N) \big \)}$ , So you can think of it as a point in n-dimensional space.
 
 
-$$\Large{\color{Purple}\f_0 = h_0 }$$
+$$\Large{\color{Purple} f_0 = h_0 }$$
 
 $$\Large{\color{Purple}f_M = \sum_{m=0}^{M}h_M  \ \; \  \ h_M  \in \mathbb{R}^N}$$
 
