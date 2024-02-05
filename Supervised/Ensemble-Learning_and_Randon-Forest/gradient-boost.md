@@ -111,7 +111,7 @@ So I am calculating $\large{\color{purple}\theta}$  and $\large{\color{purple}f}
 
 $$\Large{\color{Purple}h_m = x_m g_m}$$
 
-$$\Large{\color{Purple}g_{im}= \left \[ \dfrag{\partial L (y_i,f(x_i)}{\partial f(x_i)} \right \]_{f(x_i) f\_{m-1}(x_i)}}$$
+$$\Large{\color{Purple}g_{im}= \left \[ \dfrac{\partial L (y_i,f(x_i)}{\partial f(x_i)} \right \]_{f(x_i) f\_{m-1}(x_i)}}$$
 
 
 
