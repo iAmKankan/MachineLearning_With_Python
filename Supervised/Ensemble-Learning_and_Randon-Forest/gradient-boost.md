@@ -85,6 +85,12 @@ $$\Large{\color{Purple}L(f) = \sum_{i=1}^{N} L(y_i, f(x_i)) }$$
 
 $$\Large{\color{Purple}\hat{f} =avgmin_f L(f) }$$
 
-Here $\large{\color{purple}f}$ is a $\large{\color{purple}N}$ diamentianal vector $\large{\color{purple}f= \big \( f(x_1),\cdots,f(x_N) \big \)}$
+Here $\large{\color{purple}f}$ is a $\large{\color{purple}N}$ diamentianal vector $\large{\color{purple}f= \big \( f(x_1),\cdots,f(x_N) \big \)}$ , So you can think of it as a point in n-dimensional space.
 
+
+$$\Large{\color{Purple}\f_0 = h_0 }$$
+
+$$\Large{\color{Purple}f_M = \sum_{m=0}^{M}h_M  \ \; \  \ h_M  \in \mathbb{R}^N}$$
+
+Typically you start with some solution, $\large{\color{purple}f_0}$ you start with some solution let us call it $\large{\color{purple}h_0}$. So you can think of it like this I start somewhere here that is my F0 right. And then, I compute the gradient and move in the opposite direction right, so I take a small step in this direction, so I come here that gives me a new set of parameters right. So this is 1 θ, this is another set of θ, and this will give me another F.
 
