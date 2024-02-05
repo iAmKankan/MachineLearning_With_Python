@@ -93,6 +93,11 @@ $$\Large{\color{Purple} f_0 = h_0 }$$
 
 $$\Large{\color{Purple}f_M = \sum_{m=0}^{M}h_M  \ \; \  \ h_M  \in \mathbb{R}^N}$$
 
+<p align="center">
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/a537f7a6-98b4-4a26-aa53-535cbbceed46" width=40%/>
+</p>
+
+
 So you can think of it like this I start somewhere here that is my $\large{\color{purple}f_0}$ right. And then, I compute the gradient and move in the opposite direction, so I take a small step in the opposite direction, so I come down that gives me a new set of parameters right. So this is one $\large{\color{purple}\theta}$, below this is another set of $\large{\color{purple}\theta}$, and this will give me another $\large{\color{purple}f}$.
 
 But instead of saying that this will give me another $\large{\color{purple}f}$, so I am going to say that okay -
