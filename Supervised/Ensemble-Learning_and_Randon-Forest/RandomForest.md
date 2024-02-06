@@ -1,6 +1,35 @@
 ## Index
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 * [Randomforest,Extra Forest, Feature inportance Notebook](https://nbviewer.org/github/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Ensemble-Learning_and_Randon-Forest/Random_Forest.ipynb)
+
+### Bagging of Trees
+* So now we know that **trees** are great candidates for **boosting** as well if you are using **gradient boosting**.
+* However, **trees** are great candidates for **bagging** as well as right.
+* **What is the important property in bagging that we talked about?** What does **bagging** help us **reduce variance**.
+* You can show that the **reduction in variance is highest if the classifiers that you are building or not correlated**.
+
+ So I am building many, many classifiers, and the classifiers are predicting the **same output**. So if the classifier parameter set I am estimating, or somehow if we can make them uncorrelated, then the reduction in variance is maximum it kind of intuitive right. If the classifiers are very correlated, there is no point, they are not different classifiers right, and they will give me the same output, so the variance will be high.
+
+ So if you can somehow make the **classifiers** **uncorrelated**, then the **reduction in variance is high**. 
+ * And if you think about what we are doing with **bagging**, we are taking one data set and we are sampling with replacement from that.
+ * So the probability of the trees that you are generating being correlated is rather high.
+ * So it can become up with some way to reduce the correlation between the trees you are constructing .
+  
+### While doing Bagging the goal is to reduce the correlation between the trees:
+
+I am going to be doing bagging right, but the goal is to reduce the correlation between trees. The people who came up with the random forest had a very simple idea for doing this right, and you start doing bagging as you would normally do okay. 
+* So you have your data set, then you create a bag by sampling with replacement from that data.
+* Now, when you start building the tree on this data set, so what do you do at every node right, sample some P features from your feature set, and use P for the regular feature description right..
+
+
+
+
+
+
+
+
+
+
 ### Random Forests
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
 * **In **_Random Forest_**, we train a group of Decision Tree classifiers, each on a different random subset of the training set.**
