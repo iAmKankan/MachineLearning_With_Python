@@ -19,10 +19,17 @@
 
 I am going to be doing bagging right, but the goal is to reduce the correlation between trees. The people who came up with the random forest had a very simple idea for doing this right, and you start doing bagging as you would normally do okay. 
 * So you have your data set, then you create a bag by sampling with replacement from that data.
-* Now, when you start building the tree on this data set, so what do you do at every node right, sample some P features from your feature set, and use P for the regular feature description right..
+* Now, when you start building the tree on this data set, at every node sample some '**t**' features from your **feature set**, and use **P** for the **regular feature description**.
 
+So let me use a different, so we have a total of **P** features right your data points come from some **RP space**, you use randomly sample some **t** features from that **P features**. 
+* Find out which is the **best split point**, which is the **best split variable** among these **P** features alone,
+* split the data,  go down to each of the subsets repeat the same process- sample another **t** variables, not necessarily this joint, and just sample okay, sample again t**t** more variables. And then, try to find out which is the **best split point** among these **t** variables and keep doing this.
 
+So what does this get us? to see if you had worked with the same data set, I am just done bagging at the **root level** it is highly likely that each one of the bagged trees would have picked the same attribute.  just because you have sampled it again it does not mean that the very predictive attributes will get discarded. 
 
+So at the **higher levels of the trees**, it will look **very similar**. But now you are getting rid of that I said okay. I had chosen randomly. I have chosen **T** variables, and only from them, I am choosing the best variable; therefore, I am reducing the chances of the trees looking similar. We  can show that this leads to a significant reduction in the variance in the bagged estimate, and random forests are performing very well. in fact **Random forests** are competitive with **gradient boosted** trees in some applications and **vice versa**. 
+
+So **boosted trees** are better than **random forests** in some applications, and **random forests** are better than **boosted trees** in some applications. And because sometimes, till sometime back there are very efficient random forest libraries and people use random forests a lot right. But now there are also very nice libraries available for **gradient boosted decision trees**.
 
 
 
