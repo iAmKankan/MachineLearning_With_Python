@@ -8,6 +8,14 @@
 * The dimension of the **hyperplane** depends upon the **number of features**.
 * If the number of **input features** is **two**, then the **hyperplane** is just **a line**.
 * If the number of **input features** is **three**, then the **hyperplane** becomes a **2-D plane**. It becomes difficult to imagine when the number of features exceeds three. 
+* SVMs are sensitive to the **feature scales**.
+* SVMs are particularly well suited for classification of **complex small**- or **medium-sized datasets**.
+* SVM is a <ins><b>non-probabilistic</ins></b> **binary linear classifier**. [_Wiki_][2]
+* Although methods such as <ins><b>Platt scaling</ins></b> exist to use SVM in a **probabilistic classification** setting.[_Wiki_][2]
+* Unlike **Logistic Regression classifiers**, SVM classifiers do not output **probabilities** for each class.
+* It is one of the most popular models in Machine Learning, prior to Neural Network for pictures and videos SVM was used intensively.
+
+### 🔲 $\large{\color{Purple}\underline{\textrm{Linear SVM Classification}}}$
 
 ## Definition
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
@@ -15,7 +23,7 @@
 
 > * SVMs are sensitive to the _feature scales_.
 > * SVMs are particularly well suited for classification of complex _small_- or _medium-sized_ datasets.
-> * SVM is a [non-probabilistic][] binary linear classifier. [_Wiki_][2]
+> * SVM is a [non-probabilistic] binary linear classifier. [_Wiki_][2]
 > * Although methods such as _`Platt scaling`_ exist to use SVM in a probabilistic classification setting.[_Wiki_][2]
 * Unlike Logistic Regression classifiers, SVM classifiers do not output probabilities for each class.
 * It is one of the most popular models in Machine Learning, prior to Neural Network for pictures and videos SVM was used intensively.
