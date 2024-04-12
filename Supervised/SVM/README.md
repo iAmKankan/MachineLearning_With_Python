@@ -1,5 +1,5 @@
 ## Index
-![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
+**Support Vector Machine (SVM)** is a powerful machine learning algorithm used for **linear** or **nonlinear classification**, **regression** and even **outlier detection** tasks. SVMs can be used for a variety of tasks, such as **text classification**, **image classification**, **spam detection**, **handwriting identification**, **face detection** and **anomaly detection**. SVMs are adaptable and efficient in a variety of applications because they can manage **high-dimensional** data and **nonlinear relationships**.
 
 ## Definition
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
