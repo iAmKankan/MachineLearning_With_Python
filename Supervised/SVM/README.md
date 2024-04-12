@@ -1,5 +1,13 @@
-## Index
+### $\Large{\color{Purple}\textbf{Index}}$
+### ⬛ $\Large{\color{blue}\underline{\mathcal{Support\ Vector\ Machine(SVM)}}}$
+
 **Support Vector Machine (SVM)** is a powerful machine learning algorithm used for **linear** or **nonlinear classification**, **regression** and even **outlier detection** tasks. SVMs can be used for a variety of tasks, such as **text classification**, **image classification**, **spam detection**, **handwriting identification**, **face detection** and **anomaly detection**. SVMs are adaptable and efficient in a variety of applications because they can manage **high-dimensional** data and **nonlinear relationships**.
+
+* The main objective of the SVM algorithm is to find the **optimal hyperplane** in an **N-dimensional space** that can separate the **data points** in different classes in the **feature space**.
+* The **hyperplane** tries that the <ins><b>margin between the closest points of different classes should be as maximum as possible</ins></b>.
+* The dimension of the **hyperplane** depends upon the **number of features**.
+* If the number of **input features** is **two**, then the **hyperplane** is just **a line**.
+* If the number of **input features** is **three**, then the **hyperplane** becomes a **2-D plane**. It becomes difficult to imagine when the number of features exceeds three. 
 
 ## Definition
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
