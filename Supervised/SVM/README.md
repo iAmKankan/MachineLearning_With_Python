@@ -15,7 +15,11 @@
 * Unlike **Logistic Regression classifiers**, SVM classifiers do not output **probabilities** for each class.
 * It is one of the most popular models in Machine Learning, prior to Neural Network for pictures and videos SVM was used intensively.
 
-### 🔲 $\large{\color{Purple}\underline{\textrm{Linear SVM Classification}}}$
+### 🔲 $\large{\color{Purple}\underline{\textrm{Linear }}}$
+
+<p align="center">
+ <img src="https://github.com/iAmKankan/NPTEL--Machine-Learning-By-Balaraman-Ravindran/assets/12748752/c125778e-5e01-47b4-8649-b3089b4de546" width=60%/>
+</p>
 
 ## Definition
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
