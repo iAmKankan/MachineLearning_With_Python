@@ -21,6 +21,11 @@
  <img src="https://github.com/iAmKankan/NPTEL--Machine-Learning-By-Balaraman-Ravindran/assets/12748752/c125778e-5e01-47b4-8649-b3089b4de546" width=60%/>
 </p>
 
+<p align="center">
+ <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/bcba2681-1c8e-4685-8b12-cd6471590eb2" width=50%/>
+</p>
+
+
 Let’s consider two independent variables $\large{\color{Purple}x_1, x_2}$ and one dependent variable which is either a **red circle** or a **red cross**.
 
 From the figure above it’s very clear that there are multiple lines (our hyperplane here is a line because we are considering only two input features $\large{\color{Purple}x_1, x_2}$) that segregate our data points or do a classification between **red circle** and **red cross**. So how do we choose the best line or in general the best hyperplane that segregates our data points?
