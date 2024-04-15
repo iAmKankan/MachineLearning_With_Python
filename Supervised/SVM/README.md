@@ -27,6 +27,7 @@ Let’s consider two independent variables $\large{\color{Purple}x_1, x_2}$ and 
 From the figure above it’s very clear that there are multiple lines (our hyperplane here is a line because we are considering only two input features $\large{\color{Purple}x_1, x_2}$) that segregate our data points or do a classification between **red circle** and **red cross**. So how do we choose the best line or in general the best hyperplane that segregates our data points?
 
 ### 🔲 $\large{\color{Purple}\underline{\textrm{How SVM Works}}}$
+One reasonable choice as the best **hyperplane** is the one that represents the largest separation or margin between the two classes. So we choose the hyperplane whose distance from it to the nearest data point on each side is **maximized**. If such a hyperplane exists it is known as the **maximum-margin hyperplane/hard margin**. 
 
 ## Definition
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
