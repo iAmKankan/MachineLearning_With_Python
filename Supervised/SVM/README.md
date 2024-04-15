@@ -18,17 +18,16 @@
 ### 🔲 $\large{\color{Purple}\underline{\textrm{Linear }}}$
 
 <p align="center">
- <img src="https://github.com/iAmKankan/NPTEL--Machine-Learning-By-Balaraman-Ravindran/assets/12748752/c125778e-5e01-47b4-8649-b3089b4de546" width=60%/>
-</p>
-
-<p align="center">
- <img src="https://github.com/iAmKankan/MachineLearning_With_Python/assets/12748752/bcba2681-1c8e-4685-8b12-cd6471590eb2" width=50%/>
+ <img src="https://github.com/iAmKankan/NPTEL--Machine-Learning-By-Balaraman-Ravindran/assets/12748752/9285dac5-612e-412b-ad94-20bfa321dfed" width=50%/>
 </p>
 
 
 Let’s consider two independent variables $\large{\color{Purple}x_1, x_2}$ and one dependent variable which is either a **red circle** or a **red cross**.
 
 From the figure above it’s very clear that there are multiple lines (our hyperplane here is a line because we are considering only two input features $\large{\color{Purple}x_1, x_2}$) that segregate our data points or do a classification between **red circle** and **red cross**. So how do we choose the best line or in general the best hyperplane that segregates our data points?
+
+### 🔲 $\large{\color{Purple}\underline{\textrm{How SVM Works}}}$
+
 ## Definition
 ![grape](https://user-images.githubusercontent.com/12748752/126882595-d1f5449e-14bb-4ab3-809c-292caf0858a1.png)
 #### A Support Vector Machine (SVM) is a powerful and versatile supervised Machine Learning model, capable of performing [_linear_][1] or [_nonlinear classification_][1], _regression_, and even _outlier detection_. 
