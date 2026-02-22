@@ -47,3 +47,12 @@ It iterates over these two steps until the centroids aren't moving anymore, or u
 It often happens that the initial random position of the centroids ends in a poor clustering. For this reason the algorithm repeats a number of times (n_init) and returns the clustering that has the least total distance between each point and its centroid, the optimal clustering.
 
 The animation below shows the algorithm in action. It illustrates the dependence of the result on the initial centroids and the importance of iterating until convergence.
+
+<p align="center">
+  <img width=20% src="https://github.com/user-attachments/assets/2f5e3e42-b99b-4319-aafc-9ac849e6ab3a" />
+ <br><ins><b><i>The K-means clustering algorithm on Airbnb rentals in NYC</i></b></ins>
+</p>
+
+You may need to increase the `max_iter` for a large number of clusters or `n_init` for a complex dataset. Ordinarily though the only parameter you'll need to choose yourself is `n_clusters` (k, that is). The best partitioning for a set of features depends on the model you're using and what you're trying to predict, so it's best to tune it like any hyperparameter (through cross-validation, say).
+
+
