@@ -8,7 +8,7 @@
     * [Ensamble Learning and Random Forest](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/Ensemble-Learning_and_Randon-Forest)
     * [Naive Bayes]()
     * [SVM](https://github.com/iAmKankan/MachineLearning_With_Python/tree/master/Supervised/SVM#readme)
-    * [KNN](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/knn/README.md) [old](https://github.com/iAmKankan/MachineLearning_With_Python/tree/b1775a2f97794c39ef1b83190e23ed1d144b77e1/KNN) 
+    * [KNN](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/knn/README.md), [My old](https://github.com/iAmKankan/MachineLearning_With_Python/tree/b1775a2f97794c39ef1b83190e23ed1d144b77e1/KNN) 
 
 ### Supervised Learning
 ![plum](https://user-images.githubusercontent.com/12748752/126882596-b9ba4645-7001-435e-9a3c-d4416a2543c1.png)
