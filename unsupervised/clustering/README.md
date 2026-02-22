@@ -55,4 +55,4 @@ The animation below shows the algorithm in action. It illustrates the dependence
 
 You may need to increase the `max_iter` for a large number of clusters or `n_init` for a complex dataset. Ordinarily though the only parameter you'll need to choose yourself is `n_clusters` (k, that is). The best partitioning for a set of features depends on the model you're using and what you're trying to predict, so it's best to tune it like any hyperparameter (through cross-validation, say).
 
-
+[Link](https://www.kaggle.com/code/ryanholbrook/clustering-with-k-means)
